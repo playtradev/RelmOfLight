@@ -41,13 +41,15 @@ public class ScriptableObjectAIInput : ScriptableObjectBaseCharacterInput
 
     public override void SetUpEnteringOnBattle(CharacterAnimationStateType anim = CharacterAnimationStateType.Arriving, bool loop = false)
     {
+        target = null;
         CharOwner.SetAnimation(anim, loop);
         base.SetUpEnteringOnBattle(anim, loop);
     }
 
     public override void CharArrivedOnBattleField(bool overrideAnimAndPos = true, CharacterAnimationStateType anim = CharacterAnimationStateType.Arriving)
     {
-        if(overrideAnimAndPos)
+        target = null;
+        if (overrideAnimAndPos)
         {
             CharOwner.SetAnimation(anim, anim == CharacterAnimationStateType.Idle);
             CharOwner.StartCoroutine(BattleManagerScript.Instance.MoveCharToBoardWithDelay(0, CharOwner, GridManagerScript.Instance.GetBattleTile(CharOwner.CharInfo.CurrentTilePos).transform.position));
