@@ -242,7 +242,7 @@ MonoBehaviour:
         TileEffectsVisisble: 0
         SummonVisisble: 0
         ChildrenExplosionVisisble: 0
-        Foldout: 1
+        Foldout: 0
         HasEffect: 1
         showImpact: 1
         Effects:

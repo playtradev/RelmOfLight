@@ -177,7 +177,7 @@ MonoBehaviour:
       CopyTo: 0
       ExplosionChances: 100
       TimeMultiplier: 1
-      IsIndicatingOntTile: 0
+      IsIndicatingOntTile: 1
       Trajectory_Speed:
         serializedVersion: 2
         m_Curve:
