@@ -78,11 +78,13 @@ public class UICharacterInfo : MonoBehaviour, IBeginDragHandler, IDragHandler, I
 	{
 
 		if (CharIcon != null && CB != null &&
-			(CB.CharInfo.ManaCostN > (Side == TeamSideType.LeftSideTeam ? BattleManagerScript.Instance.LeftMana.CurrentMana : BattleManagerScript.Instance.RightMana.CurrentMana)
-			|| CB.died))
+			(CB.CharInfo.ManaCostN > (Side == TeamSideType.LeftSideTeam ? BattleManagerScript.Instance.LeftMana.CurrentMana : BattleManagerScript.Instance.RightMana.CurrentMana)))
 		{
 			Color color = CharIcon.color;
-			color = Color.black;
+			if (CB.died)
+			{
+				color = Color.black;
+			}
 			color.a = 0.6f;
 			CharIcon.color = color;
 		}
