@@ -19,6 +19,7 @@ public class BattleManagerScript : MonoBehaviour
 
 
     public float BaseActionTime = 1;
+    public float ReturnCharsTurn = 20;
 
     #region EVENTS___EVENTS___EVENTS___EVENTS___EVENTS___EVENTS___EVENTS___EVENTS___EVENTS___EVENTS___EVENTS___EVENTS___EVENTS___EVENTS___EVENTS___EVENTS___EVENTS___EVENTS___EVENTS___EVENTS
     //TIME EVENTS____TIME EVENTS____TIME EVENTS____TIME EVENTS____TIME EVENTS

@@ -107,7 +107,7 @@ public class ScriptableObjectBaseCharacterTilesAttack : ScriptableObjectBaseChar
 
     public void CreateTileAttackBullets(Vector2Int nextAttackPos, CurrentAttackInfoClass cAtk)
     {
-        if (cAtk == null)
+        if (cAtk == null || cAtk.CurrentAttack.AttackInput == AttackInputType.Strong)
         {
             return;
         }
@@ -278,8 +278,9 @@ public class ScriptableObjectBaseCharacterTilesAttack : ScriptableObjectBaseChar
                 bullet.TileAtk = item;
                 bullet.BulletLevel = bulletBehaviourInfo.OverrideBulletLevel ? bulletBehaviourInfo.BulletLevel : cAtk.CurrentAttack.TilesAtk.BulletLevel;
                 bullet.Chances = item.EffectChances;
-                float duration = ((cAtk.CurrentAttack.AttackInput == AttackInputType.Weak ? CharOwner.CharInfo.SpeedStats.WeakBulletS : CharOwner.CharInfo.SpeedStats.StrongBulletS) / 12f) *
-                    (cAtk.CurrentAttack.TilesAtk.AtkType == BattleFieldAttackType.OnAreaAttack || temp_bts.BattleTileState == BattleTileStateType.Bound ? 4 : Mathf.Abs(CharOwner.CharInfo.CurrentTilePos.y - nextAttackPos.y));
+                float duration = ((cAtk.CurrentAttack.AttackInput == AttackInputType.Weak
+                    ? CharOwner.CharInfo.SpeedStats.WeakBulletS : CharOwner.CharInfo.SpeedStats.StrongBulletS) / 12f) * (cAtk.CurrentAttack.TilesAtk.AtkType == BattleFieldAttackType.OnAreaAttack || temp_bts.BattleTileState == BattleTileStateType.Bound ? 4 :
+                    CharOwner.CharInfo.CurrentTilePos.y == nextAttackPos.y ? Mathf.Abs(CharOwner.CharInfo.CurrentTilePos.x - nextAttackPos.x) : Mathf.Abs(CharOwner.CharInfo.CurrentTilePos.y - nextAttackPos.y));
                 bullet.BulletDuration = duration * bulletBehaviourInfo.TimeMultiplier;
                 if (item.HasEffect)
                 {
@@ -502,15 +503,15 @@ public class ScriptableObjectBaseCharacterTilesAttack : ScriptableObjectBaseChar
                     target.ToFire = tempInt_1 <= cAtk.CurrentAttack.TilesAtk.BulletTrajectories[i].ExplosionChances;
                     if (target.ToFire)
                     {
-                        if (cAtk.CurrentAttack.TilesAtk.AtkType == BattleFieldAttackType.OnTarget && GridManagerScript.Instance.IsPosOnField(nextAttackPos + target.Pos))
+                        if (cAtk.CurrentAttack.TilesAtk.AtkType == BattleFieldAttackType.OnTarget && GridManagerScript.Instance.IsPosOnField(nextAttackPos + (CharOwner.CharInfo.Side == TeamSideType.LeftSideTeam ? target.Pos : -target.Pos)))
                         {
-                            tempVector2Int = nextAttackPos + target.Pos;
+                            tempVector2Int = nextAttackPos + (CharOwner.CharInfo.Side == TeamSideType.LeftSideTeam ? target.Pos : -target.Pos);
                         }
-                        else if (cAtk.CurrentAttack.TilesAtk.AtkType == BattleFieldAttackType.OnItSelf && GridManagerScript.Instance.IsPosOnField(target.Pos + CharOwner.CharInfo.CurrentTilePos))
+                        else if (cAtk.CurrentAttack.TilesAtk.AtkType == BattleFieldAttackType.OnItSelf && GridManagerScript.Instance.IsPosOnField((CharOwner.CharInfo.Side == TeamSideType.LeftSideTeam ? target.Pos : -target.Pos) + CharOwner.CharInfo.CurrentTilePos))
                         {
-                            tempVector2Int = target.Pos + CharOwner.CharInfo.CurrentTilePos;
+                            tempVector2Int = (CharOwner.CharInfo.Side == TeamSideType.LeftSideTeam ? target.Pos : -target.Pos) + CharOwner.CharInfo.CurrentTilePos;
                         }
-                        else if(cAtk.CurrentAttack.TilesAtk.AtkType == BattleFieldAttackType.OnTarget && !GridManagerScript.Instance.IsPosOnField(nextAttackPos + target.Pos))
+                        else if(cAtk.CurrentAttack.TilesAtk.AtkType == BattleFieldAttackType.OnTarget && !GridManagerScript.Instance.IsPosOnField(nextAttackPos + (CharOwner.CharInfo.Side == TeamSideType.LeftSideTeam ? target.Pos : -target.Pos)))
                         {
                             continue;
 

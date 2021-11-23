@@ -45,7 +45,7 @@ public class BaseCharacter : MonoBehaviour, System.IDisposable, IDamageReceiver,
     public IEnumerator ReviveSequencer(float duration = -1f)
     {
         float timeElapsed = 0f;
-        duration = CharacterRespawnLength * BattleManagerScript.Instance.BaseActionTime;
+        duration = BattleManagerScript.Instance.ReturnCharsTurn * BattleManagerScript.Instance.BaseActionTime;
         while (timeElapsed != duration && died)
         {
             yield return BattleManagerScript.Instance.WaitUpdate(() => BattleManagerScript.Instance.CurrentBattleState == BattleState.Pause);
