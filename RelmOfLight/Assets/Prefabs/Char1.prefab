@@ -195,6 +195,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Controller: 0
   CB: {fileID: 0}
+  ParentIcon: {fileID: 5560423058767032217}
   CharacterId: 1166
   CharIcon: {fileID: 5560423058806456367}
   Skill: {fileID: 5765673654453158240}

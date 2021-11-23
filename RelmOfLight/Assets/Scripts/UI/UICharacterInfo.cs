@@ -10,6 +10,7 @@ public class UICharacterInfo : MonoBehaviour, IBeginDragHandler, IDragHandler, I
 {
 	public ControllerType Controller;
 	[HideInInspector]public BaseCharacter CB;
+	public RectTransform ParentIcon;
 	public CharacterNameType CharacterId;
 	public Image CharIcon;
 	public Button Skill;
@@ -111,6 +112,12 @@ public class UICharacterInfo : MonoBehaviour, IBeginDragHandler, IDragHandler, I
 			color = Color.white;
 			color.a = 1;
 			CharIcon.color = color;
+		}
+
+		if (CharIcon != null && CB != null)
+		{
+
+			ParentIcon.localScale = CB.IsOnField ? new Vector3(.5f, .5f, 1) : Vector3.one;
 		}
 	}
 
