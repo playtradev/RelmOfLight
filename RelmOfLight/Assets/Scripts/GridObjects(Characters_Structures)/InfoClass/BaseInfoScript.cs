@@ -205,7 +205,7 @@ public class BaseInfoScript : MonoBehaviour
         {
             get
             {
-                return ActionTime / BattleManagerScript.Instance.BaseActionTime;
+                return BattleManagerScript.Instance.BaseActionTime / ActionTime;
             }
         }
 
