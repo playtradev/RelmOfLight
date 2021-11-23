@@ -38,7 +38,7 @@ public class UICharacterInfo : MonoBehaviour, IBeginDragHandler, IDragHandler, I
 
 	public void OnDrag(PointerEventData eventData)
 	{
-		if (!CB.IsOnField && CB.CharInfo.ManaCostN <= (Side == TeamSideType.LeftSideTeam ? BattleManagerScript.Instance.LeftMana.CurrentMana : BattleManagerScript.Instance.RightMana.CurrentMana))
+		if (!CB.died && !CB.IsOnField && CB.CharInfo.ManaCostN <= (Side == TeamSideType.LeftSideTeam ? BattleManagerScript.Instance.LeftMana.CurrentMana : BattleManagerScript.Instance.RightMana.CurrentMana))
 		{
 			transform.position = eventData.position;
 			//MoveCharOnBoard(eventData.position);
@@ -47,7 +47,7 @@ public class UICharacterInfo : MonoBehaviour, IBeginDragHandler, IDragHandler, I
 
 	public void OnEndDrag(PointerEventData eventData)
 	{
-		if (!CB.IsOnField && CB.CharInfo.ManaCostN <= (Side == TeamSideType.LeftSideTeam ? BattleManagerScript.Instance.LeftMana.CurrentMana : BattleManagerScript.Instance.RightMana.CurrentMana))
+		if (!CB.died && !CB.IsOnField && CB.CharInfo.ManaCostN <= (Side == TeamSideType.LeftSideTeam ? BattleManagerScript.Instance.LeftMana.CurrentMana : BattleManagerScript.Instance.RightMana.CurrentMana))
 		{
 			transform.position = OffSetPosition;
 			SetCharOnBoard(eventData.position);
@@ -82,6 +82,7 @@ public class UICharacterInfo : MonoBehaviour, IBeginDragHandler, IDragHandler, I
 			|| CB.died))
 		{
 			Color color = CharIcon.color;
+			color = Color.black;
 			color.a = 0.6f;
 			CharIcon.color = color;
 		}
@@ -89,6 +90,7 @@ public class UICharacterInfo : MonoBehaviour, IBeginDragHandler, IDragHandler, I
 			&& !CB.died)
 		{
 			Color color = CharIcon.color;
+			color = Color.white;
 			color.a = 1;
 			CharIcon.color = color;
 		}
