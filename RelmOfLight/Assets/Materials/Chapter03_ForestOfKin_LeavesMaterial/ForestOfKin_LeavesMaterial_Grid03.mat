@@ -1,0 +1,52 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: ForestOfKin_LeavesMaterial_Grid03
+  m_Shader: {fileID: -6465566751694194690, guid: cb574a5f44a9e3d48b6a4ecc4389348a,
+    type: 3}
+  m_ShaderKeywords: ETC1_EXTERNAL_ALPHA
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - Texture2D_51B7A7DD:
+        m_Texture: {fileID: 2800000, guid: 5fb3d40922ae149499f2132081b74c14, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - Texture2D_738281C6:
+        m_Texture: {fileID: 2800000, guid: 5fb3d40922ae149499f2132081b74c14, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - Vector1_4B62570A: -39.74
+    - Vector1_4F3A4BD6: 0.3
+    - Vector1_54505569: 270
+    - Vector1_ABCADC0B: 0.3
+    - Vector1_B85E767D: 5.08
+    - Vector1_BF448B8: 13
+    - Vector1_D840B04B: 10
+    m_Colors:
+    - Color_B9D38C64: {r: 0, g: 0, b: 0, a: 0.25490198}
+    - Vector4_2347E0FE: {r: 25.21, g: 39.44, b: -57.85, a: 2.98}
+    - Vector4_298FE630: {r: 0.95, g: 1.2, b: 1.62, a: 1.6}
+    - Vector4_3CF0CE8A: {r: 0.88, g: 2.06, b: 1.22, a: 1.77}
+    - Vector4_407D46EB: {r: 0.1, g: 0.05, b: 0.2, a: 0.03}
+    - Vector4_458D3A5D: {r: 4.4, g: 2.52, b: -2.1, a: -4.1}
+    - Vector4_5C7C7F9B: {r: 3.93, g: 3.92, b: -3.46, a: -2.78}
+    - Vector4_E797E522: {r: 0, g: 0, b: 8.42, a: 180}
+    - Vector4_EDA803AC: {r: 0.1, g: 0.2, b: 0.05, a: 0.1}

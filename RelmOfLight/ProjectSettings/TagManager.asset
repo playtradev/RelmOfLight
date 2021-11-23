@@ -1,0 +1,67 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Tile
+  - PlayerCharacter
+  - Shield
+  - CenteringPoint
+  - LeftSideTeam
+  - RightSideTeam
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Background
+    uniqueID: 3551897653
+    locked: 0
+  - name: Grid
+    uniqueID: 2552015575
+    locked: 0
+  - name: Player
+    uniqueID: 2624597837
+    locked: 0
+  - name: Foreground
+    uniqueID: 2012134555
+    locked: 0
+  - name: Special
+    uniqueID: 3843742153
+    locked: 0
+  - name: Skill
+    uniqueID: 3460003993
+    locked: 0

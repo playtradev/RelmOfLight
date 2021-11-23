@@ -1,0 +1,76 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7cd84a52ef2addf4289a98afc62d2f5a, type: 3}
+  m_Name: Testing_Character_05
+  m_EditorClassIdentifier: 
+  CharacterPrefab: {fileID: 3749312863997743249, guid: 81c2bc3d2ec6ce04c87b23b699a05581,
+    type: 3}
+  AbridgedCharInfo:
+    Name: 
+    AddressableLocation: 
+    CharacterID: 0
+    ClassType: 0
+    Elemental: 0
+    CharacterIcon: {fileID: 0}
+    skeletonDataAsset: {fileID: 0}
+    initialSkinName: 
+    HealthStats_Health: 0
+    HealthStats_Regeneration: 0
+    HealthStats_Armour: 0
+    EtherStats_Ether: 0
+    EtherStats_Regeneration: 0
+    DamageStats_BaseDamage: 0
+    WeakAttack_DamageMultiplier: 0
+    StrongAttack_DamageMultiplier: 0
+    WeakAttack_CriticalChance: {x: 0, y: 0}
+    StrongAttack_CriticalChance: {x: 0, y: 0}
+    SpeedStats_BaseSpeed: 0
+    SpeedStats_CalculatedSpeed: 0
+    SpeedStats_MovementSpeed: 0
+    SpeedStats_WeakBulletSpeedV: {x: 0, y: 0}
+    SpeedStats_WeakBulletSpeed: 0
+    SpeedStats_StrongBulletSpeedV: {x: 0, y: 0}
+    EvasionChances: {x: 0, y: 0}
+    ShieldStats_BaseShieldRegeneration: 0
+    ShieldStats_Regeneration: 0
+    ShieldStats_Shield: 0
+    ShieldStats_Base: 0
+    ShieldStats_MinionShieldChances: 0
+    ShieldStats_MinionPerfectShieldChances: 0
+    Behaviour_DeathBehaviour: 0
+    DeathExplosion_Delay: 0
+    DeathDisableing_Delay: 0
+    DeathExplosion_OverrideParticles: 0
+    SigilDropBonus: 0
+    CurrentAttackTypeInfo: []
+    SkillLevels:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    PassiveSkills: []
+    AIs_Count: 0
+  OccupiedTiles:
+  - {x: 0, y: 0}
+  Biography: NO BIO
+  WaveGenInfo:
+    IncludeInProceduralWaves: 0
+    MinMaxChallengeRating: {x: 0, y: 15}
+    StageTags: 00000000
+    WaveNPCType: 0
+    Rarity: 0

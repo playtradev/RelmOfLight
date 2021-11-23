@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 20edd1281a6618c45acf779c1a2331e2, type: 3}
+  m_Name: AIInput
+  m_EditorClassIdentifier: 
+  CharOwner: {fileID: 0}
+  SwappableType: 0
+  WaitingForHit: 0
+  AICoolDownOffset: 0
+  AttackCoolDownCheckOffset: 0
+  MoveCoolDownCheckOffset: 0
+  Idle_AlwaysMovingCoolDownCheckOffset: 0
+  nextAttackPos: {x: 0, y: 0}
+  isDefendingStop: 0
+  availableAtks: []
+  availableSequences: []
+  currentTypedAtks: []
+  BaseTransitions:
+  - {fileID: 11400000, guid: aa6b00a16c5ba664ba048f3f365352d9, type: 2}
+  - {fileID: 11400000, guid: 0a400598e7577b14a86635686844dcda, type: 2}
+  - {fileID: 11400000, guid: 25dbccf9a53648046a57d992be2665c5, type: 2}
+  - {fileID: 11400000, guid: 5ed53070e6aba45458922f0e9769769d, type: 2}
+  - {fileID: 11400000, guid: d00214ce35932e34fba117ca1d837744, type: 2}
+  - {fileID: 11400000, guid: d20170e115543aa498c63b7ca2010539, type: 2}
+  CurrentAIState: {fileID: 0}
+  _possiblePos: {fileID: 0}
+  possiblePositions: []

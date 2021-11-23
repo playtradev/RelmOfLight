@@ -1,0 +1,265 @@
+
+GridFight-Stage09-MainTeam-Skye-20210831-V1.png
+size: 2048,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Arm-1
+  rotate: false
+  xy: 1423, 1124
+  size: 55, 30
+  orig: 55, 30
+  offset: 0, 0
+  index: -1
+Arm-2
+  rotate: true
+  xy: 1671, 1530
+  size: 54, 39
+  orig: 54, 39
+  offset: 0, 0
+  index: -1
+Back-hair
+  rotate: true
+  xy: 1075, 1123
+  size: 141, 223
+  orig: 141, 223
+  offset: 0, 0
+  index: -1
+Black-Skirt
+  rotate: 270
+  xy: 1532, 1125
+  size: 166, 105
+  orig: 167, 108
+  offset: 1, 2
+  index: -1
+Blink
+  rotate: false
+  xy: 1593, 1674
+  size: 95, 41
+  orig: 95, 41
+  offset: 0, 0
+  index: -1
+Body
+  rotate: false
+  xy: 1615, 1468
+  size: 62, 58
+  orig: 62, 58
+  offset: 0, 0
+  index: -1
+Bow-P1
+  rotate: false
+  xy: 1494, 1533
+  size: 95, 162
+  orig: 95, 162
+  offset: 0, 0
+  index: -1
+Bow-P2
+  rotate: false
+  xy: 1425, 1211
+  size: 109, 173
+  orig: 109, 173
+  offset: 0, 0
+  index: -1
+Bow-Stripe-1
+  rotate: 180
+  xy: 1421, 1388
+  size: 69, 349
+  orig: 69, 349
+  offset: 0, 0
+  index: -1
+Bow-Stripe-2
+  rotate: false
+  xy: 1353, 1139
+  size: 68, 373
+  orig: 68, 373
+  offset: 0, 0
+  index: -1
+C-red-Bow
+  rotate: false
+  xy: 1692, 1653
+  size: 40, 41
+  orig: 40, 41
+  offset: 0, 0
+  index: -1
+Collar
+  rotate: true
+  xy: 1705, 1127
+  size: 48, 31
+  orig: 48, 31
+  offset: 0, 0
+  index: -1
+Crown-1
+  rotate: false
+  xy: 1302, 1128
+  size: 42, 60
+  orig: 42, 60
+  offset: 0, 0
+  index: -1
+Crown-2
+  rotate: false
+  xy: 1666, 1404
+  size: 42, 60
+  orig: 42, 60
+  offset: 0, 0
+  index: -1
+Eyeball-1
+  rotate: false
+  xy: 1692, 1698
+  size: 25, 27
+  orig: 25, 27
+  offset: 0, 0
+  index: -1
+Eyeball-2
+  rotate: false
+  xy: 1706, 1370
+  size: 26, 26
+  orig: 26, 26
+  offset: 0, 0
+  index: -1
+Face-Mask
+  rotate: true
+  xy: 1494, 1388
+  size: 141, 115
+  orig: 141, 115
+  offset: 0, 0
+  index: -1
+Forearm-2
+  rotate: true
+  xy: 1700, 1184
+  size: 47, 34
+  orig: 47, 34
+  offset: 0, 0
+  index: -1
+Foreearm-1
+  rotate: true
+  xy: 1700, 1235
+  size: 44, 36
+  orig: 44, 36
+  offset: 0, 0
+  index: -1
+Front-Hair
+  rotate: true
+  xy: 1593, 1533
+  size: 137, 74
+  orig: 137, 74
+  offset: 0, 0
+  index: -1
+Front-Hair-Shadow
+  rotate: true
+  xy: 1641, 1184
+  size: 118, 55
+  orig: 118, 55
+  offset: 0, 0
+  index: -1
+Front-Skirt
+  rotate: 270
+  xy: 1548, 1293
+  size: 172, 124
+  orig: 172, 124
+  offset: 0, 0
+  index: -1
+H1
+  rotate: false
+  xy: 1482, 1127
+  size: 32, 27
+  orig: 32, 27
+  offset: 0, 0
+  index: -1
+H2
+  rotate: false
+  xy: 1700, 1283
+  size: 27, 30
+  orig: 27, 30
+  offset: 0, 0
+  index: -1
+Hair-1
+  rotate: false
+  xy: 1715, 1433
+  size: 18, 47
+  orig: 22, 49
+  offset: 1, 2
+  index: -1
+Hair-2
+  rotate: false
+  xy: 1715, 1318
+  size: 21, 48
+  orig: 23, 52
+  offset: 1, 2
+  index: -1
+Hammer-Head
+  rotate: false
+  xy: 1075, 1268
+  size: 276, 328
+  orig: 276, 328
+  offset: 0, 0
+  index: -1
+Hammer-Smear
+  rotate: false
+  xy: 4, 1146
+  size: 766, 591
+  orig: 766, 591
+  offset: 0, 0
+  index: -1
+Hammer-Stick
+  rotate: true
+  xy: 774, 1146
+  size: 450, 297
+  orig: 450, 297
+  offset: 0, 0
+  index: -1
+L1P1
+  rotate: 180
+  xy: 1685, 1468
+  size: 50, 64
+  orig: 53, 65
+  offset: 1, 1
+  index: -1
+L1P2
+  rotate: 180
+  xy: 1664, 1307
+  size: 51, 61
+  orig: 52, 63
+  offset: 0, 0
+  index: -1
+L2P1
+  rotate: false
+  xy: 1671, 1588
+  size: 51, 62
+  orig: 53, 65
+  offset: 1, 2
+  index: -1
+L2P2
+  rotate: true
+  xy: 1641, 1124
+  size: 56, 61
+  orig: 56, 61
+  offset: 0, 0
+  index: -1
+Mouth
+  rotate: false
+  xy: 4, 1130
+  size: 20, 12
+  orig: 20, 12
+  offset: 0, 0
+  index: -1
+Neck
+  rotate: true
+  xy: 1712, 1400
+  size: 28, 24
+  orig: 28, 24
+  offset: 0, 0
+  index: -1
+Shadow
+  rotate: false
+  xy: 774, 1600
+  size: 413, 130
+  orig: 413, 130
+  offset: 0, 0
+  index: -1
+White-Eyes-Layer
+  rotate: false
+  xy: 1425, 1158
+  size: 98, 49
+  orig: 98, 49
+  offset: 0, 0
+  index: -1

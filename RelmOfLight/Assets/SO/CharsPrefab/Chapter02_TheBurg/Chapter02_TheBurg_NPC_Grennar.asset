@@ -1,0 +1,85 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7cd84a52ef2addf4289a98afc62d2f5a, type: 3}
+  m_Name: Chapter02_TheBurg_NPC_Grennar
+  m_EditorClassIdentifier: 
+  CharacterPrefab: {fileID: 8830434325043415499, guid: 0e69846369d40c54e8f6fe7b97e66a18,
+    type: 3}
+  AbridgedCharInfo:
+    Name: Grennar
+    AddressableLocation: Stage02_NPC_PivotChar_Grennar
+    CharacterID: 2001
+    ClassType: 2
+    Elemental: 6
+    CharacterIcon: {fileID: 21300000, guid: 35791a131c8a97345b054e7597be68b5, type: 3}
+    skeletonDataAsset: {fileID: 11400000, guid: ca66ce24addd0974f93e51206f50e8b5,
+      type: 2}
+    initialSkinName: 
+    HealthStats_Health: 54
+    HealthStats_Regeneration: 0.7
+    HealthStats_Armour: 0.54
+    EtherStats_Ether: 52.5
+    EtherStats_Regeneration: 1.27
+    DamageStats_BaseDamage: 1
+    WeakAttack_DamageMultiplier: 1.55
+    StrongAttack_DamageMultiplier: 22
+    WeakAttack_CriticalChance: {x: 2.6, y: 2.6}
+    StrongAttack_CriticalChance: {x: 2.6, y: 2.6}
+    SpeedStats_BaseSpeed: 1
+    SpeedStats_CalculatedSpeed: 2.857143
+    SpeedStats_MovementSpeed: 1
+    SpeedStats_WeakBulletSpeedV: {x: 0, y: 0}
+    SpeedStats_WeakBulletSpeed: 5
+    SpeedStats_StrongBulletSpeedV: {x: 0, y: 0}
+    EvasionChances: {x: 2.8, y: 2.8}
+    ShieldStats_BaseShieldRegeneration: 8
+    ShieldStats_Regeneration: 0.21
+    ShieldStats_Shield: 7
+    ShieldStats_Base: 50
+    ShieldStats_MinionShieldChances: 20
+    ShieldStats_MinionPerfectShieldChances: 5
+    Behaviour_DeathBehaviour: 0
+    DeathExplosion_Delay: 0
+    DeathDisableing_Delay: 0.5
+    DeathExplosion_OverrideParticles: 0
+    SigilDropBonus: 0
+    CurrentAttackTypeInfo:
+    - {fileID: 11400000, guid: 33c45d9ca5a8b914ea6e27c272f6dd74, type: 2}
+    - {fileID: 11400000, guid: 187c0e5e3078a6c439645ceb7ec69d6c, type: 2}
+    - {fileID: 11400000, guid: 6be582632f724f245ab8cb2699f74895, type: 2}
+    - {fileID: 11400000, guid: 30eab94b13b134f4fba735e77587c77a, type: 2}
+    - {fileID: 11400000, guid: d07d817599212564e9e6f734ad097864, type: 2}
+    - {fileID: 11400000, guid: e7df56e9606297d42b8ab279b95e1116, type: 2}
+    - {fileID: 11400000, guid: f4f660c5e9f31834885fbbd672cb5cb9, type: 2}
+    - {fileID: 11400000, guid: bd60acc1f92605d468c5c5cfdeb7e22c, type: 2}
+    SkillLevels:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    PassiveSkills: []
+    AIs_Count: 0
+  OccupiedTiles:
+  - {x: 0, y: 0}
+  Biography: NO BIO
+  WaveGenInfo:
+    IncludeInProceduralWaves: 0
+    MinMaxChallengeRating: {x: 12, y: 43}
+    StageTags: 03000000
+    WaveNPCType: 0
+    Rarity: 0

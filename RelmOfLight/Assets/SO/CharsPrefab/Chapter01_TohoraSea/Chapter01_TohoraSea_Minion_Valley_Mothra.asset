@@ -1,0 +1,82 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7cd84a52ef2addf4289a98afc62d2f5a, type: 3}
+  m_Name: Chapter01_TohoraSea_Minion_Valley_Mothra
+  m_EditorClassIdentifier: 
+  CharacterPrefab: {fileID: 6489717721263758027, guid: 7dd7f7c754d23c747bdb7acbf81b60fd,
+    type: 3}
+  AbridgedCharInfo:
+    Name: Mothra
+    AddressableLocation: Stage_01_Minion_Valley_PivotChar_Mothra
+    CharacterID: 1023
+    ClassType: 0
+    Elemental: 5
+    CharacterIcon: {fileID: 21300000, guid: 2b36e633fe39f4f489979e0eaa62dd13, type: 3}
+    skeletonDataAsset: {fileID: 11400000, guid: 08ef6e03329092742bc147b8d25cab85,
+      type: 2}
+    initialSkinName: 
+    HealthStats_Health: 280
+    HealthStats_Regeneration: 0.5
+    HealthStats_Armour: 0
+    EtherStats_Ether: 40
+    EtherStats_Regeneration: 1
+    DamageStats_BaseDamage: 1
+    WeakAttack_DamageMultiplier: 4
+    StrongAttack_DamageMultiplier: 8
+    WeakAttack_CriticalChance: {x: 3, y: 3}
+    StrongAttack_CriticalChance: {x: 3, y: 3}
+    SpeedStats_BaseSpeed: 1
+    SpeedStats_CalculatedSpeed: 3.030303
+    SpeedStats_MovementSpeed: 1
+    SpeedStats_WeakBulletSpeedV: {x: 0, y: 0}
+    SpeedStats_WeakBulletSpeed: 3
+    SpeedStats_StrongBulletSpeedV: {x: 0, y: 0}
+    EvasionChances: {x: 0, y: 0}
+    ShieldStats_BaseShieldRegeneration: 8
+    ShieldStats_Regeneration: 8
+    ShieldStats_Shield: 50
+    ShieldStats_Base: 50
+    ShieldStats_MinionShieldChances: 3
+    ShieldStats_MinionPerfectShieldChances: 0.1
+    Behaviour_DeathBehaviour: 0
+    DeathExplosion_Delay: 0
+    DeathDisableing_Delay: 0.5
+    DeathExplosion_OverrideParticles: 0
+    SigilDropBonus: 3
+    CurrentAttackTypeInfo:
+    - {fileID: 11400000, guid: ac4f676d1941aa144a44cece23c539bf, type: 2}
+    - {fileID: 11400000, guid: df526494fce0be548842e9a581bdaafa, type: 2}
+    - {fileID: 11400000, guid: 26907d8fef3456340b2b3d0a530944a1, type: 2}
+    - {fileID: 11400000, guid: 980ecb1922b651a4995b7732b92fe591, type: 2}
+    - {fileID: 11400000, guid: ed141f493a60fa64ba4a8bb0ffd9fc6d, type: 2}
+    SkillLevels:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    PassiveSkills: []
+    AIs_Count: 3
+  OccupiedTiles:
+  - {x: 0, y: 0}
+  Biography: NO BIO
+  WaveGenInfo:
+    IncludeInProceduralWaves: 1
+    MinMaxChallengeRating: {x: 10, y: 45}
+    StageTags: 02000000
+    WaveNPCType: 1
+    Rarity: 0

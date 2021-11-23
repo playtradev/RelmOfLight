@@ -1,0 +1,27 @@
+fileFormatVersion: 2
+guid: b94daee8cf8a486408b6b4f47867b860
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - Rewired: {fileID: 161136, guid: 14ee31e976b2b344fb160d8a2deffe62, type: 3}
+  - BattleInfoManager: {fileID: 390336813620140516, guid: 1a732161350edbf428ec053511e2925c,
+      type: 3}
+  - BattleManager: {fileID: 1356531903299505067, guid: 75883df4d712cac4287452c7c9e7c59f,
+      type: 3}
+  - BaseEnvironment: {fileID: 3534392115506605155, guid: f8504f726291494439bb8271c249f518,
+      type: 3}
+  - UI_Battle: {fileID: 5440141044157023040, guid: 3a406625e41398e40bb6afaf4c2bc940,
+      type: 3}
+  - EventManager: {fileID: 5481280108936761610, guid: 232d2cd94b086c94da01cb2c22c6bfa9,
+      type: 3}
+  - Wave: {fileID: 2992208178951566622, guid: 68d17fadb0a885241b00acbad0b53079, type: 3}
+  - AudioManager: {fileID: 1251593967129298512, guid: e64de0257965e1b429f1bc742aaac2ba,
+      type: 3}
+  - StageAudioProfile: {fileID: 11400000, guid: 11416f1769436dd44a2d5f3e315e9856,
+      type: 2}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

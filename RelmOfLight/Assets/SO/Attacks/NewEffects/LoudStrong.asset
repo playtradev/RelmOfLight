@@ -1,0 +1,81 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2162115bd0e37014394e1dbf4dad6e54, type: 3}
+  m_Name: LoudStrong
+  m_EditorClassIdentifier: 
+  level: 1
+  StackType: 0
+  maxStack: 3
+  OldSystem: 1
+  StatsToAffect: 0
+  StatsChecker: 0
+  NameShowedOnIndicator: 
+  Value: {x: 2, y: 2}
+  _Duration: {x: 3, y: 3}
+  _Delay: {x: 0, y: 0}
+  _OvertimeRatio: {x: 0, y: 0}
+  AnimToFired: 11
+  StatsToAffectList: []
+  Particles: 0
+  AttachPsToHead: 0
+  TeleportParticlesIn: 1
+  TeleportParticlesOut: 1
+  AnimEnumTeleportArrivingAnim: 1
+  UseAnimEnumOrStringAnim: 1
+  StringTeleportArrivingAnim: Idle
+  TeleportInRandom: 1
+  FixedPos: {x: 0, y: 0}
+  MeleeGoTeleportParticlesIn: 1
+  MeleeGoTeleportParticlesOut: 1
+  MeleeBackTeleportParticlesIn: 1
+  MeleeBackTeleportParticlesOut: 1
+  MeleeAttackParticles: 6005
+  classification: 0
+  ShowIcon: 0
+  icon: {fileID: 0}
+  recolorCharUI: 0
+  statusIconColor: {r: 1, g: 0, b: 1, a: 1}
+  SetParticlesOnCaster: 0
+  ParticlesOnCaster: 0
+  SetIconOnCaster: 0
+  OnCasterClassification: 0
+  OnCasterIcon: {fileID: 0}
+  OnCasterRecolorCharUI: 0
+  OnCasterStatusIconColor: {r: 1, g: 0, b: 1, a: 1}
+  Atk: {fileID: 0}
+  ForcedAI: 0
+  ColorSize:
+    Color: {r: 0, g: 0, b: 0, a: 0}
+    Hue: 0
+    Saturation: 0
+    Scale: {x: 0, y: 0, z: 0}
+  OnDuration: 1
+  ColorSizeCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  BoolValue: 0
+  WalkingSide: 0
+  ArmourT: 0
+  BaseCurrentValue: 1
+  Elemental: 0
+  AttackToSteal: 
+  OnCaster: 0
+  ClonePrefab: 0
+  OverrideAI: 0
+  ClonePowerScale: 0.5
+  CloneAsManyAsCurrentEnemies: 0
+  CloneAmount: 1
+  SpawnInClosePosition: 1
+  CloneStartingEffect: {fileID: 0}

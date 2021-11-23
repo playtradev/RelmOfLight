@@ -1,0 +1,349 @@
+
+GridFight-Chap-03-Forest-of-Kin-Elu-20210831-V1.png
+size: 2048,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Apple
+  rotate: false
+  xy: 723, 967
+  size: 50, 53
+  orig: 50, 53
+  offset: 0, 0
+  index: -1
+Arm-1
+  rotate: true
+  xy: 776, 102
+  size: 140, 55
+  orig: 140, 55
+  offset: 0, 0
+  index: -1
+Arm-2
+  rotate: true
+  xy: 157, 71
+  size: 125, 94
+  orig: 125, 94
+  offset: 0, 0
+  index: -1
+B1
+  rotate: true
+  xy: 290, 10
+  size: 55, 63
+  orig: 55, 63
+  offset: 0, 0
+  index: -1
+B2
+  rotate: false
+  xy: 802, 1169
+  size: 75, 68
+  orig: 75, 68
+  offset: 0, 0
+  index: -1
+Braid
+  rotate: true
+  xy: 4, 197
+  size: 99, 271
+  orig: 102, 272
+  offset: 2, 1
+  index: -1
+Braid-Point
+  rotate: false
+  xy: 719, 1024
+  size: 101, 152
+  orig: 101, 152
+  offset: 0, 0
+  index: -1
+Chest
+  rotate: true
+  xy: 23, 83
+  size: 127, 131
+  orig: 130, 134
+  offset: 1, 1
+  index: -1
+Ear-1
+  rotate: false
+  xy: 824, 1094
+  size: 63, 67
+  orig: 63, 67
+  offset: 0, 0
+  index: -1
+Ear-2
+  rotate: false
+  xy: 835, 102
+  size: 63, 67
+  orig: 63, 67
+  offset: 0, 0
+  index: -1
+Face-0
+  rotate: true
+  xy: 221, 11
+  size: 54, 65
+  orig: 54, 65
+  offset: 0, 0
+  index: -1
+Face-1
+  rotate: false
+  xy: 841, 417
+  size: 59, 63
+  orig: 59, 63
+  offset: 0, 0
+  index: -1
+Face-2
+  rotate: false
+  xy: 92, 21
+  size: 61, 60
+  orig: 61, 60
+  offset: 0, 0
+  index: -1
+Face-3
+  rotate: true
+  xy: 157, 8
+  size: 59, 60
+  orig: 59, 60
+  offset: 0, 0
+  index: -1
+Face-4
+  rotate: false
+  xy: 835, 173
+  size: 58, 67
+  orig: 58, 67
+  offset: 0, 0
+  index: -1
+Face-5
+  rotate: false
+  xy: 841, 346
+  size: 58, 67
+  orig: 58, 67
+  offset: 0, 0
+  index: -1
+Foot-1
+  rotate: true
+  xy: 817, 751
+  size: 101, 63
+  orig: 101, 63
+  offset: 0, 0
+  index: -1
+Foot-2
+  rotate: false
+  xy: 766, 534
+  size: 96, 78
+  orig: 96, 78
+  offset: 0, 0
+  index: -1
+Forearm-1
+  rotate: true
+  xy: 812, 616
+  size: 131, 51
+  orig: 131, 51
+  offset: 0, 0
+  index: -1
+Forearm-2
+  rotate: false
+  xy: 766, 403
+  size: 71, 127
+  orig: 71, 127
+  offset: 0, 0
+  index: -1
+Grass-Collar
+  rotate: true
+  xy: 743, 634
+  size: 145, 65
+  orig: 145, 65
+  offset: 0, 0
+  index: -1
+Grass-Collar-Back
+  rotate: true
+  xy: 678, 246
+  size: 153, 111
+  orig: 153, 111
+  offset: 0, 0
+  index: -1
+Ground Shadow
+  rotate: false
+  xy: 4, 470
+  size: 454, 171
+  orig: 454, 171
+  offset: 0, 0
+  index: -1
+Hair-Band
+  rotate: true
+  xy: 817, 856
+  size: 83, 53
+  orig: 83, 53
+  offset: 0, 0
+  index: -1
+Hair-P2
+  rotate: false
+  xy: 422, 10
+  size: 44, 49
+  orig: 44, 49
+  offset: 0, 0
+  index: -1
+Hand-1
+  rotate: false
+  xy: 357, 5
+  size: 61, 54
+  orig: 61, 54
+  offset: 0, 0
+  index: -1
+Hand-2
+  rotate: true
+  xy: 4, 22
+  size: 57, 63
+  orig: 57, 63
+  offset: 0, 0
+  index: -1
+Head
+  rotate: true
+  xy: 462, 470
+  size: 168, 199
+  orig: 168, 199
+  offset: 0, 0
+  index: -1
+Hips
+  rotate: false
+  xy: 588, 1073
+  size: 177, 165
+  orig: 179, 231
+  offset: 1, 2
+  index: -1
+L1P1
+  rotate: false
+  xy: 332, 275
+  size: 197, 191
+  orig: 197, 191
+  offset: 0, 0
+  index: -1
+L1P2
+  rotate: true
+  xy: 588, 897
+  size: 172, 131
+  orig: 172, 131
+  offset: 0, 0
+  index: -1
+L1P3
+  rotate: false
+  xy: 255, 69
+  size: 125, 89
+  orig: 125, 89
+  offset: 0, 0
+  index: -1
+L2P1
+  rotate: false
+  xy: 533, 242
+  size: 141, 224
+  orig: 141, 224
+  offset: 0, 0
+  index: -1
+L2P2
+  rotate: false
+  xy: 520, 58
+  size: 132, 79
+  orig: 132, 79
+  offset: 0, 0
+  index: -1
+L2P3
+  rotate: true
+  xy: 384, 63
+  size: 80, 132
+  orig: 80, 132
+  offset: 0, 0
+  index: -1
+Leather-Piece
+  rotate: true
+  xy: 427, 147
+  size: 102, 193
+  orig: 105, 194
+  offset: 1, 0
+  index: -1
+Neck
+  rotate: true
+  xy: 814, 1033
+  size: 43, 85
+  orig: 43, 85
+  offset: 0, 0
+  index: -1
+Rope-1
+  rotate: true
+  xy: 737, 790
+  size: 42, 62
+  orig: 42, 62
+  offset: 0, 0
+  index: -1
+Rope-2
+  rotate: false
+  xy: 776, 52
+  size: 94, 46
+  orig: 94, 46
+  offset: 0, 0
+  index: -1
+SWP1
+  rotate: false
+  xy: 793, 246
+  size: 74, 96
+  orig: 74, 96
+  offset: 0, 0
+  index: -1
+SWP2
+  rotate: true
+  xy: 623, 141
+  size: 97, 144
+  orig: 97, 144
+  offset: 0, 0
+  index: -1
+SWP3
+  rotate: true
+  xy: 656, 47
+  size: 90, 116
+  orig: 90, 116
+  offset: 0, 0
+  index: -1
+Skirt
+  rotate: true
+  xy: 588, 635
+  size: 258, 151
+  orig: 258, 151
+  offset: 0, 0
+  index: -1
+Smear
+  rotate: false
+  xy: 4, 645
+  size: 580, 595
+  orig: 580, 595
+  offset: 0, 0
+  index: -1
+WP1
+  rotate: true
+  xy: 779, 956
+  size: 73, 95
+  orig: 73, 95
+  offset: 0, 0
+  index: -1
+WP2
+  rotate: true
+  xy: 278, 162
+  size: 109, 145
+  orig: 109, 145
+  offset: 0, 0
+  index: -1
+WP3
+  rotate: false
+  xy: 723, 836
+  size: 90, 116
+  orig: 90, 116
+  offset: 0, 0
+  index: -1
+Wooden-Weapon-P2
+  rotate: false
+  xy: 678, 403
+  size: 84, 227
+  orig: 84, 227
+  offset: 0, 0
+  index: -1
+Wooden-weapon-P1
+  rotate: true
+  xy: 4, 299
+  size: 167, 324
+  orig: 167, 324
+  offset: 0, 0
+  index: -1

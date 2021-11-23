@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: 0fed0312e5e20af4b8caf09e389c4751
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - AllcharsEvolution: {fileID: 11400000, guid: 3e5724db9040b204b9deb8b7e7ab7baf,
+      type: 2}
+  - SpineLoaderPrefab: {instanceID: 0}
+  - elementData: {instanceID: 0}
+  - NavigatorPrefab: {instanceID: 0}
+  - RewiredPrefab: {instanceID: 0}
+  - SteamManagerGO: {instanceID: 0}
+  - AnalyticsGO: {instanceID: 0}
+  - canv: {instanceID: 0}
+  - stagePrimedToLoad: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

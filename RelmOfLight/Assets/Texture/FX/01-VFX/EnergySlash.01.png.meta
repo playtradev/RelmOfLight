@@ -1,0 +1,408 @@
+fileFormatVersion: 2
+guid: 4cda1adcfd698d146977399fbc5744c4
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5998811297464225249
+    second: EnergySlash.01_0
+  - first:
+      213: 7973804350455452374
+    second: EnergySlash.01_1
+  - first:
+      213: 2123243465628940416
+    second: EnergySlash.01_2
+  - first:
+      213: -5685179927621174173
+    second: EnergySlash.01_3
+  - first:
+      213: -5646936482121609463
+    second: EnergySlash.01_4
+  - first:
+      213: 2482481217746613339
+    second: EnergySlash.01_5
+  - first:
+      213: -5817332213762335699
+    second: EnergySlash.01_6
+  - first:
+      213: -1380202082650901509
+    second: EnergySlash.01_7
+  - first:
+      213: -3329972808643905955
+    second: EnergySlash.01_8
+  - first:
+      213: -4407170908874162041
+    second: EnergySlash.01_9
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 2
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 1
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Nintendo Switch
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: EnergySlash.01_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 300
+        width: 103
+        height: 150
+      alignment: 9
+      pivot: {x: 0.65, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7ec260fa845ebe46a8207ce2e685f25
+      internalID: 5998811297464225249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnergySlash.01_1
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 300
+        width: 103
+        height: 150
+      alignment: 9
+      pivot: {x: 0.65, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b36f6cf8693278c4bb3482eb4aa629d7
+      internalID: 7973804350455452374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnergySlash.01_2
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 300
+        width: 103
+        height: 150
+      alignment: 9
+      pivot: {x: 0.65, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3fc071ec46ccf4c44b3b2b4bfa9df7b8
+      internalID: 2123243465628940416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnergySlash.01_3
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 300
+        width: 103
+        height: 150
+      alignment: 9
+      pivot: {x: 0.65, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70d942f6cd1f8114aac0d99ca93d418f
+      internalID: -5685179927621174173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnergySlash.01_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 150
+        width: 103
+        height: 150
+      alignment: 9
+      pivot: {x: 0.65, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b93bf99e17eaab4fa225a3de611b707
+      internalID: -5646936482121609463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnergySlash.01_5
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 150
+        width: 103
+        height: 150
+      alignment: 9
+      pivot: {x: 0.65, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6975151d3ebdc2b40aaf484a42c88c57
+      internalID: 2482481217746613339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnergySlash.01_6
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 150
+        width: 103
+        height: 150
+      alignment: 9
+      pivot: {x: 0.65, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4f6659ff40c0e54fbfd6441135e629a
+      internalID: -5817332213762335699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnergySlash.01_7
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 150
+        width: 103
+        height: 150
+      alignment: 9
+      pivot: {x: 0.65, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50befa878a105cc4e9083c735dcbaeab
+      internalID: -1380202082650901509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnergySlash.01_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 103
+        height: 150
+      alignment: 9
+      pivot: {x: 0.65, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b29ad421998c8894290f7b8685c3a51f
+      internalID: -3329972808643905955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnergySlash.01_9
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 0
+        width: 103
+        height: 150
+      alignment: 9
+      pivot: {x: 0.65, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ecd6c59f368c2e54ab3a9b2e5c61e495
+      internalID: -4407170908874162041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5f0e5473130a0844f9aacce32038eea5
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      EnergySlash.01_6: -5817332213762335699
+      EnergySlash.01_0: 5998811297464225249
+      EnergySlash.01_2: 2123243465628940416
+      EnergySlash.01_4: -5646936482121609463
+      EnergySlash.01_5: 2482481217746613339
+      EnergySlash.01_3: -5685179927621174173
+      EnergySlash.01_1: 7973804350455452374
+      EnergySlash.01_7: -1380202082650901509
+      EnergySlash.01_9: -4407170908874162041
+      EnergySlash.01_8: -3329972808643905955
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

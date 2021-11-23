@@ -1,0 +1,373 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: TohoraPsAttack
+  m_EditorClassIdentifier: 
+  m_GroupName: TohoraPsAttack
+  m_Data:
+    m_SerializedData: []
+  m_GUID: dab705accea8c45d7aadee9e3b6d8565
+  m_SerializeEntries:
+  - m_GUID: f83b72535b917d24cb366c355c6107b1
+    m_Address: Chapter01_TohoraSea_Boss_DeathExplosion_Tikaka
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 1f1e32f309cf66d49a22c4f111465cca
+    m_Address: Chapter01_TohoraSea_Boss_MoonDrumsAttack03_Loop_Left_Tikaka
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 412cb105d0cf36c4ab4c1928caecf1c9
+    m_Address: Chapter01_TohoraSea_Boss_MoonDrumsAttack03_LoopCrumble_Left_Tikaka
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 8b91350b9c6b00d448a117de884ddfbd
+    m_Address: Chapter01_TohoraSea_Boss_CrystalTombAttack04_Bullet_Right_Tikaka
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 6ad1b87189c74414889a0ca96b41815f
+    m_Address: Chapter01_TohoraSea_Boss_CrystalTombAttack04_Cast_Right_Tikaka
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: da78161fcd8d96d4b8989e55aee9dcd3
+    m_Address: Chapter01_TohoraSea_Boss_CrystalTombAttack04_Death_Right_Tikaka
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 3e9d453457a9fb74782cdb78264a5d7d
+    m_Address: Chapter01_TohoraSea_Boss_CrystalTombAttack04_DebuffIdle_Right_Tikaka
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: da34002133b8a7a46a2d7faa96c0118c
+    m_Address: Chapter01_TohoraSea_Boss_CrystalTombAttack04_Hit_Right_Tikaka
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 2a597a785bc9139489391730086f7a5c
+    m_Address: Chapter01_TohoraSea_Boss_CrystalTombAttack04_LifeSwap_Tikaka
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: b19417877eefb3c4287d38be9ce8d332
+    m_Address: Chapter01_TohoraSea_Boss_CrystalTombAttack04_MoonSwap_Tikaka
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 47c6d866b5dfe2b4385fbe97e5bf6758
+    m_Address: Chapter01_TohoraSea_Boss_CrystalTombAttack04_TeleportIn_Tikaka
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 46845c2d35a13c44db4dd6b9ea67f5eb
+    m_Address: Chapter01_TohoraSea_Boss_CrystalTombAttack04_TeleportOut_Tikaka
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 8238a46327b39f842bbaacb3af51aead
+    m_Address: Chapter01_TohoraSea_Boss_CrystalTombAttack04_WarSwap_Tikaka
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 7a2cfed5841a3e44790ee2c15cf6630c
+    m_Address: Chapter01_TohoraSea_Boss_LifeDrumAttack02_Bullet_Right_Tikaka
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 68ce4eb9712e0ac4ba41d115ba6a6211
+    m_Address: Chapter01_TohoraSea_Boss_LifeDrumAttack02_Cast_Right_Tikaka
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: cac943e4f6841a244bb75535d32c2cd6
+    m_Address: Chapter01_TohoraSea_Boss_LifeDrumAttack02_Drain
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 7afe0cc8e50cc064587437979c53c127
+    m_Address: Chapter01_TohoraSea_Boss_LifeDrumAttack02_Hit_Right_Tikaka
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 619c9bb625b145249b773ad5263bb6b8
+    m_Address: Chapter01_TohoraSea_Boss_MoonDrumsAttack03_Bullet_Right_Tikaka
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 5d2c12518ced49c4ca610ed0dd9e792c
+    m_Address: Chapter01_TohoraSea_Boss_MoonDrumsAttack03_Cast_Right_Tikaka
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: dcddebb3b3af68244a68488f740b94e0
+    m_Address: Chapter01_TohoraSea_Boss_MoonDrumsAttack03_Hit_Right_Tikaka
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: b5181ab7f1e9b0a4bbbde5110fed0e5f
+    m_Address: Chapter01_TohoraSea_Boss_MoonDrumsAttack03_Loop_Right_Tikaka
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: ae2c2af29983a674fb74827fa9575959
+    m_Address: Chapter01_TohoraSea_Boss_MoonDrumsAttack03_LoopCrumble_Right_Tikaka
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: b892c2600ea3cfb49b4b1907ea2485f7
+    m_Address: Chapter01_TohoraSea_Boss_WardrumAttack01_Bullet_Right_Tikaka
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: aeb63d64fa4d12947b0beaba8a40a30b
+    m_Address: Chapter01_TohoraSea_Boss_WardrumAttack01_Cast_Right_Tikaka
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: c5d64537f2484ce459df4f83f0d5be73
+    m_Address: Chapter01_TohoraSea_Boss_WardrumAttack01_Hit_Right_Tikaka
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: d5ac9cb9a9880c744b9f06bf7f1f9c54
+    m_Address: Chapter01_TohoraSea_Character_Desert_Debuff_Bullet_Right_Mermer
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 6f492e4e9ba830c41959cfa62033e148
+    m_Address: Chapter01_TohoraSea_Character_Desert_Debuff_Hit_Right_Mermer
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 22197d2b30acd4a4b84125cfc3b387c9
+    m_Address: Chapter01_TohoraSea_Character_Desert_StrongAttack_Bullet_Right_Mermer
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 95926fe62e6d29f4bb732911da8d2580
+    m_Address: Chapter01_TohoraSea_Character_Desert_StrongAttack_Cast_Right_Mermer
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 1971cf23c4759a54d96da6dda107979f
+    m_Address: Chapter01_TohoraSea_Character_Desert_StrongAttack_Hit_Right_Mermer
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 1eb17166e12c99a4d91027a9886540f1
+    m_Address: Chapter01_TohoraSea_Character_Desert_WeakAttack_Bullet_Right_Mermer
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 89578693ba1d15b4cb9b1b359e8f92e0
+    m_Address: Chapter01_TohoraSea_Character_Desert_WeakAttack_Cast_Right_Mermer
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 3d623d87ae0c7df4f95fa5df7c3f93cc
+    m_Address: Chapter01_TohoraSea_Character_Desert_WeakAttack_Hit_Right_Mermer
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 40fb692d4593ff64cb21432f887f657e
+    m_Address: Chapter01_TohoraSea_Character_Forest_Buff_Cast_Right_Pai
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: b8085c828f37db140a452298cdb8d8f4
+    m_Address: Chapter01_TohoraSea_Character_Forest_StrongAttack_Bullet_Right_Pai
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 5b6a55e9c3906dc42b6c71dd303ef4cb
+    m_Address: Chapter01_TohoraSea_Character_Forest_StrongAttack_Cast_Right_Pai
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 57d969f5eb4b98b448397f87aa5a1c98
+    m_Address: Chapter01_TohoraSea_Character_Forest_StrongAttack_Hit_Right_Pai
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 1c5ae0bc2e086d342b9a715b29969563
+    m_Address: Chapter01_TohoraSea_Character_Forest_WeakAttack_Bullet_Right_Pai
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 070ae22e382c44c449bf5049427f395c
+    m_Address: Chapter01_TohoraSea_Character_Forest_WeakAttack_Cast_Right_Pai
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 60f7037166dae23499552dd2890fc46c
+    m_Address: Chapter01_TohoraSea_Character_Forest_WeakAttack_Hit_Right_Pai
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 4805efbab2a78424f9b0943caa115656
+    m_Address: Chapter01_Tohora_Character_Mountain_Debuff_Bullet_Right_Bird
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: ea2257a08f9938f42ab6c13573ff4a21
+    m_Address: Chapter01_Tohora_Character_Mountain_Debuff_Cast_Right_Bird
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 72f2c2cde207807409ae46f6da2f2f95
+    m_Address: Chapter01_Tohora_Character_Mountain_Debuff_Hit_Right_Bird
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 35c2e6dcb4bb1ed4e8152f32cab70a57
+    m_Address: Chapter01_TohoraSea_Character_Mountain_StrongAttack_Bullet_Right_Kora
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 3154a210ae61c1f4fa41bc0324e8426b
+    m_Address: Chapter01_TohoraSea_Character_Mountain_StrongAttack_Cast_Right_Kora
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 21d0881b0d9b4ed40b11f9f45ff31666
+    m_Address: Chapter01_TohoraSea_Character_Mountain_StrongAttack_Hit_Right_Kora
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: f6f7839a02801f747b6005c140a823ff
+    m_Address: Chapter01_TohoraSea_Character_Mountain_WeakAttack_Bullet_Right_Kora
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 2d31dd0456ff8924f93a6ce70380964f
+    m_Address: Chapter01_TohoraSea_Character_Mountain_WeakAttack_Cast_Right_Kora
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 350f2ed1d7f1c774f8cbe03877ba6d37
+    m_Address: Chapter01_TohoraSea_Character_Mountain_WeakAttack_Hit_Right_Kora
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 2a13d0464d36a5a4b9c769bafe1d0595
+    m_Address: Chapter01_TohoraSea_Character_Valley_Debuff_Bullet_Right_Noiti
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 82ead3d66b6ca8141b80848ab82d769f
+    m_Address: Chapter01_TohoraSea_Character_Valley_Debuff_Cast_Right_Noiti
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 3f921b854f91d884e95c090e9cdd183a
+    m_Address: Chapter01_TohoraSea_Character_Valley_Debuff_Hit_Right_Noiti
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 71909928b8851374ca5b1f2f287bb2d8
+    m_Address: Chapter01_TohoraSea_Character_Valley_StrongAttack_Bullet_Right_Noiti
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 539d49d98e7043d4a808944229c233fa
+    m_Address: Chapter01_TohoraSea_Character_Valley_StrongAttack_Cast_Right_Noiti
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 8c0469648c4a1b642974cabe0506d205
+    m_Address: Chapter01_TohoraSea_Character_Valley_StrongAttack_Hit_Right_Noiti
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 22aaf4cafd6fff74e9625cac0b73a6af
+    m_Address: Chapter01_TohoraSea_Character_Valley_WeakAttack_Bullet_Right_Noiti
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 88c3935ae26538f4f9173d6b0aaef39d
+    m_Address: Chapter01_TohoraSea_Character_Valley_WeakAttack_Cast_Right_Noiti
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 056310a7aa70f9641af39dfdbc4365f8
+    m_Address: Chapter01_TohoraSea_Character_Valley_WeakAttack_Hit_Right_Noiti
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 8e101e973a98c6c43b84f542161c36e6
+    m_Address: Chapter01_TohoraSea_Minion_Desert_Buff_Cast_Right_Aquaheal_Fishylla
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: fffd0c323a8913f43b252bf8c508b95b
+    m_Address: Chapter01_TohoraSea_Minion_Desert_Debuff_Cast_Right_SelfDeath_Fishylla
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: e96069b88716ce1419b3fc8b0599b14b
+    m_Address: Chapter01_TohoraSea_Minion_Desert_StrongAttack_Bullet_Right_Fishylla
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: e787476d787e6bf4f869c10347e9f0a9
+    m_Address: Chapter01_TohoraSea_Minion_Desert_StrongAttack_Cast_Right_Bubble_Fishylla
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 860789549db32094baab77380effce36
+    m_Address: Chapter01_TohoraSea_Minion_Desert_StrongAttack_Hit_Right_Bubble_Fishylla
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 7461bc47b21ebc64d8a9e5f28b4f1a03
+    m_Address: Chapter01_TohoraSea_Minion_Desert_WeakAttack_Bullet_Fishylla
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 3d1a1c2cd14d9d74595f60c7d5cfea54
+    m_Address: Chapter01_TohoraSea_Minion_Desert_WeakAttack_Cast_Right_Bubble_Fishylla
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 584f68921260d78429707a8bbafd4e9a
+    m_Address: Chapter01_TohoraSea_Minion_Desert_WeakAttack_Hit_Right_Bubble_Fishylla
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 890bf613b6099e64998c42fb92026a83
+    m_Address: Chapter01_TohoraSea_Minion_Forest_StrongAttack_Bullet_Right_Crabera
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: cda2dc16b2287874aa2cc9810a8d23ca
+    m_Address: Chapter01_TohoraSea_Minion_Forest_StrongAttack_Cast_Right_Crabera
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 18fdaa78272011b4f841b8678821f479
+    m_Address: Chapter01_TohoraSea_Minion_Forest_StrongAttack_Hit_Right_Crabera
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 2f7b4e63ff2fb1e4088423d333773d15
+    m_Address: Chapter01_TohoraSea_Minion_Forest_WeakAttack_Bullet_Right_Crabera
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 9a3f5cb78cfe2734f9c9751f96985233
+    m_Address: Chapter01_TohoraSea_Minion_Forest_WeakAttack_Cast_Right_Crabera
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 5a8d9d322687ab0499b9f37c5fd094ec
+    m_Address: Chapter01_TohoraSea_Minion_Forest_WeakAttack_Hit_Right_Crabera
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 1aae63add8dca8a4d8e11dd85032abda
+    m_Address: Chapter01_TohoraSea_Minion_Mountain_StrongAttack_Bullet_Right_Toka
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: b4d5e4ab41d778f4baf8b37eabed54f5
+    m_Address: Chapter01_TohoraSea_Minion_Mountain_StrongAttack_Cast_Right_Toka
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 0db0f875371378f4288dcd54f16ee8bf
+    m_Address: Chapter01_TohoraSea_Minion_Mountain_StrongAttack_Hit_Right_Toka
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 2c63cdaad79318e4fb95a7480dbdfdef
+    m_Address: Chapter01_TohoraSea_Minion_Mountain_WeakAttack_Bullet_Right_Toka
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 603be1fcb9409694da63ebf63ff5bb61
+    m_Address: Chapter01_TohoraSea_Minion_Mountain_WeakAttack_Cast_Right_Toka
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 61646a0c5b337e44894e216873c3d586
+    m_Address: Chapter01_TohoraSea_Minion_Mountain_WeakAttack_Hit_Right_Toka
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: fdd2b8f61b3e80444b02fe4033193663
+    m_Address: Chapter01_TohoraSea_Minion_Valley_StrongAttack_Bullet_Right_Mothra
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 1e05b83a33b524f40bbb0b680fe8082c
+    m_Address: Chapter01_TohoraSea_Minion_Valley_StrongAttack_Cast_Right_Mothra
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 8fc3af710ed7467449e403908af08b03
+    m_Address: Chapter01_TohoraSea_Minion_Valley_StrongAttack_Hit_Right_Mothra
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 6a85efc994ea25d459dd09e422ccc948
+    m_Address: Chapter01_TohoraSea_Minion_Valley_WeakAttack_Bullet_Right_Mothra
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 10f2baa017fe2c04d85f812c2cda9282
+    m_Address: Chapter01_TohoraSea_Minion_Valley_WeakAttack_Cast_Right_Mothra
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 3d15b641709fc4f4ea37384e00931569
+    m_Address: Chapter01_TohoraSea_Minion_Valley_WeakAttack_Hit_Right_Mothra
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: c4a8bb6a1f7461d4e97725b3c4f4cd96
+    m_Address: Chapter01_TohoraSea_Minion_Valley_WeakAttack_Venomous_Bullet_Right_Mothra
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: efd81a9f66680474299a823df77981b5
+    m_Address: Chapter01_TohoraSea_Minion_Valley_WeakAttack_Venomous_Cast_Right_Mothra
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 30e7888799584ec40a395dba3e8d42cf
+    m_Address: Chapter01_TohoraSea_Minion_Valley_WeakAttack_Venomous_Hit_Right_Mothra
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: b6689890f3f9e4068bac5c7c11c69403, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: a42c9e6ead9f44e13ae261f1c999502a, type: 2}
+    - {fileID: 11400000, guid: 48089d97dfed847a884d161a89dd1bf0, type: 2}

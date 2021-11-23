@@ -1,0 +1,942 @@
+fileFormatVersion: 2
+guid: 3aedf200f8468d4468e2aad0c3ac9cd1
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7095650161651977520
+    second: MuzzleFlashFirePurple_Atlas_0
+  - first:
+      213: -6829920275311993774
+    second: MuzzleFlashFirePurple_Atlas_1
+  - first:
+      213: 7226149410193850659
+    second: MuzzleFlashFirePurple_Atlas_2
+  - first:
+      213: -9091832287461660917
+    second: MuzzleFlashFirePurple_Atlas_3
+  - first:
+      213: -8857284700513775441
+    second: MuzzleFlashFirePurple_Atlas_4
+  - first:
+      213: -7581378269552932676
+    second: MuzzleFlashFirePurple_Atlas_5
+  - first:
+      213: 9163417210498760741
+    second: MuzzleFlashFirePurple_Atlas_6
+  - first:
+      213: -8176253670760049881
+    second: MuzzleFlashFirePurple_Atlas_7
+  - first:
+      213: -2921775995220196149
+    second: MuzzleFlashFirePurple_Atlas_8
+  - first:
+      213: 8443411123057526760
+    second: MuzzleFlashFirePurple_Atlas_9
+  - first:
+      213: 6626645882419840443
+    second: MuzzleFlashFirePurple_Atlas_10
+  - first:
+      213: 7869593510554747312
+    second: MuzzleFlashFirePurple_Atlas_11
+  - first:
+      213: -6632082133338753028
+    second: MuzzleFlashFirePurple_Atlas_12
+  - first:
+      213: 8913233034368754469
+    second: MuzzleFlashFirePurple_Atlas_13
+  - first:
+      213: 1134078202931775893
+    second: MuzzleFlashFirePurple_Atlas_14
+  - first:
+      213: -7466143312860006751
+    second: MuzzleFlashFirePurple_Atlas_15
+  - first:
+      213: 7760703250734747342
+    second: MuzzleFlashFirePurple_Atlas_16
+  - first:
+      213: -7708448921782336346
+    second: MuzzleFlashFirePurple_Atlas_17
+  - first:
+      213: -2433338753167492436
+    second: MuzzleFlashFirePurple_Atlas_18
+  - first:
+      213: -2487503327417806409
+    second: MuzzleFlashFirePurple_Atlas_19
+  - first:
+      213: 4030152805520826476
+    second: MuzzleFlashFirePurple_Atlas_20
+  - first:
+      213: 1988070370416748988
+    second: MuzzleFlashFirePurple_Atlas_21
+  - first:
+      213: -3654294213092873272
+    second: MuzzleFlashFirePurple_Atlas_22
+  - first:
+      213: 2934836890955448608
+    second: MuzzleFlashFirePurple_Atlas_23
+  - first:
+      213: -8653517632856013209
+    second: MuzzleFlashFirePurple_Atlas_24
+  - first:
+      213: -9100898092200137847
+    second: MuzzleFlashFirePurple_Atlas_25
+  - first:
+      213: 6824976920628033858
+    second: MuzzleFlashFirePurple_Atlas_26
+  - first:
+      213: -6889765438757689138
+    second: MuzzleFlashFirePurple_Atlas_27
+  - first:
+      213: 8273526054798018354
+    second: MuzzleFlashFirePurple_Atlas 1_0
+  - first:
+      213: 4722771712075217104
+    second: MuzzleFlashFirePurple_Atlas 1_1
+  - first:
+      213: -1822690481946350005
+    second: MuzzleFlashFirePurple_Atlas 1_2
+  - first:
+      213: -2858741956419649026
+    second: MuzzleFlashFirePurple_Atlas 1_3
+  - first:
+      213: 3491439408385749102
+    second: MuzzleFlashFirePurple_Atlas 1_4
+  - first:
+      213: 2710981339586643570
+    second: MuzzleFlashFirePurple_Atlas 1_5
+  - first:
+      213: -1645717609795407698
+    second: MuzzleFlashFirePurple_Atlas 1_6
+  - first:
+      213: 7499736776378648451
+    second: MuzzleFlashFirePurple_Atlas 1_7
+  - first:
+      213: -7149898453788286744
+    second: MuzzleFlashFirePurple_Atlas 1_8
+  - first:
+      213: -77883949392447053
+    second: MuzzleFlashFirePurple_Atlas 1_9
+  - first:
+      213: 2726921892242065608
+    second: MuzzleFlashFirePurple_Atlas 1_10
+  - first:
+      213: 4665072297750710682
+    second: MuzzleFlashFirePurple_Atlas 1_11
+  - first:
+      213: -3139488501286884772
+    second: MuzzleFlashFirePurple_Atlas 1_12
+  - first:
+      213: -7920326635884671004
+    second: MuzzleFlashFirePurple_Atlas 1_13
+  - first:
+      213: 1491546651489587585
+    second: MuzzleFlashFirePurple_Atlas 1_14
+  - first:
+      213: 8443793079172305062
+    second: MuzzleFlashFirePurple_Atlas 1_15
+  - first:
+      213: 1588204480962746685
+    second: MuzzleFlashFirePurple_Atlas 1_16
+  - first:
+      213: -4255181040829484323
+    second: MuzzleFlashFirePurple_Atlas 1_17
+  - first:
+      213: -783615932707097998
+    second: MuzzleFlashFirePurple_Atlas 1_18
+  - first:
+      213: 3034972238673938454
+    second: MuzzleFlashFirePurple_Atlas 1_19
+  - first:
+      213: -8150211523265932831
+    second: MuzzleFlashFirePurple_Atlas 1_20
+  - first:
+      213: 4951850331692283553
+    second: MuzzleFlashFirePurple_Atlas 1_21
+  - first:
+      213: -5954980772814319787
+    second: MuzzleFlashFirePurple_Atlas 1_22
+  - first:
+      213: -3339962721962978394
+    second: MuzzleFlashFirePurple_Atlas 1_23
+  - first:
+      213: -983372635914888323
+    second: MuzzleFlashFirePurple_Atlas 1_24
+  - first:
+      213: -825183506975370485
+    second: MuzzleFlashFirePurple_Atlas 1_25
+  - first:
+      213: 7317769773024854466
+    second: MuzzleFlashFirePurple_Atlas 1_26
+  - first:
+      213: 4530927973736508183
+    second: MuzzleFlashFirePurple_Atlas 1_27
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 2
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 1
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Nintendo Switch
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: MuzzleFlashFirePurple_Atlas 1_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 320
+        width: 128
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 237cc20ac1871d270800000000000000
+      internalID: 8273526054798018354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MuzzleFlashFirePurple_Atlas 1_1
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 320
+        width: 128
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d8b18d89d7aa8140800000000000000
+      internalID: 4722771712075217104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MuzzleFlashFirePurple_Atlas 1_2
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 320
+        width: 128
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4e2a18e9a084b6e0800000000000000
+      internalID: -1822690481946350005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MuzzleFlashFirePurple_Atlas 1_3
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 320
+        width: 128
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef10a1f3655b358d0800000000000000
+      internalID: -2858741956419649026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MuzzleFlashFirePurple_Atlas 1_4
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 320
+        width: 128
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e60f1abb4a5147030800000000000000
+      internalID: 3491439408385749102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MuzzleFlashFirePurple_Atlas 1_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 256
+        width: 128
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27646ca3a275f9520800000000000000
+      internalID: 2710981339586643570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MuzzleFlashFirePurple_Atlas 1_6
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 256
+        width: 128
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea03a83ad8c3929e0800000000000000
+      internalID: -1645717609795407698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MuzzleFlashFirePurple_Atlas 1_7
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 256
+        width: 128
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3878bf0ecda641860800000000000000
+      internalID: 7499736776378648451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MuzzleFlashFirePurple_Atlas 1_8
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 256
+        width: 128
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e0a5d1fc3576cc90800000000000000
+      internalID: -7149898453788286744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MuzzleFlashFirePurple_Atlas 1_9
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 256
+        width: 128
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b932cee5fc4beef0800000000000000
+      internalID: -77883949392447053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MuzzleFlashFirePurple_Atlas 1_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 192
+        width: 128
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c8035d5309f7d520800000000000000
+      internalID: 2726921892242065608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MuzzleFlashFirePurple_Atlas 1_11
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 192
+        width: 128
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9942f6c98aadb040800000000000000
+      internalID: 4665072297750710682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MuzzleFlashFirePurple_Atlas 1_12
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 192
+        width: 128
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5a2f5087db4e64d0800000000000000
+      internalID: -3139488501286884772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MuzzleFlashFirePurple_Atlas 1_13
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 192
+        width: 128
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ef870b63e8551290800000000000000
+      internalID: -7920326635884671004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MuzzleFlashFirePurple_Atlas 1_14
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 192
+        width: 128
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 181d5f7e6c903b410800000000000000
+      internalID: 1491546651489587585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MuzzleFlashFirePurple_Atlas 1_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 128
+        width: 128
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a097f081116e2570800000000000000
+      internalID: 8443793079172305062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MuzzleFlashFirePurple_Atlas 1_16
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 128
+        width: 128
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d39d77e8f8f6a0610800000000000000
+      internalID: 1588204480962746685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MuzzleFlashFirePurple_Atlas 1_17
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 128
+        width: 128
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd2b166636f82f4c0800000000000000
+      internalID: -4255181040829484323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MuzzleFlashFirePurple_Atlas 1_18
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 128
+        width: 128
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27238a206790025f0800000000000000
+      internalID: -783615932707097998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MuzzleFlashFirePurple_Atlas 1_19
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 128
+        width: 128
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 618055dcb236e1a20800000000000000
+      internalID: 3034972238673938454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MuzzleFlashFirePurple_Atlas 1_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 64
+        width: 128
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e1507f1dc1a4ee80800000000000000
+      internalID: -8150211523265932831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MuzzleFlashFirePurple_Atlas 1_21
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 64
+        width: 128
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a63b6104a188b440800000000000000
+      internalID: 4951850331692283553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MuzzleFlashFirePurple_Atlas 1_22
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 64
+        width: 128
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55f0f18b988ab5da0800000000000000
+      internalID: -5954980772814319787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MuzzleFlashFirePurple_Atlas 1_23
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 64
+        width: 128
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a3995aa99116a1d0800000000000000
+      internalID: -3339962721962978394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MuzzleFlashFirePurple_Atlas 1_24
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 64
+        width: 128
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7b147a3ccb5a52f0800000000000000
+      internalID: -983372635914888323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MuzzleFlashFirePurple_Atlas 1_25
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 128
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b03d830f8fb5c84f0800000000000000
+      internalID: -825183506975370485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MuzzleFlashFirePurple_Atlas 1_26
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 128
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c1cc3d56d0fd8560800000000000000
+      internalID: 7317769773024854466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MuzzleFlashFirePurple_Atlas 1_27
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 0
+        width: 128
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71be1797cf611ee30800000000000000
+      internalID: 4530927973736508183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      MuzzleFlashFirePurple_Atlas 1_2: -1822690481946350005
+      MuzzleFlashFirePurple_Atlas 1_6: -1645717609795407698
+      MuzzleFlashFirePurple_Atlas 1_25: -825183506975370485
+      MuzzleFlashFirePurple_Atlas 1_15: 8443793079172305062
+      MuzzleFlashFirePurple_Atlas 1_26: 7317769773024854466
+      MuzzleFlashFirePurple_Atlas 1_17: -4255181040829484323
+      MuzzleFlashFirePurple_Atlas 1_7: 7499736776378648451
+      MuzzleFlashFirePurple_Atlas 1_27: 4530927973736508183
+      MuzzleFlashFirePurple_Atlas 1_11: 4665072297750710682
+      MuzzleFlashFirePurple_Atlas 1_8: -7149898453788286744
+      MuzzleFlashFirePurple_Atlas 1_1: 4722771712075217104
+      MuzzleFlashFirePurple_Atlas 1_18: -783615932707097998
+      MuzzleFlashFirePurple_Atlas 1_16: 1588204480962746685
+      MuzzleFlashFirePurple_Atlas 1_20: -8150211523265932831
+      MuzzleFlashFirePurple_Atlas 1_12: -3139488501286884772
+      MuzzleFlashFirePurple_Atlas 1_5: 2710981339586643570
+      MuzzleFlashFirePurple_Atlas 1_0: 8273526054798018354
+      MuzzleFlashFirePurple_Atlas 1_3: -2858741956419649026
+      MuzzleFlashFirePurple_Atlas 1_9: -77883949392447053
+      MuzzleFlashFirePurple_Atlas 1_14: 1491546651489587585
+      MuzzleFlashFirePurple_Atlas 1_13: -7920326635884671004
+      MuzzleFlashFirePurple_Atlas 1_21: 4951850331692283553
+      MuzzleFlashFirePurple_Atlas 1_10: 2726921892242065608
+      MuzzleFlashFirePurple_Atlas 1_24: -983372635914888323
+      MuzzleFlashFirePurple_Atlas 1_22: -5954980772814319787
+      MuzzleFlashFirePurple_Atlas 1_4: 3491439408385749102
+      MuzzleFlashFirePurple_Atlas 1_19: 3034972238673938454
+      MuzzleFlashFirePurple_Atlas 1_23: -3339962721962978394
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: fffaee637ee62fa4099cb0dc5741cd66
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - _AllcharsEvolution: {fileID: 11400000, guid: 3e5724db9040b204b9deb8b7e7ab7baf,
+      type: 2}
+  - TileSprite: {instanceID: 0}
+  - AudioProfile: {fileID: 11400000, guid: e4c945714024d6246ab04129e035279c, type: 2}
+  - CharacterBasePrefab: {instanceID: 0}
+  - CharLevelHueScalingData: {instanceID: 0}
+  - elementData: {instanceID: 0}
+  - CharactersData: {instanceID: 0}
+  - CharactersContainer: {instanceID: 0}
+  - MCam: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

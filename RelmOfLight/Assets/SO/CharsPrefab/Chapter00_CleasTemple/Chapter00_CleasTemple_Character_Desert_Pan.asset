@@ -1,0 +1,91 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7cd84a52ef2addf4289a98afc62d2f5a, type: 3}
+  m_Name: Chapter00_CleasTemple_Character_Desert_Pan
+  m_EditorClassIdentifier: 
+  CharacterPrefab: {fileID: 6290271536468136153, guid: fa1366c86e80cee4a9cb02c8a4268eb4,
+    type: 3}
+  AbridgedCharInfo:
+    Name: Pan
+    AddressableLocation: Chapter00_Character_Desert_PivotChar_Pan
+    CharacterID: 1007
+    ClassType: 3
+    Elemental: 5
+    CharacterIcon: {fileID: 21300000, guid: 97c277ebb28a3d042a5323663da7c6c9, type: 3}
+    skeletonDataAsset: {fileID: 11400000, guid: 6faf00722cdad294a88d05afa3bd9667,
+      type: 2}
+    initialSkinName: 
+    HealthStats_Health: 50
+    HealthStats_Regeneration: 0.63
+    HealthStats_Armour: 0.45
+    EtherStats_Ether: 56
+    EtherStats_Regeneration: 1.26
+    DamageStats_BaseDamage: 1
+    WeakAttack_DamageMultiplier: 1.7
+    StrongAttack_DamageMultiplier: 20
+    WeakAttack_CriticalChance: {x: 2.8, y: 2.8}
+    StrongAttack_CriticalChance: {x: 2.8, y: 2.8}
+    SpeedStats_BaseSpeed: 1
+    SpeedStats_CalculatedSpeed: 2.7027028
+    SpeedStats_MovementSpeed: 1
+    SpeedStats_WeakBulletSpeedV: {x: 0, y: 0}
+    SpeedStats_WeakBulletSpeed: 2.5
+    SpeedStats_StrongBulletSpeedV: {x: 0, y: 0}
+    EvasionChances: {x: 2.5, y: 2.5}
+    ShieldStats_BaseShieldRegeneration: 8
+    ShieldStats_Regeneration: 0.2
+    ShieldStats_Shield: 3
+    ShieldStats_Base: 50
+    ShieldStats_MinionShieldChances: 5
+    ShieldStats_MinionPerfectShieldChances: 5
+    Behaviour_DeathBehaviour: 0
+    DeathExplosion_Delay: 0
+    DeathDisableing_Delay: 0.5
+    DeathExplosion_OverrideParticles: 0
+    SigilDropBonus: 3
+    CurrentAttackTypeInfo:
+    - {fileID: 11400000, guid: bddb017a17a94ed41988fb9621812449, type: 2}
+    - {fileID: 11400000, guid: 7d579fea496e3974ba067a1c833baf63, type: 2}
+    - {fileID: 11400000, guid: bf304f7dc499264448bbdd38db7b5d75, type: 2}
+    - {fileID: 11400000, guid: 3db48ad80cc68e44584c936656a950b3, type: 2}
+    - {fileID: 11400000, guid: 99b8e662ef0b4434b958458fe99b8cc6, type: 2}
+    - {fileID: 11400000, guid: cb6b77382570f914aa145bd30caaf839, type: 2}
+    - {fileID: 11400000, guid: 23605da72f195a4449095856b65d458b, type: 2}
+    - {fileID: 11400000, guid: f5618e466bfecc144ac30d243aee6c89, type: 2}
+    SkillLevels:
+    - {fileID: 0}
+    - {fileID: 11400000, guid: bddb017a17a94ed41988fb9621812449, type: 2}
+    - {fileID: 0}
+    - {fileID: 11400000, guid: 46b04969d8901974690cda291f24d2d4, type: 2}
+    - {fileID: 0}
+    - {fileID: 11400000, guid: 7d579fea496e3974ba067a1c833baf63, type: 2}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    PassiveSkills:
+    - {fileID: 11400000, guid: 46b04969d8901974690cda291f24d2d4, type: 2}
+    AIs_Count: 2
+  OccupiedTiles:
+  - {x: 0, y: 0}
+  Biography: "Naive and utterly upbeat, Pan tends to take things literally and believes
+    everyone is doing their best at all times. That makes her oblivious to most of
+    the dismissiveness and cruelty people often dispense to her. \r\n\nSometimes
+    Pan can be frustratingly slow in following the events but only because she operates
+    in a very different way than others. Some may say her latent mystic potential
+    interferes with her ability to perceive reality.\r"
+  WaveGenInfo:
+    IncludeInProceduralWaves: 1
+    MinMaxChallengeRating: {x: 10, y: 60}
+    StageTags: 01000000
+    WaveNPCType: 2
+    Rarity: 0

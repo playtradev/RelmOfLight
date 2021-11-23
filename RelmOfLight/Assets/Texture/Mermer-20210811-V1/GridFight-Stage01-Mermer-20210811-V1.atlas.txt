@@ -1,0 +1,328 @@
+
+GridFight-Stage01-Mermer-20210811-V1.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Arm-1
+  rotate: false
+  xy: 392, 217
+  size: 121, 75
+  orig: 121, 75
+  offset: 0, 0
+  index: -1
+Arm-2
+  rotate: true
+  xy: 108, 239
+  size: 80, 116
+  orig: 80, 116
+  offset: 0, 0
+  index: -1
+Asset 27
+  rotate: false
+  xy: 336, 236
+  size: 52, 45
+  orig: 52, 45
+  offset: 0, 0
+  index: -1
+Back
+  rotate: true
+  xy: 607, 324
+  size: 119, 189
+  orig: 119, 189
+  offset: 0, 0
+  index: -1
+Back-Base
+  rotate: true
+  xy: 4, 435
+  size: 119, 267
+  orig: 119, 267
+  offset: 0, 0
+  index: -1
+Back-Fish-Jaw
+  rotate: false
+  xy: 649, 443
+  size: 147, 110
+  orig: 147, 110
+  offset: 0, 0
+  index: -1
+Belt
+  rotate: false
+  xy: 213, 170
+  size: 116, 31
+  orig: 116, 31
+  offset: 0, 0
+  index: -1
+Blue-dress-chest
+  rotate: 270
+  xy: 117, 323
+  size: 144, 151
+  orig: 145, 151
+  offset: 1, 0
+  index: -1
+Blue-dress-chest-back
+  rotate: 270
+  xy: 703, 229
+  size: 103, 124
+  orig: 103, 124
+  offset: 0, 0
+  index: -1
+Chest
+  rotate: 180
+  xy: 262, 285
+  size: 139, 130
+  orig: 139, 130
+  offset: 0, 0
+  index: -1
+Cord
+  rotate: false
+  xy: 649, 566
+  size: 20, 100
+  orig: 20, 100
+  offset: 0, 0
+  index: -1
+Crown
+  rotate: false
+  xy: 800, 435
+  size: 117, 118
+  orig: 117, 118
+  offset: 0, 0
+  index: -1
+Crown-Shadow
+  rotate: false
+  xy: 773, 184
+  size: 99, 26
+  orig: 99, 26
+  offset: 0, 0
+  index: -1
+DB1
+  rotate: false
+  xy: 429, 166
+  size: 57, 47
+  orig: 57, 47
+  offset: 0, 0
+  index: -1
+DB2
+  rotate: false
+  xy: 801, 322
+  size: 121, 109
+  orig: 121, 109
+  offset: 0, 0
+  index: -1
+DB3
+  rotate: false
+  xy: 4, 334
+  size: 103, 99
+  orig: 103, 99
+  offset: 0, 0
+  index: -1
+DB4
+  rotate: false
+  xy: 637, 165
+  size: 81, 76
+  orig: 81, 76
+  offset: 0, 0
+  index: -1
+Eye-1
+  rotate: false
+  xy: 722, 157
+  size: 47, 68
+  orig: 47, 68
+  offset: 0, 0
+  index: -1
+Eye-2
+  rotate: false
+  xy: 4, 154
+  size: 80, 76
+  orig: 80, 76
+  offset: 0, 0
+  index: -1
+F1H1
+  rotate: false
+  xy: 463, 486
+  size: 23, 39
+  orig: 27, 43
+  offset: 2, 2
+  index: -1
+F2H1
+  rotate: false
+  xy: 4, 524
+  size: 25, 31
+  orig: 29, 35
+  offset: 2, 2
+  index: -1
+F3H1
+  rotate: false
+  xy: 230, 529
+  size: 28, 25
+  orig: 28, 25
+  offset: 0, 0
+  index: -1
+Face
+  rotate: true
+  xy: 108, 167
+  size: 68, 101
+  orig: 68, 101
+  offset: 0, 0
+  index: -1
+Fish-Head
+  rotate: false
+  xy: 281, 530
+  size: 218, 136
+  orig: 218, 136
+  offset: 0, 0
+  index: -1
+Fish-Jaw
+  rotate: true
+  xy: 503, 485
+  size: 181, 142
+  orig: 181, 142
+  offset: 0, 0
+  index: -1
+Forearm-1
+  rotate: true
+  xy: 831, 214
+  size: 104, 82
+  orig: 104, 82
+  offset: 0, 0
+  index: -1
+Forearm-2
+  rotate: true
+  xy: 228, 205
+  size: 77, 104
+  orig: 77, 104
+  offset: 0, 0
+  index: -1
+Ground-Shadow
+  rotate: false
+  xy: 281, 670
+  size: 389, 135
+  orig: 389, 135
+  offset: 0, 0
+  index: -1
+Hand-1
+  rotate: false
+  xy: 228, 287
+  size: 32, 50
+  orig: 32, 50
+  offset: 0, 0
+  index: -1
+Hand-2
+  rotate: false
+  xy: 538, 330
+  size: 54, 61
+  orig: 54, 61
+  offset: 0, 0
+  index: -1
+Hips
+  rotate: false
+  xy: 406, 296
+  size: 128, 95
+  orig: 128, 95
+  offset: 0, 0
+  index: -1
+L1P1
+  rotate: false
+  xy: 848, 557
+  size: 77, 171
+  orig: 77, 171
+  offset: 0, 0
+  index: -1
+L1P2
+  rotate: true
+  xy: 538, 262
+  size: 60, 161
+  orig: 60, 161
+  offset: 0, 0
+  index: -1
+L2P1
+  rotate: true
+  xy: 430, 395
+  size: 86, 173
+  orig: 86, 173
+  offset: 0, 0
+  index: -1
+L2P2
+  rotate: false
+  xy: 848, 732
+  size: 66, 165
+  orig: 66, 165
+  offset: 0, 0
+  index: -1
+Rod
+  rotate: false
+  xy: 4, 809
+  size: 804, 116
+  orig: 804, 116
+  offset: 0, 0
+  index: -1
+SF1P1
+  rotate: false
+  xy: 138, 412
+  size: 33, 19
+  orig: 33, 19
+  offset: 0, 0
+  index: -1
+SF2P1
+  rotate: false
+  xy: 138, 412
+  size: 33, 19
+  orig: 33, 19
+  offset: 0, 0
+  index: -1
+SF1P2
+  rotate: false
+  xy: 336, 154
+  size: 89, 59
+  orig: 89, 59
+  offset: 0, 0
+  index: -1
+SF2P2
+  rotate: false
+  xy: 336, 154
+  size: 89, 59
+  orig: 89, 59
+  offset: 0, 0
+  index: -1
+SKA-1
+  rotate: 270
+  xy: 517, 183
+  size: 79, 117
+  orig: 80, 118
+  offset: 0, 0
+  index: -1
+SKA-2
+  rotate: true
+  xy: 272, 413
+  size: 113, 154
+  orig: 113, 154
+  offset: 0, 0
+  index: -1
+Shell
+  rotate: false
+  xy: 4, 234
+  size: 100, 96
+  orig: 100, 96
+  offset: 0, 0
+  index: -1
+Skirt-1
+  rotate: true
+  xy: 674, 557
+  size: 248, 170
+  orig: 248, 170
+  offset: 0, 0
+  index: -1
+Skirt-p-2
+  rotate: false
+  xy: 4, 558
+  size: 273, 247
+  orig: 273, 247
+  offset: 0, 0
+  index: -1
+TH1
+  rotate: false
+  xy: 430, 492
+  size: 30, 34
+  orig: 30, 34
+  offset: 0, 0
+  index: -1

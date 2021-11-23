@@ -1,0 +1,82 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7cd84a52ef2addf4289a98afc62d2f5a, type: 3}
+  m_Name: Chapter02_TheBurg_Boss_Mainframe_Minion
+  m_EditorClassIdentifier: 
+  CharacterPrefab: {fileID: 8940417782336916284, guid: 606632d5d6f9c6a45855919123fa7a8c,
+    type: 3}
+  AbridgedCharInfo:
+    Name: MainframeCopy
+    AddressableLocation: Stage02_Boss_Minion_PivotChar_Mainframe
+    CharacterID: 1049
+    ClassType: 1
+    Elemental: 1
+    CharacterIcon: {fileID: 0}
+    skeletonDataAsset: {fileID: 11400000, guid: 722d327cf7a669c4e93bc63991e55a6b,
+      type: 2}
+    initialSkinName: 
+    HealthStats_Health: 120
+    HealthStats_Regeneration: 0.5
+    HealthStats_Armour: 0
+    EtherStats_Ether: 40
+    EtherStats_Regeneration: 1
+    DamageStats_BaseDamage: 1
+    WeakAttack_DamageMultiplier: 5
+    StrongAttack_DamageMultiplier: 5
+    WeakAttack_CriticalChance: {x: 3, y: 3}
+    StrongAttack_CriticalChance: {x: 3, y: 3}
+    SpeedStats_BaseSpeed: 1
+    SpeedStats_CalculatedSpeed: 1
+    SpeedStats_MovementSpeed: 1
+    SpeedStats_WeakBulletSpeedV: {x: 0, y: 0}
+    SpeedStats_WeakBulletSpeed: 5
+    SpeedStats_StrongBulletSpeedV: {x: 0, y: 0}
+    EvasionChances: {x: 1, y: 1}
+    ShieldStats_BaseShieldRegeneration: 8
+    ShieldStats_Regeneration: 0.15
+    ShieldStats_Shield: 4
+    ShieldStats_Base: 50
+    ShieldStats_MinionShieldChances: 7
+    ShieldStats_MinionPerfectShieldChances: 3
+    Behaviour_DeathBehaviour: 0
+    DeathExplosion_Delay: 0
+    DeathDisableing_Delay: 0.5
+    DeathExplosion_OverrideParticles: 0
+    SigilDropBonus: 2
+    CurrentAttackTypeInfo:
+    - {fileID: 11400000, guid: 5c042e7e7309a8d419c6cedc0bc9770d, type: 2}
+    - {fileID: 11400000, guid: 782bd9c54fbba4e40b8dcb8f47a57af7, type: 2}
+    - {fileID: 11400000, guid: e9be218af856ae64d84a299c2ecccdf7, type: 2}
+    - {fileID: 11400000, guid: 8597aaa265fce864c8168abbfa0be269, type: 2}
+    - {fileID: 11400000, guid: 627ab3210f74ca64194f00a495a60cec, type: 2}
+    SkillLevels:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    PassiveSkills: []
+    AIs_Count: 2
+  OccupiedTiles:
+  - {x: 0, y: 0}
+  Biography: Automata
+  WaveGenInfo:
+    IncludeInProceduralWaves: 0
+    MinMaxChallengeRating: {x: 0, y: 15}
+    StageTags: 00000000
+    WaveNPCType: 0
+    Rarity: 0

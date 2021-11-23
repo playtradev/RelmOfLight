@@ -1,0 +1,521 @@
+fileFormatVersion: 2
+guid: 3fd8c6d5d7b5dc54d96a622752fab02c
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4953143689757018675
+    second: ExplosionDeath.02 - Copy_0
+  - first:
+      213: -3293370723519700653
+    second: ExplosionDeath.02 - Copy_1
+  - first:
+      213: 918051156593421207
+    second: ExplosionDeath.02 - Copy_2
+  - first:
+      213: 6815025621971986013
+    second: ExplosionDeath.02 - Copy_3
+  - first:
+      213: 2609295564483573581
+    second: ExplosionDeath.02 - Copy_4
+  - first:
+      213: 4096055506173984198
+    second: ExplosionDeath.02 - Copy_5
+  - first:
+      213: 3588525568556624514
+    second: ExplosionDeath.02 - Copy_6
+  - first:
+      213: 3572895650497944667
+    second: ExplosionDeath.02 - Copy_7
+  - first:
+      213: -1162421379182584318
+    second: ExplosionDeath.02 - Copy_8
+  - first:
+      213: 4250614946809175868
+    second: ExplosionDeath.02 - Copy_9
+  - first:
+      213: 6525522490992489777
+    second: ExplosionDeath.02 - Copy_10
+  - first:
+      213: 5962036641132495294
+    second: ExplosionDeath.02 - Copy_11
+  - first:
+      213: -1016808471491631364
+    second: ExplosionDeath.02 - Copy_12
+  - first:
+      213: -7388981527268513016
+    second: ExplosionDeath.02 - Copy_13
+  - first:
+      213: 4805858260026880705
+    second: ExplosionDeath.02 - Copy_14
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 2
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: ExplosionDeath.02 - Copy_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 993
+        width: 512
+        height: 331
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33a4f6561f91db440800000000000000
+      internalID: 4953143689757018675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExplosionDeath.02 - Copy_1
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 993
+        width: 512
+        height: 331
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 351efe6a6c89b42d0800000000000000
+      internalID: -3293370723519700653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExplosionDeath.02 - Copy_2
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 993
+        width: 512
+        height: 331
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79b2362b9a29dbc00800000000000000
+      internalID: 918051156593421207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExplosionDeath.02 - Copy_3
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 993
+        width: 512
+        height: 331
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5663d412b5d39e50800000000000000
+      internalID: 6815025621971986013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExplosionDeath.02 - Copy_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 662
+        width: 512
+        height: 331
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d47bb03cd74163420800000000000000
+      internalID: 2609295564483573581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExplosionDeath.02 - Copy_5
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 662
+        width: 512
+        height: 331
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6cd78c1f7cc18d830800000000000000
+      internalID: 4096055506173984198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExplosionDeath.02 - Copy_6
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 662
+        width: 512
+        height: 331
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28a6935edf00dc130800000000000000
+      internalID: 3588525568556624514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExplosionDeath.02 - Copy_7
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 662
+        width: 512
+        height: 331
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5cd7730aa9759130800000000000000
+      internalID: 3572895650497944667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExplosionDeath.02 - Copy_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 331
+        width: 512
+        height: 331
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20e90861aef3edfe0800000000000000
+      internalID: -1162421379182584318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExplosionDeath.02 - Copy_9
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 331
+        width: 512
+        height: 331
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3fd68df5c73dfa30800000000000000
+      internalID: 4250614946809175868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExplosionDeath.02 - Copy_10
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 331
+        width: 512
+        height: 331
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 135fd61c1205f8a50800000000000000
+      internalID: 6525522490992489777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExplosionDeath.02 - Copy_11
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 331
+        width: 512
+        height: 331
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb1c094acb86db250800000000000000
+      internalID: 5962036641132495294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExplosionDeath.02 - Copy_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 512
+        height: 331
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf6222c151293e1f0800000000000000
+      internalID: -1016808471491631364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExplosionDeath.02 - Copy_13
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 0
+        width: 512
+        height: 331
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80bac3f0370157990800000000000000
+      internalID: -7388981527268513016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExplosionDeath.02 - Copy_14
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 0
+        width: 512
+        height: 331
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c277cdff96d1b240800000000000000
+      internalID: 4805858260026880705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: d65be002a2b7fe949bc088a63618ebae
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      ExplosionDeath.02 - Copy_13: -7388981527268513016
+      ExplosionDeath.02 - Copy_4: 2609295564483573581
+      ExplosionDeath.02 - Copy_0: 4953143689757018675
+      ExplosionDeath.02 - Copy_14: 4805858260026880705
+      ExplosionDeath.02 - Copy_5: 4096055506173984198
+      ExplosionDeath.02 - Copy_9: 4250614946809175868
+      ExplosionDeath.02 - Copy_7: 3572895650497944667
+      ExplosionDeath.02 - Copy_10: 6525522490992489777
+      ExplosionDeath.02 - Copy_2: 918051156593421207
+      ExplosionDeath.02 - Copy_3: 6815025621971986013
+      ExplosionDeath.02 - Copy_6: 3588525568556624514
+      ExplosionDeath.02 - Copy_11: 5962036641132495294
+      ExplosionDeath.02 - Copy_12: -1016808471491631364
+      ExplosionDeath.02 - Copy_8: -1162421379182584318
+      ExplosionDeath.02 - Copy_1: -3293370723519700653
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

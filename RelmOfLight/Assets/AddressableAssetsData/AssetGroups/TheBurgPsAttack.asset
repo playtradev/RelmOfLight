@@ -1,0 +1,325 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: TheBurgPsAttack
+  m_EditorClassIdentifier: 
+  m_GroupName: TheBurgPsAttack
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 6dcb1a305b3e04310941ee6181e275f6
+  m_SerializeEntries:
+  - m_GUID: 0817a8e54330cb94c91c76ffdd410a25
+    m_Address: Chapter02_TheBurg_Boss_Attack_Void
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 6eaa1251c1e81f442bb170cbade492fe
+    m_Address: Chapter02_TheBurg_Boss_Attack01_Undo_Bullet_Right
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: f3a7097d3d252d944b64a4ac5d4bf7ec
+    m_Address: Chapter02_TheBurg_Boss_Attack01_Undo_Cast_Right
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 9f70a4fda4c8c2245803e8a003465cc6
+    m_Address: Chapter02_TheBurg_Boss_Attack01_Undo_Hit_Right
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 5daeca376eefd5f4882e8d33d1ee88b0
+    m_Address: Chapter02_TheBurg_Boss_Attack02_Copy_Cast_Right
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: b2b495036ff31db4491031fb5a78884e
+    m_Address: Chapter02_TheBurg_Boss_Attack02_Copy_Hit_Right
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 2ab4082a214d88f43bfc1d1c779f1cf9
+    m_Address: Chapter02_TheBurg_Boss_Attack02_Redo_Cast_Right
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 295cca7661b234141976e1fc761af2dc
+    m_Address: Chapter02_TheBurg_Boss_Attack02_Redo_Hit_Right
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 6e244158a307d3f45aec496ba2691cab
+    m_Address: Chapter02_TheBurg_Boss_Attack03_Paste_Cast_Right
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: c40dd7801750af443856014b1357561c
+    m_Address: Chapter02_TheBurg_Boss_Attack03_Paste_Loop_Right
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 71285401a94cf16468c6607fc069f497
+    m_Address: Chapter02_TohoraSea_Boss_DeathExplosion_Mainframe
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 4f6429970f12804438f821417bc99e66
+    m_Address: Chapter02_TohoraSea_Boss_Sparkle_Mainframe
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 5a2b5ce22e62d0c4eb976f321e4f1d4e
+    m_Address: Chapter02_TheBurg_Character_Desert_Debuff_Right_Loud
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: e825affa0cfe4914d8098b4084b61e14
+    m_Address: Chapter02_TheBurg_Character_Desert_StrongAttack_Bullet_Right_Loud
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 5c725b837bf99f24dbac26c9e5838225
+    m_Address: Chapter02_TheBurg_Character_Desert_StrongAttack_Cast_Right_Loud
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 11dd6dbc13c99db439533c9e8f0e27cb
+    m_Address: Chapter02_TheBurg_Character_Desert_StrongAttack_Hit_Right_Loud
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: d67f931f2771c774ba7a625695e697d6
+    m_Address: Chapter02_TheBurg_Character_Desert_WeakAttack_Bullet_Right_Loud
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 62fdadfaa16c28947bb52e1dc6a54f5c
+    m_Address: Chapter02_TheBurg_Character_Desert_WeakAttack_Cast_Right_Loud
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: f399f1b4b8f71e347878043bc2540c24
+    m_Address: Chapter02_TheBurg_Character_Desert_WeakAttack_Hit_Right_Loud
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: dd59cd1ffe5d2a248bbf48c8a4b89b37
+    m_Address: Chapter02_Character_Forest_Buff_Hit_Right_Deedra
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 7c4cb2536eab7c840a6d24cfe69e0e95
+    m_Address: Chapter02_Character_Forest_StrongAttack_Bullet_Right_Deedra
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 929cccfcc03cdbb46910a87f995159f1
+    m_Address: Chapter02_Character_Forest_StrongAttack_Cast_Right_Deedra
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: b421020a93c5b4f46a67f6618199f8b5
+    m_Address: Chapter02_Character_Forest_StrongAttack_Hit_Right_Deedra
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 4a7156dbf059d6945aae3ad14592d958
+    m_Address: Chapter02_Character_Forest_WeakAttack_Bullet_Right_Deedra
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 87b77e901c870ba419d6473c5c33276a
+    m_Address: Chapter02_Character_Forest_WeakAttack_Cast_Right_Deedra
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 603f10d9dffb4304badab93ce78a37d3
+    m_Address: Chapter02_Character_Forest_WeakAttack_Hit_Right_Deedra
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: bff045b429ce65547a1a14fb3d97c3e8
+    m_Address: Chapter02_TheBurg_Character_Mountain_Debuff_Bullet_Right_Flint
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 7a362da99f62ab04c83e566f52aea9c9
+    m_Address: Chapter02_TheBurg_Character_Mountain_Debuff_Hit_Right_Flint
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: a490f86140e5e5643a58827b2ba8c847
+    m_Address: Chapter02_TheBurg_Character_Mountain_StrongAttack_Bullet_Right_Flint
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 014a54779b90a8048ab2c59633f7a8a3
+    m_Address: Chapter02_TheBurg_Character_Mountain_StrongAttack_Cast_Right_Flint
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 597a32952e31d974c8060055cd9cf547
+    m_Address: Chapter02_TheBurg_Character_Mountain_StrongAttack_Hit_Right_Flint
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 7a862cbcb8e8ef443b19cf535f0e12b4
+    m_Address: Chapter02_TheBurg_Character_Mountain_WeakAttack_Bullet_Right_Flint
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 3fa07c91702c4814fa5dbab4aa2b56eb
+    m_Address: Chapter02_TheBurg_Character_Mountain_WeakAttack_Cast_Right_Flint
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 65c3aa31c8312524d8cfd08d17c50b54
+    m_Address: Chapter02_TheBurg_Character_Mountain_WeakAttack_Hit_Right_Flint
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: f1f6bc5f338c85e439c7d4022275f83a
+    m_Address: Chapter02_TheBurg_Character_Valley_Debuff_Bullet_Right_Switch
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: c9f1648686415404ca517cf98407d410
+    m_Address: Chapter02_TheBurg_Character_Valley_Debuff_Hit_Right_Switch
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: fb969174e4ffc9947ae57b0439f5520c
+    m_Address: Chapter02_TheBurg_Character_Valley_StrongAttack_Bullet_Right_Switch
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: b973da241544bdc458b00b70b678ccf2
+    m_Address: Chapter02_TheBurg_Character_Valley_StrongAttack_Cast_Right_Switch
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 5a135ae48573a074182f8fc0234a7fa3
+    m_Address: Chapter02_TheBurg_Character_Valley_StrongAttack_Hit_Right_Switch
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 773acde534355fa45973deabff462dfa
+    m_Address: Chapter02_TheBurg_Character_Valley_WeakAttack_Bullet_Right_Switch
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 420ae48d2985d7441841a27a855b33a5
+    m_Address: Chapter02_TheBurg_Character_Valley_WeakAttack_Cast_Right_Switch
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 341b545189f448a44b6289d46197f084
+    m_Address: Chapter02_TheBurg_Character_Valley_WeakAttack_Hit_Right_Switch
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: f6c433ec278f5774d9c226674816cb82
+    m_Address: Chapter02_TheBurg_Minion_Desert_Debuff_Bullet_Right_Robotron
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 5369a17915447e9429b4c8085d630c89
+    m_Address: Chapter02_TheBurg_Minion_Desert_Debuff_Cast_Right_Robotron
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: e414a87a7a6e22242acdc6d64c1e8754
+    m_Address: Chapter02_TheBurg_Minion_Desert_Debuff_Hit_Right_Robotron
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 86bb59d43c4b16d4d95f6d4994e3c9ac
+    m_Address: Chapter02_TheBurg_Minion_Desert_StrongAttack_Bullet_Right_Robotron
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 43a07ab5a2d8ffe4cbb6195e5ba65837
+    m_Address: Chapter02_TheBurg_Minion_Desert_StrongAttack_Cast_Right_Robotron
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: f2db3684570991e46b0cfe3db37814da
+    m_Address: Chapter02_TheBurg_Minion_Desert_StrongAttack_Hit_Right_Robotron
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 8abd46db0560a94478fd3cb384551b6d
+    m_Address: Chapter02_TheBurg_Minion_Desert_WeakAttack_Bullet_Right_Robotron
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: f855cf559a22e5546965f1a6a95b4778
+    m_Address: Chapter02_TheBurg_Minion_Desert_WeakAttack_Cast_Right_Bubble_Robotron
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 9cd0c1325f8c03c45a5762c198407a44
+    m_Address: Chapter02_TheBurg_Minion_Desert_WeakAttack_Hit_Right_Robotron
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 1ad2f65ebd07be648a121d6225d8c59b
+    m_Address: Chapter02_TheBurg_Minion_Forest_Debuff_Bullet_Right_HappyBot
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 10947e6d5aa77ba42bcb5a5e4fc4d7c9
+    m_Address: Chapter02_TheBurg_Minion_Forest_Debuff_Cast_Right_HappyBot
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: a847d187835b51d478b2c4012e68971e
+    m_Address: Chapter02_TheBurg_Minion_Forest_StrongAttack_Bullet_Right_HappyBot
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 9d403d6deda861b4b87aee6f2c3e5b3f
+    m_Address: Chapter02_TheBurg_Minion_Forest_StrongAttack_Cast_Right_HappyBot
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 292db255ef5530840aa59f170e0224e9
+    m_Address: Chapter02_TheBurg_Minion_Forest_StrongAttack_Hit_Right_HappyBot
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: df23ec997502d4347abc5315add4c11b
+    m_Address: Chapter02_TheBurg_Minion_Forest_WeakAttack_Bullet_Right_HappyBot
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 569cfbe92c95f3d469f1fc12c8be31eb
+    m_Address: Chapter02_TheBurg_Minion_Forest_WeakAttack_Cast_Right_HappyBot
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 2566c8951aad68346becc015b17a131f
+    m_Address: Chapter02_TheBurg_Minion_Forest_WeakAttack_Hit_Right_HappyBot
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: e9e8685aea5189c4595052d072d66c86
+    m_Address: Stage02_TheBurg_Minion_Mountain_StrongAttack_Bullet_Right_IronTron
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 917b13fe3feb80840b3cf2354ebf4e01
+    m_Address: Stage02_TheBurg_Minion_Mountain_StrongAttack_Cast_Right_IronTron
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 8aa38de749405af44b20c1c0d97a7981
+    m_Address: Stage02_TheBurg_Minion_Mountain_StrongAttack_Hit_Right_IronTron
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 033fde4dbd227244887764f3a3a65ea4
+    m_Address: Stage02_TheBurg_Minion_Mountain_WeakAttack_Bullet_Right_IronTron
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 643685b92af8c4949beb138db99a610f
+    m_Address: Stage02_TheBurg_Minion_Mountain_WeakAttack_Cast_Right_IronTron
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: bf50d960d599a5c429b119c7377e79f3
+    m_Address: Stage02_TheBurg_Minion_Mountain_WeakAttack_Hit_Right_IronTron
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 0b3d41361e814164aaef03eeac4d3234
+    m_Address: Chapter02_TheBurg_Minion_Valley_Buff_Cast_Right_Ted
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 06904aacd8ae63e4d974577e10e96d74
+    m_Address: Chapter02_TheBurg_Minion_Valley_StrongAttack02_Bullet_Right_Ted
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 80b2efb8a5031294caf3131fccbe410b
+    m_Address: Chapter02_TheBurg_Minion_Valley_StrongAttack02_Cast_Right_Ted
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: b70d0e09a7923f641ac5fba0f787cca5
+    m_Address: Chapter02_TheBurg_Minion_Valley_StrongAttack02_Hit_Right_PunchRain_Ted
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: f98732a069f75c445a6401b40488b8b4
+    m_Address: Chapter02_TheBurg_Minion_Valley_StrongAttack_Bullet_Right_Ted
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: f4048ecdb9b24fd488c12e15705b5376
+    m_Address: Chapter02_TheBurg_Minion_Valley_StrongAttack_Cast_Right_Ted
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 9145a30d8b44e6c428e1cb61269a8b6b
+    m_Address: Chapter02_TheBurg_Minion_Valley_StrongAttack_Hit_Right_UpperCut_Ted
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 7ce53a4e6a729bf4dacf7b5a5a47887a
+    m_Address: Chapter02_TheBurg_Minion_Valley_WeakAttack_Bullet_Right_Bubble_Ted
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 5f9a14048ce9f29419bb800947706e4c
+    m_Address: Chapter02_TheBurg_Minion_Valley_WeakAttack_Cast_Right_Bubble_Ted
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: b2911f63b59e192428e3dbd372388a65
+    m_Address: Chapter02_TheBurg_Minion_Valley_WeakAttack_Hit_Right_Bubble_Ted
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: b6689890f3f9e4068bac5c7c11c69403, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: c40c44a34d8074c1598def6a7fc7cf84, type: 2}
+    - {fileID: 11400000, guid: 37efc03933a3d4969bb34f93ae4fe3f2, type: 2}

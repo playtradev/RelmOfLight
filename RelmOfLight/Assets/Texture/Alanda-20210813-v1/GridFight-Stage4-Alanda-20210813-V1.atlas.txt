@@ -1,0 +1,258 @@
+
+GridFight-Stage4-Alanda-20210813-V1.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Back-Hair
+  rotate: false
+  xy: 596, 669
+  size: 34, 59
+  orig: 34, 59
+  offset: 0, 0
+  index: -1
+Back-Hat-Crystals
+  rotate: false
+  xy: 196, 826
+  size: 138, 182
+  orig: 138, 182
+  offset: 0, 0
+  index: -1
+Dress-Part-1
+  rotate: false
+  xy: 740, 878
+  size: 141, 130
+  orig: 141, 130
+  offset: 0, 0
+  index: -1
+Dress-Part-2
+  rotate: 270
+  xy: 291, 689
+  size: 100, 217
+  orig: 103, 219
+  offset: 2, 0
+  index: -1
+Dress-Part-2-Shadow
+  rotate: false
+  xy: 338, 746
+  size: 119, 262
+  orig: 121, 262
+  offset: 1, 0
+  index: -1
+Earring-1
+  rotate: false
+  xy: 661, 801
+  size: 28, 37
+  orig: 28, 37
+  offset: 0, 0
+  index: -1
+Earring-2
+  rotate: false
+  xy: 196, 785
+  size: 27, 37
+  orig: 27, 37
+  offset: 0, 0
+  index: -1
+Face
+  rotate: true
+  xy: 30, 682
+  size: 59, 72
+  orig: 59, 72
+  offset: 0, 0
+  index: -1
+Feathers
+  rotate: false
+  xy: 866, 812
+  size: 141, 75
+  orig: 141, 75
+  offset: 0, 0
+  index: -1
+Fringe
+  rotate: false
+  xy: 158, 690
+  size: 55, 36
+  orig: 55, 36
+  offset: 0, 0
+  index: -1
+Front-Hat
+  rotate: true
+  xy: 885, 891
+  size: 117, 108
+  orig: 117, 108
+  offset: 0, 0
+  index: -1
+Ground-Shadow
+  rotate: true
+  xy: 459, 791
+  size: 217, 90
+  orig: 217, 90
+  offset: 0, 0
+  index: -1
+Hair-1
+  rotate: true
+  xy: 845, 791
+  size: 17, 95
+  orig: 17, 95
+  offset: 0, 0
+  index: -1
+Hair-2
+  rotate: false
+  xy: 553, 933
+  size: 15, 75
+  orig: 15, 75
+  offset: 0, 0
+  index: -1
+Hand-1
+  rotate: true
+  xy: 751, 668
+  size: 63, 104
+  orig: 64, 104
+  offset: 0, 0
+  index: -1
+Hand-1-Finger-1
+  rotate: true
+  xy: 333, 800
+  size: 16, 26
+  orig: 16, 26
+  offset: 0, 0
+  index: -1
+Hand-1-Finger-2
+  rotate: true
+  xy: 717, 992
+  size: 16, 31
+  orig: 16, 31
+  offset: 0, 0
+  index: -1
+Hand-1-Finger-3
+  rotate: false
+  xy: 424, 976
+  size: 16, 32
+  orig: 16, 32
+  offset: 0, 0
+  index: -1
+Hand-1-Finger-4
+  rotate: true
+  xy: 333, 782
+  size: 14, 29
+  orig: 14, 29
+  offset: 0, 0
+  index: -1
+Hand-1-Finger-5
+  rotate: false
+  xy: 338, 979
+  size: 13, 29
+  orig: 13, 29
+  offset: 0, 0
+  index: -1
+Hand-2
+  rotate: true
+  xy: 653, 656
+  size: 71, 95
+  orig: 72, 96
+  offset: 0, 1
+  index: -1
+Hand-2-Finger-1
+  rotate: false
+  xy: 572, 973
+  size: 14, 35
+  orig: 14, 35
+  offset: 0, 0
+  index: -1
+Hand-2-Finger-3
+  rotate: true
+  xy: 651, 784
+  size: 13, 31
+  orig: 13, 31
+  offset: 0, 0
+  index: -1
+Hand-2-Finger-4
+  rotate: false
+  xy: 648, 985
+  size: 13, 23
+  orig: 13, 23
+  offset: 0, 0
+  index: -1
+Hands-Shadow
+  rotate: false
+  xy: 763, 793
+  size: 78, 82
+  orig: 78, 82
+  offset: 0, 0
+  index: -1
+Hat-Crystals
+  rotate: false
+  xy: 4, 782
+  size: 188, 226
+  orig: 188, 226
+  offset: 0, 0
+  index: -1
+Leg-1
+  rotate: 270
+  xy: 4, 717
+  size: 64, 342
+  orig: 65, 342
+  offset: 0, 0
+  index: -1
+Leg-1-Shadow
+  rotate: true
+  xy: 241, 782
+  size: 40, 88
+  orig: 40, 88
+  offset: 0, 0
+  index: -1
+Leg-2
+  rotate: true
+  xy: 581, 716
+  size: 68, 364
+  orig: 71, 364
+  offset: 2, 0
+  index: -1
+Leg-2-Shadow
+  rotate: false
+  xy: 952, 724
+  size: 51, 84
+  orig: 51, 84
+  offset: 0, 0
+  index: -1
+Nacklace-Shadow
+  rotate: false
+  xy: 106, 677
+  size: 48, 52
+  orig: 48, 52
+  offset: 0, 0
+  index: -1
+Neck
+  rotate: 270
+  xy: 919, 666
+  size: 79, 83
+  orig: 79, 85
+  offset: 0, 0
+  index: -1
+Necklace
+  rotate: true
+  xy: 510, 675
+  size: 76, 82
+  orig: 76, 82
+  offset: 0, 0
+  index: -1
+Underwear
+  rotate: 180
+  xy: 839, 661
+  size: 78, 72
+  orig: 78, 72
+  offset: 0, 0
+  index: -1
+Wing-1
+  rotate: 180
+  xy: 657, 777
+  size: 103, 231
+  orig: 103, 231
+  offset: 0, 0
+  index: -1
+Wing-2
+  rotate: false
+  xy: 553, 770
+  size: 108, 238
+  orig: 110, 238
+  offset: 2, 0
+  index: -1

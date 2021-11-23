@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: f96114dd9827f2e40a361be8628991f8
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - icon: {fileID: 21300000, guid: d22e905616577a449b1614143555df69, type: 3}
+  - OnCasterIcon: {fileID: 21300000, guid: d22e905616577a449b1614143555df69, type: 3}
+  - Atk: {instanceID: 0}
+  - RageAI: {instanceID: 0}
+  - CloneStartingEffect: {instanceID: 0}
+  - activeParticles: {instanceID: 0}
+  - terminationParticles: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,145 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 661d3779646d38b458b753570c737d23, type: 3}
+  m_Name: Chapter_02_Character_Desert_StrongAttack_Loud_01_Typhoon_Enemy - Production
+  m_EditorClassIdentifier: 
+  _SkillID: CHAPTER_02_CHARACTER_DESERT_STRONGATTACK_LOUD_01_TYPHOON_ENEMY_-_PRODUCTION
+  AttackDisplayName: Typhoon
+  AttackDescription: DESCRIPTION
+  AttackVideoClip: {fileID: 0}
+  AttackIcon: {fileID: 21300000, guid: f5829f21a73ac424da93e9be9b052339, type: 3}
+  attackDisplayType: 0
+  IsMaskAttack: 0
+  AttackOwner: 0
+  AnimToFireOnHit: 13
+  taPhase: 3
+  UseAttackerElement: 1
+  AttackElements: 04000000
+  _DamageMultiplier: {x: 0.9, y: 1.1}
+  AttackInput: 1
+  AttackTargetSide: 0
+  useCustomChargeTime_Reset: 0
+  customChargeTime: 0
+  PrefixAnim: 1
+  NewFovSystemList: []
+  AttackAnim: 1
+  Particles:
+    Right:
+      CastAddress: Chapter02_TheBurg_Character_Desert_StrongAttack_Cast_Right_Loud
+      BulletAddress: Chapter02_TheBurg_Character_Desert_StrongAttack_Bullet_Right_Loud
+      HitAddress: Chapter02_TheBurg_Character_Desert_StrongAttack_Hit_Right_Loud
+      Cast: {fileID: 0}
+      Bullet: {fileID: 0}
+      Hit: {fileID: 0}
+  EffectTimeOnImpact: 1
+  SlowDownOnHit:
+    TimeEffect: 0.04
+    DurationOfTimeEffect: 0.4
+    TimeEffectDelay: 0.1
+    TimeEffectChildExplosion: 1
+    ApplyImpactSlowToAttacker: 0
+  OverridePsHit: 0
+  _HitParticlesT: 0
+  _HitResizeMultiplier: 1
+  OverridePsInput: 0
+  _ParticlesInput: 0
+  TrajectoriesNumber: 0
+  _BulletT: 
+  Grenade_ExplosionDelay: 3
+  Grenade_Defensible: 0
+  Grenade_CanBeDestroyed: 1
+  Grenade_Health: 20
+  Grenade_ExplosionDamageMultiplier: 1
+  Grenade_OverrideBulletEffects: 0
+  Grenade_ExplosionPS: 0
+  Grenade_ObjectPS: 0
+  Grenade_ExplosionTiles:
+  - {x: 0, y: 0}
+  Grenade_DirtyBombEffects:
+  - list: []
+  IsHoming: 0
+  Homing_TimeTillExpiry: 5
+  Homing_TurningSpeed: 3
+  Homing_SlowDownMultiplier: 0.5
+  ChancesOfPooping: 100
+  BothSides: 0
+  InEnemySide: 1
+  isPoopingEffectOnTile: 0
+  PoopingEffectsOnTile:
+    TileAction: 0
+    HitTime: 1
+    TileParticlesID: 0
+    EffectChances: 100
+    DurationOnTile: 0
+    DurationOnTileV: {x: 0, y: 0}
+    Effects: []
+  isPoopingSpawnSummonOnTile: 0
+  PoopingSummonToSpawn:
+    SpawnChances: 100
+    UncappedDuration: 1
+    DurationOnField: {x: 0, y: 0}
+    SummonSpawnPositions: []
+    CharToSummon: 0
+    hasCharOverrides: 0
+    CharOverrides:
+      OverrideHealth: 0
+      Health: 0
+      OverrideHealthRegeneration: 0
+      HealthRegeneration: 0
+      OverrideArmour: 0
+      Armour: 0
+      OverrideShieldRegeneration: 0
+      ShieldRegeneration: 0
+      OverrideEther: 0
+      Ether: 0
+      OverrideEtherRegeneration: 0
+      EtherRegeneration: 0
+      OverrideSpeed: 0
+      MovementSpeed: 0
+      OverrideEvasion: 0
+      Evasion: {x: 0, y: 0}
+      OverrideSigilDropBonus: 0
+      SigilDropBonus: 0
+      OverrideCriticalWeakBullet: 0
+      CriticalWeakBullet: {x: 0, y: 0}
+      OverrideCriticalStrongBullet: 0
+      CriticalStrongBullet: {x: 0, y: 0}
+      OverrideWeakAttackMultiplier: 0
+      WeakAttackMultiplier: 0
+      OverrideStrongAttackMultiplier: 0
+      StrongAttackMultiplier: 0
+      OverrideHue: 0
+      ColorHueSaturation:
+        color: {r: 0, g: 0, b: 0, a: 0}
+        hue: 0
+        sat: 0
+      OverrideAggroMultiplier: 0
+      AggroMultiplier: 1
+      overrideDeath: 0
+      deathAnim: 0
+      overrideAttacks: 0
+      AttacksToAdd: []
+      AddToBasicAttacks: 0
+  TilesAtk:
+    Chances: 100
+    Show: 0
+    EffectOnCaster: 1
+    EffectsOnCaster:
+    - {fileID: 11400000, guid: 0fd5c0fe6267f49afb657818f2ec28a7, type: 2}
+    - {fileID: 11400000, guid: 73e048d6f8e9e46cd81585ed48f7381b, type: 2}
+    BulletLevel: 1
+    AtkType: 1
+    CanAffectBothSide: 0
+    UseBoundaries: 0
+    RangeLevel: {x: 0, y: 10}
+    UseOldSystem: 0
+    BulletTrajectories: []

@@ -1,0 +1,407 @@
+fileFormatVersion: 2
+guid: 9dee6fcc13a97cc44a4a2df786ef1407
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3765613178238090275
+    second: BlockShield_0
+  - first:
+      213: 7619447692109486872
+    second: BlockShield_1
+  - first:
+      213: 6246743928986695689
+    second: BlockShield_2
+  - first:
+      213: -2973688143861107439
+    second: BlockShield_3
+  - first:
+      213: -4134392857297477611
+    second: BlockShield_4
+  - first:
+      213: 2441943502157388859
+    second: BlockShield_5
+  - first:
+      213: 3823480121222209538
+    second: BlockShield_6
+  - first:
+      213: 4624889966736523494
+    second: BlockShield_7
+  - first:
+      213: -291023923440653407
+    second: BlockShield_8
+  - first:
+      213: -2658681119385356849
+    second: BlockShield_9
+  - first:
+      213: -5482890994448928792
+    second: BlockShield_10
+  - first:
+      213: 1679137380206225630
+    second: BlockShield_11
+  - first:
+      213: 1342978930097935462
+    second: BlockShield_12
+  - first:
+      213: 1670471226768741885
+    second: BlockShield_13
+  - first:
+      213: 5313133866447104694
+    second: BlockShield_14
+  - first:
+      213: -3849352735973970093
+    second: BlockShield_15
+  - first:
+      213: -1943683620210316822
+    second: BlockShield_16
+  - first:
+      213: 5296945305529867453
+    second: BlockShield_17
+  - first:
+      213: 9125055612302938233
+    second: BlockShield_18
+  - first:
+      213: 1919905003832686886
+    second: BlockShield_19
+  - first:
+      213: 6217525549188001784
+    second: BlockShield_20
+  - first:
+      213: -8960709614093632599
+    second: BlockShield_21
+  - first:
+      213: -810480845606552025
+    second: BlockShield_22
+  - first:
+      213: -1260087890925894838
+    second: BlockShield_23
+  - first:
+      213: -3624240822511727092
+    second: BlockShield_24
+  - first:
+      213: -6603705932456614704
+    second: BlockShield_25
+  - first:
+      213: 6690057147905624455
+    second: BlockShield_26
+  - first:
+      213: -8742726800447851381
+    second: BlockShield_27
+  - first:
+      213: 774155498894794347
+    second: BlockShield_28
+  - first:
+      213: -9123824824479311843
+    second: BlockShield_29
+  - first:
+      213: -5422817887740042475
+    second: BlockShield_30
+  - first:
+      213: -4803649427508151830
+    second: BlockShield_31
+  - first:
+      213: -6992903939801585677
+    second: BlockShield_32
+  - first:
+      213: -3967911983454566643
+    second: BlockShield_33
+  - first:
+      213: 1549976013111888297
+    second: BlockShield_34
+  - first:
+      213: -9063535327785702921
+    second: BlockShield_35
+  - first:
+      213: 2879058510349222189
+    second: BlockShield_36
+  - first:
+      213: -4771895549766863088
+    second: BlockShield_37
+  - first:
+      213: 1356298995410685581
+    second: BlockShield_38
+  - first:
+      213: -5754786571591568457
+    second: BlockShield_39
+  - first:
+      213: 2351646069985344692
+    second: BlockShield_40
+  - first:
+      213: 8830706668490720279
+    second: BlockShield_41
+  - first:
+      213: -8611266076285595032
+    second: BlockShield_42
+  - first:
+      213: -3611834064251400853
+    second: BlockShield_43
+  - first:
+      213: 1090661313486811202
+    second: BlockShield_44
+  - first:
+      213: -6487706632165292850
+    second: BlockShield_45
+  - first:
+      213: -8272258151220820405
+    second: BlockShield_46
+  - first:
+      213: 3661274806388111338
+    second: BlockShield_47
+  - first:
+      213: 308333914501703734
+    second: BlockShield_48
+  - first:
+      213: 101840452192846169
+    second: BlockShield_49
+  - first:
+      213: 7855350088860841695
+    second: BlockShield_50
+  - first:
+      213: -7313274520639147082
+    second: BlockShield_51
+  - first:
+      213: 2432132723065223454
+    second: BlockShield_52
+  - first:
+      213: 5511364838691878779
+    second: BlockShield_53
+  - first:
+      213: -8014281128945308634
+    second: BlockShield_54
+  - first:
+      213: 2673832105747969909
+    second: BlockShield_55
+  - first:
+      213: 440111852785055669
+    second: BlockShield_56
+  - first:
+      213: -3649680683803598256
+    second: BlockShield_57
+  - first:
+      213: 5615420671911115183
+    second: BlockShield_58
+  - first:
+      213: 357449115160294956
+    second: BlockShield_59
+  - first:
+      213: 8281936608319614879
+    second: BlockShield_60
+  - first:
+      213: 4676421087193832729
+    second: BlockShield_61
+  - first:
+      213: -4515007867584724582
+    second: BlockShield_62
+  - first:
+      213: -5616921076706576816
+    second: BlockShield_63
+  - first:
+      213: 6840251820583632584
+    second: BlockShield_64
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 2
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: BlockShield_0
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 3
+        width: 180
+        height: 505
+      alignment: 9
+      pivot: {x: 1.5366689, y: -0.16103163}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd3c695f3caddbbc0800000000000000
+      internalID: -3765613178238090275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlockShield_1
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 80
+        width: 123
+        height: 316
+      alignment: 9
+      pivot: {x: 1.0024084, y: 0.52875817}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81b1bd07e47bdb960800000000000000
+      internalID: 7619447692109486872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlockShield_2
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 3
+        width: 180
+        height: 505
+      alignment: 9
+      pivot: {x: -0.0048712837, y: 0.0057259738}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 908741ab184e0b650800000000000000
+      internalID: 6246743928986695689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      BlockShield_2: 6246743928986695689
+      BlockShield_0: -3765613178238090275
+      BlockShield_1: 7619447692109486872
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

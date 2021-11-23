@@ -1,0 +1,12 @@
+fileFormatVersion: 2
+guid: 661d3779646d38b458b753570c737d23
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - SlowDown: {fileID: 11400000, guid: 29f605f49af583e4ea7515d7c98ddfee, type: 2}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

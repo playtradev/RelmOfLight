@@ -1,0 +1,87 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7cd84a52ef2addf4289a98afc62d2f5a, type: 3}
+  m_Name: Chapter03_ForestOfKin_Minion_Forest_Mortus
+  m_EditorClassIdentifier: 
+  CharacterPrefab: {fileID: 3657259599463293374, guid: af8ba4eda8dcf61459765acbeb5796f9,
+    type: 3}
+  AbridgedCharInfo:
+    Name: Zombie
+    AddressableLocation: ForestOfKin_Minion_Forest_PivotChar_Mortus
+    CharacterID: 1062
+    ClassType: 3
+    Elemental: 6
+    CharacterIcon: {fileID: 21300000, guid: 0d26a82021fab6f4e891db37a7f757fd, type: 3}
+    skeletonDataAsset: {fileID: 11400000, guid: a455526cc1d3e654b9e147534e31dffc,
+      type: 2}
+    initialSkinName: 
+    HealthStats_Health: 770
+    HealthStats_Regeneration: 2
+    HealthStats_Armour: 1
+    EtherStats_Ether: 1
+    EtherStats_Regeneration: 0.1
+    DamageStats_BaseDamage: 1
+    WeakAttack_DamageMultiplier: 14
+    StrongAttack_DamageMultiplier: 26
+    WeakAttack_CriticalChance: {x: 10, y: 10}
+    StrongAttack_CriticalChance: {x: 10, y: 10}
+    SpeedStats_BaseSpeed: 1
+    SpeedStats_CalculatedSpeed: 0.6666667
+    SpeedStats_MovementSpeed: 1
+    SpeedStats_WeakBulletSpeedV: {x: 0, y: 0}
+    SpeedStats_WeakBulletSpeed: 4
+    SpeedStats_StrongBulletSpeedV: {x: 0, y: 0}
+    EvasionChances: {x: 0.01, y: 0.01}
+    ShieldStats_BaseShieldRegeneration: 8
+    ShieldStats_Regeneration: 1
+    ShieldStats_Shield: 2
+    ShieldStats_Base: 50
+    ShieldStats_MinionShieldChances: 1
+    ShieldStats_MinionPerfectShieldChances: 0
+    Behaviour_DeathBehaviour: 0
+    DeathExplosion_Delay: 0
+    DeathDisableing_Delay: 0.5
+    DeathExplosion_OverrideParticles: 0
+    SigilDropBonus: 2
+    CurrentAttackTypeInfo:
+    - {fileID: 11400000, guid: d5349d09d84a7654ebea8797ef63683d, type: 2}
+    - {fileID: 11400000, guid: e54a1df48adec874c8fd264a6a91d716, type: 2}
+    - {fileID: 11400000, guid: 0eba9b53f9bfc0e468ab09aa7ff6d5e2, type: 2}
+    - {fileID: 11400000, guid: a74dd6e370ec2df498e83804bdaa8b7b, type: 2}
+    - {fileID: 11400000, guid: 4cb646aca01f5804eb316b5a99a253e7, type: 2}
+    - {fileID: 11400000, guid: 213b1f28c23489f41a9694d690b4e529, type: 2}
+    SkillLevels:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    PassiveSkills: []
+    AIs_Count: 2
+  OccupiedTiles:
+  - {x: 0, y: 0}
+  Biography: "It is said that when one dies, anywhere in Gora, a Mortus rises. Mortus
+    aren\u2019t zombies, but physical representation of someone\u2019s agony in death.
+    They haunt the swamps, in search for anyone foolish enough to think they are
+    their loved ones. A few Mortus actually do believe that. Those are powerful and
+    angry entities, existing only for revenge."
+  WaveGenInfo:
+    IncludeInProceduralWaves: 1
+    MinMaxChallengeRating: {x: 18, y: 52}
+    StageTags: 04000000
+    WaveNPCType: 1
+    Rarity: 0

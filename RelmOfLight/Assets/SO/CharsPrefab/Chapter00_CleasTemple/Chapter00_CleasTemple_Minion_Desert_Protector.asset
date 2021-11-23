@@ -1,0 +1,80 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7cd84a52ef2addf4289a98afc62d2f5a, type: 3}
+  m_Name: Chapter00_CleasTemple_Minion_Desert_Protector
+  m_EditorClassIdentifier: 
+  CharacterPrefab: {fileID: 1243722548902237855, guid: a1d886091f656ac498b290dfd59bcba2,
+    type: 3}
+  AbridgedCharInfo:
+    Name: Protector
+    AddressableLocation: Stage_0_Minion_Desert_PivotChar_Protector
+    CharacterID: 1001
+    ClassType: 1
+    Elemental: 3
+    CharacterIcon: {fileID: 21300000, guid: c866bed1d42bf7a4b82d63d98ac907d1, type: 3}
+    skeletonDataAsset: {fileID: 11400000, guid: 2284120764c461946a920f2e7e28fb4b,
+      type: 2}
+    initialSkinName: 
+    HealthStats_Health: 1
+    HealthStats_Regeneration: 0.2
+    HealthStats_Armour: 20
+    EtherStats_Ether: 10
+    EtherStats_Regeneration: 1
+    DamageStats_BaseDamage: 1
+    WeakAttack_DamageMultiplier: 3
+    StrongAttack_DamageMultiplier: 6
+    WeakAttack_CriticalChance: {x: 3, y: 3}
+    StrongAttack_CriticalChance: {x: 3, y: 3}
+    SpeedStats_BaseSpeed: 1
+    SpeedStats_CalculatedSpeed: 1
+    SpeedStats_MovementSpeed: 1
+    SpeedStats_WeakBulletSpeedV: {x: 0, y: 0}
+    SpeedStats_WeakBulletSpeed: 5
+    SpeedStats_StrongBulletSpeedV: {x: 0, y: 0}
+    EvasionChances: {x: 1, y: 1}
+    ShieldStats_BaseShieldRegeneration: 8
+    ShieldStats_Regeneration: 0
+    ShieldStats_Shield: 0
+    ShieldStats_Base: 50
+    ShieldStats_MinionShieldChances: 100
+    ShieldStats_MinionPerfectShieldChances: 0
+    Behaviour_DeathBehaviour: 0
+    DeathExplosion_Delay: 0
+    DeathDisableing_Delay: 0.5
+    DeathExplosion_OverrideParticles: 0
+    SigilDropBonus: 2
+    CurrentAttackTypeInfo:
+    - {fileID: 11400000, guid: 4d617ee00a6078d49b930bc2db94822f, type: 2}
+    - {fileID: 11400000, guid: 3105e61fe39b04944b8a70fc302623d7, type: 2}
+    - {fileID: 11400000, guid: 6363e674f56ce724f95e5f3d91309b8a, type: 2}
+    SkillLevels:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    PassiveSkills: []
+    AIs_Count: 2
+  OccupiedTiles:
+  - {x: 0, y: 0}
+  Biography: NO BIO
+  WaveGenInfo:
+    IncludeInProceduralWaves: 1
+    MinMaxChallengeRating: {x: 2, y: 27}
+    StageTags: 01000000
+    WaveNPCType: 1
+    Rarity: 0

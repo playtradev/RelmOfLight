@@ -1,0 +1,155 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Chars
+  m_EditorClassIdentifier: 
+  m_GroupName: Chars
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 39f50d9611c1f4434b0c010d6052e6a2
+  m_SerializeEntries:
+  - m_GUID: b814a7f1f5eb43546b34b4f71fd9ecd1
+    m_Address: Stage02_Character_Forest_PivotChar_Deedra
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Stage_ALL
+  - m_GUID: c4e49329bafced04596974639cac277f
+    m_Address: Stage01_Character_Mountain_PivotChar_Kora
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Stage_ALL
+  - m_GUID: 600c6cb75c8a85a4ba80ea338aef1989
+    m_Address: Stage08_Character_Forest_PivotChar_Joja
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Stage_ALL
+  - m_GUID: cd827bab14490d04a9b4f1a9ffe22c5f
+    m_Address: Grenade_Base_PivotChar
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Stage_ALL
+  - m_GUID: b46cce99a9a0ec94f85fdcc0c1a72fa5
+    m_Address: Structure_Barrier_Tomb_PivotChar
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Stage_ALL
+  - m_GUID: 09b6fbe1bc6fd5147b754ef7d57011db
+    m_Address: ForestOfKin_Character_Mountain_PivotChar_Valis
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Stage_ALL
+  - m_GUID: e621aa706be42ea4493bc3b23fb64403
+    m_Address: Structure_Barrier_Wood_PivotChar
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Stage_ALL
+  - m_GUID: 01141dd66f34f0f4293498d7d87faf52
+    m_Address: Structure_Barrier_Ice_PivotChar
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Stage_ALL
+  - m_GUID: 74da382a76016bf4392248a627372df7
+    m_Address: Structure_Barrier_Rock_PivotChar
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Stage_ALL
+  - m_GUID: b2859a26f524b024da9621af347e1234
+    m_Address: Structure_Barrier_Lava_PivotChar
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Stage_ALL
+  - m_GUID: d688e393d3bba0b4db0630492846640f
+    m_Address: Structure_Barrier_AlandaBlock_Walker_PivotChar
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Stage_ALL
+  - m_GUID: 83c45de0353c9474daeff54c5f4c9f80
+    m_Address: Stage08_Character_Mountain_PivotChar_Skye
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Stage_ALL
+  - m_GUID: f1cc007f8a29bf44ba5c290de20f6566
+    m_Address: ForestOfKin_Character_Valley_PivotChar_Elu
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Stage_ALL
+  - m_GUID: 16f7a29de533f804d8cc8a2f7375b4e1
+    m_Address: Stage02_Character_Desert_PivotChar_Loud
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Stage_ALL
+  - m_GUID: 8b767d54c88e3734d995ca6793618d85
+    m_Address: Structure_Barrier_CrystalTomb_PivotChar
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Stage_ALL
+  - m_GUID: 2a709126b7de6fa438fbf0a47a80ba6c
+    m_Address: Structure_Barrier_PaiRock_PivotChar
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Stage_ALL
+  - m_GUID: 0de27d06f7d14f242aa66d4b4ab41322
+    m_Address: Chapter05_AscensoMountain_Character_Forest_PivotChar_Pina
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Stage_ALL
+  - m_GUID: bf772a7310dae3943af805ae759dd773
+    m_Address: Structure_Barrier_PaiFist_PivotChar
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Stage_ALL
+  - m_GUID: 9f70c41f0b4fa8446bab218c169fa2b0
+    m_Address: Structure_Barrier_TotemShooter_PivotChar
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Stage_ALL
+  - m_GUID: 939f446cdb206d7479b1c3513496cd2c
+    m_Address: Structure_Barrier_Plague_PivotChar
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Stage_ALL
+  - m_GUID: cbd71260b5a5f0945a187f941649dd46
+    m_Address: Structure_Barrier_AlandaBlock_PivotChar
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Stage_ALL
+  - m_GUID: 2e4256bdd6ed60d498cff0a296bc2994
+    m_Address: Stage05_AscensoMountain_Character_Mountain_PivotChar_Alanda
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Stage_ALL
+  - m_GUID: 284a28a61a3177040ae6417d6c968274
+    m_Address: Stage01_Character_Desert_PivotChar_Mermer
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Stage_ALL
+  - m_GUID: e422ec2eaee60924aa30656d5013b8cb
+    m_Address: CharacterPrefab_none
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Stage_ALL
+  - m_GUID: e680e55c4d362455eac20af46ccee7de
+    m_Address: Crystal_Right_PivotChar
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Stage_ALL
+  - m_GUID: c283e5745e4b9425d8e852d187452559
+    m_Address: Crystal_Left_PivotChar
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Stage_ALL
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: b6689890f3f9e4068bac5c7c11c69403, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 97f1065d685f14fe6a64547a825cf890, type: 2}
+    - {fileID: 11400000, guid: 5dba86e747bd64ae9ad7938c58b368c2, type: 2}

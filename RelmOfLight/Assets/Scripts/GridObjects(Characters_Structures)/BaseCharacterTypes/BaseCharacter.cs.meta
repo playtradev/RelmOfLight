@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: fb8fe9b458b9fd044815bd6e94b68c31
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - _CharInfo: {instanceID: 0}
+  - SpineAnim: {instanceID: 0}
+  - BaseBullet: {fileID: 476742215486157040, guid: a68cc87bb45b95b40a034a7c64f04b34,
+      type: 3}
+  - UMS: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,527 @@
+fileFormatVersion: 2
+guid: d69c79380dbe2f64ab1e6ef6ce9fac83
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5372554781846852690
+    second: DonnaDashParticles_0
+  - first:
+      213: -6782645978986965545
+    second: DonnaDashParticles_1
+  - first:
+      213: 1649546969058585731
+    second: DonnaDashParticles_2
+  - first:
+      213: -1544304332813246831
+    second: DonnaDashParticles_3
+  - first:
+      213: 890267866404554367
+    second: DonnaDashParticles_4
+  - first:
+      213: -3739646918579122304
+    second: DonnaDashParticles_5
+  - first:
+      213: 4739925800452413934
+    second: DonnaDashParticles_6
+  - first:
+      213: 6284755551203967653
+    second: DonnaDashParticles_7
+  - first:
+      213: -5358080487725183192
+    second: DonnaDashParticles_8
+  - first:
+      213: 725746222517546977
+    second: DonnaDashParticles_9
+  - first:
+      213: 3384154996078362648
+    second: DonnaDashParticles_10
+  - first:
+      213: -5301573418125107934
+    second: DonnaDashParticles_11
+  - first:
+      213: 6255651970572090761
+    second: DonnaDashParticles_12
+  - first:
+      213: 1033625136117862712
+    second: DonnaDashParticles_13
+  - first:
+      213: -7871499465883539508
+    second: DonnaDashParticles_14
+  - first:
+      213: 1059522149720467560
+    second: DonnaDashParticles_15
+  - first:
+      213: -4021128282937353300
+    second: DonnaDashParticles_16
+  - first:
+      213: 1205760340145332259
+    second: DonnaDashParticles_17
+  - first:
+      213: -5843818900930852835
+    second: DonnaDashParticles_18
+  - first:
+      213: -170770277737553902
+    second: DonnaDashParticles_19
+  - first:
+      213: -7538825330022058821
+    second: DonnaDashParticles_20
+  - first:
+      213: 7368521094917464770
+    second: DonnaDashParticles_21
+  - first:
+      213: -1553528413805258621
+    second: DonnaDashParticles_22
+  - first:
+      213: -6463674991987178357
+    second: DonnaDashParticles_23
+  - first:
+      213: -2254779518694578786
+    second: DonnaDashParticles_24
+  - first:
+      213: -2158721951132012959
+    second: DonnaDashParticles_25
+  - first:
+      213: 1451492193445276503
+    second: DonnaDashParticles_26
+  - first:
+      213: -1531632252775034344
+    second: DonnaDashParticles_27
+  - first:
+      213: 5953464015156556935
+    second: DonnaDashParticles_28
+  - first:
+      213: 3580578769851998191
+    second: DonnaDashParticles_0
+  - first:
+      213: -1263825574017479612
+    second: DonnaDashParticles_3
+  - first:
+      213: -4108455301439048080
+    second: DonnaDashParticles_4
+  - first:
+      213: -1070946100687819591
+    second: DonnaDashParticles_7
+  - first:
+      213: -4254430085510002652
+    second: DonnaDashParticles_9
+  - first:
+      213: 7941677780848899635
+    second: DonnaDashParticles_11
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 2
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: DonnaDashParticles_0
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 1548
+        width: 454
+        height: 498
+      alignment: 9
+      pivot: {x: 0.9340115, y: 0.027249869}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fef5553ab65c0b130800000000000000
+      internalID: 5372554781846852690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DonnaDashParticles_1
+      rect:
+        serializedVersion: 2
+        x: 478
+        y: 1545
+        width: 538
+        height: 497
+      alignment: 9
+      pivot: {x: 0.9429914, y: 0.03409937}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d510490b633fd1a0800000000000000
+      internalID: -6782645978986965545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DonnaDashParticles_2
+      rect:
+        serializedVersion: 2
+        x: 1030
+        y: 1547
+        width: 599
+        height: 492
+      alignment: 9
+      pivot: {x: 0.97035915, y: 0.0400733}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38c2f0b8a3e54e610800000000000000
+      internalID: 1649546969058585731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DonnaDashParticles_3
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 1056
+        width: 648
+        height: 479
+      alignment: 9
+      pivot: {x: 0.97703564, y: 0.0427952}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44c42a2265df57ee0800000000000000
+      internalID: -1544304332813246831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DonnaDashParticles_4
+      rect:
+        serializedVersion: 2
+        x: 671
+        y: 1056
+        width: 691
+        height: 458
+      alignment: 9
+      pivot: {x: 0.9781335, y: 0.034974743}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 076b72ebba5dbf6c0800000000000000
+      internalID: 890267866404554367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DonnaDashParticles_5
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 583
+        width: 733
+        height: 437
+      alignment: 9
+      pivot: {x: 0.9765419, y: 0.035509333}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08f05b8e0fa1a1cc0800000000000000
+      internalID: -3739646918579122304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DonnaDashParticles_6
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 588
+        width: 767
+        height: 416
+      alignment: 9
+      pivot: {x: 0.9756243, y: 0.050919607}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee9dcadf66997c140800000000000000
+      internalID: 4739925800452413934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DonnaDashParticles_7
+      rect:
+        serializedVersion: 2
+        x: 1627
+        y: 505
+        width: 412
+        height: 511
+      alignment: 9
+      pivot: {x: 0.060074594, y: 0.023544043}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9bca9ee023c3321f0800000000000000
+      internalID: 6284755551203967653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DonnaDashParticles_8
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 14
+        width: 444
+        height: 511
+      alignment: 9
+      pivot: {x: 0.036945842, y: 0.039426092}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82f403b4f2644a5b0800000000000000
+      internalID: -5358080487725183192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DonnaDashParticles_9
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 11
+        width: 473
+        height: 495
+      alignment: 9
+      pivot: {x: 0.03673968, y: 0.030003943}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 428017fc06a35f4c0800000000000000
+      internalID: 725746222517546977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DonnaDashParticles_10
+      rect:
+        serializedVersion: 2
+        x: 1002
+        y: 7
+        width: 501
+        height: 485
+      alignment: 9
+      pivot: {x: 0.04103195, y: 0.031468857}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8104d16f90fe6fe20800000000000000
+      internalID: 3384154996078362648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DonnaDashParticles_11
+      rect:
+        serializedVersion: 2
+        x: 1518
+        y: 22
+        width: 526
+        height: 474
+      alignment: 9
+      pivot: {x: 0.042273924, y: 0.032010034}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3367c186dd1863e60800000000000000
+      internalID: -5301573418125107934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 931be4c669a833b449a81ebad66820c8
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      DonnaDashParticles_1: -6782645978986965545
+      DonnaDashParticles_2: 1649546969058585731
+      DonnaDashParticles_9: 725746222517546977
+      DonnaDashParticles_4: 890267866404554367
+      DonnaDashParticles_5: -3739646918579122304
+      DonnaDashParticles_11: -5301573418125107934
+      DonnaDashParticles_0: 5372554781846852690
+      DonnaDashParticles_3: -1544304332813246831
+      DonnaDashParticles_6: 4739925800452413934
+      DonnaDashParticles_8: -5358080487725183192
+      DonnaDashParticles_10: 3384154996078362648
+      DonnaDashParticles_7: 6284755551203967653
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

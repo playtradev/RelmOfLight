@@ -1,0 +1,85 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7cd84a52ef2addf4289a98afc62d2f5a, type: 3}
+  m_Name: Chapter08_MaidenShrine_Character_Forest_Joja
+  m_EditorClassIdentifier: 
+  CharacterPrefab: {fileID: 8099800020097375592, guid: 600c6cb75c8a85a4ba80ea338aef1989,
+    type: 3}
+  AbridgedCharInfo:
+    Name: Joja
+    AddressableLocation: Stage08_Character_Forest_PivotChar_Joja
+    CharacterID: 1167
+    ClassType: 1
+    Elemental: 6
+    CharacterIcon: {fileID: 21300000, guid: 031a85c87484a25418b56bb470713497, type: 3}
+    skeletonDataAsset: {fileID: 11400000, guid: df79f02d3ed04444990ec0067edc0622,
+      type: 2}
+    initialSkinName: 
+    HealthStats_Health: 62
+    HealthStats_Regeneration: 0.8
+    HealthStats_Armour: 0.79
+    EtherStats_Ether: 35
+    EtherStats_Regeneration: 0.99
+    DamageStats_BaseDamage: 1
+    WeakAttack_DamageMultiplier: 1.45
+    StrongAttack_DamageMultiplier: 19.2
+    WeakAttack_CriticalChance: {x: 2.1, y: 2.1}
+    StrongAttack_CriticalChance: {x: 2.1, y: 2.1}
+    SpeedStats_BaseSpeed: 1
+    SpeedStats_CalculatedSpeed: 4
+    SpeedStats_MovementSpeed: 1
+    SpeedStats_WeakBulletSpeedV: {x: 0, y: 0}
+    SpeedStats_WeakBulletSpeed: 2
+    SpeedStats_StrongBulletSpeedV: {x: 0, y: 0}
+    EvasionChances: {x: 2.2, y: 2.2}
+    ShieldStats_BaseShieldRegeneration: 8
+    ShieldStats_Regeneration: 0.35
+    ShieldStats_Shield: 8
+    ShieldStats_Base: 50
+    ShieldStats_MinionShieldChances: 20
+    ShieldStats_MinionPerfectShieldChances: 5
+    Behaviour_DeathBehaviour: 0
+    DeathExplosion_Delay: 0
+    DeathDisableing_Delay: 0.5
+    DeathExplosion_OverrideParticles: 0
+    SigilDropBonus: 0
+    CurrentAttackTypeInfo:
+    - {fileID: 11400000, guid: 5613b45ffdbb9874281a070c5b6e6871, type: 2}
+    - {fileID: 11400000, guid: 064fc5431841ecc4cbee9d4224491c20, type: 2}
+    - {fileID: 11400000, guid: a6d16df72d312794aabfe926817b70b4, type: 2}
+    - {fileID: 11400000, guid: d5215593e4b250e489b2b463a568a836, type: 2}
+    - {fileID: 11400000, guid: 0a82fa021a08e0d42b52fa26bbb6a5a0, type: 2}
+    - {fileID: 11400000, guid: 302e7a006ffe03e4d84f40a827849849, type: 2}
+    - {fileID: 11400000, guid: 83806e14705efab4aa87d72398091524, type: 2}
+    - {fileID: 11400000, guid: 84445514b3274aa48aa509a4eaa6cb97, type: 2}
+    SkillLevels:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    PassiveSkills: []
+    AIs_Count: 3
+  OccupiedTiles:
+  - {x: 0, y: 0}
+  Biography: NO BIO
+  WaveGenInfo:
+    IncludeInProceduralWaves: 1
+    MinMaxChallengeRating: {x: 20, y: 50}
+    StageTags: 09000000
+    WaveNPCType: 2
+    Rarity: 0

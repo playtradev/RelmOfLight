@@ -1,0 +1,16 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5792e48e2fb71ac428c4b0f119177b93, type: 3}
+  m_Name: Stage01_Boss_Drain_LifeDrum
+  m_EditorClassIdentifier: 
+  PSType: 1110
+  PS: {fileID: 2807573755949742287, guid: cac943e4f6841a244bb75535d32c2cd6, type: 3}

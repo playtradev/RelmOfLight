@@ -1,0 +1,16 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5792e48e2fb71ac428c4b0f119177b93, type: 3}
+  m_Name: Debuff_Loud_Disruption
+  m_EditorClassIdentifier: 
+  PSType: 3513
+  PS: {fileID: 602196905152881734, guid: 5a2b5ce22e62d0c4eb976f321e4f1d4e, type: 3}

@@ -1,0 +1,85 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7cd84a52ef2addf4289a98afc62d2f5a, type: 3}
+  m_Name: Stage05_AscensoMountain_Minion_Forest_Pinata
+  m_EditorClassIdentifier: 
+  CharacterPrefab: {fileID: 5832199333284077978, guid: 9ed9159610fa8df4b844923c6a66a53a,
+    type: 3}
+  AbridgedCharInfo:
+    Name: Pinata
+    AddressableLocation: Chapter05_AscensoMountain_Minion_Forest_PivotChar_Pinata
+    CharacterID: 1098
+    ClassType: 2
+    Elemental: 5
+    CharacterIcon: {fileID: 21300000, guid: 5e1eef4768bd1a44bb7ff47ce75a9cbd, type: 3}
+    skeletonDataAsset: {fileID: 11400000, guid: 5f5742d454018724990b1c1f6da42f75,
+      type: 2}
+    initialSkinName: 
+    HealthStats_Health: 1800
+    HealthStats_Regeneration: 1.4
+    HealthStats_Armour: 2.1
+    EtherStats_Ether: 80
+    EtherStats_Regeneration: 1.5
+    DamageStats_BaseDamage: 1
+    WeakAttack_DamageMultiplier: 24
+    StrongAttack_DamageMultiplier: 46
+    WeakAttack_CriticalChance: {x: 2.3, y: 2.3}
+    StrongAttack_CriticalChance: {x: 2.3, y: 2.3}
+    SpeedStats_BaseSpeed: 1
+    SpeedStats_CalculatedSpeed: 1
+    SpeedStats_MovementSpeed: 1
+    SpeedStats_WeakBulletSpeedV: {x: 0, y: 0}
+    SpeedStats_WeakBulletSpeed: 5
+    SpeedStats_StrongBulletSpeedV: {x: 0, y: 0}
+    EvasionChances: {x: 0.01, y: 0.01}
+    ShieldStats_BaseShieldRegeneration: 8
+    ShieldStats_Regeneration: 0.36
+    ShieldStats_Shield: 5
+    ShieldStats_Base: 50
+    ShieldStats_MinionShieldChances: 20
+    ShieldStats_MinionPerfectShieldChances: 5
+    Behaviour_DeathBehaviour: 0
+    DeathExplosion_Delay: 0
+    DeathDisableing_Delay: 0.5
+    DeathExplosion_OverrideParticles: 0
+    SigilDropBonus: 1
+    CurrentAttackTypeInfo:
+    - {fileID: 11400000, guid: f9069441d9630084e8ffde36fd174fe2, type: 2}
+    - {fileID: 11400000, guid: a3f41b0d6cc84a641abb9ec163d1f353, type: 2}
+    - {fileID: 11400000, guid: f3f4fd50bc5a15d449f386486d4b0948, type: 2}
+    - {fileID: 11400000, guid: 5b8c092519a275e4ca0fca5187053eb7, type: 2}
+    - {fileID: 11400000, guid: f24035afa502c3a4ca8ff3e91ad6cab9, type: 2}
+    - {fileID: 11400000, guid: 7cb9ded131bdc3841b9056e67630a26c, type: 2}
+    - {fileID: 11400000, guid: 8f9c2376908fb8140bc4e1ad3ccd50e0, type: 2}
+    - {fileID: 11400000, guid: 609ecb63bcabf5d44b60c580595c06a5, type: 2}
+    SkillLevels:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    PassiveSkills: []
+    AIs_Count: 3
+  OccupiedTiles:
+  - {x: 0, y: 0}
+  Biography: NO BIO
+  WaveGenInfo:
+    IncludeInProceduralWaves: 1
+    MinMaxChallengeRating: {x: 30, y: 80}
+    StageTags: 06000000
+    WaveNPCType: 1
+    Rarity: 0

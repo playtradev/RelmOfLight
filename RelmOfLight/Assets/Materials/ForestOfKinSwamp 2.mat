@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: ForestOfKinSwamp 2
+  m_Shader: {fileID: -6465566751694194690, guid: 1bbd6faf616ff3341a4267a4e5ea25df,
+    type: 3}
+  m_ShaderKeywords: DISTORT_ON ETC1_EXTERNAL_ALPHA
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - Texture2D_EE19593C:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: 0acd76719b7ce644094a44ec19cdac4e, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - Vector1_3685C18A: -3.62
+    - Vector1_693AF6D2: 5.94
+    - Vector1_7667AF85: 14.44
+    - Vector1_7BD47AAE: 0.18
+    - Vector1_CFD772B8: 1
+    - Vector1_D8CBD8F0: 1
+    - Vector1_FE43E268: 80
+    m_Colors:
+    - Vector2_7F307EC: {r: 0.05, g: 0.05, b: 0, a: 0}
+    - Vector2_C4884641: {r: 0, g: 0, b: 0, a: 0}

@@ -1,0 +1,277 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: CleasPsAttack
+  m_EditorClassIdentifier: 
+  m_GroupName: CleasPsAttack
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 89e2a4047119c42daa2ed5753eac5db6
+  m_SerializeEntries:
+  - m_GUID: 09e3eabb70646a04ca032d691c7e06bb
+    m_Address: Chapter00_CleasTemple_Character_Desert_StrongAttack_02_Bullet_Right_Pan
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: a8d80e987ab984642a5a0522145af84a
+    m_Address: Chapter00_CleasTemple_Character_Desert_StrongAttack_02_Cast_Right_Pan
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 601a11862cd881c4b8504a7f9ea0f64a
+    m_Address: Chapter00_CleasTemple_Character_Desert_StrongAttack_02_Hit_Right_Pan
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 60f6f96421bb03a4ca60a1d5f8a04edd
+    m_Address: Chapter00_CleasTemple_Character_Desert_StrongAttack_Bullet_Right_Pan
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 27b2d0b0f01fe2b4990db813e3520843
+    m_Address: Chapter00_CleasTemple_Character_Desert_StrongAttack_Cast_Right_Pan
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: b635c7a167266ee4baded875b7bfac7c
+    m_Address: Chapter00_CleasTemple_Character_Desert_StrongAttack_Hit_Right_Pan
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 7035e10bebeff4444a4e7919cfa26e9e
+    m_Address: Chapter00_CleasTemple_Character_Desert_WeakAttack_Bullet_Left_Pan_Healing
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: e50d21e7ef2560947be179ad87b8134a
+    m_Address: Chapter00_CleasTemple_Character_Desert_WeakAttack_Bullet_Right_Pan
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 7d0c43ad02cf9fc40a5241f5d07a089c
+    m_Address: Chapter00_CleasTemple_Character_Desert_WeakAttack_Cast_Left_Pan_Healing
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 1c7bca6d9667496439907aa3d8bba0d9
+    m_Address: Chapter00_CleasTemple_Character_Desert_WeakAttack_Cast_Right_Pan
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: a0613eecfa0f48c4f939e1ea630d78cf
+    m_Address: Chapter00_CleasTemple_Character_Desert_WeakAttack_Hit_Left_Pan_Healing
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 95b5b2f9c81d01b4093f47eef8740d5b
+    m_Address: Chapter00_CleasTemple_Character_Desert_WeakAttack_Hit_Right_Pan
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 2ecc1fa9266627043b95854e3562257f
+    m_Address: Chapter00_CleasTemple_Character_Forest_Debuff_Cast_Right_Koniko
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: f5c79d0ba119f4e498ef4abd93cd5005
+    m_Address: Chapter00_CleasTemple_Character_Forest_StrongAttack_Bullet_Right_Koniko
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 803d3bfc9902329458c79fc8671a688e
+    m_Address: Chapter00_CleasTemple_Character_Forest_StrongAttack_Cast_Right_Koniko
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: b80e408aaf86b11459334c122d2335b6
+    m_Address: Chapter00_CleasTemple_Character_Forest_StrongAttack_Hit_Right_Koniko
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: e6c57344e79eb6e49acffb9e9a4bea12
+    m_Address: Chapter00_CleasTemple_Character_Forest_WeakAttack_Bullet_Right_Koniko
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: e8df7faee9861e640b1eff37e9199a7c
+    m_Address: Chapter00_CleasTemple_Character_Forest_WeakAttack_Cast_Right_Koniko
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: b26a947103cadef488361cefe06d6432
+    m_Address: Chapter00_CleasTemple_Character_Forest_WeakAttack_Hit_Right_Koniko
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: e881eda3c6870dd4dba20139f784f915
+    m_Address: Chapter00_CleasTemple_Character_Mountain_Debuff_Bullet_Right_Bird
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: dc5cf5afa9822764fadfaec7c1bb20ba
+    m_Address: Chapter00_CleasTemple_Character_Mountain_Debuff_Cast_Right_Bird
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 919261b0f9dc24045a541be4c97303e5
+    m_Address: Chapter00_CleasTemple_Character_Mountain_Debuff_Hit_Right_Bird
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 14eea1f2fd041a74cbbe0d4e237447df
+    m_Address: Chapter00_CleasTemple_Character_Mountain_StrongAttack_Bullet_Right_Bird
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 7a79f19031101734a8d162ecf14ebd0e
+    m_Address: Chapter00_CleasTemple_Character_Mountain_StrongAttack_Cast_Right_Bird
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: bb548f62b93fa7e4e867cb4d3b9ff875
+    m_Address: Chapter00_CleasTemple_Character_Mountain_StrongAttack_Hit_Right_Bird
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 9e46f9426828a4d4085498d379ce8e59
+    m_Address: Chapter00_CleasTemple_Character_Mountain_WeakAttack_Bullet_Right_Bird
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 004bd0589e557f245bcf9ad84ff15de7
+    m_Address: Chapter00_CleasTemple_Character_Mountain_WeakAttack_Cast_Right_Bird
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: aac96ca2d5a980a4ba398f1783dab1f9
+    m_Address: Chapter00_CleasTemple_Character_Mountain_WeakAttack_Hit_Right_Bird
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 5d3cf13d727d03e4fa8388d103983c36
+    m_Address: Chapter00_CleasTemple_Character_Valley_MeleeAtk_Cast_Right_Donna
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: f380f6e5004c18b4b975617b9d6399e7
+    m_Address: Chapter00_CleasTemple_Character_Valley_MeleeAtk_Hit_Right_Donna
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 93db7cb789e25fb48b7ae98dff822640
+    m_Address: Chapter00_CleasTemple_Character_Valley_MeleeAtk_Teleport_BackArrive_Right_Donna
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: d414d309a5ac0bc4aad72a5e522332fd
+    m_Address: Chapter00_CleasTemple_Character_Valley_MeleeAtk_Teleport_BackStart_Right_Donna
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 9bd692889685530408fc4947dfec0f25
+    m_Address: Chapter00_CleasTemple_Character_Valley_MeleeAtk_TeleportGoArrive_Right_Donna
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 2d097649c8fc6b143ae4af7b3542129b
+    m_Address: Chapter00_CleasTemple_Character_Valley_MeleeAtk_TeleportGoStart_Right_Donna
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 9a7a6a729b1057b4492f4312a860b84c
+    m_Address: Chapter00_CleasTemple_Character_Valley_StrongAttack_Bullet_Right_Donna
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 20a680bd88321fe4ba380013ee913d44
+    m_Address: Chapter00_CleasTemple_Character_Valley_StrongAttack_Cast_Right_Donna
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 62afcdb95e188bd40b1d61707660678c
+    m_Address: Chapter00_CleasTemple_Character_Valley_StrongAttack_Hit_Right_Donna
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: d54cdcf87424bc34d9b84e2b8d202d4e
+    m_Address: Chapter00_CleasTemple_Character_Valley_WeakAttack_Bullet_Right_Donna
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 58fe3f48cf5f3444bab34f09f5fab7be
+    m_Address: Chapter00_CleasTemple_Character_Valley_WeakAttack_Cast_Right_Donna
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: b6acae63c45eda84995f28b19e2a65ad
+    m_Address: Chapter00_CleasTemple_Character_Valley_WeakAttack_Hit_Right_Donna
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: f21c8c8d6577869449263b5635738686
+    m_Address: Chapter00_CleasTemple_Minion_Desert_WeakAttack_Bullet_Right_MechDog
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 120e9ddc9b7c68e4c8ae63dc3c74f863
+    m_Address: Chapter00_CleasTemple_Minion_Desert_WeakAttack_Cast_Right_MechDog
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: f348c614a478c344eb1d339fc1b5ce30
+    m_Address: Chapter00_CleasTemple_Minion_Desert_WeakAttack_Hit_Right_MechDog
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: ef20516c0c698e14f980d5cb5207b8ff
+    m_Address: Chapter00_CleasTemple_Minion_Forest_WeakAttack_Bullet_Right_DoctorBee
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: d9365058cf6f0e14d85b285c2da54f36
+    m_Address: Chapter00_CleasTemple_Minion_Forest_WeakAttack_Cast_Right_DoctorBee
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 10dea9f89c18ff9438ab85903c110db0
+    m_Address: Chapter00_CleasTemple_Minion_Forest_WeakAttack_Hit_Right_DoctorBee
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: a35e90688482c994caaa70e42bc5c2a2
+    m_Address: Chapter00_CleasTemple_minion_mountain_loop_Left
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 3f3a527dca7d8c54b8c01da2d7dbb6fb
+    m_Address: Chapter00_CleasTemple_minion_mountain_loop_Left_Bighead
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: b152334c08ddbf5428ad2ec9d4ae0240
+    m_Address: Chapter00_CleasTemple_minion_mountain_loop_Right_Bighead
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: fb4eb36ecf9d1874398dd6152c0ae4b8
+    m_Address: Chapter00_CleasTemple_minion_mountain_loop_Up_Bighead
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 91b6749973a98914ea598b45a83eb64c
+    m_Address: Chapter00_CleasTemple_Minion_Mountain_StrongAttack_Bullet_Right_Bighead
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: d214adf88e3be14458c77670b7a8118d
+    m_Address: Chapter00_CleasTemple_Minion_Mountain_StrongAttack_Cast_Right_Bighead
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 9066315758c33ee4bb6ca1a2462e0a4f
+    m_Address: Chapter00_CleasTemple_Minion_Mountain_StrongAttack_Hit_Right_Bighead
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 7e628f473a06b114ab4f44cd04ae3059
+    m_Address: Chapter00_CleasTemple_Minion_Mountain_WeakAttack_Bullet_Right_Bighead
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 590b26e11ea51e04abd692c356c1ac3a
+    m_Address: Chapter00_CleasTemple_Minion_Mountain_WeakAttack_Cast_Right_Bighead
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 93d7481472a7a7f419cc26cee032d187
+    m_Address: Chapter00_CleasTemple_Minion_Mountain_WeakAttack_Hit_Right_Bighead
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 05eff284c5072744db1e5ff473748678
+    m_Address: Chapter00_CleasTemple_minion_valley-loop_Chander
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 5094aa0768eed8f49b4fbf8d9a08b97f
+    m_Address: Chapter00_CleasTemple_Minion_Valley_StrongAttack_Bullet_Right_Chander
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 170de5d6267d3584da3f46ea86d7fa72
+    m_Address: Chapter00_CleasTemple_Minion_Valley_StrongAttack_Cast_Right_Chander
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: d8816931774b9f143a6833c46fc0f960
+    m_Address: Chapter00_CleasTemple_Minion_Valley_StrongAttack_Hit_Right_Chander
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 608cac93b204cbb4c83f3bda65b888cf
+    m_Address: Chapter00_CleasTemple_Minion_Valley_WeakAttack_Bullet_Right_Chander
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: e352cae5f39311341b8a8d16d8d33191
+    m_Address: Chapter00_CleasTemple_Minion_Valley_WeakAttack_Cast_Right_Chander
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 9415e0f4356271046adc0a07225aeb8b
+    m_Address: Chapter00_CleasTemple_Minion_Valley_WeakAttack_Hit_Right_Chander
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: b6689890f3f9e4068bac5c7c11c69403, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 8721088aa8b8943d2916c4290caa41c5, type: 2}
+    - {fileID: 11400000, guid: 6fa410d92c77f40c7a3cfd65989305ed, type: 2}

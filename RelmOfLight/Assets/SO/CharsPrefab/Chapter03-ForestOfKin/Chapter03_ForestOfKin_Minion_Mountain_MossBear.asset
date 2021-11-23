@@ -1,0 +1,88 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7cd84a52ef2addf4289a98afc62d2f5a, type: 3}
+  m_Name: Chapter03_ForestOfKin_Minion_Mountain_MossBear
+  m_EditorClassIdentifier: 
+  CharacterPrefab: {fileID: 6366350962305545439, guid: 2ab638287ca665e4092275b459bd0714,
+    type: 3}
+  AbridgedCharInfo:
+    Name: Moss-Bear
+    AddressableLocation: ForestOfKin_Minion_Mountain_PivotChar_Moss-Bear
+    CharacterID: 1060
+    ClassType: 1
+    Elemental: 2
+    CharacterIcon: {fileID: 21300000, guid: a587cb435bd91794a931e1585c97094c, type: 3}
+    skeletonDataAsset: {fileID: 11400000, guid: 7d06a156b03f6cc4786b64c3b1215bc9,
+      type: 2}
+    initialSkinName: 
+    HealthStats_Health: 1000
+    HealthStats_Regeneration: 3
+    HealthStats_Armour: 2.4
+    EtherStats_Ether: 60
+    EtherStats_Regeneration: 2.5
+    DamageStats_BaseDamage: 1
+    WeakAttack_DamageMultiplier: 19
+    StrongAttack_DamageMultiplier: 32
+    WeakAttack_CriticalChance: {x: 4, y: 4}
+    StrongAttack_CriticalChance: {x: 4, y: 4}
+    SpeedStats_BaseSpeed: 1
+    SpeedStats_CalculatedSpeed: 0.8333333
+    SpeedStats_MovementSpeed: 1
+    SpeedStats_WeakBulletSpeedV: {x: 0, y: 0}
+    SpeedStats_WeakBulletSpeed: 10
+    SpeedStats_StrongBulletSpeedV: {x: 0, y: 0}
+    EvasionChances: {x: 0.3, y: 0.3}
+    ShieldStats_BaseShieldRegeneration: 8
+    ShieldStats_Regeneration: 0.36
+    ShieldStats_Shield: 5
+    ShieldStats_Base: 50
+    ShieldStats_MinionShieldChances: 20
+    ShieldStats_MinionPerfectShieldChances: 5
+    Behaviour_DeathBehaviour: 0
+    DeathExplosion_Delay: 0
+    DeathDisableing_Delay: 0.5
+    DeathExplosion_OverrideParticles: 0
+    SigilDropBonus: 2
+    CurrentAttackTypeInfo:
+    - {fileID: 11400000, guid: bd259ac6d13dfe14f867de5aee58730d, type: 2}
+    - {fileID: 11400000, guid: d15489f725ecf7a4f86a1c57704eab32, type: 2}
+    - {fileID: 11400000, guid: 9fc3a5e635a34bd4f93c5de3167c4bd2, type: 2}
+    - {fileID: 11400000, guid: 9195bfec675a563498aac048c4e2e72e, type: 2}
+    - {fileID: 11400000, guid: 2d60c7750730e314ebc20878fc156be1, type: 2}
+    - {fileID: 11400000, guid: 2667d6a50632a5e42ae8fbe1efefefda, type: 2}
+    - {fileID: 11400000, guid: 5c5aba29900ede64db4bbaff3fb09b3f, type: 2}
+    - {fileID: 11400000, guid: c7111bf96ed4a9d428e970a2a8bf0d3b, type: 2}
+    SkillLevels:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    PassiveSkills: []
+    AIs_Count: 3
+  OccupiedTiles:
+  - {x: 0, y: 0}
+  Biography: "As most EGO\u2019s in Kin\u2019s Forest, The Moss-bear is part animal,
+    part plant. Those powerful monsters are born from little seeds dispersed throughout
+    the forest. Adult Moss-bears petrify during the cold months, coming back to life
+    in hotter times thanks to their cover of moss, which has powerful healing properties."
+  WaveGenInfo:
+    IncludeInProceduralWaves: 1
+    MinMaxChallengeRating: {x: 22, y: 60}
+    StageTags: 04000000
+    WaveNPCType: 1
+    Rarity: 0

@@ -1,0 +1,342 @@
+
+GridFight-The-Burg-MainTeam-Deedra-20210812-v1.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Arm1
+  rotate: false
+  xy: 802, 625
+  size: 123, 51
+  orig: 123, 51
+  offset: 0, 0
+  index: -1
+Arm2
+  rotate: false
+  xy: 4, 633
+  size: 120, 63
+  orig: 120, 63
+  offset: 0, 0
+  index: -1
+Back-Belt
+  rotate: false
+  xy: 579, 714
+  size: 60, 26
+  orig: 60, 26
+  offset: 0, 0
+  index: -1
+Back-Shoulder
+  rotate: false
+  xy: 272, 602
+  size: 86, 74
+  orig: 86, 74
+  offset: 0, 0
+  index: -1
+Belt
+  rotate: false
+  xy: 732, 539
+  size: 70, 41
+  orig: 70, 41
+  offset: 0, 0
+  index: -1
+Body
+  rotate: 270
+  xy: 128, 587
+  size: 73, 117
+  orig: 75, 118
+  offset: 1, 1
+  index: -1
+Butt-Plate
+  rotate: true
+  xy: 170, 539
+  size: 44, 68
+  orig: 44, 68
+  offset: 0, 0
+  index: -1
+Chest-Armor
+  rotate: true
+  xy: 159, 659
+  size: 106, 109
+  orig: 106, 109
+  offset: 0, 0
+  index: -1
+Earring
+  rotate: true
+  xy: 835, 749
+  size: 14, 32
+  orig: 14, 32
+  offset: 0, 0
+  index: -1
+F1P1
+  rotate: true
+  xy: 907, 541
+  size: 58, 62
+  orig: 58, 62
+  offset: 0, 0
+  index: -1
+F1P2
+  rotate: false
+  xy: 661, 542
+  size: 33, 34
+  orig: 33, 34
+  offset: 0, 0
+  index: -1
+F2P1
+  rotate: true
+  xy: 97, 540
+  size: 44, 69
+  orig: 44, 69
+  offset: 0, 0
+  index: -1
+F2P2
+  rotate: false
+  xy: 643, 700
+  size: 29, 40
+  orig: 29, 40
+  offset: 0, 0
+  index: -1
+Face
+  rotate: true
+  xy: 929, 603
+  size: 73, 83
+  orig: 73, 83
+  offset: 0, 0
+  index: -1
+Forearm-1
+  rotate: false
+  xy: 732, 584
+  size: 103, 37
+  orig: 103, 37
+  offset: 0, 0
+  index: -1
+Forearm-2
+  rotate: false
+  xy: 622, 580
+  size: 106, 45
+  orig: 106, 45
+  offset: 0, 0
+  index: -1
+Front-Shoulder
+  rotate: false
+  xy: 272, 680
+  size: 98, 85
+  orig: 98, 85
+  offset: 0, 0
+  index: -1
+Ground-Shadow
+  rotate: false
+  xy: 4, 878
+  size: 389, 135
+  orig: 389, 135
+  offset: 0, 0
+  index: -1
+Gun-1
+  rotate: false
+  xy: 4, 700
+  size: 151, 77
+  orig: 151, 77
+  offset: 0, 0
+  index: -1
+Gun-2
+  rotate: false
+  xy: 677, 689
+  size: 154, 74
+  orig: 154, 74
+  offset: 0, 0
+  index: -1
+HP1
+  rotate: false
+  xy: 509, 536
+  size: 52, 71
+  orig: 57, 74
+  offset: 3, 2
+  index: -1
+HP2
+  rotate: false
+  xy: 521, 645
+  size: 123, 136
+  orig: 127, 139
+  offset: 2, 1
+  index: -1
+HP3
+  rotate: true
+  xy: 24, 542
+  size: 19, 69
+  orig: 23, 72
+  offset: 2, 2
+  index: -1
+HP4
+  rotate: true
+  xy: 4, 557
+  size: 73, 95
+  orig: 76, 99
+  offset: 2, 2
+  index: -1
+L1P1
+  rotate: true
+  xy: 206, 769
+  size: 105, 172
+  orig: 105, 172
+  offset: 0, 0
+  index: -1
+L1P2
+  rotate: true
+  xy: 835, 680
+  size: 58, 170
+  orig: 58, 170
+  offset: 0, 0
+  index: -1
+L2P1
+  rotate: true
+  xy: 382, 783
+  size: 91, 190
+  orig: 91, 190
+  offset: 0, 0
+  index: -1
+L2P2
+  rotate: true
+  xy: 890, 742
+  size: 133, 121
+  orig: 133, 121
+  offset: 0, 0
+  index: -1
+LDERB1
+  rotate: false
+  xy: 622, 540
+  size: 35, 36
+  orig: 35, 36
+  offset: 0, 0
+  index: -1
+LEDBR2
+  rotate: false
+  xy: 439, 531
+  size: 31, 31
+  orig: 31, 31
+  offset: 0, 0
+  index: -1
+LEDR1
+  rotate: false
+  xy: 316, 556
+  size: 30, 42
+  orig: 30, 42
+  offset: 0, 0
+  index: -1
+LEDR2
+  rotate: true
+  xy: 474, 536
+  size: 25, 36
+  orig: 25, 36
+  offset: 0, 0
+  index: -1
+Neck
+  rotate: true
+  xy: 244, 547
+  size: 51, 68
+  orig: 51, 68
+  offset: 0, 0
+  index: -1
+Pelvis-Filler
+  rotate: false
+  xy: 529, 576
+  size: 89, 65
+  orig: 89, 65
+  offset: 0, 0
+  index: -1
+Pelvis-Plate
+  rotate: true
+  xy: 362, 558
+  size: 68, 73
+  orig: 68, 73
+  offset: 0, 0
+  index: -1
+RABBLOCK
+  rotate: false
+  xy: 439, 566
+  size: 66, 60
+  orig: 66, 60
+  offset: 0, 0
+  index: -1
+RABHAND
+  rotate: false
+  xy: 695, 879
+  size: 296, 134
+  orig: 296, 134
+  offset: 0, 0
+  index: -1
+RABP1
+  rotate: false
+  xy: 695, 767
+  size: 191, 108
+  orig: 191, 108
+  offset: 0, 0
+  index: -1
+RABP2
+  rotate: false
+  xy: 576, 744
+  size: 97, 130
+  orig: 97, 130
+  offset: 0, 0
+  index: -1
+RABP3
+  rotate: false
+  xy: 374, 630
+  size: 151, 54
+  orig: 151, 54
+  offset: 0, 0
+  index: -1
+RAFBLOCK
+  rotate: false
+  xy: 839, 562
+  size: 64, 59
+  orig: 64, 59
+  offset: 0, 0
+  index: -1
+RAFHAND
+  rotate: false
+  xy: 397, 878
+  size: 294, 135
+  orig: 294, 135
+  offset: 0, 0
+  index: -1
+RAFP1
+  rotate: false
+  xy: 4, 781
+  size: 198, 93
+  orig: 198, 93
+  offset: 0, 0
+  index: -1
+RAFP2
+  rotate: true
+  xy: 382, 688
+  size: 91, 135
+  orig: 91, 135
+  offset: 0, 0
+  index: -1
+RAFP3
+  rotate: false
+  xy: 647, 629
+  size: 151, 56
+  orig: 151, 56
+  offset: 0, 0
+  index: -1
+Single-frint-HAir
+  rotate: false
+  xy: 995, 937
+  size: 14, 77
+  orig: 19, 82
+  offset: 3, 3
+  index: -1
+Toggle1
+  rotate: true
+  xy: 562, 551
+  size: 21, 46
+  orig: 21, 46
+  offset: 0, 0
+  index: -1
+Toggle2
+  rotate: false
+  xy: 973, 556
+  size: 35, 43
+  orig: 35, 43
+  offset: 0, 0
+  index: -1

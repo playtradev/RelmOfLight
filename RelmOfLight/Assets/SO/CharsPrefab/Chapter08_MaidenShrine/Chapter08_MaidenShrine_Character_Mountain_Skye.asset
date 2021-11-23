@@ -1,0 +1,85 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7cd84a52ef2addf4289a98afc62d2f5a, type: 3}
+  m_Name: Chapter08_MaidenShrine_Character_Mountain_Skye
+  m_EditorClassIdentifier: 
+  CharacterPrefab: {fileID: 55710729243251702, guid: 83c45de0353c9474daeff54c5f4c9f80,
+    type: 3}
+  AbridgedCharInfo:
+    Name: Skye
+    AddressableLocation: Stage08_Character_Mountain_PivotChar_Skye
+    CharacterID: 1166
+    ClassType: 3
+    Elemental: 4
+    CharacterIcon: {fileID: 21300000, guid: f40e0ad4fb7513943a0a0804b0a4081a, type: 3}
+    skeletonDataAsset: {fileID: 11400000, guid: 09584e4be28d5444b9024cbd876ab7d0,
+      type: 2}
+    initialSkinName: 
+    HealthStats_Health: 66
+    HealthStats_Regeneration: 0.95
+    HealthStats_Armour: 0.8
+    EtherStats_Ether: 52
+    EtherStats_Regeneration: 1.22
+    DamageStats_BaseDamage: 1
+    WeakAttack_DamageMultiplier: 1.2
+    StrongAttack_DamageMultiplier: 16
+    WeakAttack_CriticalChance: {x: 1.1, y: 1.1}
+    StrongAttack_CriticalChance: {x: 1.1, y: 1.1}
+    SpeedStats_BaseSpeed: 1
+    SpeedStats_CalculatedSpeed: 3.2258065
+    SpeedStats_MovementSpeed: 1
+    SpeedStats_WeakBulletSpeedV: {x: 0, y: 0}
+    SpeedStats_WeakBulletSpeed: 2
+    SpeedStats_StrongBulletSpeedV: {x: 0, y: 0}
+    EvasionChances: {x: 1.8, y: 1.8}
+    ShieldStats_BaseShieldRegeneration: 8
+    ShieldStats_Regeneration: 0.45
+    ShieldStats_Shield: 9
+    ShieldStats_Base: 50
+    ShieldStats_MinionShieldChances: 20
+    ShieldStats_MinionPerfectShieldChances: 5
+    Behaviour_DeathBehaviour: 0
+    DeathExplosion_Delay: 0
+    DeathDisableing_Delay: 0.5
+    DeathExplosion_OverrideParticles: 0
+    SigilDropBonus: 0
+    CurrentAttackTypeInfo:
+    - {fileID: 11400000, guid: 8538b4e63a2a2e145b9e979eec133402, type: 2}
+    - {fileID: 11400000, guid: 5e7e1ebcedf085344b1d32dce3d8850a, type: 2}
+    - {fileID: 11400000, guid: 8fac11bc7d496064cafc5a314d9fce1c, type: 2}
+    - {fileID: 11400000, guid: 93fe58acead4d5a4abf29cc5118b08b4, type: 2}
+    - {fileID: 11400000, guid: 9d7a7ec656e3bf5468030ce0d887d0a1, type: 2}
+    - {fileID: 11400000, guid: a97a071e2c382f8408a769730aeed3af, type: 2}
+    - {fileID: 11400000, guid: 4607f1f714ae67448b22173d71836e4d, type: 2}
+    - {fileID: 11400000, guid: f5ad7213834b73a439c689d0d2b44253, type: 2}
+    SkillLevels:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    PassiveSkills: []
+    AIs_Count: 3
+  OccupiedTiles:
+  - {x: 0, y: 0}
+  Biography: NO BIO
+  WaveGenInfo:
+    IncludeInProceduralWaves: 1
+    MinMaxChallengeRating: {x: 20, y: 50}
+    StageTags: 09000000
+    WaveNPCType: 2
+    Rarity: 0

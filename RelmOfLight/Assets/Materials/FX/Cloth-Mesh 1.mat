@@ -1,0 +1,374 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Cloth-Mesh 1
+  m_Shader: {fileID: -6465566751694194690, guid: fb7e278a615b1fe4189e6fba7fd820ea,
+    type: 3}
+  m_ShaderKeywords: BLURISHD_ON DISTORT_ON ETC1_EXTERNAL_ALPHA WAVEUV_ON ZOOMUV_ON
+    _BLURHD_ON
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - Flower01:
+        m_Texture: {fileID: 2800000, guid: 6b791917c986e0a40bc552409bfa2770, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - Flower01_1:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - Flower01_2:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - Flower01_3:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - Texture2:
+        m_Texture: {fileID: 2800000, guid: 3b9d7ee907fe8ad4f814452ed70c2b32, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - Texture2D_51B7A7DD:
+        m_Texture: {fileID: 2800000, guid: f5f4adab7315b1544a09bb6360f36485, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - Texture2D_738281C6:
+        m_Texture: {fileID: 2800000, guid: f5f4adab7315b1544a09bb6360f36485, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _BumpMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ColorRampTex:
+        m_Texture: {fileID: 2800000, guid: 279657edc397ece4b8029c727adf6ddc, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ColorSwapTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailAlbedoMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailMask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailNormalMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DistortTex:
+        m_Texture: {fileID: 2800000, guid: 7aad8c583ef292e48b06af0d1f2fab97, type: 3}
+        m_Scale: {x: 0.5, y: 0.5}
+        m_Offset: {x: 0, y: 0}
+    - _EmissionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _FadeBurnTex:
+        m_Texture: {fileID: 2800000, guid: 677cca399782dea41aedc1d292ecb67d, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _FadeTex:
+        m_Texture: {fileID: 2800000, guid: 7aad8c583ef292e48b06af0d1f2fab97, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _GlowTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: 34b5984522797334cabbd4dc22c41f0b, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MetallicGlossMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _OcclusionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _OutlineDistortTex:
+        m_Texture: {fileID: 2800000, guid: 7aad8c583ef292e48b06af0d1f2fab97, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _OutlineTex:
+        m_Texture: {fileID: 2800000, guid: 74087f6d03f233e4a8a142fa01f9e5cf, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ParallaxMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SampleTexture2D_AB62CC4E_Texture_1:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ShineMask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - texture1:
+        m_Texture: {fileID: 2800000, guid: 8406e5a4916ccad419964c727081d9cc, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - texture1_1:
+        m_Texture: {fileID: 2800000, guid: 90329db23cd6fd548b8c361f73b69ae5, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - texture1_2:
+        m_Texture: {fileID: 2800000, guid: 1b9f98d716f0e3b449c825d9b5eab54f, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - texture1_3:
+        m_Texture: {fileID: 2800000, guid: d0f071f650f10644aad4cd7d2b40db37, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - Boolean_ACF77F68: 0
+    - Custom1_x: 1
+    - StableRandom: 0.5
+    - StableRandom_x: 0.5
+    - StableRandom_z: 0.5
+    - TEXCOORD0: 0.5
+    - TEXCOORD_x: 0
+    - Vector1_1776F29: 0.05
+    - Vector1_27C029AB: 0.71
+    - Vector1_3C185011: 0
+    - Vector1_3D81CB04: 2.67
+    - Vector1_49037F10: 0.99
+    - Vector1_4B62570A: 30
+    - Vector1_4F3A4BD6: 0.2
+    - Vector1_54505569: 40
+    - Vector1_546EC4F4: 501
+    - Vector1_5CA7A55C: 2
+    - Vector1_8034450E: 0
+    - Vector1_888EBBC2: 0
+    - Vector1_9952F510: 0
+    - Vector1_9D956A71: 1
+    - Vector1_A20FFDD8: 0.5
+    - Vector1_ABCADC0B: 0.3
+    - Vector1_B85E767D: 4
+    - Vector1_BF448B8: 1
+    - Vector1_D476F7D0: 1.16
+    - Vector1_D840B04B: 0.1
+    - Vector1_F8141BB6: 0.48
+    - _Alpha: 1
+    - _AlphaCutoffValue: 0.25
+    - _BillboardY: 0
+    - _BlurHD: 1
+    - _BlurIntensity: 10
+    - _BumpScale: 1
+    - _ChromAberrAlpha: 0.4
+    - _ChromAberrAmount: 1
+    - _ClipUvDown: 0
+    - _ClipUvLeft: 0
+    - _ClipUvRight: 0
+    - _ClipUvUp: 0
+    - _ColorChangeLuminosity: 0
+    - _ColorChangeTolerance: 0.25
+    - _ColorRampLuminosity: 0
+    - _ColorRampOutline: 0
+    - _ColorSwapBlueLuminosity: 0.5
+    - _ColorSwapGreenLuminosity: 0.45
+    - _ColorSwapRedLuminosity: 0.5
+    - _Cutoff: 0.5
+    - _DetailNormalMapScale: 1
+    - _DistortAmount: 1.23
+    - _DistortTexXSpeed: 1.4
+    - _DistortTexYSpeed: 2
+    - _DstBlend: 0
+    - _FadeAmount: -0.1
+    - _FadeBurnGlow: 2
+    - _FadeBurnTransition: 0.075
+    - _FadeBurnWidth: 0.025
+    - _FishEyeUvAmount: 0.35
+    - _FlickerAlpha: 0
+    - _FlickerFreq: 0.2
+    - _FlickerPercent: 0.05
+    - _GhostColorBoost: 0.72
+    - _GhostTransparency: 0
+    - _GlitchAmount: 3
+    - _GlitchSize: 1
+    - _GlossMapScale: 1
+    - _Glossiness: 0.5
+    - _GlossyReflections: 1
+    - _Glow: 100
+    - _GlowTexUsed: 0
+    - _GradBlend: 1
+    - _GrassManualAnim: 1
+    - _GrassManualToggle: 0
+    - _GrassSpeed: 2
+    - _GrassWind: 20
+    - _GreyscaleLuminosity: 0
+    - _GreyscaleOutline: 0
+    - _HandDrawnAmount: 10
+    - _HandDrawnSpeed: 5
+    - _HitEffectBlend: 1
+    - _HitEffectGlow: 5
+    - _HologramFlickerAlpha: 0
+    - _HologramFlickerFreq: 0.2
+    - _HologramMaxAlpha: 1
+    - _HologramMinAlpha: 0
+    - _HologramStripesAlpha: 0.4
+    - _HologramStripesAmount: 50
+    - _HologramStripesFill: 0.4
+    - _HologramStripesLuminosity: 1
+    - _HologramStripesSpeed: 5
+    - _HologramUnmodAmount: 0.4
+    - _HsvBright: 1
+    - _HsvSaturation: 1
+    - _HsvShift: 180
+    - _InnerOutlineAlpha: 1
+    - _InnerOutlineGlow: 9.5
+    - _InnerOutlineThickness: 1.53
+    - _MaxXUV: 1
+    - _MaxYUV: 1
+    - _Metallic: 0
+    - _MinXUV: 0
+    - _MinYUV: 0
+    - _Mode: 0
+    - _MotionBlurAngle: 0.1
+    - _MotionBlurDist: 1.25
+    - _MyDstMode: 10
+    - _MySrcMode: 5
+    - _NegativeAmount: 1
+    - _OcclusionStrength: 1
+    - _OffsetUvX: 0
+    - _OffsetUvY: 0
+    - _OnlyInnerOutline: 0
+    - _OnlyOutline: 0
+    - _Outline8Directions: 0
+    - _OutlineAlpha: 1
+    - _OutlineDistortAmount: 0.5
+    - _OutlineDistortTexXSpeed: 5
+    - _OutlineDistortTexYSpeed: 5
+    - _OutlineDistortToggle: 0
+    - _OutlineGlow: 1.5
+    - _OutlineIsPixel: 0
+    - _OutlinePixelWidth: 1
+    - _OutlineTexGrey: 0
+    - _OutlineTexToggle: 0
+    - _OutlineTexXSpeed: 10
+    - _OutlineTexYSpeed: 0
+    - _OutlineWidth: 0.004
+    - _Parallax: 0.02
+    - _PinchUvAmount: 0.35
+    - _PixelateSize: 32
+    - _PosterizeGamma: 0.75
+    - _PosterizeNumColors: 8
+    - _PosterizeOutline: 0
+    - _RandomSeed: 0
+    - _RectSize: 1
+    - _RotCenter_1: 0
+    - _RotCenter_2: 0
+    - _RotRange_1: 20
+    - _RotRange_2: -50
+    - _RotateUvAmount: 0
+    - _RoundWaveSpeed: 2
+    - _RoundWaveStrength: 0.7
+    - _ShadowAlpha: 0.5
+    - _ShadowX: 0.1
+    - _ShadowY: -0.05
+    - _ShakeUvSpeed: 2.5
+    - _ShakeUvX: 1.5
+    - _ShakeUvY: 1
+    - _ShineGlow: 1
+    - _ShineLocation: 0.5
+    - _ShineWidth: 0.1
+    - _SmoothnessTextureChannel: 0
+    - _SpecularHighlights: 1
+    - _Speed: 1.5
+    - _SrcBlend: 1
+    - _TextureScrollXSpeed: 1
+    - _TextureScrollYSpeed: 0
+    - _TimeOffset: -0.16
+    - _TwistUvAmount: 1
+    - _TwistUvPosX: 0.5
+    - _TwistUvPosY: 0.5
+    - _TwistUvRadius: 0.75
+    - _UVSec: 0
+    - _WaveAmount: 23
+    - _WaveSpeed: 2.9
+    - _WaveStrength: 7.5
+    - _WaveX: 0
+    - _WaveY: 0.5
+    - _ZTestMode: 4
+    - _ZWrite: 1
+    - _ZoomUvAmount: 1.27
+    m_Colors:
+    - Color_57DCAFF9: {r: 0.67768776, g: 0.893792, b: 0.9150943, a: 1}
+    - Color_B9D38C64: {r: 0, g: 0, b: 0, a: 0.6156863}
+    - Color_CD901DBC: {r: 0.31414193, g: 0.8301887, b: 0.29369885, a: 1}
+    - Color_E26A3E1B: {r: 0.1539539, g: 1, b: 0, a: 1}
+    - Color_EB3F806D: {r: 0, g: 0.3962264, b: 0.056331396, a: 1}
+    - SV_POSITION: {r: -1.39, g: 1, b: 0, a: 0}
+    - StripColor: {r: 0, g: 0, b: 0, a: 0}
+    - TEXCOORD0: {r: 1, g: 1, b: 1, a: 1}
+    - TEXCOORD0_xyzw: {r: 1, g: 1, b: 1, a: 1}
+    - TEXCOORD0_z: {r: 0, g: 0, b: 0, a: 0}
+    - Vector2_57A78796: {r: 1.73, g: 0.9, b: 0, a: 0}
+    - Vector2_57C0D0C4: {r: 0.47, g: 0.44, b: 0, a: 0}
+    - Vector2_5DCDC135: {r: 1, g: 1, b: 0, a: 0}
+    - Vector2_95EC904D: {r: 0, g: 1, b: 0, a: 0}
+    - Vector2_9F251266: {r: 0.5, g: 3, b: 0, a: 0}
+    - Vector2_AD2FC646: {r: 0, g: 0, b: 0, a: 0}
+    - Vector2_C698C63F: {r: -0.12, g: 0, b: 0, a: 0}
+    - Vector2_D1884A9A: {r: 0, g: -0.0004, b: 0, a: 0}
+    - Vector2_EDC77220: {r: 1, g: 3, b: 0, a: 0}
+    - Vector3_633AE0E4: {r: 0, g: -0.66, b: 0, a: 0}
+    - Vector3_772597DE: {r: 0, g: 0, b: 0, a: 0}
+    - Vector3_8230AD89: {r: -0.51, g: -0.87, b: 0, a: 0}
+    - Vector3_861D65B6: {r: 0, g: 0, b: 1, a: 0}
+    - Vector3_D9E21227: {r: 0.11, g: 0.87, b: 0, a: 0}
+    - Vector3_E2817689: {r: 0, g: -0.09, b: 0, a: 0}
+    - Vector4_2347E0FE: {r: 0, g: 0, b: 0, a: 0}
+    - Vector4_298FE630: {r: 0, g: 0, b: 0, a: 0}
+    - Vector4_3CF0CE8A: {r: 0, g: 0, b: 0, a: 0}
+    - Vector4_407D46EB: {r: 1, g: 1, b: 1, a: 1}
+    - Vector4_458D3A5D: {r: 0, g: 0, b: 0, a: 0}
+    - Vector4_5C7C7F9B: {r: 0, g: 0, b: 0, a: 0}
+    - Vector4_CC3111AF: {r: 0, g: 1, b: 3.64, a: 1}
+    - Vector4_E797E522: {r: 0, g: 0, b: 0, a: 0}
+    - Vector4_EDA803AC: {r: 1, g: 1, b: 0.6, a: 0.2}
+    - _Center_1: {r: 0, g: 0, b: 0, a: 0}
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _ColorChangeNewCol: {r: 1, g: 1, b: 0, a: 1}
+    - _ColorChangeTarget: {r: 1, g: 0, b: 0, a: 1}
+    - _ColorSwapBlue: {r: 1, g: 1, b: 1, a: 1}
+    - _ColorSwapGreen: {r: 1, g: 1, b: 1, a: 1}
+    - _ColorSwapRed: {r: 1, g: 1, b: 1, a: 1}
+    - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+    - _FadeBurnColor: {r: 1, g: 1, b: 0, a: 1}
+    - _GlowColor: {r: 1, g: 1, b: 1, a: 1}
+    - _GradBotLeftCol: {r: 0, g: 0, b: 1, a: 1}
+    - _GradBotRightCol: {r: 0, g: 0, b: 1, a: 1}
+    - _GradTopLeftCol: {r: 1, g: 0, b: 0, a: 1}
+    - _GradTopRightCol: {r: 1, g: 0, b: 0, a: 1}
+    - _GreyscaleTintColor: {r: 1, g: 1, b: 1, a: 1}
+    - _HitEffectColor: {r: 1, g: 1, b: 1, a: 1}
+    - _InnerOutlineColor: {r: 1, g: 0.473879, b: 0, a: 1}
+    - _MinMaxRotDist_1: {r: 0.1, g: 1, b: 0, a: 0}
+    - _MinMaxRotDist_2: {r: 0.3, g: 8, b: 0, a: 0}
+    - _OutlineColor: {r: 1, g: 1, b: 1, a: 1}
+    - _RotationAxes_1: {r: 0, g: 0, b: 1, a: 0}
+    - _ShadowColor: {r: 0, g: 0, b: 0, a: 1}
+    - _ShineColor: {r: 1, g: 1, b: 1, a: 1}
+    - _TailSize: {r: 1, g: 1, b: 1, a: 0}

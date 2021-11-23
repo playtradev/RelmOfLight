@@ -1,0 +1,223 @@
+
+GridFight-Chap-00-Forest-Joja-DIVIDED-20210922-V4.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Arm-1
+  rotate: false
+  xy: 4, 398
+  size: 125, 90
+  orig: 125, 90
+  offset: 0, 0
+  index: -1
+Arm-2
+  rotate: false
+  xy: 133, 396
+  size: 119, 92
+  orig: 119, 92
+  offset: 0, 0
+  index: -1
+Back-Collar
+  rotate: false
+  xy: 424, 415
+  size: 146, 90
+  orig: 146, 90
+  offset: 0, 0
+  index: -1
+Back-Jacket
+  rotate: true
+  xy: 624, 472
+  size: 129, 145
+  orig: 129, 145
+  offset: 0, 0
+  index: -1
+Engine-1
+  rotate: true
+  xy: 633, 742
+  size: 272, 256
+  orig: 272, 256
+  offset: 0, 0
+  index: -1
+Engine-2
+  rotate: false
+  xy: 4, 738
+  size: 329, 276
+  orig: 329, 276
+  offset: 0, 0
+  index: -1
+Engine-2-Front-Cover
+  rotate: false
+  xy: 337, 739
+  size: 292, 275
+  orig: 292, 275
+  offset: 0, 0
+  index: -1
+Engine-One-Front-Cover
+  rotate: true
+  xy: 4, 492
+  size: 242, 253
+  orig: 242, 253
+  offset: 0, 0
+  index: -1
+Foot-1
+  rotate: 180
+  xy: 574, 410
+  size: 116, 95
+  orig: 116, 95
+  offset: 0, 0
+  index: -1
+Foot-2-P1
+  rotate: true
+  xy: 952, 533
+  size: 75, 57
+  orig: 75, 57
+  offset: 0, 0
+  index: -1
+Foot-2-P2
+  rotate: false
+  xy: 261, 662
+  size: 61, 72
+  orig: 61, 72
+  offset: 0, 0
+  index: -1
+Forearm-1
+  rotate: false
+  xy: 344, 362
+  size: 99, 49
+  orig: 99, 49
+  offset: 0, 0
+  index: -1
+Forearm-2
+  rotate: false
+  xy: 447, 366
+  size: 98, 45
+  orig: 98, 45
+  offset: 0, 0
+  index: -1
+Front-Collar
+  rotate: true
+  xy: 765, 393
+  size: 91, 94
+  orig: 91, 94
+  offset: 0, 0
+  index: -1
+Ground-Shadow
+  rotate: false
+  xy: 337, 605
+  size: 482, 130
+  orig: 482, 130
+  offset: 0, 0
+  index: -1
+Hair-Bend
+  rotate: false
+  xy: 951, 350
+  size: 50, 72
+  orig: 50, 72
+  offset: 0, 0
+  index: -1
+Hand-1-Index
+  rotate: false
+  xy: 261, 613
+  size: 69, 45
+  orig: 69, 45
+  offset: 0, 0
+  index: -1
+Hand-2
+  rotate: false
+  xy: 694, 423
+  size: 52, 45
+  orig: 52, 45
+  offset: 0, 0
+  index: -1
+Hand-3
+  rotate: false
+  xy: 904, 369
+  size: 43, 39
+  orig: 43, 39
+  offset: 0, 0
+  index: -1
+Head
+  rotate: true
+  xy: 823, 488
+  size: 120, 125
+  orig: 120, 125
+  offset: 0, 0
+  index: -1
+Hips
+  rotate: false
+  xy: 893, 749
+  size: 104, 72
+  orig: 104, 72
+  offset: 0, 0
+  index: -1
+Jacket-P-1
+  rotate: 180
+  xy: 953, 402
+  size: 60, 125
+  orig: 60, 125
+  offset: 0, 0
+  index: -1
+Jacket-P-2
+  rotate: 270
+  xy: 863, 408
+  size: 76, 125
+  orig: 76, 125
+  offset: 0, 0
+  index: -1
+L1P1
+  rotate: true
+  xy: 823, 612
+  size: 126, 179
+  orig: 126, 179
+  offset: 0, 0
+  index: -1
+L1P2
+  rotate: true
+  xy: 256, 421
+  size: 65, 154
+  orig: 65, 154
+  offset: 0, 0
+  index: -1
+L2P1
+  rotate: false
+  xy: 893, 825
+  size: 116, 189
+  orig: 116, 189
+  offset: 0, 0
+  index: -1
+L2P2
+  rotate: true
+  xy: 462, 509
+  size: 92, 158
+  orig: 92, 158
+  offset: 0, 0
+  index: -1
+Neck
+  rotate: false
+  xy: 767, 517
+  size: 36, 84
+  orig: 36, 84
+  offset: 0, 0
+  index: -1
+Red-Point-Engine-1
+  rotate: false
+  xy: 685, 353
+  size: 76, 61
+  orig: 76, 61
+  offset: 0, 0
+  index: -1
+Red-Point-Engine-2
+  rotate: false
+  xy: 256, 340
+  size: 84, 77
+  orig: 84, 77
+  offset: 0, 0
+  index: -1
+Torso
+  rotate: true
+  xy: 261, 490
+  size: 111, 197
+  orig: 111, 197
+  offset: 0, 0
+  index: -1

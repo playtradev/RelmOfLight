@@ -1,0 +1,1171 @@
+fileFormatVersion: 2
+guid: 6ca241e633dede049b255768523b05aa
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2553853363457536281
+    second: CandyVFX.01_0
+  - first:
+      213: 8455729573897150712
+    second: CandyVFX.01_1
+  - first:
+      213: -1211451214742532115
+    second: CandyVFX.01_2
+  - first:
+      213: -1036016317960472797
+    second: CandyVFX.01_3
+  - first:
+      213: -8674381379599464787
+    second: CandyVFX.01_4
+  - first:
+      213: -878473240372754647
+    second: CandyVFX.01_5
+  - first:
+      213: -3980038735379052661
+    second: CandyVFX.01_6
+  - first:
+      213: 4837626060530249531
+    second: CandyVFX.01_7
+  - first:
+      213: -7594399604243870025
+    second: CandyVFX.01_8
+  - first:
+      213: -4936341826985327169
+    second: CandyVFX.01_9
+  - first:
+      213: 2965756944305986180
+    second: CandyVFX.01_10
+  - first:
+      213: -2484099002843209248
+    second: CandyVFX.01_11
+  - first:
+      213: 3233533630663100874
+    second: CandyVFX.01_12
+  - first:
+      213: -9184567300205081684
+    second: CandyVFX.01_13
+  - first:
+      213: 2495114819706919384
+    second: CandyVFX.01_14
+  - first:
+      213: -3808381141554178503
+    second: CandyVFX.01_15
+  - first:
+      213: -9173811860280031250
+    second: CandyVFX.01_16
+  - first:
+      213: 3438749427386531688
+    second: CandyVFX.01_17
+  - first:
+      213: 6959856137620419836
+    second: CandyVFX.01_18
+  - first:
+      213: -5248654623822542973
+    second: CandyVFX.01_19
+  - first:
+      213: 7326516581811743240
+    second: CandyVFX.01_20
+  - first:
+      213: 4432759675864672101
+    second: CandyVFX.01_21
+  - first:
+      213: -6905649112511908734
+    second: CandyVFX.01_22
+  - first:
+      213: 753309346140600711
+    second: CandyVFX.01_23
+  - first:
+      213: 5868064993185868589
+    second: CandyVFX.01_24
+  - first:
+      213: 2057884443584184783
+    second: CandyVFX.01_25
+  - first:
+      213: -8739869061949584592
+    second: CandyVFX.01_26
+  - first:
+      213: 3901548509877232925
+    second: CandyVFX.01_27
+  - first:
+      213: -4783280357763696618
+    second: CandyVFX.01_28
+  - first:
+      213: -8027406755652533409
+    second: CandyVFX.01_29
+  - first:
+      213: -7493105249206847363
+    second: CandyVFX.01_30
+  - first:
+      213: 8367778540614099225
+    second: CandyVFX.01_31
+  - first:
+      213: 3199191289342773763
+    second: CandyVFX.01_32
+  - first:
+      213: 6727046599464582849
+    second: CandyVFX.01_33
+  - first:
+      213: 8306731580149945532
+    second: CandyVFX.01_34
+  - first:
+      213: -9002016452658196115
+    second: CandyVFX.01_35
+  - first:
+      213: 4895227478863241840
+    second: CandyVFX.01_36
+  - first:
+      213: 5658031786432299966
+    second: CandyVFX.01_37
+  - first:
+      213: 3547517495422459486
+    second: CandyVFX.01_38
+  - first:
+      213: -2142623490076059985
+    second: CandyVFX.01_39
+  - first:
+      213: -6630107032957893036
+    second: CandyVFX.01_40
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 2
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: CandyVFX.01_0
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 183
+        width: 343
+        height: 326
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ee4da695e3ee8cd0800000000000000
+      internalID: -2553853363457536281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CandyVFX.01_1
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 437
+        width: 33
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f0a7e04f39c85570800000000000000
+      internalID: 8455729573897150712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CandyVFX.01_2
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 423
+        width: 69
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: def4e8ae98f003fe0800000000000000
+      internalID: -1211451214742532115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CandyVFX.01_3
+      rect:
+        serializedVersion: 2
+        x: 467
+        y: 410
+        width: 41
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 327357ad5a45f91f0800000000000000
+      internalID: -1036016317960472797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CandyVFX.01_4
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 269
+        width: 73
+        height: 136
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da606b618186e9780800000000000000
+      internalID: -8674381379599464787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CandyVFX.01_5
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 370
+        width: 37
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92745e20e390fc3f0800000000000000
+      internalID: -878473240372754647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CandyVFX.01_6
+      rect:
+        serializedVersion: 2
+        x: 437
+        y: 280
+        width: 61
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b87cf697bdf04c8c0800000000000000
+      internalID: -3980038735379052661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CandyVFX.01_7
+      rect:
+        serializedVersion: 2
+        x: 346
+        y: 193
+        width: 55
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3fe31e6543b22340800000000000000
+      internalID: 4837626060530249531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CandyVFX.01_8
+      rect:
+        serializedVersion: 2
+        x: 417
+        y: 239
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7be4daafbc54b9690800000000000000
+      internalID: -7594399604243870025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CandyVFX.01_9
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 247
+        width: 17
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb503a023479e7bb0800000000000000
+      internalID: -4936341826985327169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CandyVFX.01_10
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 244
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48a91834a3c782920800000000000000
+      internalID: 2965756944305986180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CandyVFX.01_11
+      rect:
+        serializedVersion: 2
+        x: 474
+        y: 239
+        width: 13
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e1e0a44e15b68dd0800000000000000
+      internalID: -2484099002843209248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CandyVFX.01_12
+      rect:
+        serializedVersion: 2
+        x: 442
+        y: 231
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac904f084b1dfdc20800000000000000
+      internalID: 3233533630663100874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CandyVFX.01_13
+      rect:
+        serializedVersion: 2
+        x: 467
+        y: 235
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cab8b9fc3bcd98080800000000000000
+      internalID: -9184567300205081684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CandyVFX.01_14
+      rect:
+        serializedVersion: 2
+        x: 481
+        y: 222
+        width: 10
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d9917675bd60a220800000000000000
+      internalID: 2495114819706919384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CandyVFX.01_15
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 227
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 936dd588789e52bc0800000000000000
+      internalID: -3808381141554178503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CandyVFX.01_16
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 221
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee74ebfc7b210b080800000000000000
+      internalID: -9173811860280031250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CandyVFX.01_17
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 223
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86fb3fa8264e8bf20800000000000000
+      internalID: 3438749427386531688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CandyVFX.01_18
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 216
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf4ffa24840669060800000000000000
+      internalID: 6959856137620419836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CandyVFX.01_19
+      rect:
+        serializedVersion: 2
+        x: 437
+        y: 215
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 387885e9d680927b0800000000000000
+      internalID: -5248654623822542973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CandyVFX.01_20
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 206
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80ae5eb73040da560800000000000000
+      internalID: 7326516581811743240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CandyVFX.01_21
+      rect:
+        serializedVersion: 2
+        x: 446
+        y: 202
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 567e69e7073548d30800000000000000
+      internalID: 4432759675864672101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CandyVFX.01_22
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 204
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2847c3948b43a20a0800000000000000
+      internalID: -6905649112511908734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CandyVFX.01_23
+      rect:
+        serializedVersion: 2
+        x: 476
+        y: 207
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78931beebda447a00800000000000000
+      internalID: 753309346140600711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CandyVFX.01_24
+      rect:
+        serializedVersion: 2
+        x: 487
+        y: 203
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2bafbd550e8f6150800000000000000
+      internalID: 5868064993185868589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CandyVFX.01_25
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 177
+        width: 19
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc143a09ff21f8c10800000000000000
+      internalID: 2057884443584184783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CandyVFX.01_26
+      rect:
+        serializedVersion: 2
+        x: 442
+        y: 183
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03b811bd46fb5b680800000000000000
+      internalID: -8739869061949584592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CandyVFX.01_27
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 191
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d15ef2dc2b5152630800000000000000
+      internalID: 3901548509877232925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CandyVFX.01_28
+      rect:
+        serializedVersion: 2
+        x: 478
+        y: 183
+        width: 19
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61834668bdf5e9db0800000000000000
+      internalID: -4783280357763696618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CandyVFX.01_29
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 166
+        width: 23
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5382c5361ce89090800000000000000
+      internalID: -8027406755652533409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CandyVFX.01_30
+      rect:
+        serializedVersion: 2
+        x: 474
+        y: 184
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d78396cd974230890800000000000000
+      internalID: -7493105249206847363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CandyVFX.01_31
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 139
+        width: 159
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 911a0709f32502470800000000000000
+      internalID: 8367778540614099225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CandyVFX.01_32
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 71
+        width: 148
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30accc1178fc56c20800000000000000
+      internalID: 3199191289342773763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CandyVFX.01_33
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 167
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1cef594ad354b5d50800000000000000
+      internalID: 6727046599464582849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CandyVFX.01_34
+      rect:
+        serializedVersion: 2
+        x: 444
+        y: 159
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb45b577c50774370800000000000000
+      internalID: 8306731580149945532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CandyVFX.01_35
+      rect:
+        serializedVersion: 2
+        x: 476
+        y: 161
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6116152bb9621380800000000000000
+      internalID: -9002016452658196115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CandyVFX.01_36
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 40
+        width: 183
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 072ef5cb4775fe340800000000000000
+      internalID: 4895227478863241840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CandyVFX.01_37
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 86
+        width: 51
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb38a26aeed558e40800000000000000
+      internalID: 5658031786432299966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CandyVFX.01_38
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 13
+        width: 144
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5e9325dd505b3130800000000000000
+      internalID: 3547517495422459486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CandyVFX.01_39
+      rect:
+        serializedVersion: 2
+        x: 411
+        y: 25
+        width: 67
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa6db92b94fd342e0800000000000000
+      internalID: -2142623490076059985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CandyVFX.01_40
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 159
+        width: 83
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 456c9b508c02df3a0800000000000000
+      internalID: -6630107032957893036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: a9d94e38ca2f50f4d8d3268ba826b14a
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      CandyVFX.01_36: 4895227478863241840
+      CandyVFX.01_29: -8027406755652533409
+      CandyVFX.01_2: -1211451214742532115
+      CandyVFX.01_13: -9184567300205081684
+      CandyVFX.01_25: 2057884443584184783
+      CandyVFX.01_15: -3808381141554178503
+      CandyVFX.01_5: -878473240372754647
+      CandyVFX.01_0: -2553853363457536281
+      CandyVFX.01_37: 5658031786432299966
+      CandyVFX.01_10: 2965756944305986180
+      CandyVFX.01_16: -9173811860280031250
+      CandyVFX.01_26: -8739869061949584592
+      CandyVFX.01_35: -9002016452658196115
+      CandyVFX.01_34: 8306731580149945532
+      CandyVFX.01_28: -4783280357763696618
+      CandyVFX.01_8: -7594399604243870025
+      CandyVFX.01_21: 4432759675864672101
+      CandyVFX.01_6: -3980038735379052661
+      CandyVFX.01_40: -6630107032957893036
+      CandyVFX.01_27: 3901548509877232925
+      CandyVFX.01_4: -8674381379599464787
+      CandyVFX.01_20: 7326516581811743240
+      CandyVFX.01_39: -2142623490076059985
+      CandyVFX.01_22: -6905649112511908734
+      CandyVFX.01_32: 3199191289342773763
+      CandyVFX.01_12: 3233533630663100874
+      CandyVFX.01_1: 8455729573897150712
+      CandyVFX.01_17: 3438749427386531688
+      CandyVFX.01_30: -7493105249206847363
+      CandyVFX.01_11: -2484099002843209248
+      CandyVFX.01_31: 8367778540614099225
+      CandyVFX.01_33: 6727046599464582849
+      CandyVFX.01_38: 3547517495422459486
+      CandyVFX.01_9: -4936341826985327169
+      CandyVFX.01_19: -5248654623822542973
+      CandyVFX.01_24: 5868064993185868589
+      CandyVFX.01_18: 6959856137620419836
+      CandyVFX.01_7: 4837626060530249531
+      CandyVFX.01_3: -1036016317960472797
+      CandyVFX.01_14: 2495114819706919384
+      CandyVFX.01_23: 753309346140600711
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

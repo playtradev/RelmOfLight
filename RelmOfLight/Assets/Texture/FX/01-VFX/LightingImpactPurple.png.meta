@@ -1,0 +1,508 @@
+fileFormatVersion: 2
+guid: 5a1a1914994c29e47afafe50e1a5b5c1
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5048219867610966911
+    second: LightingImpactPurple_0
+  - first:
+      213: -836166649688324279
+    second: LightingImpactPurple_1
+  - first:
+      213: -7351915991323618656
+    second: LightingImpactPurple_2
+  - first:
+      213: -1438280860499467880
+    second: LightingImpactPurple_3
+  - first:
+      213: 497278912575846463
+    second: LightingImpactPurple_4
+  - first:
+      213: -3167471394288196536
+    second: LightingImpactPurple_5
+  - first:
+      213: -5720548924732027233
+    second: LightingImpactPurple_6
+  - first:
+      213: -2414634411321568985
+    second: LightingImpactPurple_7
+  - first:
+      213: 4822250339344969122
+    second: LightingImpactPurple_8
+  - first:
+      213: 1839644708424879773
+    second: LightingImpactPurple_9
+  - first:
+      213: -2672763787642341732
+    second: LightingImpactPurple_10
+  - first:
+      213: 5054288515867070201
+    second: LightingImpactPurple_11
+  - first:
+      213: -7046148058883421727
+    second: LightingImpactPurple_12
+  - first:
+      213: 7069243706468775336
+    second: LightingImpactPurple_13
+  - first:
+      213: -5361623240818939425
+    second: LightingImpactPurple_14
+  - first:
+      213: -2367627126093651568
+    second: LightingImpactPurple_15
+  - first:
+      213: -5899474494022875376
+    second: LightingImpactPurple_16
+  - first:
+      213: -6789593434407493063
+    second: LightingImpactPurple_17
+  - first:
+      213: 9124084795104673340
+    second: LightingImpactPurple_18
+  - first:
+      213: -6523332642831665336
+    second: LightingImpactPurple_19
+  - first:
+      213: -8259853462103599213
+    second: LightingImpactPurple_20
+  - first:
+      213: -7650478268199859132
+    second: LightingImpactPurple_21
+  - first:
+      213: 5194466472522298114
+    second: LightingImpactPurple_22
+  - first:
+      213: -715322625835131088
+    second: LightingImpactPurple_23
+  - first:
+      213: 7072095694382848681
+    second: LightingImpactPurple_24
+  - first:
+      213: 4027638263144064399
+    second: LightingImpactPurple_25
+  - first:
+      213: -3243664460515502635
+    second: LightingImpactPurple_26
+  - first:
+      213: -226584613430645150
+    second: LightingImpactPurple_27
+  - first:
+      213: 4213353036066596484
+    second: LightingImpactPurple_28
+  - first:
+      213: -4423698739748388064
+    second: LightingImpactPurple_29
+  - first:
+      213: -4902043903824740617
+    second: LightingImpactPurple_30
+  - first:
+      213: 3543467560767525584
+    second: LightingImpactPurple_31
+  - first:
+      213: 3540706082420160107
+    second: LightingImpactPurple_32
+  - first:
+      213: -3715093957616541439
+    second: LightingImpactPurple_33
+  - first:
+      213: -4890976443363604391
+    second: LightingImpactPurple_34
+  - first:
+      213: -3800856391703121202
+    second: LightingImpactPurple_35
+  - first:
+      213: 6533696640411586297
+    second: LightingImpactPurple_36
+  - first:
+      213: -4700816545918531878
+    second: LightingImpactPurple_37
+  - first:
+      213: 4312467865477443547
+    second: LightingImpactPurple_38
+  - first:
+      213: 4933536969441293735
+    second: LightingImpactPurple_39
+  - first:
+      213: 3063800541403353434
+    second: LightingImpactPurple_40
+  - first:
+      213: -1163830746517462750
+    second: LightingImpactPurple_41
+  - first:
+      213: 98041375116952806
+    second: LightingImpactPurple_42
+  - first:
+      213: 6368853001614719902
+    second: LightingImpactPurple_43
+  - first:
+      213: -1133896454980617903
+    second: LightingImpactPurple_44
+  - first:
+      213: 3751802216781446613
+    second: LightingImpactPurple_45
+  - first:
+      213: -2755367063325116415
+    second: LightingImpactPurple_46
+  - first:
+      213: -1020774804657740478
+    second: LightingImpactPurple_47
+  - first:
+      213: 4066120008364258512
+    second: LightingImpactPurple_48
+  - first:
+      213: 8884356444294091193
+    second: LightingImpactPurple_49
+  - first:
+      213: -7062924783336946885
+    second: LightingImpactPurple_50
+  - first:
+      213: 2710581404418332440
+    second: LightingImpactPurple_51
+  - first:
+      213: -6834618127827952608
+    second: LightingImpactPurple_52
+  - first:
+      213: 326399976975888147
+    second: LightingImpactPurple_53
+  - first:
+      213: -7973153311511786321
+    second: LightingImpactPurple_54
+  - first:
+      213: 1268349982988694044
+    second: LightingImpactPurple_55
+  - first:
+      213: -726171799673535855
+    second: LightingImpactPurple_56
+  - first:
+      213: 3678241321463549984
+    second: LightingImpactPurple_57
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 2
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 1
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Nintendo Switch
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: LightingImpactPurple_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 300
+        width: 200
+        height: 100
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 000f76cd569e3fa4eb27c7fc4ec298de
+      internalID: 5048219867610966911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightingImpactPurple_1
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 300
+        width: 200
+        height: 100
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c384ce2e90361d04192fe4445330ad86
+      internalID: -836166649688324279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightingImpactPurple_2
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 200
+        width: 200
+        height: 100
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 170a7933ba6e302449b87df1b3d7e0c0
+      internalID: -7351915991323618656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightingImpactPurple_3
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 200
+        width: 200
+        height: 100
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9cf9be8db26603749bb78c25a8eb7b6f
+      internalID: -1438280860499467880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightingImpactPurple_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 100
+        width: 200
+        height: 100
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0062fcd75ea8cab42a42b7d89c524184
+      internalID: 497278912575846463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightingImpactPurple_5
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 100
+        width: 200
+        height: 100
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d1211fb97dc55245b008bbc4200ed66
+      internalID: -3167471394288196536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightingImpactPurple_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 200
+        height: 100
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f29c57b836dd0f4aa0eaafeac6194b0
+      internalID: -5720548924732027233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightingImpactPurple_7
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 0
+        width: 200
+        height: 100
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24cc0601b2b0f8045840a69183d47471
+      internalID: -2414634411321568985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: fe187b893b3fa4b4ca52ca32256b86b2
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      LightingImpactPurple_1: -836166649688324279
+      LightingImpactPurple_3: -1438280860499467880
+      LightingImpactPurple_5: -3167471394288196536
+      LightingImpactPurple_0: 5048219867610966911
+      LightingImpactPurple_6: -5720548924732027233
+      LightingImpactPurple_4: 497278912575846463
+      LightingImpactPurple_2: -7351915991323618656
+      LightingImpactPurple_7: -2414634411321568985
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,93 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7cd84a52ef2addf4289a98afc62d2f5a, type: 3}
+  m_Name: Chapter03_ForestOfKin_Character_Forest_Balla
+  m_EditorClassIdentifier: 
+  CharacterPrefab: {fileID: 8403744254656317689, guid: 57586871514a9df40a9a6b5bafa70294,
+    type: 3}
+  AbridgedCharInfo:
+    Name: Balla
+    AddressableLocation: ForestOfKin_Character_Forest_PivotChar_Balla
+    CharacterID: 1067
+    ClassType: 2
+    Elemental: 5
+    CharacterIcon: {fileID: 21300000, guid: 2b35de00766f7df4dbaf4325480ef6bb, type: 3}
+    skeletonDataAsset: {fileID: 11400000, guid: 7c62b5f4defddde49b5ed137bf75749e,
+      type: 2}
+    initialSkinName: 
+    HealthStats_Health: 61
+    HealthStats_Regeneration: 0.9
+    HealthStats_Armour: 0.85
+    EtherStats_Ether: 40
+    EtherStats_Regeneration: 0.95
+    DamageStats_BaseDamage: 1
+    WeakAttack_DamageMultiplier: 1.4
+    StrongAttack_DamageMultiplier: 17.5
+    WeakAttack_CriticalChance: {x: 1.5, y: 1.5}
+    StrongAttack_CriticalChance: {x: 1.5, y: 1.5}
+    SpeedStats_BaseSpeed: 1
+    SpeedStats_CalculatedSpeed: 3.448276
+    SpeedStats_MovementSpeed: 1
+    SpeedStats_WeakBulletSpeedV: {x: 0, y: 0}
+    SpeedStats_WeakBulletSpeed: 2
+    SpeedStats_StrongBulletSpeedV: {x: 0, y: 0}
+    EvasionChances: {x: 1.8, y: 1.8}
+    ShieldStats_BaseShieldRegeneration: 8
+    ShieldStats_Regeneration: 0.39
+    ShieldStats_Shield: 8
+    ShieldStats_Base: 50
+    ShieldStats_MinionShieldChances: 5
+    ShieldStats_MinionPerfectShieldChances: 7
+    Behaviour_DeathBehaviour: 0
+    DeathExplosion_Delay: 0
+    DeathDisableing_Delay: 0.5
+    DeathExplosion_OverrideParticles: 0
+    SigilDropBonus: 2.3
+    CurrentAttackTypeInfo:
+    - {fileID: 11400000, guid: e49484ccb07bfd647b498758a7a66eab, type: 2}
+    - {fileID: 11400000, guid: 0b2ef70fd99f2aa46ae75249a49cded2, type: 2}
+    - {fileID: 11400000, guid: 2aaf11d23da7e38479d3b817b0a33269, type: 2}
+    - {fileID: 11400000, guid: 399cb0dcf87a177448bc6d2368a5878e, type: 2}
+    - {fileID: 11400000, guid: 3936bbeefee30e742aa774d216af696d, type: 2}
+    - {fileID: 11400000, guid: 0b132caa6e72d9041bd59d2fc3b73490, type: 2}
+    - {fileID: 11400000, guid: e09ebaf86c14b034f880542a10239d58, type: 2}
+    - {fileID: 11400000, guid: 9f9e73603d1f62248b6d032576b7592f, type: 2}
+    - {fileID: 11400000, guid: 1b8f247c9bcc1f746814b531e0319ba7, type: 2}
+    - {fileID: 11400000, guid: e5fb795da444b284daa486e9a6b1eddf, type: 2}
+    SkillLevels:
+    - {fileID: 0}
+    - {fileID: 11400000, guid: 1b8f247c9bcc1f746814b531e0319ba7, type: 2}
+    - {fileID: 0}
+    - {fileID: 11400000, guid: f1bbbfb5991c93b47bf3cf5e9ee5d4ca, type: 2}
+    - {fileID: 0}
+    - {fileID: 11400000, guid: 3936bbeefee30e742aa774d216af696d, type: 2}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    PassiveSkills:
+    - {fileID: 11400000, guid: f1bbbfb5991c93b47bf3cf5e9ee5d4ca, type: 2}
+    AIs_Count: 3
+  OccupiedTiles:
+  - {x: 0, y: 0}
+  Biography: "Born from the will of Kin to serve as her champion, Balla was a proud
+    and boisterous warrior, confident in the righteousness of Kin\u2019s cause. 
+    \n\nAfter discovering a disturbing secret about the role of Machinae Champions
+    in the fate of Gora, Balla's outlook in life was drastically changed. Feeling
+    she could no longer fulfil her role as a warrior, Balla decided to fight destiny
+    and abandon her Mistress\r."
+  WaveGenInfo:
+    IncludeInProceduralWaves: 1
+    MinMaxChallengeRating: {x: 19, y: 84}
+    StageTags: 04000000
+    WaveNPCType: 2
+    Rarity: 3

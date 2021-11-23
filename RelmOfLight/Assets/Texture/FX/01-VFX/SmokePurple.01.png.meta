@@ -1,0 +1,467 @@
+fileFormatVersion: 2
+guid: 8744477321ac90e4ab0403521e44d938
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8187714149436318359
+    second: SmokePurple.01_0
+  - first:
+      213: -2176488983986423754
+    second: SmokePurple.01_1
+  - first:
+      213: -1245454197217317874
+    second: SmokePurple.01_2
+  - first:
+      213: 1710405137419053073
+    second: SmokePurple.01_3
+  - first:
+      213: 5252578401497233836
+    second: SmokePurple.01_4
+  - first:
+      213: 8462436966743113323
+    second: SmokePurple.01_5
+  - first:
+      213: 4944779454074833863
+    second: SmokePurple.01_6
+  - first:
+      213: 9051123322871791427
+    second: SmokePurple.01_7
+  - first:
+      213: 8348363516987995386
+    second: SmokePurple.01_8
+  - first:
+      213: -3451839037751761
+    second: SmokePurple.01_9
+  - first:
+      213: 8047105841093734817
+    second: SmokePurple.01_10
+  - first:
+      213: 1004453442171306138
+    second: SmokePurple.01_11
+  - first:
+      213: 2034956670146565132
+    second: SmokePurple.01_12
+  - first:
+      213: -946424873409295501
+    second: SmokePurple.01_13
+  - first:
+      213: 7515190199016282605
+    second: SmokePurple.01_14
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 2
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 1
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: 12
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 1
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Nintendo Switch
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: SmokePurple.01_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1536
+        width: 287
+        height: 512
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f6603fa79b2ecd479c8c78cc5755451
+      internalID: -8187714149436318359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmokePurple.01_1
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 1536
+        width: 287
+        height: 512
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65e95c49c6ad92940ae295746ea7076f
+      internalID: -2176488983986423754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmokePurple.01_2
+      rect:
+        serializedVersion: 2
+        x: 574
+        y: 1536
+        width: 287
+        height: 512
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44ba2369bca7cc94c89955a0ddcc155e
+      internalID: -1245454197217317874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmokePurple.01_3
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1024
+        width: 287
+        height: 512
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9979eb42509a36942bc5faef7ab6bae0
+      internalID: 1710405137419053073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmokePurple.01_4
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 1024
+        width: 287
+        height: 512
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d11213b557fe5946a80761a672a80ce
+      internalID: 5252578401497233836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmokePurple.01_5
+      rect:
+        serializedVersion: 2
+        x: 574
+        y: 1024
+        width: 287
+        height: 512
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd151c8f63f98a74da416721ece5aa0c
+      internalID: 8462436966743113323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmokePurple.01_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 512
+        width: 287
+        height: 512
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d50bceb559c4f8e439c61edbd33b2495
+      internalID: 4944779454074833863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmokePurple.01_7
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 512
+        width: 287
+        height: 512
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 622382f1932a61b4684f49332117a56f
+      internalID: 9051123322871791427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmokePurple.01_8
+      rect:
+        serializedVersion: 2
+        x: 574
+        y: 512
+        width: 287
+        height: 512
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 055ac26835766384caba0adea2c13c4e
+      internalID: 8348363516987995386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmokePurple.01_9
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 287
+        height: 512
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d65be2536c5c3404cad6b798de048807
+      internalID: -3451839037751761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmokePurple.01_10
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 0
+        width: 287
+        height: 512
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4cdd2af0f77c3947a70ef26902633e0
+      internalID: 8047105841093734817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmokePurple.01_11
+      rect:
+        serializedVersion: 2
+        x: 574
+        y: 0
+        width: 287
+        height: 512
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b99d6a4fa7fbe22459576e227c458ae0
+      internalID: 1004453442171306138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 01eef45789029934197ff8a4d494d590
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      SmokePurple.01_4: 5252578401497233836
+      SmokePurple.01_9: -3451839037751761
+      SmokePurple.01_2: -1245454197217317874
+      SmokePurple.01_7: 9051123322871791427
+      SmokePurple.01_11: 1004453442171306138
+      SmokePurple.01_8: 8348363516987995386
+      SmokePurple.01_10: 8047105841093734817
+      SmokePurple.01_3: 1710405137419053073
+      SmokePurple.01_1: -2176488983986423754
+      SmokePurple.01_0: -8187714149436318359
+      SmokePurple.01_5: 8462436966743113323
+      SmokePurple.01_6: 4944779454074833863
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

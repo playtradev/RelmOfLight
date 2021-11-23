@@ -1,0 +1,73 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: AscensoMountainDust
+  m_Shader: {fileID: -6465566751694194690, guid: 8f87f381685e3ed409498be79320c23a,
+    type: 3}
+  m_ShaderKeywords: ETC1_EXTERNAL_ALPHA
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - Texture2D_51B7A7DD:
+        m_Texture: {fileID: 2800000, guid: ce8ab8d61851f4a448427386f7700ee3, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - Texture2D_738281C6:
+        m_Texture: {fileID: 2800000, guid: 13bee3ac63c3c1448bc99393d73936cc, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: 69d249eb100cb294a9b2aad1ccbdd2da, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - Vector1_2F8CDF9C: 0.889
+    - Vector1_4B62570A: -38.62
+    - Vector1_4F3A4BD6: 1
+    - Vector1_54505569: 270
+    - Vector1_5CC375C3: 23
+    - Vector1_87DF1820: 0.444
+    - Vector1_8C348146: 51
+    - Vector1_ABCADC0B: 1
+    - Vector1_AF7241E1: 1
+    - Vector1_B6ECA3BE: 20
+    - Vector1_B85E767D: 6.61
+    - Vector1_BF448B8: 10000
+    - Vector1_D840B04B: 10000
+    - _CellDensity: 114.72
+    - _CellDensity_1: 123.57
+    - _CellDensity_2: 100
+    - _NoiseFrequency: 0.7
+    - _NoiseFrequency_1: 3.71
+    - _NoiseFrequency_2: 0.7
+    - _RainContrast: 1.3
+    - _RainContrast_1: 1.69
+    - _RainContrast_2: 1.93
+    - _Speed: 0.142
+    - _Speed_1: 0.019
+    - _Speed_2: 0.053
+    m_Colors:
+    - Color_B9D38C64: {r: 1, g: 0.8511698, b: 0.3584906, a: 0.14901961}
+    - Vector4_2347E0FE: {r: 0, g: 0, b: 0, a: 0}
+    - Vector4_298FE630: {r: 1.53, g: -1.17, b: 0, a: 1.8}
+    - Vector4_3CF0CE8A: {r: -0.78, g: 1.31, b: 1.95, a: 0.42}
+    - Vector4_407D46EB: {r: 0.05, g: 0.1, b: 0.03, a: 0.1}
+    - Vector4_458D3A5D: {r: 1.05, g: 1.57, b: -1.44, a: -2.06}
+    - Vector4_5C7C7F9B: {r: -0.4, g: -2.47, b: -0.47, a: 2.01}
+    - Vector4_E797E522: {r: 0, g: 0, b: 0, a: 0}
+    - Vector4_EDA803AC: {r: 0.1, g: 0.2, b: 0.1, a: 0.05}
+    - _RainTiling: {r: 1.23, g: 0.2, b: 0, a: 0}
+    - _RainTiling_1: {r: 0.05, g: 0.08, b: 0, a: 0}
+    - _RainTiling_2: {r: 2, g: 0.5, b: 0, a: 0}

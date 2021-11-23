@@ -1,0 +1,358 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1582351062
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1582351064}
+  - component: {fileID: 1582351063}
+  m_Layer: 0
+  m_Name: ItemSpawnerManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1582351064
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1582351062}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0.6008248, y: 0.66951, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1356531903299505061}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1582351063
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1582351062}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f73b9678adaa4e4c9fe1e26e85545ad, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ItemGO: {fileID: 6581044320134047782, guid: 633716ab60480154bbe8cf6b14059bf0, type: 3}
+  DefaultPowerUps:
+  - {fileID: 11400000, guid: 51c7834682b2ead4a8bcad4f9450eddb, type: 2}
+  - {fileID: 11400000, guid: f60ab52d6a533ce40a50152fa83c4ba6, type: 2}
+  - {fileID: 11400000, guid: b6712c9f7bcd21641ae9ab62eeaf10ca, type: 2}
+  - {fileID: 11400000, guid: 8bf68703c6cfa3c4098000213785d5c8, type: 2}
+  - {fileID: 11400000, guid: 4fb66b381f0dae44c889edb3755d4b60, type: 2}
+  SpawningTimeRange: {x: 10, y: 15}
+  smokolokoSpawningOdds: 0
+  maxSmokolokosOnField: 0
+  SpawnedItems: []
+  SpawnedDudes: []
+  CoStopper: 0
+  SpawnedSummons: []
+  test: 0
+  pos: {x: 0, y: 0}
+--- !u!1 &285924435752468954
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6952598345498502452}
+  m_Layer: 0
+  m_Name: BulletContainer
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6952598345498502452
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 285924435752468954}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1356531903299505061}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1356531903299505067
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1356531903299505061}
+  - component: {fileID: 1356531903299505062}
+  - component: {fileID: 1356531903299505063}
+  - component: {fileID: 4927355652519203374}
+  - component: {fileID: -8985237103817132708}
+  m_Layer: 0
+  m_Name: BattleManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1356531903299505061
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1356531903299505067}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1582351064}
+  - {fileID: 5210388407550452737}
+  - {fileID: 6952598345498502452}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1356531903299505062
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1356531903299505067}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fffaee637ee62fa4099cb0dc5741cd66, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TesterOn: 0
+  isSkillHappening:
+    Controller: 0
+    Value: 0
+    StartingTime: 0
+  Debug_OverrideQualitySetting: 0
+  BaseEffect_Teleport: {fileID: 11400000, guid: ae06e5968b09afc40bf6eb7a3a7e302e,
+    type: 2}
+  BaseEffect_Stun: {fileID: 11400000, guid: 8c3228559234dd049b5906795203e628, type: 2}
+  BaseEffect_InvulnerabilityOnDeath: {fileID: 11400000, guid: 38e38abac936ecc4cb74d7c378381105,
+    type: 2}
+  TileSideIndicator: 2
+  TileSideIndicator_Sprite: {fileID: 21300000, guid: f1608796d2521ac4dad82d3c2c0188b2,
+    type: 3}
+  TileSideIndicator_Sprite_LeftSide_Color: {r: 0.2098794, g: 0.618, b: 0, a: 0}
+  TileSideIndicator_Sprite_RightSide_Color: {r: 1, g: 0.2558357, b: 0, a: 0}
+  TileSideIndicator_LeftSide_Material: {fileID: 2100000, guid: 10d07d618540a0147aae0e5ff996a75b,
+    type: 2}
+  TileSideIndicator_RightSide_Material: {fileID: 2100000, guid: 79a20e7797e7c3e44bc71a7532b02d06,
+    type: 2}
+  TileSideIndicator_FadeInOutDuration: 0.4
+  CanRegeneratoOnBattlefieldPlayer: 0
+  CanRegeneratoOnBattlefieldEnemies: 0
+  RestoreCharactersBeforeWave: 0
+  RecoverHP_Ether_OnFungus: 1
+  GameOverEnabled: 1
+  AI_UseTransitions: 1
+  Enemy_Use_Players_UI_Indicator: 1
+  SlowDownOnPlayerCharDefeat: 1
+  SlowDownOnPlayerCharDefeat_Delay: 0
+  SlowDownOnPlayerCharDefeat_Duration: 0.03
+  SlowDownOnPlayerCharDefeat_SlowDownSpeed: 0.015
+  Use_BulletElementalInteraction: 1
+  Use_BulletHierarchySystem: 0
+  Exclude_WeakBullets_From_Heirachy: 1
+  Use_BulletDepleteHittedBullet: 0
+  HitParticlesT: 2
+  HitResizeMultiplier: 0.2
+  CharacterBasePrefab: {fileID: 6286762205357209611, guid: 8fcf2c7adbb50844c8b549242125f32d,
+    type: 3}
+  CharactersContainer: {fileID: 1356531903299505061}
+  _AllcharsEvolution: {fileID: 11400000, guid: 3e5724db9040b204b9deb8b7e7ab7baf, type: 2}
+  CharLevelHueScalingData: {fileID: 11400000, guid: 161b204ef11351643b3d7390c07882b4,
+    type: 2}
+  elementData: {fileID: 11400000, guid: e335105f5968a9542b6fce9be3ed0948, type: 2}
+  classData: {fileID: 11400000, guid: 6b7b5198b9815cd48bd430989d55dec7, type: 2}
+  CharactersData: {fileID: 11400000, guid: 04026650f11839c488e30fd3201931fb, type: 2}
+  NonAddressableCharactersData: {fileID: 0}
+  PauseBlocked_ByReloadCheckPoint: 0
+  PauseBlocked_ByFungus: 0
+  ShowUIBattle: 0
+  PreviousBattleState: 4
+  _CurrentBattleState: 0
+  _FungusState: 0
+  IsJumping: 0
+  IsComicOn: 0
+  SlowDownSpeed: 0
+  _BattleSpeed: 1
+  prevBattleSpeed: 1
+  MovementMultiplier: 1
+  maxPlayersUsed: 0
+  AllCharacters: []
+  _PlayersColor:
+  - {r: 0.8962264, g: 0.18178178, b: 0.24878208, a: 1}
+  - {r: 0.18178178, g: 0.56500465, b: 0.8962264, a: 1}
+  - {r: 0.07676221, g: 0.7075472, b: 0.36078528, a: 1}
+  - {r: 1, g: 0.90592486, b: 0, a: 1}
+  playersNumberBig:
+  - {fileID: 21300000, guid: ca856d2fd33560c42bddbb606a65489e, type: 3}
+  - {fileID: 21300000, guid: 9c2ca7117c43f5e44a126f9f5c4a4450, type: 3}
+  - {fileID: 21300000, guid: f9172024ad20c3d46b25423468f0ce3a, type: 3}
+  - {fileID: 21300000, guid: 06e886692bc9c00478a469bb6aace491, type: 3}
+  playersNumberSmall:
+  - {fileID: 21300000, guid: 63a264ead4310274d924dda214f482d2, type: 3}
+  - {fileID: 21300000, guid: b21a215cc3057c94f9c915f877a2c795, type: 3}
+  - {fileID: 21300000, guid: 9b27f2aa366718b4cac938395ccc57e7, type: 3}
+  - {fileID: 21300000, guid: 61177ec5074d7f14a9c400600b032d49, type: 3}
+  TeamRelationship: []
+  usingFungus: 1
+  charsToSwap: []
+  zombiesList: []
+--- !u!114 &1356531903299505063
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1356531903299505067}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a0681df0f498a0a40995a743673d6972, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  data: {fileID: 11400000, guid: 907bd1bdb416bf34b8bb4fe2ea245c09, type: 2}
+  AttackParticlesFired: []
+  BaseAttackParticles: []
+  ParticlesFired: []
+  Container: {fileID: 5210388407550452737}
+--- !u!114 &4927355652519203374
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1356531903299505067}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d5bdb75368e99f4091c0988408c15a6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  BulletGameObject: {fileID: 476742215486157040, guid: d6ceee7a1661975488e26a9d78d22567,
+    type: 3}
+  BulletContainer: {fileID: 6952598345498502452}
+--- !u!114 &-8985237103817132708
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1356531903299505067}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d4f3478c06fcd5e428c969cc31a0954a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  defenceCost: 0
+  partialDefenceCost: 0.7
+  fullDefenceCost: 1
+  staminaRegenOnPerfectBlock: 5
+  EtherRegenOnDamage: 15
+  BaseSpeedSlowDownOnLowEther_Multiplier: 0.5
+  Default_StaggerComboInterval: 4
+  Default_StaggerComboInterval_PlayerMultiplier: 2
+  Default_StaggerPointRange: {x: 28, y: 34}
+  Default_StaggerBreakPointsRequiredRange: {x: 5, y: 7}
+  Default_StaggerDurationRange: {x: 3, y: 5}
+  Default_StaggerDurationRange_PlayerMultiplier: 1.5
+  Default_StaggerGracePeriodRange: {x: 3, y: 3}
+  _StaggerPoints_Received_PlayerShieldBroken: 99999
+  _StaggerPoints_Received_PlayerMultiplier: 0
+  _StaggerPointsOn_WeakAttack: {x: 1, y: 2}
+  _StaggerPointsOn_StrongAttack: {x: 2, y: 3}
+  _StaggerPointsOn_SkillAttack: {x: 1, y: 2}
+  _StaggerPointsOn_ReflectedAttack: {x: 6, y: 10}
+  _Additional_StaggerPointsOn_Critical: {x: 1, y: 1}
+  StaggerBreak_Player_InputButtonPool: 05000000040000000600000007000000
+  StaggerBreak_Player_InputButtonDuration: 1.5
+  StaggerBreak_Player_NumberOfInputs: 0
+  _StaggerBreakPointsOn_WeakAttack: {x: 0, y: 0}
+  _StaggerBreakPointsOn_StrongAttack: {x: 5, y: 5}
+  _StaggerBreakPointsOn_SkillAttack: {x: 5, y: 5}
+  _StaggerBreakPointsOn_ReflectedAttack: {x: 2, y: 2}
+  _Additional_StaggerBreakPointsOn_Critical: {x: 0, y: 0}
+  _EnemyReflectedBulletSpeedMultiplier: {x: 0.2, y: 0.2}
+  _Stagger_AnimationSpeedAdjustment: 3
+  difficultyScales:
+  - Name: 1 Player
+    enemySpawnScaler: 1
+    enemyDamageScaler: 1
+    enemyAttackCooldownScaler: 1
+    enemyMoveDurationScaler: 1
+    enemyHealthScaler: 1
+    waveDurationScaler: 1
+  - Name: 2 Players
+    enemySpawnScaler: 2.5
+    enemyDamageScaler: 1.4
+    enemyAttackCooldownScaler: 0.669
+    enemyMoveDurationScaler: 0.859
+    enemyHealthScaler: 1.3
+    waveDurationScaler: 1
+  - Name: 3 Players
+    enemySpawnScaler: 1.66
+    enemyDamageScaler: 1
+    enemyAttackCooldownScaler: 0.553
+    enemyMoveDurationScaler: 0.707
+    enemyHealthScaler: 2.39
+    waveDurationScaler: 0.661
+  - Name: 4 Players
+    enemySpawnScaler: 2.26
+    enemyDamageScaler: 1
+    enemyAttackCooldownScaler: 0.367
+    enemyMoveDurationScaler: 0.471
+    enemyHealthScaler: 2.97
+    waveDurationScaler: 0.476
+--- !u!1 &6911235830904615386
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5210388407550452737}
+  m_Layer: 0
+  m_Name: AttackParticlesContainer
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5210388407550452737
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6911235830904615386}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1356531903299505061}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}

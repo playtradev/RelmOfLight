@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: GlowingOrb
+  m_Shader: {fileID: -6465566751694194690, guid: efc041d288dfd884db6e7bcbcf5aa706,
+    type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs: []
+    m_Floats:
+    - Vector1_510BC232: 3
+    - Vector1_95D0ED55: 0.086
+    m_Colors:
+    - Color1: {r: 1, g: 0.7108608, b: 0, a: 1}
+    - Color2: {r: 1, g: 0.25895607, b: 0, a: 1}
+    - Color_CACCD293: {r: 1, g: 0.759434, b: 0.759434, a: 1}
+    - Vector4_4C7C3A4A: {r: 0.74, g: 1.8, b: 2.09, a: 2.77}
+    - Vector4_804E1B70: {r: 2.14, g: 1.88, b: 2.28, a: 3.45}

@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ce511ec3023c7748aad70a05fedf238, type: 3}
+  m_Name: ExampleStage
+  m_EditorClassIdentifier: 
+  music:
+    clip: {fileID: 8300000, guid: d858bb0968ae746b0a6801434b848b69, type: 3}
+    baseVolume: 1
+  ambience:
+    clip: {fileID: 8300000, guid: 19f33067513db4e9cb3a36d5c984bba7, type: 3}
+    baseVolume: 0.03

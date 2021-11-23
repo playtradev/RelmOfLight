@@ -1,0 +1,119 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: LeavesShader 1-Filler
+  m_Shader: {fileID: -6465566751694194690, guid: e1c549966b98a6f4ea6c5761996c778f,
+    type: 3}
+  m_ShaderKeywords: ETC1_EXTERNAL_ALPHA
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - Texture2D_7B0FF830:
+        m_Texture: {fileID: 2800000, guid: 72d2e7a2cefd18c45a4dd9ffcf4c6e67, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - Texture2D_BD44C43F:
+        m_Texture: {fileID: 2800000, guid: 13d9d07a9b2660443a6a929ff6670e4a, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _AlphaTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _LeafGridLayer_2302C1CC_Texture2D8BB1C624_3360451611:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _LeafGridLayer_2302C1CC_Texture2DB02E5980_1116831880:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _LeafGrid_1C676AA5_Texture2D79B6C702_943987140:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _LeafGrid_54D7D671_Texture2D79B6C702_943987140:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _LeafGrid_5973B94_Texture2D79B6C702_943987140:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _LeafGrid_6F5FB605_Texture2D79B6C702_943987140:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _LeafGrid_7970FFD0_Texture2D79B6C702_943987140:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _LeafGrid_B029521B_Texture2D79B6C702_943987140:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _LeafGrid_D0EF71C8_Texture2D79B6C702_943987140:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _LeafGrid_D3B93C0A_Texture2D79B6C702_943987140:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _LeafGrid_E7BDF056_Texture2D79B6C702_943987140:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Leaf_6A268E0A_Texture2DD78D4F86_3993471421:
+        m_Texture: {fileID: 2800000, guid: 1d62a9906b862164caa79a3ca4b701d1, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: 3757580fd548a0f458aac39dd419c6d7, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MaskTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _NormalMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Texture2DAsset_19E08721_Out_0:
+        m_Texture: {fileID: 2800000, guid: b51b9705607f52f499766b4652a034cf, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - Vector1_1F3A3B5F: -0.4
+    - Vector1_30F29625: 1
+    - Vector1_36B28FDC: 0.004
+    - Vector1_3FED2E0C: 0.2
+    - Vector1_403C25A: 0
+    - Vector1_598F11D8: 8.9
+    - Vector1_64C2479C: 21
+    - Vector1_B61A8A3E: 84
+    - Vector1_C190ABD2: 1.3
+    - Vector1_C639F0CB: 1
+    - Vector1_D0CDE573: 1
+    - _EnableExternalAlpha: 0
+    m_Colors:
+    - Color_B92C6480: {r: 0, g: 0, b: 0, a: 0.29803923}
+    - Vector2_D63EA50A: {r: 0, g: 0.34, b: 0, a: 0}
+    - Vector3_ED69AFB0: {r: 0, g: 301.47, b: 1, a: 0}
+    - Vector4_73727156: {r: 0, g: 1, b: 0, a: 1}
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _Flip: {r: 1, g: 1, b: 1, a: 1}
+    - _RendererColor: {r: 1, g: 1, b: 1, a: 1}

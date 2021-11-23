@@ -1,0 +1,633 @@
+fileFormatVersion: 2
+guid: 56ece8447d5c2b842afd332ae5f3ee8c
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7185627704196157636
+    second: KoraParticles_0
+  - first:
+      213: -6592242262503178959
+    second: KoraParticles_1
+  - first:
+      213: -5085628592463030927
+    second: KoraParticles_2
+  - first:
+      213: -7055900506001153339
+    second: KoraParticles_3
+  - first:
+      213: 6909664695956225298
+    second: KoraParticles_4
+  - first:
+      213: -6619404957554469756
+    second: KoraParticles_5
+  - first:
+      213: -6742565883483955609
+    second: KoraParticles_6
+  - first:
+      213: 176592007203973553
+    second: KoraParticles_7
+  - first:
+      213: -8231887642563880745
+    second: KoraParticles_8
+  - first:
+      213: 6678206017239237509
+    second: KoraParticles_9
+  - first:
+      213: 6517859109410338603
+    second: KoraParticles_10
+  - first:
+      213: 6195353068696628275
+    second: KoraParticles_11
+  - first:
+      213: -4030881074737832596
+    second: KoraParticles_12
+  - first:
+      213: -1680772723647328040
+    second: KoraParticles_13
+  - first:
+      213: 5079122696630943243
+    second: KoraParticles_14
+  - first:
+      213: -8578213890734987863
+    second: KoraParticles_15
+  - first:
+      213: -5516829520547009845
+    second: KoraParticles_16
+  - first:
+      213: -5177477054766935459
+    second: KoraParticles_17
+  - first:
+      213: -7792600536042509586
+    second: KoraParticles_18
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 2
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 1
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Nintendo Switch
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: KoraParticles_0
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 134
+        width: 311
+        height: 371
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 142692e12e655eb40a2fffd4877abfd2
+      internalID: 7185627704196157636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KoraParticles_1
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 347
+        width: 165
+        height: 153
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 549e4bba876f5cf4689560ecf21aa69e
+      internalID: -6592242262503178959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KoraParticles_2
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 378
+        width: 129
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81391132a50980e4c885fa35dd8d608c
+      internalID: -5085628592463030927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KoraParticles_3
+      rect:
+        serializedVersion: 2
+        x: 674
+        y: 390
+        width: 120
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da73cd38ccd8b6a429c287b82b257716
+      internalID: -7055900506001153339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KoraParticles_4
+      rect:
+        serializedVersion: 2
+        x: 812
+        y: 389
+        width: 108
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0ded3e01b0b5b74bb1153621c13afa3
+      internalID: 6909664695956225298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KoraParticles_5
+      rect:
+        serializedVersion: 2
+        x: 927
+        y: 378
+        width: 80
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52cdb1c5b892af34994ed72fb571a71d
+      internalID: -6619404957554469756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KoraParticles_6
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 223
+        width: 129
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9548bf9b5b4341a40ac77e923838efb8
+      internalID: -6742565883483955609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KoraParticles_7
+      rect:
+        serializedVersion: 2
+        x: 476
+        y: 218
+        width: 44
+        height: 123
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a961ef5a7063a444c96568934157cb36
+      internalID: 176592007203973553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KoraParticles_8
+      rect:
+        serializedVersion: 2
+        x: 533
+        y: 223
+        width: 44
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7ca2b9467ddac040b2ea749362af92f
+      internalID: -8231887642563880745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KoraParticles_9
+      rect:
+        serializedVersion: 2
+        x: 587
+        y: 226
+        width: 44
+        height: 123
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5752aca14aea11d4c8fdb240548d1c82
+      internalID: 6678206017239237509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KoraParticles_10
+      rect:
+        serializedVersion: 2
+        x: 655
+        y: 249
+        width: 67
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ce8bde595453f14b84095b2bee4fa4c
+      internalID: 6517859109410338603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KoraParticles_11
+      rect:
+        serializedVersion: 2
+        x: 733
+        y: 267
+        width: 86
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 970aed42472a1304aa5bc91e037c5e7b
+      internalID: 6195353068696628275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KoraParticles_12
+      rect:
+        serializedVersion: 2
+        x: 846
+        y: 264
+        width: 88
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67a1fd621ed3d344abd2838472f03adb
+      internalID: -4030881074737832596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KoraParticles_13
+      rect:
+        serializedVersion: 2
+        x: 938
+        y: 256
+        width: 86
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c46b4dd73e03cca43a308de5ad2947f2
+      internalID: -1680772723647328040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KoraParticles_14
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 21
+        width: 122
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82db25caeca116947ba1d36d7280f3e2
+      internalID: 5079122696630943243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KoraParticles_15
+      rect:
+        serializedVersion: 2
+        x: 482
+        y: 55
+        width: 112
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 564b5bc61b6c0fc419cc0c6c45ee1785
+      internalID: -8578213890734987863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KoraParticles_16
+      rect:
+        serializedVersion: 2
+        x: 618
+        y: 117
+        width: 99
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebb40e0b520aa9c4ea0452269a4d42f1
+      internalID: -5516829520547009845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KoraParticles_17
+      rect:
+        serializedVersion: 2
+        x: 785
+        y: 17
+        width: 217
+        height: 234
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a18a572b7b496547831327038f1dd64
+      internalID: -5177477054766935459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KoraParticles_18
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 27
+        width: 74
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba433a37d0f8533459d50969a521067e
+      internalID: -7792600536042509586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: f37591643ad97ca40be174dab84dfab9
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      KoraParticles_17: -5177477054766935459
+      KoraParticles_6: -6742565883483955609
+      KoraParticles_15: -8578213890734987863
+      KoraParticles_11: 6195353068696628275
+      KoraParticles_16: -5516829520547009845
+      KoraParticles_1: -6592242262503178959
+      KoraParticles_2: -5085628592463030927
+      KoraParticles_5: -6619404957554469756
+      KoraParticles_4: 6909664695956225298
+      KoraParticles_10: 6517859109410338603
+      KoraParticles_18: -7792600536042509586
+      KoraParticles_9: 6678206017239237509
+      KoraParticles_0: 7185627704196157636
+      KoraParticles_3: -7055900506001153339
+      KoraParticles_13: -1680772723647328040
+      KoraParticles_8: -8231887642563880745
+      KoraParticles_14: 5079122696630943243
+      KoraParticles_7: 176592007203973553
+      KoraParticles_12: -4030881074737832596
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

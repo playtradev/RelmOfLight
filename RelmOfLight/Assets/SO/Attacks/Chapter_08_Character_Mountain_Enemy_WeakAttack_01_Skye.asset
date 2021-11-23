@@ -1,0 +1,334 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 661d3779646d38b458b753570c737d23, type: 3}
+  m_Name: Chapter_08_Character_Mountain_Enemy_WeakAttack_01_Skye
+  m_EditorClassIdentifier: 
+  _SkillID: CHAPTER_08_CHARACTER_MOUNTAIN_ENEMY_WEAKATTACK_01_SKYE
+  AttackDisplayName: ATTACK_NAME
+  AttackDescription: DESCRIPTION
+  AttackVideoClip: {fileID: 0}
+  AttackIcon: {fileID: 0}
+  attackDisplayType: 0
+  IsMaskAttack: 0
+  AttackOwner: 0
+  AnimToFireOnHit: 13
+  taPhase: 0
+  UseAttackerElement: 1
+  AttackElements: 04000000
+  _DamageMultiplier: {x: 1, y: 1}
+  AttackInput: 0
+  AttackTargetSide: 0
+  useCustomChargeTime_Reset: 0
+  customChargeTime: 0
+  PrefixAnim: 0
+  NewFovSystemList:
+  - {x: -1, y: 1}
+  - {x: 0, y: 1}
+  - {x: 1, y: 1}
+  - {x: 1, y: 2}
+  - {x: 0, y: 2}
+  - {x: -1, y: 2}
+  - {x: -1, y: 3}
+  - {x: 0, y: 3}
+  - {x: 1, y: 3}
+  - {x: 0, y: 4}
+  AttackAnim: 0
+  Particles:
+    Right:
+      CastAddress: Chapter08_MaidenShrine_Character_Mountain_WeakAttack_Cast_Right_Skye
+      BulletAddress: Chapter08_MaidenShrine_Character_Mountain_WeakAttack_Bullet_Right_Skye
+      HitAddress: Chapter08_MaidenShrine_Character_Mountain_WeakAttack_Hit_Right_Skye
+      Cast: {fileID: 0}
+      Bullet: {fileID: 0}
+      Hit: {fileID: 0}
+  EffectTimeOnImpact: 0
+  SlowDownOnHit:
+    TimeEffect: 0.1
+    DurationOfTimeEffect: 1
+    TimeEffectDelay: 1
+    TimeEffectChildExplosion: 0
+    ApplyImpactSlowToAttacker: 0
+  OverridePsHit: 0
+  _HitParticlesT: 0
+  _HitResizeMultiplier: 1
+  OverridePsInput: 0
+  _ParticlesInput: 0
+  TrajectoriesNumber: 1
+  _BulletT: 
+  Grenade_ExplosionDelay: 3
+  Grenade_Defensible: 0
+  Grenade_CanBeDestroyed: 0
+  Grenade_Health: 10
+  Grenade_ExplosionDamageMultiplier: 1
+  Grenade_OverrideBulletEffects: 0
+  Grenade_ExplosionPS: 0
+  Grenade_ObjectPS: 0
+  Grenade_ExplosionTiles: []
+  Grenade_DirtyBombEffects: []
+  IsHoming: 0
+  Homing_TimeTillExpiry: 5
+  Homing_TurningSpeed: 3
+  Homing_SlowDownMultiplier: 0.5
+  ChancesOfPooping: 100
+  BothSides: 0
+  InEnemySide: 1
+  isPoopingEffectOnTile: 0
+  PoopingEffectsOnTile:
+    TileAction: 0
+    HitTime: 1
+    TileParticlesID: 0
+    EffectChances: 100
+    DurationOnTile: 0
+    DurationOnTileV: {x: 0, y: 0}
+    Effects: []
+  isPoopingSpawnSummonOnTile: 0
+  PoopingSummonToSpawn:
+    SpawnChances: 100
+    UncappedDuration: 1
+    DurationOnField: {x: 0, y: 0}
+    SummonSpawnPositions: []
+    CharToSummon: 0
+    hasCharOverrides: 0
+    CharOverrides:
+      OverrideHealth: 0
+      Health: 0
+      OverrideHealthRegeneration: 0
+      HealthRegeneration: 0
+      OverrideArmour: 0
+      Armour: 0
+      OverrideShieldRegeneration: 0
+      ShieldRegeneration: 0
+      OverrideEther: 0
+      Ether: 0
+      OverrideEtherRegeneration: 0
+      EtherRegeneration: 0
+      OverrideSpeed: 0
+      MovementSpeed: 0
+      OverrideEvasion: 0
+      Evasion: {x: 0, y: 0}
+      OverrideSigilDropBonus: 0
+      SigilDropBonus: 0
+      OverrideCriticalWeakBullet: 0
+      CriticalWeakBullet: {x: 0, y: 0}
+      OverrideCriticalStrongBullet: 0
+      CriticalStrongBullet: {x: 0, y: 0}
+      OverrideWeakAttackMultiplier: 0
+      WeakAttackMultiplier: 0
+      OverrideStrongAttackMultiplier: 0
+      StrongAttackMultiplier: 0
+      OverrideHue: 0
+      ColorHueSaturation:
+        color: {r: 0, g: 0, b: 0, a: 0}
+        hue: 0
+        sat: 0
+      OverrideAggroMultiplier: 0
+      AggroMultiplier: 1
+      overrideDeath: 0
+      deathAnim: 0
+      overrideAttacks: 0
+      AttacksToAdd: []
+      AddToBasicAttacks: 0
+  TilesAtk:
+    Chances: 100
+    Show: 0
+    EffectOnCaster: 0
+    EffectsOnCaster: []
+    BulletLevel: 0
+    AtkType: 1
+    CanAffectBothSide: 0
+    UseBoundaries: 0
+    RangeLevel: {x: 0, y: 10}
+    UseOldSystem: 1
+    BulletTrajectories:
+    - Delay: 2.5
+      HasABullet: 1
+      OverrideBulletLevel: 0
+      BulletLevel: 0
+      InfoVisible: 1
+      BulletGrenadeVisisble: 0
+      BulletPoopingVisisble: 0
+      BulletHomingVisisble: 0
+      OverrideBulletInfo: 0
+      _BulletT: 
+      Grenade_ExplosionDelay: 3
+      Grenade_Defensible: 0
+      Grenade_CanBeDestroyed: 0
+      Grenade_Health: 10
+      Grenade_ExplosionDamageMultiplier: 1
+      Grenade_OverrideBulletEffects: 0
+      Grenade_ExplosionPS: 0
+      Grenade_ObjectPS: 0
+      Grenade_ExplosionTiles: []
+      Grenade_DirtyBombEffects: []
+      IsHoming: 0
+      Homing_TimeTillExpiry: 5
+      Homing_TurningSpeed: 3
+      Homing_SlowDownMultiplier: 0.5
+      ChancesOfPooping: 100
+      InEnemySide: 1
+      PoopingEffectsOnTile:
+        TileAction: 0
+        HitTime: 1
+        TileParticlesID: 0
+        EffectChances: 100
+        DurationOnTile: 0
+        DurationOnTileV: {x: 0, y: 0}
+        Effects: []
+      toFire: 0
+      CopyTo: 0
+      ExplosionChances: 100
+      TimeMultiplier: 1
+      IsIndicatingOntTile: 0
+      Trajectory_Speed:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 0
+          outSlope: 1
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 1
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      Trajectory_Y:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 34
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0.33333334
+        - serializedVersion: 3
+          time: 1
+          value: 0
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 34
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      Trajectory_Z:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 34
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0.33333334
+        - serializedVersion: 3
+          time: 1
+          value: 0
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 34
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      Show: 1
+      BulletEffectTiles:
+      - Pos: {x: 0, y: 0}
+        ToFire: 0
+        ExposionChances: 100
+        DamagePerc: 1
+        EffectsVisisble: 0
+        TileEffectsVisisble: 0
+        SummonVisisble: 0
+        ChildrenExplosionVisisble: 0
+        Foldout: 0
+        HasEffect: 1
+        showImpact: 1
+        Effects: []
+        EffectChances: 100
+        IsEffectOnTile: 0
+        EffectsOnTile:
+          TileAction: 0
+          HitTime: 1
+          TileParticlesID: 0
+          EffectChances: 100
+          DurationOnTile: 0
+          DurationOnTileV: {x: 0, y: 0}
+          Effects: []
+        SpawnSummonOnTile: 0
+        SummonToSpawn:
+          SpawnChances: 100
+          UncappedDuration: 1
+          DurationOnField: {x: 0, y: 0}
+          SummonSpawnPositions: []
+          CharToSummon: 0
+          hasCharOverrides: 0
+          CharOverrides:
+            OverrideHealth: 0
+            Health: 0
+            OverrideHealthRegeneration: 0
+            HealthRegeneration: 0
+            OverrideArmour: 0
+            Armour: 0
+            OverrideShieldRegeneration: 0
+            ShieldRegeneration: 0
+            OverrideEther: 0
+            Ether: 0
+            OverrideEtherRegeneration: 0
+            EtherRegeneration: 0
+            OverrideSpeed: 0
+            MovementSpeed: 0
+            OverrideEvasion: 0
+            Evasion: {x: 0, y: 0}
+            OverrideSigilDropBonus: 0
+            SigilDropBonus: 0
+            OverrideCriticalWeakBullet: 0
+            CriticalWeakBullet: {x: 0, y: 0}
+            OverrideCriticalStrongBullet: 0
+            CriticalStrongBullet: {x: 0, y: 0}
+            OverrideWeakAttackMultiplier: 0
+            WeakAttackMultiplier: 0
+            OverrideStrongAttackMultiplier: 0
+            StrongAttackMultiplier: 0
+            OverrideHue: 0
+            ColorHueSaturation:
+              color: {r: 0, g: 0, b: 0, a: 0}
+              hue: 0
+              sat: 0
+            OverrideAggroMultiplier: 0
+            AggroMultiplier: 1
+            overrideDeath: 0
+            deathAnim: 0
+            overrideAttacks: 0
+            AttacksToAdd: []
+            AddToBasicAttacks: 0
+        ChildrenExplosion: []

@@ -1,0 +1,1323 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8ede280587bd405459b300c7ae873cb3, type: 3}
+  m_Name: BaseGrid
+  m_EditorClassIdentifier: 
+  GridInfo:
+  - name: 0,0
+    Pos: {x: 0, y: 0}
+    HasEffect: 0
+    BaseEffectsOnTile:
+      TileAction: 0
+      HitTime: 1
+      TileParticlesID: 0
+      EffectChances: 100
+      DurationOnTile: 0
+      DurationOnTileV: {x: 0, y: 0}
+      Effects: []
+    WalkingSide: 2
+    Portal: 0
+    IDPortal: 0
+    OverrideTileADStats: 0
+    TileAD: {x: -Infinity, y: -Infinity}
+    ShowClose: 0
+    _BattleTileState: 1
+  - name: 0,1
+    Pos: {x: 0, y: 1}
+    HasEffect: 0
+    BaseEffectsOnTile:
+      TileAction: 0
+      HitTime: 1
+      TileParticlesID: 0
+      EffectChances: 100
+      DurationOnTile: 0
+      DurationOnTileV: {x: 0, y: 0}
+      Effects: []
+    WalkingSide: 2
+    Portal: 0
+    IDPortal: 0
+    OverrideTileADStats: 0
+    TileAD: {x: -Infinity, y: -Infinity}
+    ShowClose: 0
+    _BattleTileState: 1
+  - name: 0,2
+    Pos: {x: 0, y: 2}
+    HasEffect: 0
+    BaseEffectsOnTile:
+      TileAction: 0
+      HitTime: 1
+      TileParticlesID: 0
+      EffectChances: 100
+      DurationOnTile: 0
+      DurationOnTileV: {x: 0, y: 0}
+      Effects: []
+    WalkingSide: 2
+    Portal: 0
+    IDPortal: 0
+    OverrideTileADStats: 0
+    TileAD: {x: -Infinity, y: -Infinity}
+    ShowClose: 0
+    _BattleTileState: 1
+  - name: 0,3
+    Pos: {x: 0, y: 3}
+    HasEffect: 0
+    BaseEffectsOnTile:
+      TileAction: 0
+      HitTime: 1
+      TileParticlesID: 0
+      EffectChances: 100
+      DurationOnTile: 0
+      DurationOnTileV: {x: 0, y: 0}
+      Effects: []
+    WalkingSide: 2
+    Portal: 0
+    IDPortal: 0
+    OverrideTileADStats: 0
+    TileAD: {x: -Infinity, y: -Infinity}
+    ShowClose: 0
+    _BattleTileState: 1
+  - name: 0,4
+    Pos: {x: 0, y: 4}
+    HasEffect: 0
+    BaseEffectsOnTile:
+      TileAction: 0
+      HitTime: 1
+      TileParticlesID: 0
+      EffectChances: 100
+      DurationOnTile: 0
+      DurationOnTileV: {x: 0, y: 0}
+      Effects: []
+    WalkingSide: 2
+    Portal: 0
+    IDPortal: 0
+    OverrideTileADStats: 0
+    TileAD: {x: -Infinity, y: -Infinity}
+    ShowClose: 0
+    _BattleTileState: 1
+  - name: 0,5
+    Pos: {x: 0, y: 5}
+    HasEffect: 0
+    BaseEffectsOnTile:
+      TileAction: 0
+      HitTime: 1
+      TileParticlesID: 0
+      EffectChances: 100
+      DurationOnTile: 0
+      DurationOnTileV: {x: 0, y: 0}
+      Effects: []
+    WalkingSide: 2
+    Portal: 0
+    IDPortal: 0
+    OverrideTileADStats: 0
+    TileAD: {x: -Infinity, y: -Infinity}
+    ShowClose: 0
+    _BattleTileState: 1
+  - name: 0,6
+    Pos: {x: 0, y: 6}
+    HasEffect: 0
+    BaseEffectsOnTile:
+      TileAction: 0
+      HitTime: 1
+      TileParticlesID: 0
+      EffectChances: 100
+      DurationOnTile: 0
+      DurationOnTileV: {x: 0, y: 0}
+      Effects: []
+    WalkingSide: 2
+    Portal: 0
+    IDPortal: 0
+    OverrideTileADStats: 0
+    TileAD: {x: -Infinity, y: -Infinity}
+    ShowClose: 0
+    _BattleTileState: 1
+  - name: 0,7
+    Pos: {x: 0, y: 7}
+    HasEffect: 0
+    BaseEffectsOnTile:
+      TileAction: 0
+      HitTime: 1
+      TileParticlesID: 0
+      EffectChances: 100
+      DurationOnTile: 0
+      DurationOnTileV: {x: 0, y: 0}
+      Effects: []
+    WalkingSide: 2
+    Portal: 0
+    IDPortal: 0
+    OverrideTileADStats: 0
+    TileAD: {x: -Infinity, y: -Infinity}
+    ShowClose: 0
+    _BattleTileState: 1
+  - name: 0,8
+    Pos: {x: 0, y: 8}
+    HasEffect: 0
+    BaseEffectsOnTile:
+      TileAction: 0
+      HitTime: 1
+      TileParticlesID: 0
+      EffectChances: 100
+      DurationOnTile: 0
+      DurationOnTileV: {x: 0, y: 0}
+      Effects: []
+    WalkingSide: 2
+    Portal: 0
+    IDPortal: 0
+    OverrideTileADStats: 0
+    TileAD: {x: -Infinity, y: -Infinity}
+    ShowClose: 0
+    _BattleTileState: 1
+  - name: 0,9
+    Pos: {x: 0, y: 9}
+    HasEffect: 0
+    BaseEffectsOnTile:
+      TileAction: 0
+      HitTime: 1
+      TileParticlesID: 0
+      EffectChances: 100
+      DurationOnTile: 0
+      DurationOnTileV: {x: 0, y: 0}
+      Effects: []
+    WalkingSide: 2
+    Portal: 0
+    IDPortal: 0
+    OverrideTileADStats: 0
+    TileAD: {x: -Infinity, y: -Infinity}
+    ShowClose: 0
+    _BattleTileState: 1
+  - name: 0,10
+    Pos: {x: 0, y: 10}
+    HasEffect: 0
+    BaseEffectsOnTile:
+      TileAction: 0
+      HitTime: 1
+      TileParticlesID: 0
+      EffectChances: 100
+      DurationOnTile: 0
+      DurationOnTileV: {x: 0, y: 0}
+      Effects: []
+    WalkingSide: 2
+    Portal: 0
+    IDPortal: 0
+    OverrideTileADStats: 0
+    TileAD: {x: -Infinity, y: -Infinity}
+    ShowClose: 0
+    _BattleTileState: 1
+  - name: 0,11
+    Pos: {x: 0, y: 11}
+    HasEffect: 0
+    BaseEffectsOnTile:
+      TileAction: 0
+      HitTime: 1
+      TileParticlesID: 0
+      EffectChances: 100
+      DurationOnTile: 0
+      DurationOnTileV: {x: 0, y: 0}
+      Effects: []
+    WalkingSide: 2
+    Portal: 0
+    IDPortal: 0
+    OverrideTileADStats: 0
+    TileAD: {x: -Infinity, y: -Infinity}
+    ShowClose: 0
+    _BattleTileState: 1
+  - name: 1,0
+    Pos: {x: 1, y: 0}
+    HasEffect: 0
+    BaseEffectsOnTile:
+      TileAction: 0
+      HitTime: 1
+      TileParticlesID: 0
+      EffectChances: 100
+      DurationOnTile: 0
+      DurationOnTileV: {x: 0, y: 0}
+      Effects: []
+    WalkingSide: 2
+    Portal: 0
+    IDPortal: 0
+    OverrideTileADStats: 0
+    TileAD: {x: -Infinity, y: -Infinity}
+    ShowClose: 0
+    _BattleTileState: 1
+  - name: 1,1
+    Pos: {x: 1, y: 1}
+    HasEffect: 0
+    BaseEffectsOnTile:
+      TileAction: 0
+      HitTime: 1
+      TileParticlesID: 0
+      EffectChances: 100
+      DurationOnTile: 0
+      DurationOnTileV: {x: 0, y: 0}
+      Effects: []
+    WalkingSide: 2
+    Portal: 0
+    IDPortal: 0
+    OverrideTileADStats: 0
+    TileAD: {x: -Infinity, y: -Infinity}
+    ShowClose: 0
+    _BattleTileState: 1
+  - name: 1,2
+    Pos: {x: 1, y: 2}
+    HasEffect: 0
+    BaseEffectsOnTile:
+      TileAction: 0
+      HitTime: 1
+      TileParticlesID: 0
+      EffectChances: 100
+      DurationOnTile: 0
+      DurationOnTileV: {x: 0, y: 0}
+      Effects: []
+    WalkingSide: 2
+    Portal: 0
+    IDPortal: 0
+    OverrideTileADStats: 0
+    TileAD: {x: -Infinity, y: -Infinity}
+    ShowClose: 0
+    _BattleTileState: 1
+  - name: 1,3
+    Pos: {x: 1, y: 3}
+    HasEffect: 0
+    BaseEffectsOnTile:
+      TileAction: 0
+      HitTime: 1
+      TileParticlesID: 0
+      EffectChances: 100
+      DurationOnTile: 0
+      DurationOnTileV: {x: 0, y: 0}
+      Effects: []
+    WalkingSide: 2
+    Portal: 0
+    IDPortal: 0
+    OverrideTileADStats: 0
+    TileAD: {x: -Infinity, y: -Infinity}
+    ShowClose: 0
+    _BattleTileState: 1
+  - name: 1,4
+    Pos: {x: 1, y: 4}
+    HasEffect: 0
+    BaseEffectsOnTile:
+      TileAction: 0
+      HitTime: 1
+      TileParticlesID: 0
+      EffectChances: 100
+      DurationOnTile: 0
+      DurationOnTileV: {x: 0, y: 0}
+      Effects: []
+    WalkingSide: 2
+    Portal: 0
+    IDPortal: 0
+    OverrideTileADStats: 0
+    TileAD: {x: -Infinity, y: -Infinity}
+    ShowClose: 0
+    _BattleTileState: 1
+  - name: 1,5
+    Pos: {x: 1, y: 5}
+    HasEffect: 0
+    BaseEffectsOnTile:
+      TileAction: 0
+      HitTime: 1
+      TileParticlesID: 0
+      EffectChances: 100
+      DurationOnTile: 0
+      DurationOnTileV: {x: 0, y: 0}
+      Effects: []
+    WalkingSide: 2
+    Portal: 0
+    IDPortal: 0
+    OverrideTileADStats: 0
+    TileAD: {x: -Infinity, y: -Infinity}
+    ShowClose: 0
+    _BattleTileState: 1
+  - name: 1,6
+    Pos: {x: 1, y: 6}
+    HasEffect: 0
+    BaseEffectsOnTile:
+      TileAction: 0
+      HitTime: 1
+      TileParticlesID: 0
+      EffectChances: 100
+      DurationOnTile: 0
+      DurationOnTileV: {x: 0, y: 0}
+      Effects: []
+    WalkingSide: 2
+    Portal: 0
+    IDPortal: 0
+    OverrideTileADStats: 0
+    TileAD: {x: -Infinity, y: -Infinity}
+    ShowClose: 0
+    _BattleTileState: 1
+  - name: 1,7
+    Pos: {x: 1, y: 7}
+    HasEffect: 0
+    BaseEffectsOnTile:
+      TileAction: 0
+      HitTime: 1
+      TileParticlesID: 0
+      EffectChances: 100
+      DurationOnTile: 0
+      DurationOnTileV: {x: 0, y: 0}
+      Effects: []
+    WalkingSide: 2
+    Portal: 0
+    IDPortal: 0
+    OverrideTileADStats: 0
+    TileAD: {x: -Infinity, y: -Infinity}
+    ShowClose: 0
+    _BattleTileState: 1
+  - name: 1,8
+    Pos: {x: 1, y: 8}
+    HasEffect: 0
+    BaseEffectsOnTile:
+      TileAction: 0
+      HitTime: 1
+      TileParticlesID: 0
+      EffectChances: 100
+      DurationOnTile: 0
+      DurationOnTileV: {x: 0, y: 0}
+      Effects: []
+    WalkingSide: 2
+    Portal: 0
+    IDPortal: 0
+    OverrideTileADStats: 0
+    TileAD: {x: -Infinity, y: -Infinity}
+    ShowClose: 0
+    _BattleTileState: 1
+  - name: 1,9
+    Pos: {x: 1, y: 9}
+    HasEffect: 0
+    BaseEffectsOnTile:
+      TileAction: 0
+      HitTime: 1
+      TileParticlesID: 0
+      EffectChances: 100
+      DurationOnTile: 0
+      DurationOnTileV: {x: 0, y: 0}
+      Effects: []
+    WalkingSide: 2
+    Portal: 0
+    IDPortal: 0
+    OverrideTileADStats: 0
+    TileAD: {x: -Infinity, y: -Infinity}
+    ShowClose: 0
+    _BattleTileState: 1
+  - name: 1,10
+    Pos: {x: 1, y: 10}
+    HasEffect: 0
+    BaseEffectsOnTile:
+      TileAction: 0
+      HitTime: 1
+      TileParticlesID: 0
+      EffectChances: 100
+      DurationOnTile: 0
+      DurationOnTileV: {x: 0, y: 0}
+      Effects: []
+    WalkingSide: 2
+    Portal: 0
+    IDPortal: 0
+    OverrideTileADStats: 0
+    TileAD: {x: -Infinity, y: -Infinity}
+    ShowClose: 0
+    _BattleTileState: 1
+  - name: 1,11
+    Pos: {x: 1, y: 11}
+    HasEffect: 0
+    BaseEffectsOnTile:
+      TileAction: 0
+      HitTime: 1
+      TileParticlesID: 0
+      EffectChances: 100
+      DurationOnTile: 0
+      DurationOnTileV: {x: 0, y: 0}
+      Effects: []
+    WalkingSide: 2
+    Portal: 0
+    IDPortal: 0
+    OverrideTileADStats: 0
+    TileAD: {x: -Infinity, y: -Infinity}
+    ShowClose: 0
+    _BattleTileState: 1
+  - name: 2,0
+    Pos: {x: 2, y: 0}
+    HasEffect: 0
+    BaseEffectsOnTile:
+      TileAction: 0
+      HitTime: 1
+      TileParticlesID: 0
+      EffectChances: 100
+      DurationOnTile: 0
+      DurationOnTileV: {x: 0, y: 0}
+      Effects: []
+    WalkingSide: 2
+    Portal: 0
+    IDPortal: 0
+    OverrideTileADStats: 0
+    TileAD: {x: -Infinity, y: -Infinity}
+    ShowClose: 0
+    _BattleTileState: 1
+  - name: 2,1
+    Pos: {x: 2, y: 1}
+    HasEffect: 0
+    BaseEffectsOnTile:
+      TileAction: 0
+      HitTime: 1
+      TileParticlesID: 0
+      EffectChances: 100
+      DurationOnTile: 0
+      DurationOnTileV: {x: 0, y: 0}
+      Effects: []
+    WalkingSide: 2
+    Portal: 0
+    IDPortal: 0
+    OverrideTileADStats: 0
+    TileAD: {x: -Infinity, y: -Infinity}
+    ShowClose: 0
+    _BattleTileState: 1
+  - name: 2,2
+    Pos: {x: 2, y: 2}
+    HasEffect: 0
+    BaseEffectsOnTile:
+      TileAction: 0
+      HitTime: 1
+      TileParticlesID: 0
+      EffectChances: 100
+      DurationOnTile: 0
+      DurationOnTileV: {x: 0, y: 0}
+      Effects: []
+    WalkingSide: 2
+    Portal: 0
+    IDPortal: 0
+    OverrideTileADStats: 0
+    TileAD: {x: -Infinity, y: -Infinity}
+    ShowClose: 0
+    _BattleTileState: 1
+  - name: 2,3
+    Pos: {x: 2, y: 3}
+    HasEffect: 0
+    BaseEffectsOnTile:
+      TileAction: 0
+      HitTime: 1
+      TileParticlesID: 0
+      EffectChances: 100
+      DurationOnTile: 0
+      DurationOnTileV: {x: 0, y: 0}
+      Effects: []
+    WalkingSide: 2
+    Portal: 0
+    IDPortal: 0
+    OverrideTileADStats: 0
+    TileAD: {x: -Infinity, y: -Infinity}
+    ShowClose: 0
+    _BattleTileState: 1
+  - name: 2,4
+    Pos: {x: 2, y: 4}
+    HasEffect: 0
+    BaseEffectsOnTile:
+      TileAction: 0
+      HitTime: 1
+      TileParticlesID: 0
+      EffectChances: 100
+      DurationOnTile: 0
+      DurationOnTileV: {x: 0, y: 0}
+      Effects: []
+    WalkingSide: 2
+    Portal: 0
+    IDPortal: 0
+    OverrideTileADStats: 0
+    TileAD: {x: -Infinity, y: -Infinity}
+    ShowClose: 0
+    _BattleTileState: 1
+  - name: 2,5
+    Pos: {x: 2, y: 5}
+    HasEffect: 0
+    BaseEffectsOnTile:
+      TileAction: 0
+      HitTime: 1
+      TileParticlesID: 0
+      EffectChances: 100
+      DurationOnTile: 0
+      DurationOnTileV: {x: 0, y: 0}
+      Effects: []
+    WalkingSide: 2
+    Portal: 0
+    IDPortal: 0
+    OverrideTileADStats: 0
+    TileAD: {x: -Infinity, y: -Infinity}
+    ShowClose: 0
+    _BattleTileState: 1
+  - name: 2,6
+    Pos: {x: 2, y: 6}
+    HasEffect: 0
+    BaseEffectsOnTile:
+      TileAction: 0
+      HitTime: 1
+      TileParticlesID: 0
+      EffectChances: 100
+      DurationOnTile: 0
+      DurationOnTileV: {x: 0, y: 0}
+      Effects: []
+    WalkingSide: 2
+    Portal: 0
+    IDPortal: 0
+    OverrideTileADStats: 0
+    TileAD: {x: -Infinity, y: -Infinity}
+    ShowClose: 0
+    _BattleTileState: 1
+  - name: 2,7
+    Pos: {x: 2, y: 7}
+    HasEffect: 0
+    BaseEffectsOnTile:
+      TileAction: 0
+      HitTime: 1
+      TileParticlesID: 0
+      EffectChances: 100
+      DurationOnTile: 0
+      DurationOnTileV: {x: 0, y: 0}
+      Effects: []
+    WalkingSide: 2
+    Portal: 0
+    IDPortal: 0
+    OverrideTileADStats: 0
+    TileAD: {x: -Infinity, y: -Infinity}
+    ShowClose: 0
+    _BattleTileState: 1
+  - name: 2,8
+    Pos: {x: 2, y: 8}
+    HasEffect: 0
+    BaseEffectsOnTile:
+      TileAction: 0
+      HitTime: 1
+      TileParticlesID: 0
+      EffectChances: 100
+      DurationOnTile: 0
+      DurationOnTileV: {x: 0, y: 0}
+      Effects: []
+    WalkingSide: 2
+    Portal: 0
+    IDPortal: 0
+    OverrideTileADStats: 0
+    TileAD: {x: -Infinity, y: -Infinity}
+    ShowClose: 0
+    _BattleTileState: 1
+  - name: 2,9
+    Pos: {x: 2, y: 9}
+    HasEffect: 0
+    BaseEffectsOnTile:
+      TileAction: 0
+      HitTime: 1
+      TileParticlesID: 0
+      EffectChances: 100
+      DurationOnTile: 0
+      DurationOnTileV: {x: 0, y: 0}
+      Effects: []
+    WalkingSide: 2
+    Portal: 0
+    IDPortal: 0
+    OverrideTileADStats: 0
+    TileAD: {x: -Infinity, y: -Infinity}
+    ShowClose: 0
+    _BattleTileState: 1
+  - name: 2,10
+    Pos: {x: 2, y: 10}
+    HasEffect: 0
+    BaseEffectsOnTile:
+      TileAction: 0
+      HitTime: 1
+      TileParticlesID: 0
+      EffectChances: 100
+      DurationOnTile: 0
+      DurationOnTileV: {x: 0, y: 0}
+      Effects: []
+    WalkingSide: 2
+    Portal: 0
+    IDPortal: 0
+    OverrideTileADStats: 0
+    TileAD: {x: -Infinity, y: -Infinity}
+    ShowClose: 0
+    _BattleTileState: 1
+  - name: 2,11
+    Pos: {x: 2, y: 11}
+    HasEffect: 0
+    BaseEffectsOnTile:
+      TileAction: 0
+      HitTime: 1
+      TileParticlesID: 0
+      EffectChances: 100
+      DurationOnTile: 0
+      DurationOnTileV: {x: 0, y: 0}
+      Effects: []
+    WalkingSide: 2
+    Portal: 0
+    IDPortal: 0
+    OverrideTileADStats: 0
+    TileAD: {x: -Infinity, y: -Infinity}
+    ShowClose: 0
+    _BattleTileState: 1
+  - name: 3,0
+    Pos: {x: 3, y: 0}
+    HasEffect: 0
+    BaseEffectsOnTile:
+      TileAction: 0
+      HitTime: 1
+      TileParticlesID: 0
+      EffectChances: 100
+      DurationOnTile: 0
+      DurationOnTileV: {x: 0, y: 0}
+      Effects: []
+    WalkingSide: 2
+    Portal: 0
+    IDPortal: 0
+    OverrideTileADStats: 0
+    TileAD: {x: -Infinity, y: -Infinity}
+    ShowClose: 0
+    _BattleTileState: 1
+  - name: 3,1
+    Pos: {x: 3, y: 1}
+    HasEffect: 0
+    BaseEffectsOnTile:
+      TileAction: 0
+      HitTime: 1
+      TileParticlesID: 0
+      EffectChances: 100
+      DurationOnTile: 0
+      DurationOnTileV: {x: 0, y: 0}
+      Effects: []
+    WalkingSide: 2
+    Portal: 0
+    IDPortal: 0
+    OverrideTileADStats: 0
+    TileAD: {x: -Infinity, y: -Infinity}
+    ShowClose: 0
+    _BattleTileState: 1
+  - name: 3,2
+    Pos: {x: 3, y: 2}
+    HasEffect: 0
+    BaseEffectsOnTile:
+      TileAction: 0
+      HitTime: 1
+      TileParticlesID: 0
+      EffectChances: 100
+      DurationOnTile: 0
+      DurationOnTileV: {x: 0, y: 0}
+      Effects: []
+    WalkingSide: 2
+    Portal: 0
+    IDPortal: 0
+    OverrideTileADStats: 0
+    TileAD: {x: -Infinity, y: -Infinity}
+    ShowClose: 0
+    _BattleTileState: 1
+  - name: 3,3
+    Pos: {x: 3, y: 3}
+    HasEffect: 0
+    BaseEffectsOnTile:
+      TileAction: 0
+      HitTime: 1
+      TileParticlesID: 0
+      EffectChances: 100
+      DurationOnTile: 0
+      DurationOnTileV: {x: 0, y: 0}
+      Effects: []
+    WalkingSide: 2
+    Portal: 0
+    IDPortal: 0
+    OverrideTileADStats: 0
+    TileAD: {x: -Infinity, y: -Infinity}
+    ShowClose: 0
+    _BattleTileState: 1
+  - name: 3,4
+    Pos: {x: 3, y: 4}
+    HasEffect: 0
+    BaseEffectsOnTile:
+      TileAction: 0
+      HitTime: 1
+      TileParticlesID: 0
+      EffectChances: 100
+      DurationOnTile: 0
+      DurationOnTileV: {x: 0, y: 0}
+      Effects: []
+    WalkingSide: 2
+    Portal: 0
+    IDPortal: 0
+    OverrideTileADStats: 0
+    TileAD: {x: -Infinity, y: -Infinity}
+    ShowClose: 0
+    _BattleTileState: 1
+  - name: 3,5
+    Pos: {x: 3, y: 5}
+    HasEffect: 0
+    BaseEffectsOnTile:
+      TileAction: 0
+      HitTime: 1
+      TileParticlesID: 0
+      EffectChances: 100
+      DurationOnTile: 0
+      DurationOnTileV: {x: 0, y: 0}
+      Effects: []
+    WalkingSide: 2
+    Portal: 0
+    IDPortal: 0
+    OverrideTileADStats: 0
+    TileAD: {x: -Infinity, y: -Infinity}
+    ShowClose: 0
+    _BattleTileState: 1
+  - name: 3,6
+    Pos: {x: 3, y: 6}
+    HasEffect: 0
+    BaseEffectsOnTile:
+      TileAction: 0
+      HitTime: 1
+      TileParticlesID: 0
+      EffectChances: 100
+      DurationOnTile: 0
+      DurationOnTileV: {x: 0, y: 0}
+      Effects: []
+    WalkingSide: 2
+    Portal: 0
+    IDPortal: 0
+    OverrideTileADStats: 0
+    TileAD: {x: -Infinity, y: -Infinity}
+    ShowClose: 0
+    _BattleTileState: 1
+  - name: 3,7
+    Pos: {x: 3, y: 7}
+    HasEffect: 0
+    BaseEffectsOnTile:
+      TileAction: 0
+      HitTime: 1
+      TileParticlesID: 0
+      EffectChances: 100
+      DurationOnTile: 0
+      DurationOnTileV: {x: 0, y: 0}
+      Effects: []
+    WalkingSide: 2
+    Portal: 0
+    IDPortal: 0
+    OverrideTileADStats: 0
+    TileAD: {x: -Infinity, y: -Infinity}
+    ShowClose: 0
+    _BattleTileState: 1
+  - name: 3,8
+    Pos: {x: 3, y: 8}
+    HasEffect: 0
+    BaseEffectsOnTile:
+      TileAction: 0
+      HitTime: 1
+      TileParticlesID: 0
+      EffectChances: 100
+      DurationOnTile: 0
+      DurationOnTileV: {x: 0, y: 0}
+      Effects: []
+    WalkingSide: 2
+    Portal: 0
+    IDPortal: 0
+    OverrideTileADStats: 0
+    TileAD: {x: -Infinity, y: -Infinity}
+    ShowClose: 0
+    _BattleTileState: 1
+  - name: 3,9
+    Pos: {x: 3, y: 9}
+    HasEffect: 0
+    BaseEffectsOnTile:
+      TileAction: 0
+      HitTime: 1
+      TileParticlesID: 0
+      EffectChances: 100
+      DurationOnTile: 0
+      DurationOnTileV: {x: 0, y: 0}
+      Effects: []
+    WalkingSide: 2
+    Portal: 0
+    IDPortal: 0
+    OverrideTileADStats: 0
+    TileAD: {x: -Infinity, y: -Infinity}
+    ShowClose: 0
+    _BattleTileState: 1
+  - name: 3,10
+    Pos: {x: 3, y: 10}
+    HasEffect: 0
+    BaseEffectsOnTile:
+      TileAction: 0
+      HitTime: 1
+      TileParticlesID: 0
+      EffectChances: 100
+      DurationOnTile: 0
+      DurationOnTileV: {x: 0, y: 0}
+      Effects: []
+    WalkingSide: 2
+    Portal: 0
+    IDPortal: 0
+    OverrideTileADStats: 0
+    TileAD: {x: -Infinity, y: -Infinity}
+    ShowClose: 0
+    _BattleTileState: 1
+  - name: 3,11
+    Pos: {x: 3, y: 11}
+    HasEffect: 0
+    BaseEffectsOnTile:
+      TileAction: 0
+      HitTime: 1
+      TileParticlesID: 0
+      EffectChances: 100
+      DurationOnTile: 0
+      DurationOnTileV: {x: 0, y: 0}
+      Effects: []
+    WalkingSide: 2
+    Portal: 0
+    IDPortal: 0
+    OverrideTileADStats: 0
+    TileAD: {x: -Infinity, y: -Infinity}
+    ShowClose: 0
+    _BattleTileState: 1
+  - name: 4,0
+    Pos: {x: 4, y: 0}
+    HasEffect: 0
+    BaseEffectsOnTile:
+      TileAction: 0
+      HitTime: 1
+      TileParticlesID: 0
+      EffectChances: 100
+      DurationOnTile: 0
+      DurationOnTileV: {x: 0, y: 0}
+      Effects: []
+    WalkingSide: 2
+    Portal: 0
+    IDPortal: 0
+    OverrideTileADStats: 0
+    TileAD: {x: -Infinity, y: -Infinity}
+    ShowClose: 0
+    _BattleTileState: 1
+  - name: 4,1
+    Pos: {x: 4, y: 1}
+    HasEffect: 0
+    BaseEffectsOnTile:
+      TileAction: 0
+      HitTime: 1
+      TileParticlesID: 0
+      EffectChances: 100
+      DurationOnTile: 0
+      DurationOnTileV: {x: 0, y: 0}
+      Effects: []
+    WalkingSide: 2
+    Portal: 0
+    IDPortal: 0
+    OverrideTileADStats: 0
+    TileAD: {x: -Infinity, y: -Infinity}
+    ShowClose: 0
+    _BattleTileState: 1
+  - name: 4,2
+    Pos: {x: 4, y: 2}
+    HasEffect: 0
+    BaseEffectsOnTile:
+      TileAction: 0
+      HitTime: 1
+      TileParticlesID: 0
+      EffectChances: 100
+      DurationOnTile: 0
+      DurationOnTileV: {x: 0, y: 0}
+      Effects: []
+    WalkingSide: 2
+    Portal: 0
+    IDPortal: 0
+    OverrideTileADStats: 0
+    TileAD: {x: -Infinity, y: -Infinity}
+    ShowClose: 0
+    _BattleTileState: 1
+  - name: 4,3
+    Pos: {x: 4, y: 3}
+    HasEffect: 0
+    BaseEffectsOnTile:
+      TileAction: 0
+      HitTime: 1
+      TileParticlesID: 0
+      EffectChances: 100
+      DurationOnTile: 0
+      DurationOnTileV: {x: 0, y: 0}
+      Effects: []
+    WalkingSide: 2
+    Portal: 0
+    IDPortal: 0
+    OverrideTileADStats: 0
+    TileAD: {x: -Infinity, y: -Infinity}
+    ShowClose: 0
+    _BattleTileState: 1
+  - name: 4,4
+    Pos: {x: 4, y: 4}
+    HasEffect: 0
+    BaseEffectsOnTile:
+      TileAction: 0
+      HitTime: 1
+      TileParticlesID: 0
+      EffectChances: 100
+      DurationOnTile: 0
+      DurationOnTileV: {x: 0, y: 0}
+      Effects: []
+    WalkingSide: 2
+    Portal: 0
+    IDPortal: 0
+    OverrideTileADStats: 0
+    TileAD: {x: -Infinity, y: -Infinity}
+    ShowClose: 0
+    _BattleTileState: 1
+  - name: 4,5
+    Pos: {x: 4, y: 5}
+    HasEffect: 0
+    BaseEffectsOnTile:
+      TileAction: 0
+      HitTime: 1
+      TileParticlesID: 0
+      EffectChances: 100
+      DurationOnTile: 0
+      DurationOnTileV: {x: 0, y: 0}
+      Effects: []
+    WalkingSide: 2
+    Portal: 0
+    IDPortal: 0
+    OverrideTileADStats: 0
+    TileAD: {x: -Infinity, y: -Infinity}
+    ShowClose: 0
+    _BattleTileState: 1
+  - name: 4,6
+    Pos: {x: 4, y: 6}
+    HasEffect: 0
+    BaseEffectsOnTile:
+      TileAction: 0
+      HitTime: 1
+      TileParticlesID: 0
+      EffectChances: 100
+      DurationOnTile: 0
+      DurationOnTileV: {x: 0, y: 0}
+      Effects: []
+    WalkingSide: 2
+    Portal: 0
+    IDPortal: 0
+    OverrideTileADStats: 0
+    TileAD: {x: -Infinity, y: -Infinity}
+    ShowClose: 0
+    _BattleTileState: 1
+  - name: 4,7
+    Pos: {x: 4, y: 7}
+    HasEffect: 0
+    BaseEffectsOnTile:
+      TileAction: 0
+      HitTime: 1
+      TileParticlesID: 0
+      EffectChances: 100
+      DurationOnTile: 0
+      DurationOnTileV: {x: 0, y: 0}
+      Effects: []
+    WalkingSide: 2
+    Portal: 0
+    IDPortal: 0
+    OverrideTileADStats: 0
+    TileAD: {x: -Infinity, y: -Infinity}
+    ShowClose: 0
+    _BattleTileState: 1
+  - name: 4,8
+    Pos: {x: 4, y: 8}
+    HasEffect: 0
+    BaseEffectsOnTile:
+      TileAction: 0
+      HitTime: 1
+      TileParticlesID: 0
+      EffectChances: 100
+      DurationOnTile: 0
+      DurationOnTileV: {x: 0, y: 0}
+      Effects: []
+    WalkingSide: 2
+    Portal: 0
+    IDPortal: 0
+    OverrideTileADStats: 0
+    TileAD: {x: -Infinity, y: -Infinity}
+    ShowClose: 0
+    _BattleTileState: 1
+  - name: 4,9
+    Pos: {x: 4, y: 9}
+    HasEffect: 0
+    BaseEffectsOnTile:
+      TileAction: 0
+      HitTime: 1
+      TileParticlesID: 0
+      EffectChances: 100
+      DurationOnTile: 0
+      DurationOnTileV: {x: 0, y: 0}
+      Effects: []
+    WalkingSide: 2
+    Portal: 0
+    IDPortal: 0
+    OverrideTileADStats: 0
+    TileAD: {x: -Infinity, y: -Infinity}
+    ShowClose: 0
+    _BattleTileState: 1
+  - name: 4,10
+    Pos: {x: 4, y: 10}
+    HasEffect: 0
+    BaseEffectsOnTile:
+      TileAction: 0
+      HitTime: 1
+      TileParticlesID: 0
+      EffectChances: 100
+      DurationOnTile: 0
+      DurationOnTileV: {x: 0, y: 0}
+      Effects: []
+    WalkingSide: 2
+    Portal: 0
+    IDPortal: 0
+    OverrideTileADStats: 0
+    TileAD: {x: -Infinity, y: -Infinity}
+    ShowClose: 0
+    _BattleTileState: 1
+  - name: 4,11
+    Pos: {x: 4, y: 11}
+    HasEffect: 0
+    BaseEffectsOnTile:
+      TileAction: 0
+      HitTime: 1
+      TileParticlesID: 0
+      EffectChances: 100
+      DurationOnTile: 0
+      DurationOnTileV: {x: 0, y: 0}
+      Effects: []
+    WalkingSide: 2
+    Portal: 0
+    IDPortal: 0
+    OverrideTileADStats: 0
+    TileAD: {x: -Infinity, y: -Infinity}
+    ShowClose: 0
+    _BattleTileState: 1
+  - name: 5,0
+    Pos: {x: 5, y: 0}
+    HasEffect: 0
+    BaseEffectsOnTile:
+      TileAction: 0
+      HitTime: 1
+      TileParticlesID: 0
+      EffectChances: 100
+      DurationOnTile: 0
+      DurationOnTileV: {x: 0, y: 0}
+      Effects: []
+    WalkingSide: 2
+    Portal: 0
+    IDPortal: 0
+    OverrideTileADStats: 0
+    TileAD: {x: -Infinity, y: -Infinity}
+    ShowClose: 0
+    _BattleTileState: 1
+  - name: 5,1
+    Pos: {x: 5, y: 1}
+    HasEffect: 0
+    BaseEffectsOnTile:
+      TileAction: 0
+      HitTime: 1
+      TileParticlesID: 0
+      EffectChances: 100
+      DurationOnTile: 0
+      DurationOnTileV: {x: 0, y: 0}
+      Effects: []
+    WalkingSide: 2
+    Portal: 0
+    IDPortal: 0
+    OverrideTileADStats: 0
+    TileAD: {x: -Infinity, y: -Infinity}
+    ShowClose: 0
+    _BattleTileState: 1
+  - name: 5,2
+    Pos: {x: 5, y: 2}
+    HasEffect: 0
+    BaseEffectsOnTile:
+      TileAction: 0
+      HitTime: 1
+      TileParticlesID: 0
+      EffectChances: 100
+      DurationOnTile: 0
+      DurationOnTileV: {x: 0, y: 0}
+      Effects: []
+    WalkingSide: 2
+    Portal: 0
+    IDPortal: 0
+    OverrideTileADStats: 0
+    TileAD: {x: -Infinity, y: -Infinity}
+    ShowClose: 0
+    _BattleTileState: 1
+  - name: 5,3
+    Pos: {x: 5, y: 3}
+    HasEffect: 0
+    BaseEffectsOnTile:
+      TileAction: 0
+      HitTime: 1
+      TileParticlesID: 0
+      EffectChances: 100
+      DurationOnTile: 0
+      DurationOnTileV: {x: 0, y: 0}
+      Effects: []
+    WalkingSide: 2
+    Portal: 0
+    IDPortal: 0
+    OverrideTileADStats: 0
+    TileAD: {x: -Infinity, y: -Infinity}
+    ShowClose: 0
+    _BattleTileState: 1
+  - name: 5,4
+    Pos: {x: 5, y: 4}
+    HasEffect: 0
+    BaseEffectsOnTile:
+      TileAction: 0
+      HitTime: 1
+      TileParticlesID: 0
+      EffectChances: 100
+      DurationOnTile: 0
+      DurationOnTileV: {x: 0, y: 0}
+      Effects: []
+    WalkingSide: 2
+    Portal: 0
+    IDPortal: 0
+    OverrideTileADStats: 0
+    TileAD: {x: -Infinity, y: -Infinity}
+    ShowClose: 0
+    _BattleTileState: 1
+  - name: 5,5
+    Pos: {x: 5, y: 5}
+    HasEffect: 0
+    BaseEffectsOnTile:
+      TileAction: 0
+      HitTime: 1
+      TileParticlesID: 0
+      EffectChances: 100
+      DurationOnTile: 0
+      DurationOnTileV: {x: 0, y: 0}
+      Effects: []
+    WalkingSide: 2
+    Portal: 0
+    IDPortal: 0
+    OverrideTileADStats: 0
+    TileAD: {x: -Infinity, y: -Infinity}
+    ShowClose: 0
+    _BattleTileState: 1
+  - name: 5,6
+    Pos: {x: 5, y: 6}
+    HasEffect: 0
+    BaseEffectsOnTile:
+      TileAction: 0
+      HitTime: 1
+      TileParticlesID: 0
+      EffectChances: 100
+      DurationOnTile: 0
+      DurationOnTileV: {x: 0, y: 0}
+      Effects: []
+    WalkingSide: 2
+    Portal: 0
+    IDPortal: 0
+    OverrideTileADStats: 0
+    TileAD: {x: -Infinity, y: -Infinity}
+    ShowClose: 0
+    _BattleTileState: 1
+  - name: 5,7
+    Pos: {x: 5, y: 7}
+    HasEffect: 0
+    BaseEffectsOnTile:
+      TileAction: 0
+      HitTime: 1
+      TileParticlesID: 0
+      EffectChances: 100
+      DurationOnTile: 0
+      DurationOnTileV: {x: 0, y: 0}
+      Effects: []
+    WalkingSide: 2
+    Portal: 0
+    IDPortal: 0
+    OverrideTileADStats: 0
+    TileAD: {x: -Infinity, y: -Infinity}
+    ShowClose: 0
+    _BattleTileState: 1
+  - name: 5,8
+    Pos: {x: 5, y: 8}
+    HasEffect: 0
+    BaseEffectsOnTile:
+      TileAction: 0
+      HitTime: 1
+      TileParticlesID: 0
+      EffectChances: 100
+      DurationOnTile: 0
+      DurationOnTileV: {x: 0, y: 0}
+      Effects: []
+    WalkingSide: 2
+    Portal: 0
+    IDPortal: 0
+    OverrideTileADStats: 0
+    TileAD: {x: -Infinity, y: -Infinity}
+    ShowClose: 0
+    _BattleTileState: 1
+  - name: 5,9
+    Pos: {x: 5, y: 9}
+    HasEffect: 0
+    BaseEffectsOnTile:
+      TileAction: 0
+      HitTime: 1
+      TileParticlesID: 0
+      EffectChances: 100
+      DurationOnTile: 0
+      DurationOnTileV: {x: 0, y: 0}
+      Effects: []
+    WalkingSide: 2
+    Portal: 0
+    IDPortal: 0
+    OverrideTileADStats: 0
+    TileAD: {x: -Infinity, y: -Infinity}
+    ShowClose: 0
+    _BattleTileState: 1
+  - name: 5,10
+    Pos: {x: 5, y: 10}
+    HasEffect: 0
+    BaseEffectsOnTile:
+      TileAction: 0
+      HitTime: 1
+      TileParticlesID: 0
+      EffectChances: 100
+      DurationOnTile: 0
+      DurationOnTileV: {x: 0, y: 0}
+      Effects: []
+    WalkingSide: 2
+    Portal: 0
+    IDPortal: 0
+    OverrideTileADStats: 0
+    TileAD: {x: -Infinity, y: -Infinity}
+    ShowClose: 0
+    _BattleTileState: 1
+  - name: 5,11
+    Pos: {x: 5, y: 11}
+    HasEffect: 0
+    BaseEffectsOnTile:
+      TileAction: 0
+      HitTime: 1
+      TileParticlesID: 0
+      EffectChances: 100
+      DurationOnTile: 0
+      DurationOnTileV: {x: 0, y: 0}
+      Effects: []
+    WalkingSide: 2
+    Portal: 0
+    IDPortal: 0
+    OverrideTileADStats: 0
+    TileAD: {x: -Infinity, y: -Infinity}
+    ShowClose: 0
+    _BattleTileState: 1
+  minMaxAttackStats: {x: 0, y: 1}
+  minMaxDefenceStats: {x: 0, y: 1}
+  YGridSeparator: 0
+  HasBaseTileEffect: 0
+  BaseEffectsOnTile:
+    TileAction: 0
+    HitTime: 1
+    TileParticlesID: 0
+    EffectChances: 100
+    DurationOnTile: 0
+    DurationOnTileV: {x: 0, y: 0}
+    Effects: []

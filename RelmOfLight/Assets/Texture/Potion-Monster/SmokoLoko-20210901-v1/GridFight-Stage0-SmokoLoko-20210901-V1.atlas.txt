@@ -1,0 +1,195 @@
+
+GridFight-Stage0-SmokoLoko-20210901-V1.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+1x/Asset 29ds
+  rotate: 180
+  xy: 482, 451
+  size: 73, 187
+  orig: 73, 187
+  offset: 0, 0
+  index: -1
+1x/Asset 30
+  rotate: 270
+  xy: 572, 779
+  size: 128, 216
+  orig: 128, 216
+  offset: 0, 0
+  index: -1
+Arm-1
+  rotate: false
+  xy: 885, 703
+  size: 17, 108
+  orig: 17, 108
+  offset: 0, 0
+  index: -1
+Arm-2
+  rotate: false
+  xy: 348, 643
+  size: 18, 108
+  orig: 18, 108
+  offset: 0, 0
+  index: -1
+Belly-Light
+  rotate: false
+  xy: 790, 822
+  size: 70, 83
+  orig: 70, 83
+  offset: 0, 0
+  index: -1
+Body-base
+  rotate: 180
+  xy: 555, 457
+  size: 247, 267
+  orig: 247, 267
+  offset: 0, 0
+  index: -1
+Butt-up-Pose
+  rotate: 270
+  xy: 347, 446
+  size: 489, 272
+  orig: 489, 272
+  offset: 0, 0
+  index: -1
+Butt-up-Semi-smear
+  rotate: false
+  xy: 2, 526
+  size: 344, 409
+  orig: 344, 409
+  offset: 0, 0
+  index: -1
+Closed-Eye
+  rotate: false
+  xy: 241, 433
+  size: 95, 91
+  orig: 95, 91
+  offset: 0, 0
+  index: -1
+Exp-L1-P2
+  rotate: true
+  xy: 862, 816
+  size: 68, 56
+  orig: 68, 56
+  offset: 0, 0
+  index: -1
+Exp-L1-P3
+  rotate: false
+  xy: 885, 637
+  size: 46, 64
+  orig: 46, 64
+  offset: 0, 0
+  index: -1
+Exp-L1-P4
+  rotate: false
+  xy: 42, 434
+  size: 23, 28
+  orig: 23, 28
+  offset: 0, 0
+  index: -1
+Eyebrow
+  rotate: false
+  xy: 2, 435
+  size: 38, 27
+  orig: 38, 27
+  offset: 0, 0
+  index: -1
+Face-Light
+  rotate: false
+  xy: 382, 436
+  size: 44, 50
+  orig: 44, 50
+  offset: 0, 0
+  index: -1
+Frontal-Foot-2
+  rotate: false
+  xy: 804, 598
+  size: 69, 78
+  orig: 69, 78
+  offset: 0, 0
+  index: -1
+Ground-Shadow
+  rotate: false
+  xy: 2, 464
+  size: 237, 60
+  orig: 237, 60
+  offset: 0, 0
+  index: -1
+Hand-1
+  rotate: false
+  xy: 450, 435
+  size: 45, 37
+  orig: 45, 37
+  offset: 0, 0
+  index: -1
+Hand-2
+  rotate: false
+  xy: 543, 443
+  size: 47, 39
+  orig: 47, 39
+  offset: 0, 0
+  index: -1
+Mouth
+  rotate: false
+  xy: 876, 447
+  size: 55, 62
+  orig: 55, 62
+  offset: 0, 0
+  index: -1
+NL1P1
+  rotate: true
+  xy: 875, 574
+  size: 61, 55
+  orig: 61, 55
+  offset: 0, 0
+  index: -1
+NL1P2
+  rotate: false
+  xy: 825, 678
+  size: 58, 67
+  orig: 58, 67
+  offset: 0, 0
+  index: -1
+NL2P1
+  rotate: false
+  xy: 862, 886
+  size: 58, 48
+  orig: 58, 48
+  offset: 0, 0
+  index: -1
+NL2P2
+  rotate: false
+  xy: 825, 747
+  size: 58, 67
+  orig: 58, 67
+  offset: 0, 0
+  index: -1
+Open-Eye
+  rotate: false
+  xy: 726, 726
+  size: 97, 94
+  orig: 97, 94
+  offset: 0, 0
+  index: -1
+Sphere-1
+  rotate: true
+  xy: 874, 511
+  size: 61, 60
+  orig: 61, 60
+  offset: 0, 0
+  index: -1
+Sphere-2
+  rotate: false
+  xy: 804, 511
+  size: 68, 60
+  orig: 68, 60
+  offset: 0, 0
+  index: -1
+Sphere-3
+  rotate: true
+  xy: 804, 436
+  size: 73, 70
+  orig: 73, 70
+  offset: 0, 0
+  index: -1

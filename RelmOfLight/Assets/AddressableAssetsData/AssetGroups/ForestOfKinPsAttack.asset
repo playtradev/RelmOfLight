@@ -1,0 +1,429 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: ForestOfKinPsAttack
+  m_EditorClassIdentifier: 
+  m_GroupName: ForestOfKinPsAttack
+  m_Data:
+    m_SerializedData: []
+  m_GUID: bf65a32bf5cd543d396024fadd557ab3
+  m_SerializeEntries:
+  - m_GUID: ba9d799317b59904897d69220f55bfb1
+    m_Address: ForestOfKin_Minion_Valley_WeakAttack_Hit_Right_Notark
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: d79ebc59a992bc34ab7c81008fc2f932
+    m_Address: ForestOfKin_Minion_Valley_WeakAttack_Cast_Right_Notark
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 1f033ee9f4049b54dbd579693e9ba044
+    m_Address: ForestOfKin_Minion_Valley_WeakAttack_Bullet_Right_Notark
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 9fa3545e0d613264caf3e5be5fb20382
+    m_Address: ForestOfKin_Minion_Valley_StrongAttack_Hit_Right_Notark
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: cd10a8b164eff7c4cac170a8d3f78da6
+    m_Address: ForestOfKin_Minion_Valley_StrongAttack_Cast_Right_Notark
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: a1d95a8382b8248468b01bc69346c718
+    m_Address: ForestOfKin_Minion_Valley_StrongAttack_Bullet_Right_Notark
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: e42831ce4b091154394e9ef9b4dd18fa
+    m_Address: ForestOfKin_Minion_Valley_DeBuff_Hit_Right_Notark
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 4c6e1d8dac8b53e4788a3c7cb5431201
+    m_Address: ForestOfKin_Minion_Valley_Debuff_Cast_Right_Notark
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: ffe3b6b4abf185a4493edc7626b0d809
+    m_Address: ForestOfKin_Minion_Valley_DeBuff_Bullet_Right_Notark
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 014445de15e09634eb12b16414ab4223
+    m_Address: ForestOfKin_Minion_Valley_Buff_Bullet_Right_Notark
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 8390beb002ee4b745ae6a3fa3c627095
+    m_Address: ForestOfKin_Minion_Mountain_WeakAttack_Hit_Right_MossBear
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 1a6907bc17d4da945831487a8f869f88
+    m_Address: ForestOfKin_Minion_Mountain_WeakAttack_Cast_Right_MossBear
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: afecb56fdfa311449bb54c7b26e67203
+    m_Address: ForestOfKin_Minion_Mountain_WeakAttack_Bullet_Right_MossBear
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 10671dae09bec414284dd59b4f884136
+    m_Address: ForestOfKin_Minion_Mountain_StrongAttack_Hit_Right_MossBear
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 57d3ff3b29ddeef4e959bbfbdbc0762e
+    m_Address: ForestOfKin_Minion_Mountain_StrongAttack_Cast_Right_MossBear
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: e6d9a18a0533ec54c9c385c63a256314
+    m_Address: ForestOfKin_Minion_Mountain_StrongAttack_Bullet_Right_MossBear
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 2e7e00807c828404891b6e2a75f430f6
+    m_Address: ForestOfKin_Minion_Mountain_LifeDrain
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 941e1cd52263c354ba2f2a4c0598e60a
+    m_Address: ForestOfKin_Minion_Mountain_DeBuff_HitGranade_Right_MossBear
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 2440f6769b6d86a4cb0bd3dd0dbdf733
+    m_Address: ForestOfKin_Minion_Mountain_DeBuff_Hit_Right_MossBear
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: f0dd31ff83c05d14490ff5d52c6285d0
+    m_Address: ForestOfKin_Minion_Mountain_DeBuff_Cast_Right_MossBear
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 4119fb539f5440e4a9e0313d5880c205
+    m_Address: ForestOfKin_Minion_Mountain_DeBuff_Bullet_Right_MossBear
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 65692f9a041248541a3ea55630089af2
+    m_Address: ForestOfKin_Minion_Mountain_Buff_Hit_Right_MossBear
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 53d7900e5dd2f9245970a16aee1102e9
+    m_Address: ForestOfKin_Minion_Mountain_Buff_Cast_Right_MossBear
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 851c204477cf462479d58c765c1b76d0
+    m_Address: ForestOfKin_Minion_Mountain_Buff_Bullet_Right_MossBear
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: a6f67cc53d5393e46af25ea1c59ec16d
+    m_Address: ForestOfKin_Minion_Forest_WeakAttack_Hit_Right_Zombie
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 0ba1ebef8dc82794e864d94e626fc220
+    m_Address: ForestOfKin_Minion_Forest_WeakAttack_Cast_Right_Zombie
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 722b4b2274d93d149be5ffa1d602ed6d
+    m_Address: ForestOfKin_Minion_Forest_WeakAttack_Bullet_Right_Zombie
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: efcaa0aaa3368424d8f73959f46a0516
+    m_Address: ForestOfKin_Minion_Forest_StrongAttack_Hit_Right_Zombie
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 4c7944720813c254593f3d026c23385d
+    m_Address: ForestOfKin_Minion_Forest_StrongAttack_Cast_Right_Zombie
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: b066cbedc0cc0ec47af729de280d7aab
+    m_Address: ForestOfKin_Minion_Forest_StrongAttack_Bullet_Right_Zombie
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 9f16236240f165d45abdb16d73888b57
+    m_Address: ForestOfKin_Minion_Forest_StrongAttack_02_Hit_Right_Zombie
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: b80ae7a46c91e2b45aa7a9cfcbe2b373
+    m_Address: ForestOfKin_Minion_Forest_Debuff_Hit_Right_Zombie
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 72afbbec646fed44188790a2ecfbbdc5
+    m_Address: ForestOfKin_Minion_Forest_Debuff_Bullet_Right_Zombie
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 7394080df0d753246bd661e1d5759920
+    m_Address: ForestOfKin_Minion_Desert_WeakAttack_Hit_Right_Wendigoat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 5480558e9e8f9544f9db954418ae8fc9
+    m_Address: ForestOfKin_Minion_Desert_WeakAttack_Cast_Right_Wendigoat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: aa1f9c69c99c90b45b79cf801eac6922
+    m_Address: ForestOfKin_Minion_Desert_WeakAttack_Bullet_Right_Wendigoat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: efb503ed84ee8e045af53c23cd1e29a0
+    m_Address: ForestOfKin_Minion_Desert_StrongAttack_Hit_Right_Wendigoat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 80b6a4c2d1a389f45a90a3701606ca22
+    m_Address: ForestOfKin_Minion_Desert_StrongAttack_Cast_Right_Wendigoat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 47b767bd816ce684c94310d894cabb60
+    m_Address: ForestOfKin_Minion_Desert_StrongAttack_Bullet_Right_Wendigoat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 4f121563142befe4cac125e8e331eebf
+    m_Address: ForestOfKin_Minion_Desert_DeBuff_Hit_Right_Wendigoat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 6b01792a2ff251c448796ebc5dcef39d
+    m_Address: ForestOfKin_Minion_Desert_Debuff_Bullet_Right_Wendigoat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: d5d0a43b669a1ce41918e6b084d0c3c3
+    m_Address: ForestOfKin_Minion_Desert_Buff_Hit_Right_Wendigoat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 71ce3bed392d87e4b9ec278a15c95b55
+    m_Address: ForestOfKin_Minion_Desert_Buff_Cast_Right_Wendigoat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 1f027244201c5984f92981c0d0133d0b
+    m_Address: ForestOfKin_Minion_Desert_Buff_Bullet_Right_Wendigoat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 8db9554ba490cab43af5c4d7d342c9c0
+    m_Address: ForestOfKin_Character_Valley_WeakAttack_Hit_Right_Elu
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 551a66815e7b3b4419481d7dd280842b
+    m_Address: ForestOfKin_Character_Valley_WeakAttack_Cast_Right_Elu
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 664d0ce147c0e294fb311dd03f90f27c
+    m_Address: ForestOfKin_Character_Valley_WeakAttack_Bullet_Right_Elu
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 77e79a773a35cdb4a9b797550923400c
+    m_Address: ForestOfKin_Character_Valley_StrongAttack_Hit_Right_Elu
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 4f46c9e1e2be26d44b02ade5deecd580
+    m_Address: ForestOfKin_Character_Valley_StrongAttack_Cast_Right_Elu
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: b3f0ad8ac79a9324b8f0ca5a88e67966
+    m_Address: ForestOfKin_Character_Valley_StrongAttack_Bullet_Right_Elu
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 031397ea325274c42ada1cbb66823e50
+    m_Address: ForestOfKin_Character_Valley_Claim_Hit_Right_Elu
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 595ab227ff3d8f047ab0fcf23f3a38f9
+    m_Address: ForestOfKin_Character_Valley_Claim_Effect_Right_Elu
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: bc6c4ace4e8a9d04790a7a5605ef1006
+    m_Address: ForestOfKin_Character_Valley_Claim_Cast_Right_Elu
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 274ac338649777c4b98609334eb9da4a
+    m_Address: ForestOfKin_Character_Valley_Debuff_Hit_Right_Elu
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: b0e058d6ec7ac3c4590ad918ee23f56c
+    m_Address: ForestOfKin_Character_Valley_Debuff_Bullet_Right_Elu
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 08398316a511ba74cbddfbac1821e2de
+    m_Address: ForestOfKin_Character_Mountain_WeakAttack_Hit_Right_Valis
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 76d6090bb7fcc11489d9c56c2476330a
+    m_Address: ForestOfKin_Character_Mountain_WeakAttack_Cast_Right_Valis
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 2d07f79e889dc004b8485590fa926730
+    m_Address: ForestOfKin_Character_Mountain_WeakAttack_Bullet_Right_Valis
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: e4b95994182149a44a9e2eea2429841b
+    m_Address: ForestOfKin_Character_Mountain_StrongAttack_Hit_Right_Valis
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: dedd875cdeca8a24e855af924752d337
+    m_Address: ForestOfKin_Character_Mountain_StrongAttack_Cast_Right_Valis
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 9b9b7ff77a1e97045943fac268f5cdd4
+    m_Address: ForestOfKin_Character_Mountain_StrongAttack_Bullet_Right_Valis
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: add671473e1da2a4ea0fd83da749afd1
+    m_Address: ForestOfKin_Character_Mountain_Debuff_Hit_Right_Valis
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 317e1e3eca6c6f046b01421ed4e7850c
+    m_Address: ForestOfKin_Character_Mountain_Debuff_Bullet_Right_Valis
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 73490cf87eaf58b4487ae1129888eea0
+    m_Address: ForestOfKin_Character_Mountain_ClaimIce_Hit_Right_Valis
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 36319d6f4ebc71d4fb23e817114b9779
+    m_Address: ForestOfKin_Character_Forest_WeakAttack_Hit_Right_Balla
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 85a1f244d3323f9439161e20169486b9
+    m_Address: ForestOfKin_Character_Forest_WeakAttack_Cast_Right_Balla
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 679abf418be72ac4da05e5bdd6bd0948
+    m_Address: ForestOfKin_Character_Forest_WeakAttack_Bullet_Right_Balla
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 79ad78a71b37e1849915f8559ac8950c
+    m_Address: ForestOfKin_Character_Forest_StrongAttack_Hit_Right_Balla
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: b7f4d1f337aa97244869704356eb501a
+    m_Address: ForestOfKin_Character_Forest_StrongAttack_Cast_Right_Balla
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 97ed8cddd3ee50d46a30fa9f1e19d465
+    m_Address: ForestOfKin_Character_Forest_StrongAttack_Bullet_Right_Balla
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: f574a4cef7d272347b59a8a632e9e82f
+    m_Address: ForestOfKin_Character_Forest_StrongAttack_02_Bullet_Right_Balla
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: a6ab1e1b91d1d5b48a0edcd5db2fafdf
+    m_Address: ForestOfKin_Character_Forest_ShadowForm_Cast_Right_Balla
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 6b1219e2c0c68fb41b7e6132969ac32f
+    m_Address: ForestOfKin_Character_Desert_WeakAttack_Hit_Right_Seke
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 3b155839270540048bc4844fec2e4bb8
+    m_Address: ForestOfKin_Character_Desert_WeakAttack_Cast_Right_Seke
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 5dca3c3a672dbd445b9e7144f16ce36e
+    m_Address: ForestOfKin_Character_Desert_WeakAttack_Bullet_Right_Seke
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 957d9ad3d407b8a4a9d1ac8f5f0bcdc5
+    m_Address: ForestOfKin_Character_Desert_StrongAttack_Hit_Right_Seke
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 02ead3129e666214ca437e1221437c1d
+    m_Address: ForestOfKin_Character_Desert_StrongAttack_Cast_Right_Seke
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 1200abbd1db216c48ad38553ce7f0e6f
+    m_Address: ForestOfKin_Character_Desert_StrongAttack_Bullet_Right_Seke
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 4b15d8f11db049447ade05d2456c92a4
+    m_Address: ForestOfKin_Character_Desert_Debuff_Hit_Right_Seke
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: e25928b9b559aee4a8c125c7294d1b68
+    m_Address: ForestOfKin_Character_Desert_Debuff_Bullet_Right_Seke
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 5e1cfbd28f54a85458f664fc6ad3bc50
+    m_Address: ForestOfKin_Character_Desert_Debuff_02_Hit_Right_Seke
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: f49fd22ff61598c45aad9c35088ba31a
+    m_Address: ForestOfKin_Character_Desert_Debuff_02_Bullet_Right_Seke
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 7f4e99c742eab714e88594e9af4ce3da
+    m_Address: ForestOfKin_Boss_Riversong_TrapLoop_Right_Kin
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 82e95e7aa49e1954da6a0c39d4aa3d1e
+    m_Address: ForestOfKin_Boss_Riversong_TrapHit_Right_Kin
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: e4323b81edc9ff045afea85784b32823
+    m_Address: ForestOfKin_Boss_Riversong_Hit_Right_Kin
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: aea8542a33be94546906664b9802b78d
+    m_Address: ForestOfKin_Boss_Riversong_Cast_Right_Kin_2
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 2f8cab1fbfe86be43aa72d4ac3ce6705
+    m_Address: ForestOfKin_Boss_Riversong_Cast_Right_Kin
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 3d5000b166e1ad44bb63e40225ea1c20
+    m_Address: ForestOfKin_Boss_Riversong_Bullet_Right_Kin
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 0ced95e692904b7408847bf7e068c122
+    m_Address: ForestOfKin_Boss_NightsHeart_Hit_Right_Kin
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 3c60b3b787643b845874068494b086f3
+    m_Address: ForestOfKin_Boss_NightsHeart_Cast_Right_Kin
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: b2be6eac73767014c9facc8d10c85148
+    m_Address: ForestOfKin_Boss_NightsHeart_Bullet_Right_Kin
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 41a0784cb4b97964996e714d53e19aea
+    m_Address: ForestOfKin_Boss_MoonCry_Hit_Right_Kin
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 85ab9a30965186341bbde7ef1db6cf6c
+    m_Address: ForestOfKin_Boss_MoonCry_Effect_Right_Kin
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 8ae0aa27e85b1df46ae3db1695972efa
+    m_Address: ForestOfKin_Boss_MoonCry_Cast_Right_Kin
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: e195233db8a2ca84487910a1f55b83a0
+    m_Address: ForestOfKin_Boss_Hit_RiversongBomb_Right_Kin
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 2156bc3adf7acd04db9e6656352f0425
+    m_Address: ForestOfKin_Boss_EarthBound_Hit_Right_Kin
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: bdf431c8431833f4bb30217501c96008
+    m_Address: ForestOfKin_Boss_EarthBound_Hit_Right_Kin - Tileloop
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 5e87cbb1632e2884f841069bd876b3fd
+    m_Address: ForestOfKin_Boss_EarthBound_Cast_Right_Kin
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 8226db1c958aefd4eb0e10c20be47fa9
+    m_Address: ForestOfKin_Boss_EarthBound_Bullet_Right_Kin
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: f57ea859dc708b94f979b276d8bd27ce
+    m_Address: ForestOfKin_Boss_Cast_RiversongBomb_Right_Kin
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 8e3ab7c8656281c4780e8034b20946b7
+    m_Address: ForestOfKin_Boss_Bullet_RiversongBomb_Right_Kin
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: b6689890f3f9e4068bac5c7c11c69403, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: ea4602d2a364147b1a63c089aeaef56d, type: 2}
+    - {fileID: 11400000, guid: 4455cd457ce374b29a5a6bdaab70c29f, type: 2}

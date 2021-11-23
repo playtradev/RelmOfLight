@@ -1,0 +1,433 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: AscensoPsAttack
+  m_EditorClassIdentifier: 
+  m_GroupName: AscensoPsAttack
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 1c338e454933e44648de7baed40246a4
+  m_SerializeEntries:
+  - m_GUID: 3466d02b4a7c42741ad5d0b36995a8ac
+    m_Address: Chapter05_AscensoMountain_Boss_Daggar_bullet_Pachamama
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 2599fd42138199c449c03f6b0acc7ee1
+    m_Address: Chapter05_AscensoMountain_Boss_Daggar_Hit_Pachamama
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: e77d0c64c690a6240a70c4e32f1b4119
+    m_Address: 'Chapter05_AscensoMountain_Boss_Decry_Cast_Quilla '
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 999239d565b8f1d42aab5657e9c06fbb
+    m_Address: Chapter05_AscensoMountain_Boss_Decry_Hit_Quilla
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: b9ba3da117551704ba44f63ab88bc659
+    m_Address: Chapter05_AscensoMountain_Boss_Delusion_bullet_Pachamama
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 1179990359e3ba44d9db8f7f04b2813e
+    m_Address: Chapter05_AscensoMountain_Boss_Delusion_Hit_Pachamama
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 26b9542f565c3b94797771a9d7d862de
+    m_Address: Chapter05_AscensoMountain_Boss_Doubt_bullet_Quilla
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 4351c0e4876d43d4dba769568da66a19
+    m_Address: Chapter05_AscensoMountain_Boss_Doubt_Cast_Quilla
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 74e4b532a4b8635408641cf2945192ee
+    m_Address: Chapter05_AscensoMountain_Boss_Doubt_Hit_Quilla
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 3b052f362673e164297f1832de6527cc
+    m_Address: Chapter05_AscensoMountain_Boss_Fear_bullet_Quilla
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: c4e89ba71a126704c830d5464f639f64
+    m_Address: Chapter05_AscensoMountain_Boss_Fear_Cast_Quilla
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: bf84c27a9e71de342b9573d7c32f94a6
+    m_Address: Chapter05_AscensoMountain_Boss_Fear_Hit_Quilla
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 8ce3d8eeac7ea9048b2ea9aafca0e963
+    m_Address: Chapter05_AscensoMountain_Boss_Flares_bullet_Quilla
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: e12a2ea1e1aa29b46bf72b22391d17a0
+    m_Address: Chapter05_AscensoMountain_Boss_Flares_cast_Quilla
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 4bc3fe4c9f52f784b829353e07dd3d6c
+    m_Address: Chapter05_AscensoMountain_Boss_Flares_Hit_Quilla
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 5c53776352034ce45a8df6be23226ea2
+    m_Address: Chapter05_AscensoMountain_Boss_Guilt_bullet_Pachamama
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 83e2e059d9df83347804c25e57e8bea9
+    m_Address: Chapter05_AscensoMountain_Boss_Guilt_Hit_Pachamama
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 421775938325b4247ac91ca7b7858d08
+    m_Address: Chapter05_AscensoMountain_Boss_Hurt_bullet_Quilla
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 8b4466e4a1a465b45aef0fda43733499
+    m_Address: Chapter05_AscensoMountain_Boss_Hurt_Cast_Quilla
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 9dacc398d2d757146a0f76f9999d2a7d
+    m_Address: Chapter05_AscensoMountain_Boss_Hurt_Hit_Quilla
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: e3f6093478d97ac408669e046b8f769a
+    m_Address: Chapter05_AscensoMountain_Boss_Lies_bullet_Quilla
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 2573706574721e549987fa8100d72613
+    m_Address: Chapter05_AscensoMountain_Boss_Lies_Cast_Quilla
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 79e681803dd892a4da65fde0f57ae111
+    m_Address: Chapter05_AscensoMountain_Boss_Lies_Hit_Quilla
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: c64b927c9cd8bb541b2368cd28b64866
+    m_Address: Chapter05_AscensoMountain_Boss_QuillaTentacleCreation
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: cad6fef51f8847340ac2c52f50d985d2
+    m_Address: Chapter05_AscensoMountain_Boss_Remorse_bullet_Pachamama
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 4fe27240978895c4fae6bd720c1bf516
+    m_Address: Chapter05_AscensoMountain_Boss_Remorse_Hit_Pachamama
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: c1d2f23e0db581b4b80e007e8c2617ec
+    m_Address: Chapter05_AscensoMountain_Boss_Sacrifice_Cast_Quilla
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 584b79e94ba51a0438b3f91b7e26b858
+    m_Address: Chapter05_AscensoMountain_Boss_Sacrifice_Hit_Quilla
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 226f6cfb4fcdb6f41bae0e3d19ee2345
+    m_Address: Chapter05_AscensoMountain_Boss_Weak_bullet_Quilla
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: b4182331edb63994883698f4fbdf2644
+    m_Address: Chapter05_AscensoMountain_Boss_Weak_Cast_Quilla
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: f785ce4384899ec459d05d696b98064a
+    m_Address: Chapter05_AscensoMountain_Boss_Weak_hit_Quilla
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 4e2b5014b958f0f44a196763c97f6487
+    m_Address: Chapter05_AscensoMountain_Boss_WeakAttack_Bullet_Right_Quilla
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 0c1003fc1c62a0f4bbc158c9152ee244
+    m_Address: Chapter05_AscensoMountain_Boss_WeakAttack_Cast_Right_Quilla
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: ad8eabeacaa463149a8f875670b9b127
+    m_Address: Chapter05_AscensoMountain_Boss_WeakAttack_Hit_Right_Quilla
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 33e9ecf0a8750164b9827a4a562e27ce
+    m_Address: Chapter05_AscensoMountain_Character_Desert_StrongAttack_Bullet_Right_Zoila
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 9ec814db5b9b67144a555d18851f7e6c
+    m_Address: Chapter05_AscensoMountain_Character_Desert_StrongAttack_Cast_Right_Zoila
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 29bad73e325307a4eac623a5d21669a8
+    m_Address: Chapter05_AscensoMountain_Character_Desert_StrongAttack_Hit_Right_Zoila
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 48fbd923458370d48b9929ce6c29781b
+    m_Address: Chapter05_AscensoMountain_Character_Desert_WeakAttack_Bullet_Right_Zoila
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: eb69c5a462824ac40a30aa3800de304d
+    m_Address: Chapter05_AscensoMountain_Character_Desert_WeakAttack_Cast_Right_Zoila
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: fbc3aa3fa86cf4840ac6e259996a4340
+    m_Address: Chapter05_AscensoMountain_Character_Desert_WeakAttack_Hit_Right_Zoila
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 943c7d16d9233cc4facb78f4fb1b8388
+    m_Address: Chapter05_AscensoMountain_Character_Forest_StrongAttack_Bullet_Right_Zeta
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 25ca8595afd998c478b76c462f15adeb
+    m_Address: Chapter05_AscensoMountain_Character_Forest_StrongAttack_Cast_Right_Zeta
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 7677225e08b4e5b49a5b793be3309ea2
+    m_Address: Chapter05_AscensoMountain_Character_Forest_StrongAttack_Hit_Right_Zeta
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: c5c9b0aae7903594dbf0962f59490f64
+    m_Address: Chapter05_AscensoMountain_Character_Forest_WeakAttack_Bullet_Right_Zeta
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: b82813ae22a7e274097eb91941cbf5d2
+    m_Address: Chapter05_AscensoMountain_Character_Forest_WeakAttack_Cast_Right_Zeta
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: e3e31fe6e5dce7b47adf57bae5c0cf23
+    m_Address: Chapter05_AscensoMountain_Character_Forest_WeakAttack_Hit_Right_Zeta
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 20f551015288d4f4a87f36957cbfb53c
+    m_Address: Chapter05_AscensoMountain_Character_Mountain_StrongAttack_Bullet_Right_Alanda
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 9e866b9239c883a4591754cc7f08c9a9
+    m_Address: Chapter05_AscensoMountain_Character_Mountain_StrongAttack_Cast_Right_Alanda
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 7e5f3ca590f5c9842ad2b4e7dc73af28
+    m_Address: Chapter05_AscensoMountain_Character_Mountain_StrongAttack_Hit_Right_Alanda
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: fb6678a835b170a4a958521255909914
+    m_Address: Chapter05_AscensoMountain_Character_Mountain_WeakAttack_Bullet_Right_Alanda
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 090d5fc49fb260648b57ca186242bd7e
+    m_Address: Chapter05_AscensoMountain_Character_Mountain_WeakAttack_Cast_Right_Alanda
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: e3f948a6b6d2fb9429c5d80fb229603b
+    m_Address: Chapter05_AscensoMountain_Character_Mountain_WeakAttack_Hit_Right_Alanda
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 3ed524cf1950b7f40b9f5c3627750904
+    m_Address: Chapter05_AscensoMountain_Character_Valley_StrongAttack_Bullet_Right_Miranda
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: b363074323d12d740b91de8f99738624
+    m_Address: Chapter05_AscensoMountain_Character_Valley_StrongAttack_Cast_Right_Miranda
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 42b85c335da23984d91ade8b5290fabc
+    m_Address: Chapter05_AscensoMountain_Character_Valley_StrongAttack_Hit_Right_Miranda
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 226e4eca34109654db309a4469e795db
+    m_Address: Chapter05_AscensoMountain_Character_Valley_WeakAttack_Bullet_Right_Miranda
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 0f1e005c0078a214eb4826bccab6002c
+    m_Address: Chapter05_AscensoMountain_Character_Valley_WeakAttack_Cast_Right_Miranda
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 061d2c8cded953849b71cbcfa6f682bc
+    m_Address: Chapter05_AscensoMountain_Character_Valley_WeakAttack_Hit_Right_Miranda
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: f07d6291862069540982d2b5176a57d7
+    m_Address: Chapter05_AscensoMountain_Character_Forest_Debuff_Bullet_Right_Pinata
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 367a3db826d5dad45bd28c41ea2ad817
+    m_Address: Chapter05_AscensoMountain_Character_Forest_StrongAttack_Bullet_Right_Pinata
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 4f8d2f54419f5c44eb4708ac1acfb00a
+    m_Address: Chapter05_AscensoMountain_Character_Forest_StrongAttack_Cast_Right_Pinata
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: fed0def97ecfa43428ea3dbcb6ccfffd
+    m_Address: Chapter05_AscensoMountain_Character_Forest_StrongAttack_Hit_Right_Pinata
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 40e888c2b40a44d4cbd51bae1c7bf22f
+    m_Address: Chapter05_AscensoMountain_Character_Forest_WeakAttack_Bullet_Right_Pinata
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: e01bc731355d01d489f3d4dc69d57660
+    m_Address: Chapter05_AscensoMountain_Character_Forest_WeakAttack_Cast_Right_Pinata
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 971a0afae991a274b95cb4c6a1edcd8e
+    m_Address: Chapter05_AscensoMountain_Character_Forest_WeakAttack_Hit_Right_Pinata
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 79f3c68caf508db4f9d8597d0328ecc7
+    m_Address: Chapter05_AscensoMountain_Minion_Desert_Copy_Cast_Right_LadyBush
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 760455b839a26be48ab532da46a15b62
+    m_Address: Chapter05_AscensoMountain_Minion_Desert_Copy_Hit_Right_LadyBush
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: a064a6322faa7bb4c8cd31619337c5f8
+    m_Address: Chapter05_AscensoMountain_Minion_Desert_StrongAttack_Bullet_Right_LadyBush
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: d4e15ab1dbaff3646a6b368f351f43a1
+    m_Address: Chapter05_AscensoMountain_Minion_Desert_StrongAttack_Cast_Right_LadyBush
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 78053f1198ac9f74a9088b56897bae87
+    m_Address: Chapter05_AscensoMountain_Minion_Desert_StrongAttack_Hit_Right_LadyBush
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 97ec98877b477c14ea9409d073eabd5c
+    m_Address: Chapter05_AscensoMountain_Minion_Desert_Void_LadyBush
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 7d6d6b74f404c374ea054c20cc61f0b7
+    m_Address: Chapter05_AscensoMountain_Minion_Desert_WeakAttack_Bullet_Right_LadyBush
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 00e02feb9b1e4734a94cc6172fab8a08
+    m_Address: Chapter05_AscensoMountain_Minion_Desert_WeakAttack_Cast_Right_LadyBush
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: e82509dad510a9940864ec64dc20bf94
+    m_Address: Chapter05_AscensoMountain_Minion_Desert_WeakAttack_Hit_Right_LadyBush
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 3f17b9c6c808b44448942cc420dd307b
+    m_Address: Chapter05_AscensoMountain_Minion_Forest_WeakAttack_Bullet_Right_Jaguard
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 3e1bb15e264dc6047a281a4cb53918c6
+    m_Address: Chapter05_AscensoMountain_Minion_Forest_WeakAttack_Cast_Right_Jaguard
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: a928f3a964b8c214db175f49cb28d8f9
+    m_Address: Chapter05_AscensoMountain_Minion_Forest_WeakAttack_Hit_Right_Jaguard
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 86bda54791f1d7c4e97624e327bca2c1
+    m_Address: Chapter05_AscensoMountain_Minion_Forest_StrongAttack_Bullet_Right_Pancho
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 61d2b4932068f19458e0a5456381c838
+    m_Address: Chapter05_AscensoMountain_Minion_Forest_StrongAttack_Cast_Right_Pancho
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: cec7bae77d0fa0545a86e8cf4c118980
+    m_Address: Chapter05_AscensoMountain_Minion_Forest_StrongAttack_Hit_Right_Pancho
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: fcc340e211a0e8746aabf40438af4af2
+    m_Address: Chapter05_AscensoMountain_Minion_Forest_WeakAttack_Bullet_Right_Pancho
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 4f879266e37d20643922a1d9f5f919d1
+    m_Address: Chapter05_AscensoMountain_Minion_Forest_WeakAttack_Cast_Right_Pancho
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: ab422adc7e1d21948bb223cf49f0dbae
+    m_Address: Chapter05_AscensoMountain_Minion_Forest_WeakAttack_Hit_Right_Pancho
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: ac891ddc36142104ba7ff01dc446b0f6
+    m_Address: Chapter05_AscensoMountain_Character_StrongAttack_Bullet_Right_Guu_Juu
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 7b33576cd89cfb74ea26851769818a83
+    m_Address: Chapter05_AscensoMountain_Character_StrongAttack_Cast_Right_Guu_Juu
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 2682cf34b09c36341b70e11175b04b81
+    m_Address: Chapter05_AscensoMountain_Character_StrongAttack_Hit_Right_Guu_Juu
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 35474a9c064dff04f862a3995a48e362
+    m_Address: Chapter05_AscensoMountain_Character_WeakAttack_Bullet_Right_Guu_Juu
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 4908feb1912472e4c9c2083bff0c21cf
+    m_Address: Chapter05_AscensoMountain_Character_WeakAttack_Cast_Right_Guu_Juu
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 87a6d22d2f0410e4b8cd67c54017f4c4
+    m_Address: Chapter05_AscensoMountain_Character_WeakAttack_Hit_Right_Guu_Juu
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 851ad343b51370f40b93d9aae0c5968a
+    m_Address: Chapter05_AscensoMountain_Minion_Mountain_StrongAttack_Bullet_Right_Ballama
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 511f4c9d03c9d274c9fb360ae454b231
+    m_Address: Chapter05_AscensoMountain_Minion_Mountain_StrongAttack_Cast_Right_Ballama
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: c3f18f529957d7a42850f852ea5434e0
+    m_Address: Chapter05_AscensoMountain_Minion_Mountain_StrongAttack_Hit_Right_Ballama
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: c65da34e4a0edfa4bba9524aa3ce40fb
+    m_Address: Chapter05_AscensoMountain_Minion_Mountain_WeakAttack_Bullet_Right_Ballama
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 914e700a543e01b48abe39c9c9b8050f
+    m_Address: Chapter05_AscensoMountain_Minion_Mountain_WeakAttack_Cast_Right_Ballama
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 34dad190965d6a7458c93f8e29a0336c
+    m_Address: Chapter05_AscensoMountain_Minion_Mountain_WeakAttack_Hit_Right_Ballama
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 3abd9933bffbb124f8013aa79478f29d
+    m_Address: Chapter05_AscensoMountain_Minion_Valley_DeBuff_Bullet_RightMonkena
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 1f4929b3123a72d4d974d68a7bb6019e
+    m_Address: Chapter05_AscensoMountain_Minion_Valley_StrongAttack_Bullet_RightMonkena
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 002b00b2056804545b3a047cce20b048
+    m_Address: Chapter05_AscensoMountain_Minion_Valley_StrongAttack_Cast_RightMonkena
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 07f89bcea8ad15c4e8dacdec71e72551
+    m_Address: Chapter05_AscensoMountain_Minion_Valley_StrongAttack_Hit_RightMonkena
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: bd5a53d655b059044b6b9443f3942a19
+    m_Address: Chapter05_AscensoMountain_Minion_Valley_WeakAttack_Bullet_RightMonkena
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 07478d4a045377f4cb6660477e310c6d
+    m_Address: Chapter05_AscensoMountain_Minion_Valley_WeakAttack_Cast_RightMonkena
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 4228bf6d4795b77449323fa63ebd880f
+    m_Address: Chapter05_AscensoMountain_Minion_Valley_WeakAttack_Hit_RightMonkena
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: b6689890f3f9e4068bac5c7c11c69403, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 2004cf56c8b2d423889602031753f3ae, type: 2}
+    - {fileID: 11400000, guid: f5efca7f554024910a0dcc4b498b1e09, type: 2}

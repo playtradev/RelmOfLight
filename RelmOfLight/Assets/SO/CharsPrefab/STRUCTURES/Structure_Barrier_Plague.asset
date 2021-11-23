@@ -1,0 +1,80 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7cd84a52ef2addf4289a98afc62d2f5a, type: 3}
+  m_Name: Structure_Barrier_Plague
+  m_EditorClassIdentifier: 
+  AbridgedCharInfo:
+    Name: Plague
+    AddressableLocation: Structure_Barrier_Plague_PivotChar
+    CharacterID: 5012
+    ClassType: 1
+    Elemental: 0
+    CharacterIcon: {fileID: 0}
+    skeletonDataAsset: {fileID: 11400000, guid: f811f48429f98654ea4c8f728f204ce9,
+      type: 2}
+    UseSkins: 0
+    Skins: []
+    initialSkinName: 
+    HealthStats_Health: 50
+    HealthStats_Regeneration: 0.93
+    HealthStats_Armour: 1
+    EtherStats_Ether: 53
+    EtherStats_Regeneration: 2.25
+    DamageStats_BaseDamage: 1
+    WeakAttack_DamageMultiplier: 27
+    StrongAttack_DamageMultiplier: 19
+    WeakAttack_CriticalChance: {x: 2, y: 2}
+    StrongAttack_CriticalChance: {x: 3, y: 5}
+    SpeedStats_BaseSpeed: 1
+    SpeedStats_CalculatedSpeed: 1.6666666
+    SpeedStats_MovementSpeed: 1
+    SpeedStats_WeakBulletSpeedV: {x: 0, y: 0}
+    SpeedStats_WeakBulletSpeed: 5
+    SpeedStats_StrongBulletSpeedV: {x: 0, y: 0}
+    EvasionChances: {x: 0, y: 0}
+    ShieldStats_BaseShieldRegeneration: 8
+    ShieldStats_Regeneration: 0.49
+    ShieldStats_Shield: 12
+    ShieldStats_Base: 50
+    ShieldStats_MinionShieldChances: 0
+    ShieldStats_MinionPerfectShieldChances: 0
+    Behaviour_DeathBehaviour: 0
+    DeathExplosion_Delay: 0
+    DeathDisableing_Delay: 0.5
+    DeathExplosion_OverrideParticles: 105
+    SigilDropBonus: 0
+    AggroMultiplier: 1
+    CurrentAttackTypeInfo:
+    - {fileID: 11400000, guid: a7ebe732c54bcdc488228c1eb17b3b4e, type: 2}
+    SkillLevels:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    PassiveSkills: []
+    AIs_Count: 1
+  CharacterClass: 0
+  OccupiedTiles:
+  - {x: 0, y: 0}
+  Biography: NO BIO
+  WaveGenInfo:
+    IncludeInProceduralWaves: 0
+    MinMaxChallengeRating: {x: 0, y: 15}
+    StageTags: 00000000
+    WaveNPCType: 0
+    Rarity: 0

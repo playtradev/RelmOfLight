@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: 52d1b372a58d2ea48b566d82d0b64ab2
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - SwappableBases: {fileID: 11400000, guid: b6188b7a1898b44488273fa37da1d8d1, type: 2}
+  - ReflectedAttack: {fileID: 11400000, guid: 3663430834936ad45b02c4e72b52a6ba, type: 2}
+  - CharacterIcon: {instanceID: 0}
+  - Mask: {instanceID: 0}
+  - AudioProfile: {instanceID: 0}
+  - Head: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

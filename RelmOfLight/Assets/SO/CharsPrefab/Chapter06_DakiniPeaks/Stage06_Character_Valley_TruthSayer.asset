@@ -1,0 +1,85 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7cd84a52ef2addf4289a98afc62d2f5a, type: 3}
+  m_Name: Stage06_Character_Valley_TruthSayer
+  m_EditorClassIdentifier: 
+  CharacterPrefab: {fileID: 7373417834996275619, guid: dd6b298f67e6ede49b33e8e5a04f6bf5,
+    type: 3}
+  AbridgedCharInfo:
+    Name: Truthsayer
+    AddressableLocation: Stage06_Character_Valley_PivotChar-Truthsayer
+    CharacterID: 1124
+    ClassType: 0
+    Elemental: 6
+    CharacterIcon: {fileID: 21300000, guid: 42b700812453c53458f9345d0083fef2, type: 3}
+    skeletonDataAsset: {fileID: 11400000, guid: 0392b71db2aeee44da647e49443652ad,
+      type: 2}
+    initialSkinName: 
+    HealthStats_Health: 49
+    HealthStats_Regeneration: 0.68
+    HealthStats_Armour: 0.45
+    EtherStats_Ether: 47
+    EtherStats_Regeneration: 1.15
+    DamageStats_BaseDamage: 1
+    WeakAttack_DamageMultiplier: 2
+    StrongAttack_DamageMultiplier: 23
+    WeakAttack_CriticalChance: {x: 2.5, y: 2.5}
+    StrongAttack_CriticalChance: {x: 2.5, y: 2.5}
+    SpeedStats_BaseSpeed: 1
+    SpeedStats_CalculatedSpeed: 3.125
+    SpeedStats_MovementSpeed: 1
+    SpeedStats_WeakBulletSpeedV: {x: 0, y: 0}
+    SpeedStats_WeakBulletSpeed: 2
+    SpeedStats_StrongBulletSpeedV: {x: 0, y: 0}
+    EvasionChances: {x: 3, y: 3}
+    ShieldStats_BaseShieldRegeneration: 8
+    ShieldStats_Regeneration: 0.23
+    ShieldStats_Shield: 6
+    ShieldStats_Base: 50
+    ShieldStats_MinionShieldChances: 20
+    ShieldStats_MinionPerfectShieldChances: 5
+    Behaviour_DeathBehaviour: 0
+    DeathExplosion_Delay: 0
+    DeathDisableing_Delay: 0.5
+    DeathExplosion_OverrideParticles: 0
+    SigilDropBonus: 0
+    CurrentAttackTypeInfo:
+    - {fileID: 11400000, guid: f77b9cd53b7dc7e4c82d4f359502dd6d, type: 2}
+    - {fileID: 11400000, guid: 6f4ccc6ec0622cf44a4cf52ed6f5161a, type: 2}
+    - {fileID: 11400000, guid: 9ea1af9ffbb56b647aae538e487afa77, type: 2}
+    - {fileID: 11400000, guid: 39f942acd981a7b4da72350530c19c15, type: 2}
+    - {fileID: 11400000, guid: c74142e109c5f35489628f48919a176e, type: 2}
+    - {fileID: 11400000, guid: 17ff4b6ee3334fb4a925678ab9adef86, type: 2}
+    - {fileID: 11400000, guid: 9c1da4cbea0a80540aca9ade52e39b85, type: 2}
+    - {fileID: 11400000, guid: 43ce02f5c58cef84ab3e8d8c19f437cc, type: 2}
+    SkillLevels:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    PassiveSkills: []
+    AIs_Count: 3
+  OccupiedTiles:
+  - {x: 0, y: 0}
+  Biography: NO BIO
+  WaveGenInfo:
+    IncludeInProceduralWaves: 0
+    MinMaxChallengeRating: {x: 0, y: 15}
+    StageTags: 00000000
+    WaveNPCType: 0
+    Rarity: 0

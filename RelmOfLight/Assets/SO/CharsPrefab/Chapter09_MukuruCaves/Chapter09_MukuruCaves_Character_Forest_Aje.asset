@@ -1,0 +1,85 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7cd84a52ef2addf4289a98afc62d2f5a, type: 3}
+  m_Name: Chapter09_MukuruCaves_Character_Forest_Aje
+  m_EditorClassIdentifier: 
+  CharacterPrefab: {fileID: 8632332459387059991, guid: df40368ca7711fc4c91a63b34b3c4042,
+    type: 3}
+  AbridgedCharInfo:
+    Name: Aje
+    AddressableLocation: Chapter09_MukuruCaves_Character_Forest_PivotChar_Aje
+    CharacterID: 1187
+    ClassType: 3
+    Elemental: 2
+    CharacterIcon: {fileID: 21300000, guid: caaec56e55f9d4242aed993a0d4c6afc, type: 3}
+    skeletonDataAsset: {fileID: 11400000, guid: 6e46d4f68ff836b4fb0d7f5d2d557dfe,
+      type: 2}
+    initialSkinName: 
+    HealthStats_Health: 52
+    HealthStats_Regeneration: 0.77
+    HealthStats_Armour: 0.47
+    EtherStats_Ether: 60
+    EtherStats_Regeneration: 1.3
+    DamageStats_BaseDamage: 1
+    WeakAttack_DamageMultiplier: 1.8
+    StrongAttack_DamageMultiplier: 20
+    WeakAttack_CriticalChance: {x: 2.5, y: 2.5}
+    StrongAttack_CriticalChance: {x: 2.5, y: 2.5}
+    SpeedStats_BaseSpeed: 1
+    SpeedStats_CalculatedSpeed: 2.631579
+    SpeedStats_MovementSpeed: 1
+    SpeedStats_WeakBulletSpeedV: {x: 0, y: 0}
+    SpeedStats_WeakBulletSpeed: 2
+    SpeedStats_StrongBulletSpeedV: {x: 0, y: 0}
+    EvasionChances: {x: 2.7, y: 2.7}
+    ShieldStats_BaseShieldRegeneration: 8
+    ShieldStats_Regeneration: 0.34
+    ShieldStats_Shield: 7
+    ShieldStats_Base: 50
+    ShieldStats_MinionShieldChances: 20
+    ShieldStats_MinionPerfectShieldChances: 5
+    Behaviour_DeathBehaviour: 0
+    DeathExplosion_Delay: 0
+    DeathDisableing_Delay: 0.5
+    DeathExplosion_OverrideParticles: 0
+    SigilDropBonus: 0
+    CurrentAttackTypeInfo:
+    - {fileID: 11400000, guid: dc336ea4b06c6bd4e935124518f42d8c, type: 2}
+    - {fileID: 11400000, guid: 2d4dce9ef0a7ed842ba65d8b7ab27830, type: 2}
+    - {fileID: 11400000, guid: 3867989b8c103ce40bd52ca2338a5922, type: 2}
+    - {fileID: 11400000, guid: 1b61140618d77844fb0f6da2ee20c195, type: 2}
+    - {fileID: 11400000, guid: 0ba625040ce98314cb234438cb89c595, type: 2}
+    - {fileID: 11400000, guid: a6d8d72af59ee844d9308c7986b0aa08, type: 2}
+    - {fileID: 11400000, guid: 0d6fa597733479f4d8429c70282aee84, type: 2}
+    - {fileID: 11400000, guid: 7ea87d54fc3595242b1a6192e6fcebcd, type: 2}
+    SkillLevels:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    PassiveSkills: []
+    AIs_Count: 3
+  OccupiedTiles:
+  - {x: 0, y: 0}
+  Biography: NO BIO
+  WaveGenInfo:
+    IncludeInProceduralWaves: 0
+    MinMaxChallengeRating: {x: 0, y: 15}
+    StageTags: 00000000
+    WaveNPCType: 0
+    Rarity: 0

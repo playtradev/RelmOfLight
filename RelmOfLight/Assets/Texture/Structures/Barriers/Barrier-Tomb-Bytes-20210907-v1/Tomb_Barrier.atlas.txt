@@ -1,0 +1,20 @@
+
+Tomb_Barrier.png
+size: 2048,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Colsed-Tombstone
+  rotate: true
+  xy: 772, 748
+  size: 717, 693
+  orig: 717, 693
+  offset: 0, 0
+  index: -1
+Destroied-Tomstone
+  rotate: false
+  xy: 2, 754
+  size: 768, 711
+  orig: 768, 711
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,470 @@
+fileFormatVersion: 2
+guid: 9b62e1fbd06a21e4c997e10e06ad4eac
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -737070973942767050
+    second: LiquidSplash.01_0
+  - first:
+      213: 7729995591677425365
+    second: LiquidSplash.01_1
+  - first:
+      213: -629681836026003416
+    second: LiquidSplash.01_2
+  - first:
+      213: -6967866188862177991
+    second: LiquidSplash.01_3
+  - first:
+      213: -7699336602099040742
+    second: LiquidSplash.01_4
+  - first:
+      213: -2710557488459813027
+    second: LiquidSplash.01_5
+  - first:
+      213: -9061564003019596221
+    second: LiquidSplash.01_6
+  - first:
+      213: 9047505361832099878
+    second: LiquidSplash.01_7
+  - first:
+      213: -2976571520826325272
+    second: LiquidSplash.01_8
+  - first:
+      213: -6898299550324458614
+    second: LiquidSplash.01_9
+  - first:
+      213: 1952648829497341774
+    second: LiquidSplash.01_10
+  - first:
+      213: 2021044877869939014
+    second: LiquidSplash.01_11
+  - first:
+      213: -7024399141870169095
+    second: LiquidSplash.01_12
+  - first:
+      213: -5749032237074800853
+    second: LiquidSplash.01_13
+  - first:
+      213: 9006486558174654940
+    second: LiquidSplash.01_14
+  - first:
+      213: 3930785299514812300
+    second: LiquidSplash.01_15
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 2
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 0
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 1
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Nintendo Switch
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: LiquidSplash.01_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 810
+        width: 512
+        height: 270
+      alignment: 9
+      pivot: {x: 0.5, y: 0.05}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70821b6ed3583d443aa46d004198e1c1
+      internalID: -737070973942767050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LiquidSplash.01_1
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 810
+        width: 512
+        height: 270
+      alignment: 9
+      pivot: {x: 0.5, y: 0.05}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f9221004a681a046a629ed6c7f8311c
+      internalID: 7729995591677425365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LiquidSplash.01_2
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 810
+        width: 512
+        height: 270
+      alignment: 9
+      pivot: {x: 0.5, y: 0.05}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5cf3c0aad0c2b3549accce19ab0faea5
+      internalID: -629681836026003416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LiquidSplash.01_3
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 540
+        width: 512
+        height: 270
+      alignment: 9
+      pivot: {x: 0.5, y: 0.05}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0dd0f114ead557645a53043ea72b247f
+      internalID: -6967866188862177991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LiquidSplash.01_4
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 540
+        width: 512
+        height: 270
+      alignment: 9
+      pivot: {x: 0.5, y: 0.05}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a562313fe95b46641bd8dcbe851d18e2
+      internalID: -7699336602099040742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LiquidSplash.01_5
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 540
+        width: 512
+        height: 270
+      alignment: 9
+      pivot: {x: 0.5, y: 0.05}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ef91ce709680684db68c32f90458f2a
+      internalID: -2710557488459813027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LiquidSplash.01_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 270
+        width: 512
+        height: 270
+      alignment: 9
+      pivot: {x: 0.5, y: 0.05}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5076b1ae9e2577b44bd13f23217c9922
+      internalID: -9061564003019596221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LiquidSplash.01_7
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 270
+        width: 512
+        height: 270
+      alignment: 9
+      pivot: {x: 0.5, y: 0.05}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e834dbc7af416944adaea0b05cf8217
+      internalID: 9047505361832099878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LiquidSplash.01_8
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 270
+        width: 512
+        height: 270
+      alignment: 9
+      pivot: {x: 0.5, y: 0.05}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 933b81aacf3c6ed48933131b1912fb3e
+      internalID: -2976571520826325272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LiquidSplash.01_9
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 512
+        height: 270
+      alignment: 9
+      pivot: {x: 0.5, y: 0.05}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e42e02c9dcfe02241a479d5861910709
+      internalID: -6898299550324458614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LiquidSplash.01_10
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 0
+        width: 512
+        height: 270
+      alignment: 9
+      pivot: {x: 0.5, y: 0.05}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a6a231c3128df54caa34b2f5b8c2250
+      internalID: 1952648829497341774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LiquidSplash.01_11
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 0
+        width: 512
+        height: 270
+      alignment: 9
+      pivot: {x: 0.5, y: 0.05}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4e81f2bcdb3bac44a4e314983f4af8c
+      internalID: 2021044877869939014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: f37ef0dc043475d45ac63e9950e27573
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      LiquidSplash.01_7: 9047505361832099878
+      LiquidSplash.01_4: -7699336602099040742
+      LiquidSplash.01_5: -2710557488459813027
+      LiquidSplash.01_11: 2021044877869939014
+      LiquidSplash.01_2: -629681836026003416
+      LiquidSplash.01_10: 1952648829497341774
+      LiquidSplash.01_0: -737070973942767050
+      LiquidSplash.01_3: -6967866188862177991
+      LiquidSplash.01_8: -2976571520826325272
+      LiquidSplash.01_6: -9061564003019596221
+      LiquidSplash.01_1: 7729995591677425365
+      LiquidSplash.01_9: -6898299550324458614
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

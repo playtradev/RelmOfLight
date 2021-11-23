@@ -1,0 +1,583 @@
+fileFormatVersion: 2
+guid: 4721ad80db501e240a54e023fa068dda
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8862637224276180438
+    second: EandaRocks_0
+  - first:
+      213: 3390095520060611623
+    second: EandaRocks_1
+  - first:
+      213: 1032325580405567331
+    second: EandaRocks_2
+  - first:
+      213: 2586678727784915116
+    second: EandaRocks_3
+  - first:
+      213: -8952812116710109576
+    second: EandaRocks_4
+  - first:
+      213: 5843831532721311694
+    second: EandaRocks_5
+  - first:
+      213: -4411222370396129058
+    second: EandaRocks_6
+  - first:
+      213: -3598438912320470310
+    second: EandaRocks_7
+  - first:
+      213: -2780144313583869195
+    second: EandaRocks_8
+  - first:
+      213: -2114095762550174668
+    second: EandaRocks_9
+  - first:
+      213: 8417670457370184648
+    second: EandaRocks_10
+  - first:
+      213: 789094647050972986
+    second: EandaRocks_11
+  - first:
+      213: 2129237134836324571
+    second: EandaRocks_12
+  - first:
+      213: -7928826509830899421
+    second: EandaRocks_13
+  - first:
+      213: 854279543407933445
+    second: EandaRocks_14
+  - first:
+      213: -4738063816823848184
+    second: EandaRocks_15
+  - first:
+      213: -7839782993952009743
+    second: EandaRocks_16
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 2
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 1
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Nintendo Switch
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: EandaRocks_0
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 778
+        width: 242
+        height: 241
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e26f29c59551f0842b298534e2b98c65
+      internalID: 8862637224276180438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EandaRocks_1
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 789
+        width: 206
+        height: 233
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01fd79d6cf0f1e84aac84c20435102b9
+      internalID: 3390095520060611623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EandaRocks_2
+      rect:
+        serializedVersion: 2
+        x: 466
+        y: 817
+        width: 209
+        height: 204
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa054bf00e19e58418233f16ee45e21d
+      internalID: 1032325580405567331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EandaRocks_3
+      rect:
+        serializedVersion: 2
+        x: 686
+        y: 791
+        width: 218
+        height: 230
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3956d0e52476a88478f7340bae9562fa
+      internalID: 2586678727784915116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EandaRocks_4
+      rect:
+        serializedVersion: 2
+        x: 932
+        y: 898
+        width: 91
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8c712786baef3f48a823cf1fe42eeb3
+      internalID: -8952812116710109576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EandaRocks_5
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 514
+        width: 268
+        height: 255
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0660ed40ad9f5d947817e6f051822fc0
+      internalID: 5843831532721311694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EandaRocks_6
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 541
+        width: 206
+        height: 232
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1534b0c59d2e1f84989692c3336c1a3d
+      internalID: -4411222370396129058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EandaRocks_7
+      rect:
+        serializedVersion: 2
+        x: 495
+        y: 537
+        width: 242
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1750de4b1292c8c439f71828e8cae3c0
+      internalID: -3598438912320470310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EandaRocks_8
+      rect:
+        serializedVersion: 2
+        x: 747
+        y: 559
+        width: 178
+        height: 190
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 456ff8ae69ebcb849973f6ea9dd12c25
+      internalID: -2780144313583869195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EandaRocks_9
+      rect:
+        serializedVersion: 2
+        x: 933
+        y: 742
+        width: 91
+        height: 127
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b44d86c7ef6eec84c8e97ef4c781baa9
+      internalID: -2114095762550174668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EandaRocks_10
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 298
+        width: 233
+        height: 213
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94329bf0c55518e42a313d60fdbfcc63
+      internalID: 8417670457370184648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EandaRocks_11
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 298
+        width: 209
+        height: 205
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42f3e94038f041e4d811b302387f4e29
+      internalID: 789094647050972986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EandaRocks_12
+      rect:
+        serializedVersion: 2
+        x: 490
+        y: 301
+        width: 237
+        height: 226
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17e87f3e12149f74b8c64c4b4d4fefef
+      internalID: 2129237134836324571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EandaRocks_13
+      rect:
+        serializedVersion: 2
+        x: 819
+        y: 186
+        width: 202
+        height: 212
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02b85b3cce7df9642a99dbd73270afd4
+      internalID: -7928826509830899421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EandaRocks_14
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 0
+        width: 652
+        height: 291
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 576d05f49be04c54582730cba7d77c72
+      internalID: 854279543407933445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EandaRocks_15
+      rect:
+        serializedVersion: 2
+        x: 680
+        y: 1
+        width: 162
+        height: 172
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 568a5468d0806484da48cbe315ae9dd8
+      internalID: -4738063816823848184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EandaRocks_16
+      rect:
+        serializedVersion: 2
+        x: 872
+        y: 2
+        width: 150
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 800cf9c4539ccec4f9eaebc9406b4e6e
+      internalID: -7839782993952009743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 95bf0915ba331d442b7f9d9578369f34
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      EandaRocks_2: 1032325580405567331
+      EandaRocks_13: -7928826509830899421
+      EandaRocks_6: -4411222370396129058
+      EandaRocks_5: 5843831532721311694
+      EandaRocks_14: 854279543407933445
+      EandaRocks_15: -4738063816823848184
+      EandaRocks_16: -7839782993952009743
+      EandaRocks_0: 8862637224276180438
+      EandaRocks_4: -8952812116710109576
+      EandaRocks_8: -2780144313583869195
+      EandaRocks_12: 2129237134836324571
+      EandaRocks_10: 8417670457370184648
+      EandaRocks_11: 789094647050972986
+      EandaRocks_1: 3390095520060611623
+      EandaRocks_7: -3598438912320470310
+      EandaRocks_3: 2586678727784915116
+      EandaRocks_9: -2114095762550174668
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

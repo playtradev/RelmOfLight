@@ -1,0 +1,1558 @@
+fileFormatVersion: 2
+guid: f4afbda31f6a88040b41f7ad7bd1c8b2
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8114470216122899902
+    second: BirdsAtlas1k_0
+  - first:
+      213: 5734203106585655890
+    second: BirdsAtlas1k_1
+  - first:
+      213: 7426465961733209338
+    second: BirdsAtlas1k_2
+  - first:
+      213: -3777547602201504628
+    second: BirdsAtlas1k_3
+  - first:
+      213: 6867608266610872603
+    second: BirdsAtlas1k_4
+  - first:
+      213: 1690920220503902188
+    second: BirdsAtlas1k_5
+  - first:
+      213: -1344696799723601436
+    second: BirdsAtlas1k_6
+  - first:
+      213: 8794370813878656958
+    second: BirdsAtlas1k_7
+  - first:
+      213: -6066719163582074259
+    second: BirdsAtlas1k_8
+  - first:
+      213: 4752329187791253117
+    second: BirdsAtlas1k_9
+  - first:
+      213: -5705259746304790849
+    second: BirdsAtlas1k_10
+  - first:
+      213: -1960146195395569912
+    second: BirdsAtlas1k_11
+  - first:
+      213: -6802084802654262959
+    second: BirdsAtlas1k_12
+  - first:
+      213: -6332456843988383439
+    second: BirdsAtlas1k_13
+  - first:
+      213: 5303391317329122407
+    second: BirdsAtlas1k_14
+  - first:
+      213: -6675729902466812022
+    second: BirdsAtlas1k_15
+  - first:
+      213: -3097309335912466480
+    second: BirdsAtlas1k_16
+  - first:
+      213: 8340021757311595130
+    second: BirdsAtlas1k_17
+  - first:
+      213: -1413972347230059210
+    second: BirdsAtlas1k_18
+  - first:
+      213: 5352575083309309300
+    second: BirdsAtlas1k_19
+  - first:
+      213: 8079712417182839908
+    second: BirdsAtlas1k_20
+  - first:
+      213: -5780441307365801975
+    second: BirdsAtlas1k_21
+  - first:
+      213: 289788481465450303
+    second: BirdsAtlas1k_22
+  - first:
+      213: -746487801065396200
+    second: BirdsAtlas1k_23
+  - first:
+      213: 8829554597499099705
+    second: BirdsAtlas1k_24
+  - first:
+      213: 6094222766960148863
+    second: BirdsAtlas1k_25
+  - first:
+      213: -6694851028227459668
+    second: BirdsAtlas1k_26
+  - first:
+      213: -6460369189848896617
+    second: BirdsAtlas1k_27
+  - first:
+      213: 1420785778922769840
+    second: BirdsAtlas1k_28
+  - first:
+      213: 5814430524834922043
+    second: BirdsAtlas1k_29
+  - first:
+      213: 1813401211786168423
+    second: BirdsAtlas1k_30
+  - first:
+      213: 1041162755521825548
+    second: BirdsAtlas1k_31
+  - first:
+      213: 3362156469785096231
+    second: BirdsAtlas1k_32
+  - first:
+      213: -8931487281024264550
+    second: BirdsAtlas1k_33
+  - first:
+      213: 5715004860298681813
+    second: BirdsAtlas1k_34
+  - first:
+      213: 1290109183963711369
+    second: BirdsAtlas1k_35
+  - first:
+      213: -6923120411814830229
+    second: BirdsAtlas1k_36
+  - first:
+      213: 6820047745262342784
+    second: BirdsAtlas1k_37
+  - first:
+      213: 5133099039950085523
+    second: BirdsAtlas1k_38
+  - first:
+      213: -5001628451406765048
+    second: BirdsAtlas1k_39
+  - first:
+      213: 208191782337087082
+    second: BirdsAtlas1k_40
+  - first:
+      213: 1354535170657838477
+    second: BirdsAtlas1k_41
+  - first:
+      213: 3187076836730342625
+    second: BirdsAtlas1k_42
+  - first:
+      213: 779867225433977407
+    second: BirdsAtlas1k_43
+  - first:
+      213: -2439483561398586152
+    second: BirdsAtlas1k_44
+  - first:
+      213: -6529153292415626836
+    second: BirdsAtlas1k_45
+  - first:
+      213: 2039826013420806907
+    second: BirdsAtlas1k_46
+  - first:
+      213: -3738689399472014510
+    second: BirdsAtlas1k_47
+  - first:
+      213: 1665387530752050371
+    second: BirdsAtlas1k_48
+  - first:
+      213: 148018024117929881
+    second: BirdsAtlas1k_49
+  - first:
+      213: -6375922429060367043
+    second: BirdsAtlas1k_50
+  - first:
+      213: 3256515529865423736
+    second: BirdsAtlas1k_51
+  - first:
+      213: -479178311384278038
+    second: BirdsAtlas1k_52
+  - first:
+      213: 5363995723694348447
+    second: BirdsAtlas1k_53
+  - first:
+      213: -8099180877785760928
+    second: BirdsAtlas1k_54
+  - first:
+      213: 4825071522900462543
+    second: BirdsAtlas1k_55
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 2
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 1
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Nintendo Switch
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: BirdsAtlas1k_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 896.875
+        width: 128.14285
+        height: 128.125
+      alignment: 9
+      pivot: {x: 0.4, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4ce95b47937e0e48bb5d38113c2c7e0
+      internalID: 8114470216122899902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BirdsAtlas1k_1
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 896.875
+        width: 128.14285
+        height: 128.125
+      alignment: 9
+      pivot: {x: 0.4, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2a77c94168473f47b4e390a1e928b3f
+      internalID: 5734203106585655890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BirdsAtlas1k_2
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 896.875
+        width: 128.14285
+        height: 128.125
+      alignment: 9
+      pivot: {x: 0.4, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 619e94aaac57293429c4651fdf238c03
+      internalID: 7426465961733209338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BirdsAtlas1k_3
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 896.875
+        width: 128.14285
+        height: 128.125
+      alignment: 9
+      pivot: {x: 0.4, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d071e7e3a8871384ca4ed3b4bbb2c60f
+      internalID: -3777547602201504628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BirdsAtlas1k_4
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 896.875
+        width: 128.14285
+        height: 128.125
+      alignment: 9
+      pivot: {x: 0.4, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4db113e33588d144b8e258e0a7bbe7f0
+      internalID: 6867608266610872603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BirdsAtlas1k_5
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 896.875
+        width: 128.14285
+        height: 128.125
+      alignment: 9
+      pivot: {x: 0.4, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3635b22c71e24614b930d59e620899e9
+      internalID: 1690920220503902188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BirdsAtlas1k_6
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 896.875
+        width: 128.14285
+        height: 128.125
+      alignment: 9
+      pivot: {x: 0.4, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8134d5cf5a3777b4b9e938f90c0329bc
+      internalID: -1344696799723601436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BirdsAtlas1k_7
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 768.875
+        width: 128.14285
+        height: 128.125
+      alignment: 9
+      pivot: {x: 0.4, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6cc21101fa18c46468c6cc2cacf971b4
+      internalID: 8794370813878656958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BirdsAtlas1k_8
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 768.875
+        width: 128.14285
+        height: 128.125
+      alignment: 9
+      pivot: {x: 0.4, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d814753805e9a5740966579d5789b5a4
+      internalID: -6066719163582074259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BirdsAtlas1k_9
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 768.875
+        width: 128.14285
+        height: 128.125
+      alignment: 9
+      pivot: {x: 0.4, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cdb02d405b3923245867ebb1d4930fd3
+      internalID: 4752329187791253117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BirdsAtlas1k_10
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 768.875
+        width: 128.14285
+        height: 128.125
+      alignment: 9
+      pivot: {x: 0.4, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 749a9108218436d4bbe5843d4381be17
+      internalID: -5705259746304790849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BirdsAtlas1k_11
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 768.875
+        width: 128.14285
+        height: 128.125
+      alignment: 9
+      pivot: {x: 0.4, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 778784091bfe40e48ab96d74f3c277fd
+      internalID: -1960146195395569912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BirdsAtlas1k_12
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 768.875
+        width: 128.14285
+        height: 128.125
+      alignment: 9
+      pivot: {x: 0.4, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e2cba010a49d924d9d85df65a8a970c
+      internalID: -6802084802654262959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BirdsAtlas1k_13
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 768.875
+        width: 128.14285
+        height: 128.125
+      alignment: 9
+      pivot: {x: 0.4, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6d96328ac1d5464a850dff8fbf939a4
+      internalID: -6332456843988383439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BirdsAtlas1k_14
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 640.875
+        width: 128.14285
+        height: 128.125
+      alignment: 9
+      pivot: {x: 0.4, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f1c40df9ae192745bba64adf116c87e
+      internalID: 5303391317329122407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BirdsAtlas1k_15
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 640.875
+        width: 128.14285
+        height: 128.125
+      alignment: 9
+      pivot: {x: 0.4, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 055d8f7285022c34b8d4268733d332a8
+      internalID: -6675729902466812022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BirdsAtlas1k_16
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 640.875
+        width: 128.14285
+        height: 128.125
+      alignment: 9
+      pivot: {x: 0.4, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b6b9fde44897784fac9c45c0345b095
+      internalID: -3097309335912466480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BirdsAtlas1k_17
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 640.875
+        width: 128.14285
+        height: 128.125
+      alignment: 9
+      pivot: {x: 0.4, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b91281ae7b8a20c4e97f9d4fb01f8de0
+      internalID: 8340021757311595130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BirdsAtlas1k_18
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 640.875
+        width: 128.14285
+        height: 128.125
+      alignment: 9
+      pivot: {x: 0.4, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f960d9bb48fa0e409abdeb791f85ea2
+      internalID: -1413972347230059210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BirdsAtlas1k_19
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 640.875
+        width: 128.14285
+        height: 128.125
+      alignment: 9
+      pivot: {x: 0.4, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 319995a2e485f424fbf03f993eb09fa8
+      internalID: 5352575083309309300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BirdsAtlas1k_20
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 640.875
+        width: 128.14285
+        height: 128.125
+      alignment: 9
+      pivot: {x: 0.4, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f72f0284fd3f484895100707e001311
+      internalID: 8079712417182839908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BirdsAtlas1k_21
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 512.875
+        width: 128.14285
+        height: 128.125
+      alignment: 9
+      pivot: {x: 0.4, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28355912c56fa0049a634882f7b29870
+      internalID: -5780441307365801975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BirdsAtlas1k_22
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 512.875
+        width: 128.14285
+        height: 128.125
+      alignment: 9
+      pivot: {x: 0.4, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82cdeeb271824d1439dc513facb26ab0
+      internalID: 289788481465450303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BirdsAtlas1k_23
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 512.875
+        width: 128.14285
+        height: 128.125
+      alignment: 9
+      pivot: {x: 0.4, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f23f53aa41363844f90a6ee4c5e02193
+      internalID: -746487801065396200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BirdsAtlas1k_24
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 512.875
+        width: 128.14285
+        height: 128.125
+      alignment: 9
+      pivot: {x: 0.4, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4ef882f9fd2b2c418a607ceb47c5a0e
+      internalID: 8829554597499099705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BirdsAtlas1k_25
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 512.875
+        width: 128.14285
+        height: 128.125
+      alignment: 9
+      pivot: {x: 0.4, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66f83b513ee2bce4c8a6965e9d034665
+      internalID: 6094222766960148863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BirdsAtlas1k_26
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 512.875
+        width: 128.14285
+        height: 128.125
+      alignment: 9
+      pivot: {x: 0.4, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b177ccea6d2ebe549b98447fc56335e7
+      internalID: -6694851028227459668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BirdsAtlas1k_27
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 512.875
+        width: 128.14285
+        height: 128.125
+      alignment: 9
+      pivot: {x: 0.4, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c7f693569cfe55479da898714c52a84
+      internalID: -6460369189848896617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BirdsAtlas1k_28
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 384.875
+        width: 128.14285
+        height: 128.125
+      alignment: 9
+      pivot: {x: 0.4, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91bba04e1cf1eb64caa3803dad1f0b02
+      internalID: 1420785778922769840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BirdsAtlas1k_29
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 384.875
+        width: 128.14285
+        height: 128.125
+      alignment: 9
+      pivot: {x: 0.4, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5cae252e62cf6ec4da16ded262d5226d
+      internalID: 5814430524834922043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BirdsAtlas1k_30
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 384.875
+        width: 128.14285
+        height: 128.125
+      alignment: 9
+      pivot: {x: 0.4, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a93a5f19355c024d86da4562399f356
+      internalID: 1813401211786168423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BirdsAtlas1k_31
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 384.875
+        width: 128.14285
+        height: 128.125
+      alignment: 9
+      pivot: {x: 0.4, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4a8d85d14f07184b906ea942265bd80
+      internalID: 1041162755521825548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BirdsAtlas1k_32
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 384.875
+        width: 128.14285
+        height: 128.125
+      alignment: 9
+      pivot: {x: 0.4, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8bc04c46fd0766b4ba8d7626ccd91cf3
+      internalID: 3362156469785096231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BirdsAtlas1k_33
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 384.875
+        width: 128.14285
+        height: 128.125
+      alignment: 9
+      pivot: {x: 0.4, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f08054a524635e4581dd42346a47115
+      internalID: -8931487281024264550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BirdsAtlas1k_34
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 384.875
+        width: 128.14285
+        height: 128.125
+      alignment: 9
+      pivot: {x: 0.4, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec14e4efa499fae4b84a2a68ef2e2f5f
+      internalID: 5715004860298681813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BirdsAtlas1k_35
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 256.875
+        width: 128.14285
+        height: 128.125
+      alignment: 9
+      pivot: {x: 0.4, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b694ed4b26036014b99cabcd9b6da575
+      internalID: 1290109183963711369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BirdsAtlas1k_36
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 256.875
+        width: 128.14285
+        height: 128.125
+      alignment: 9
+      pivot: {x: 0.4, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0fde1d969aa8737438c901d33f800fa0
+      internalID: -6923120411814830229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BirdsAtlas1k_37
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 256.875
+        width: 128.14285
+        height: 128.125
+      alignment: 9
+      pivot: {x: 0.4, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf2b7d89f0229fe42a37b625a7461993
+      internalID: 6820047745262342784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BirdsAtlas1k_38
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 256.875
+        width: 128.14285
+        height: 128.125
+      alignment: 9
+      pivot: {x: 0.4, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1b7f36a8f6133444837e89f160d6c39
+      internalID: 5133099039950085523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BirdsAtlas1k_39
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 256.875
+        width: 128.14285
+        height: 128.125
+      alignment: 9
+      pivot: {x: 0.4, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27a1909503feef74f9ce708ed48359c1
+      internalID: -5001628451406765048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BirdsAtlas1k_40
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 256.875
+        width: 128.14285
+        height: 128.125
+      alignment: 9
+      pivot: {x: 0.4, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 753c53289b98082499fdeee807d10667
+      internalID: 208191782337087082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BirdsAtlas1k_41
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 256.875
+        width: 128.14285
+        height: 128.125
+      alignment: 9
+      pivot: {x: 0.4, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08fdd35ab54d14440affd575dfe8324f
+      internalID: 1354535170657838477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BirdsAtlas1k_42
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 128.875
+        width: 128.14285
+        height: 128.125
+      alignment: 9
+      pivot: {x: 0.4, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1a0b6adab59c334f86b397b96986d5e
+      internalID: 3187076836730342625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BirdsAtlas1k_43
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 128.875
+        width: 128.14285
+        height: 128.125
+      alignment: 9
+      pivot: {x: 0.4, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6bf1cc3648d553844a3c89e0e59ade61
+      internalID: 779867225433977407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BirdsAtlas1k_44
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 128.875
+        width: 128.14285
+        height: 128.125
+      alignment: 9
+      pivot: {x: 0.4, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0fa2d372dc1e6764997093e459ad31d6
+      internalID: -2439483561398586152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BirdsAtlas1k_45
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 128.875
+        width: 128.14285
+        height: 128.125
+      alignment: 9
+      pivot: {x: 0.4, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75f259c047ac93344b9d252ecf8bba7d
+      internalID: -6529153292415626836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BirdsAtlas1k_46
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 128.875
+        width: 128.14285
+        height: 128.125
+      alignment: 9
+      pivot: {x: 0.4, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a37ea330dcd2ac41a2192bd6a1cfc87
+      internalID: 2039826013420806907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BirdsAtlas1k_47
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 128.875
+        width: 128.14285
+        height: 128.125
+      alignment: 9
+      pivot: {x: 0.4, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f2d57d394ae9674b911cd82afe4c420
+      internalID: -3738689399472014510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BirdsAtlas1k_48
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 128.875
+        width: 128.14285
+        height: 128.125
+      alignment: 9
+      pivot: {x: 0.4, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c8dbfc128331e544b8df8b298c5d673
+      internalID: 1665387530752050371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BirdsAtlas1k_49
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0.875
+        width: 128.14285
+        height: 128.125
+      alignment: 9
+      pivot: {x: 0.4, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13e76bf952c7aac4198cc3071d06a8af
+      internalID: 148018024117929881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BirdsAtlas1k_50
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0.875
+        width: 128.14285
+        height: 128.125
+      alignment: 9
+      pivot: {x: 0.4, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a9492dc2f092e1418f7389a7fb718a8
+      internalID: -6375922429060367043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BirdsAtlas1k_51
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 0.875
+        width: 128.14285
+        height: 128.125
+      alignment: 9
+      pivot: {x: 0.4, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9cebeabc9ea2d654b869ae0371839e5a
+      internalID: 3256515529865423736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BirdsAtlas1k_52
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 0.875
+        width: 128.14285
+        height: 128.125
+      alignment: 9
+      pivot: {x: 0.4, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ebfb6f015614b843915b67dc1dc2484
+      internalID: -479178311384278038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BirdsAtlas1k_53
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 0.875
+        width: 128.14285
+        height: 128.125
+      alignment: 9
+      pivot: {x: 0.4, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b63a509e2544c524295f83539f12091b
+      internalID: 5363995723694348447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BirdsAtlas1k_54
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 0.875
+        width: 128.14285
+        height: 128.125
+      alignment: 9
+      pivot: {x: 0.4, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18299c72d095e014aa4ef73cf5f437d6
+      internalID: -8099180877785760928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BirdsAtlas1k_55
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 0.875
+        width: 128.14285
+        height: 128.125
+      alignment: 9
+      pivot: {x: 0.4, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9f277cf9fe60dd4ca424997e990e0b5
+      internalID: 4825071522900462543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 1bdc5e57e0700aa468a2d78a07bebf37
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      BirdsAtlas1k_35: 1290109183963711369
+      BirdsAtlas1k_33: -8931487281024264550
+      BirdsAtlas1k_15: -6675729902466812022
+      BirdsAtlas1k_44: -2439483561398586152
+      BirdsAtlas1k_18: -1413972347230059210
+      BirdsAtlas1k_22: 289788481465450303
+      BirdsAtlas1k_46: 2039826013420806907
+      BirdsAtlas1k_12: -6802084802654262959
+      BirdsAtlas1k_3: -3777547602201504628
+      BirdsAtlas1k_7: 8794370813878656958
+      BirdsAtlas1k_21: -5780441307365801975
+      BirdsAtlas1k_26: -6694851028227459668
+      BirdsAtlas1k_25: 6094222766960148863
+      BirdsAtlas1k_31: 1041162755521825548
+      BirdsAtlas1k_34: 5715004860298681813
+      BirdsAtlas1k_2: 7426465961733209338
+      BirdsAtlas1k_5: 1690920220503902188
+      BirdsAtlas1k_19: 5352575083309309300
+      BirdsAtlas1k_30: 1813401211786168423
+      BirdsAtlas1k_42: 3187076836730342625
+      BirdsAtlas1k_50: -6375922429060367043
+      BirdsAtlas1k_52: -479178311384278038
+      BirdsAtlas1k_20: 8079712417182839908
+      BirdsAtlas1k_47: -3738689399472014510
+      BirdsAtlas1k_0: 8114470216122899902
+      BirdsAtlas1k_40: 208191782337087082
+      BirdsAtlas1k_37: 6820047745262342784
+      BirdsAtlas1k_24: 8829554597499099705
+      BirdsAtlas1k_23: -746487801065396200
+      BirdsAtlas1k_39: -5001628451406765048
+      BirdsAtlas1k_4: 6867608266610872603
+      BirdsAtlas1k_1: 5734203106585655890
+      BirdsAtlas1k_51: 3256515529865423736
+      BirdsAtlas1k_28: 1420785778922769840
+      BirdsAtlas1k_41: 1354535170657838477
+      BirdsAtlas1k_45: -6529153292415626836
+      BirdsAtlas1k_17: 8340021757311595130
+      BirdsAtlas1k_55: 4825071522900462543
+      BirdsAtlas1k_48: 1665387530752050371
+      BirdsAtlas1k_27: -6460369189848896617
+      BirdsAtlas1k_8: -6066719163582074259
+      BirdsAtlas1k_53: 5363995723694348447
+      BirdsAtlas1k_11: -1960146195395569912
+      BirdsAtlas1k_13: -6332456843988383439
+      BirdsAtlas1k_54: -8099180877785760928
+      BirdsAtlas1k_9: 4752329187791253117
+      BirdsAtlas1k_49: 148018024117929881
+      BirdsAtlas1k_36: -6923120411814830229
+      BirdsAtlas1k_10: -5705259746304790849
+      BirdsAtlas1k_6: -1344696799723601436
+      BirdsAtlas1k_16: -3097309335912466480
+      BirdsAtlas1k_32: 3362156469785096231
+      BirdsAtlas1k_29: 5814430524834922043
+      BirdsAtlas1k_38: 5133099039950085523
+      BirdsAtlas1k_43: 779867225433977407
+      BirdsAtlas1k_14: 5303391317329122407
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,84 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7cd84a52ef2addf4289a98afc62d2f5a, type: 3}
+  m_Name: Chapter01_TohoraSea_Boss_Tikaka
+  m_EditorClassIdentifier: 
+  CharacterPrefab: {fileID: 5392217553337244347, guid: 91da86efba4b6ec49a3be31ce49a2de4,
+    type: 3}
+  AbridgedCharInfo:
+    Name: Tikaka
+    AddressableLocation: Chapter01_TohoraSea_Boss_PivotChar_Tikaka
+    CharacterID: 1028
+    ClassType: 0
+    Elemental: 4
+    CharacterIcon: {fileID: 21300000, guid: 936c13e1024504b4b889163a87398f95, type: 3}
+    skeletonDataAsset: {fileID: 11400000, guid: 614aaa717cc28c045ae8fd8e5ef2c18b,
+      type: 2}
+    initialSkinName: 
+    HealthStats_Health: 2000
+    HealthStats_Regeneration: 5
+    HealthStats_Armour: 1
+    EtherStats_Ether: 60
+    EtherStats_Regeneration: 2
+    DamageStats_BaseDamage: 1
+    WeakAttack_DamageMultiplier: 15
+    StrongAttack_DamageMultiplier: 23
+    WeakAttack_CriticalChance: {x: 10, y: 10}
+    StrongAttack_CriticalChance: {x: 10, y: 10}
+    SpeedStats_BaseSpeed: 1
+    SpeedStats_CalculatedSpeed: 10
+    SpeedStats_MovementSpeed: 10
+    SpeedStats_WeakBulletSpeedV: {x: 0, y: 0}
+    SpeedStats_WeakBulletSpeed: 5
+    SpeedStats_StrongBulletSpeedV: {x: 0, y: 0}
+    EvasionChances: {x: 10, y: 10}
+    ShieldStats_BaseShieldRegeneration: 8
+    ShieldStats_Regeneration: 0.5
+    ShieldStats_Shield: 10
+    ShieldStats_Base: 50
+    ShieldStats_MinionShieldChances: 20
+    ShieldStats_MinionPerfectShieldChances: 5
+    Behaviour_DeathBehaviour: 3
+    DeathExplosion_Delay: 1
+    DeathDisableing_Delay: 1
+    DeathExplosion_OverrideParticles: 1109
+    SigilDropBonus: 3
+    CurrentAttackTypeInfo:
+    - {fileID: 11400000, guid: 44be181e45d9f834395d82685c1514ad, type: 2}
+    - {fileID: 11400000, guid: 5a49c8104bdd3224aae7bbc551bfcd8c, type: 2}
+    - {fileID: 11400000, guid: 6abc1d93fa8ab6b4980b21e1719da3c4, type: 2}
+    - {fileID: 11400000, guid: 9e3e178f833a4c347b78d2343be1d66d, type: 2}
+    SkillLevels:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    PassiveSkills: []
+    AIs_Count: 3
+  OccupiedTiles:
+  - {x: 0, y: 0}
+  - {x: -1, y: 0}
+  Biography: Tormented mother of the Tohora Islands. Tikaka is a lost MACHINAE who
+    grew bitter of the other MACHINAE before, turning her hatred towards her own
+    daughters. Paranoid and increasingly unstable, she trusts no one.
+  WaveGenInfo:
+    IncludeInProceduralWaves: 1
+    MinMaxChallengeRating: {x: 35, y: 95}
+    StageTags: 02000000
+    WaveNPCType: 3
+    Rarity: 0

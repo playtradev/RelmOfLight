@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 2162115bd0e37014394e1dbf4dad6e54
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - icon: {instanceID: 0}
+  - Atk: {instanceID: 0}
+  - RageAI: {fileID: 11400000, guid: c88774688e444be4f8acd71933521582, type: 2}
+  - ClonePrefab: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

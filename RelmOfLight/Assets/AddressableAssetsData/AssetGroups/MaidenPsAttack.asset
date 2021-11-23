@@ -1,0 +1,341 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: MaidenPsAttack
+  m_EditorClassIdentifier: 
+  m_GroupName: MaidenPsAttack
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 2813f207463e2497d8b3cd7970b9d75d
+  m_SerializeEntries:
+  - m_GUID: afbb05c161e80a046802ba62c170d4f3
+    m_Address: Chapter08_MaidenShrine_DemonMinion_Bullet_WeakAttack__Right
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 28ac0f5fc43783b41be1a1885a41ef4a
+    m_Address: Chapter08_MaidenShrine_DemonMinion_Cast_WeakAttack_Right
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 48f41a77488f27442a08086adb82f7ee
+    m_Address: Chapter08_MaidenShrine_DemonMinion_Hit_WeakAttack__Right
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 69f24dd91fb7ed542ac493a5f3a026d2
+    m_Address: Chapter08_MaidenShrine-BossPhase1-Bullet-MatriarchLullaby_Right
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 7f98c4f9600627b4fa1e64428f13238c
+    m_Address: Chapter08_MaidenShrine-BossPhase1-Cast-MatriarchLullaby_Right
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 7e7ca67f5c2a61647bdb776a872ca0a9
+    m_Address: Chapter08_MaidenShrine-BossPhase1-Cast-MidnightDance_Right
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: c5acf49ec9ed5ef4e889c83f83cc11cd
+    m_Address: Chapter08_MaidenShrine-BossPhase1-Effect-MoonlightBless_Right
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 6169994e229afca4faa7a7fb60f7a594
+    m_Address: Chapter08_MaidenShrine-BossPhase1-Impact-MatriarchLullaby_Right
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: a317acfa7b8786d4aaded321d5f5ffc6
+    m_Address: Chapter08_MaidenShrine-BossPhase1-Impact-MidnightDance_Right
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 5f6ce462bfb513d4c9dd5d8e32f807fe
+    m_Address: Chapter08_MaidenShrine_BossPhase2_Cast_DeadlyThongue_Right
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: fb2e4c8f09b0a2c4ab997ad173c3d4ea
+    m_Address: Chapter08_MaidenShrine_BossPhase2_Cast_DemonArmy_Right
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 5a3bd0708494a194f997114d5ba8e496
+    m_Address: Chapter08_MaidenShrine_BossPhase2_Cast_DokuStorm_Right
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 4c58f4edc83c7bb41a4376810b3608ec
+    m_Address: Chapter08_MaidenShrine_BossPhase2_Hit_DeadlyThongue_Right
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: ee63d00413f955f4883f407b7d913384
+    m_Address: Chapter08_MaidenShrine_BossPhase2_Hit_DemonArmy_Right
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 35dcd2afb20f34746b45c1a46581147b
+    m_Address: Chapter08_MaidenShrine_BossPhase2_Hit_DokuStorm_Right
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 6f13bd33c556306498ba0fab8fff01f4
+    m_Address: Chapter08_MaidenShrine_BossPhase2_Loop_DeadlyThongue_Right
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 798d540b4b735b34f975b20447ab90ae
+    m_Address: Chapter08_MaidenShrine_BossPhase2_TrapHit_DeadlyThongue_Right
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 74750ce146630bb4c9ff79a7f271d5a3
+    m_Address: Chapter08_MaidenShrine_BossPhase2_TrapLoop_DeadlyThongue_Right
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 39a1f921feacc0b4aaed6274d9b0a1ec
+    m_Address: Chapter08_MaidenShrine_Character_Desert_StrongAttack_Bullet_Right
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: cc2ca940034409540ac423407c377cf1
+    m_Address: Chapter08_MaidenShrine_Character_Desert_StrongAttack_Cast_Right
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: b2e2e68c358d40947906ccca0cb0c2a6
+    m_Address: Chapter08_MaidenShrine_Character_Desert_StrongAttack_Hit_Right
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 470bea64e0de1ed40b5429f64a37c9be
+    m_Address: Chapter08_MaidenShrine_Character_Desert_WeakAttack_Bullet_Right
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 7bd1264cca14fe4478703067a1499beb
+    m_Address: Chapter08_MaidenShrine_Character_Desert_WeakAttack_Cast_Right
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 5acff5e56776bd742a9bc8905b4239c1
+    m_Address: Chapter08_MaidenShrine_Character_Desert_WeakAttack_Hit_Right
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: be249a9bad7e9db4182b7a547a3c9a6e
+    m_Address: Chapter08_MaidenShrine_Character_Forest_StrongAttack_Bullet_Right_Joja
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: faa149689e248364fa98cc7de133db6b
+    m_Address: Chapter08_MaidenShrine_Character_Forest_StrongAttack_Cast_Right_Joja
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 59b21791663267048aa5619861c606fc
+    m_Address: Chapter08_MaidenShrine_Character_Forest_StrongAttack_Hit_Right_Joja
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 1ddd81fa605244d4d8fbfc27facf9db3
+    m_Address: Chapter08_MaidenShrine_Character_Forest_WeakAttack_Bullet_Right_Joja
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: e8018e616e0e7af419af6c844747fba8
+    m_Address: Chapter08_MaidenShrine_Character_Forest_WeakAttack_Cast_Right_Joja
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: e31676cfabbff004eb3c449bcb6ea993
+    m_Address: Chapter08_MaidenShrine_Character_Forest_WeakAttack_Hit_Right_Joja
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 96a89135dcc748441a9e1b31a6e4261a
+    m_Address: Chapter08_MaidenShrine_Character_Mountain_StrongAttack_Bullet_Right_Skye
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 6eaadf93e9efcac4180f57450ae2e129
+    m_Address: Chapter08_MaidenShrine_Character_Mountain_StrongAttack_Cast_Right_Skye
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 32561043c217a4e4fa2dcbe86a9ff3dd
+    m_Address: Chapter08_MaidenShrine_Character_Mountain_StrongAttack_Hit_Right_Skye
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: f4d11d935bddf4441817befb59b3938d
+    m_Address: Chapter08_MaidenShrine_Character_Mountain_WeakAttack_Bullet_Right_Skye
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 3c3dac9690e071b4891314ff85a4f04d
+    m_Address: Chapter08_MaidenShrine_Character_Mountain_WeakAttack_Cast_Right_Skye
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: f2800f57a446c054a959a9dee192a6b8
+    m_Address: Chapter08_MaidenShrine_Character_Mountain_WeakAttack_Hit_Right_Skye
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 88347760c53598040aa9b3ca2c60b7d1
+    m_Address: Chapter08_MaidenShrine_Character_Valley_StrongAttack_Bullet_Right_Dorje
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 76e4f22701c04c5419fa4bd0abb91356
+    m_Address: Chapter08_MaidenShrine_Character_Valley_StrongAttack_Cast_Right_Dorje
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 38ce2e92a4b8b684f9e05d50e1f437d7
+    m_Address: Chapter08_MaidenShrine_Character_Valley_StrongAttack_Hit_Right_Dorje
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 318578e1b428cf1438d3715f98933e7d
+    m_Address: Chapter08_MaidenShrine_Character_Valley_WeakAttack_Bullet_Right_Dorje
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 08f87113062405446a10d47327dcc389
+    m_Address: Chapter08_MaidenShrine_Character_Valley_WeakAttack_Cast_Right_Dorje
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: e7871abe5bd0bd44c80b804987044afc
+    m_Address: Chapter08_MaidenShrine_Character_Valley_WeakAttack_Hit_Right_Dorje
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: b2b3c1acd77d4ec4e9c281bed5c531df
+    m_Address: Chapter08_MaidenShrine_Minion_Desert_StrongAttack_Bullet_Right_Kitsune
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: d58e5df22e5ea4c4ba0dd360282a75fd
+    m_Address: Chapter08_MaidenShrine_Minion_Desert_StrongAttack_Cast_Right_Kitsune
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 8c95c170eb10a2549b8ce72060bfafa1
+    m_Address: Chapter08_MaidenShrine_Minion_Desert_StrongAttack_Hit_Right_Kitsune
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: fcbcb89c211dec84b8dd71704a4abbdc
+    m_Address: Chapter08_MaidenShrine_Minion_Desert_WeakAttack_Bullet_Right_Kitsune
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 2651842de80a8e44ab71bb58e62d2723
+    m_Address: Chapter08_MaidenShrine_Minion_Desert_WeakAttack_Cast_Right_Kitsune
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 8a30fcd38c5b2814ca5e33451980de46
+    m_Address: Chapter08_MaidenShrine_Minion_Desert_WeakAttack_Hit_Right_Kitsune
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 28f0b069e33443b46a5ec284f9a3c69c
+    m_Address: Chapter08_MaidenShrine_Minion_Forest_StrongAttack_Bullet_Right_Genie
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 71d4f20b6c321954d846f58071172cbe
+    m_Address: Chapter08_MaidenShrine_Minion_Forest_StrongAttack_Cast_Right_Genie
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 00dc287560d84e447b84330e0c5dcd7e
+    m_Address: Chapter08_MaidenShrine_Minion_Forest_StrongAttack_Hit_Right_Genie
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: caead6bceb7c2214ebb8d98ad8c4b7cc
+    m_Address: Chapter08_MaidenShrine_Minion_Forest_WeakAttack_Bullet_Right_Genie
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 95e17f8d198e6ab4f9264bb5e8ea373f
+    m_Address: Chapter08_MaidenShrine_Minion_Forest_WeakAttack_Cast_Right_Genie
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 8f1ed96e807a85d4f8dec1698cafe78f
+    m_Address: Chapter08_MaidenShrine_Minion_Forest_WeakAttack_Hit_Right_Genie
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 635f3582bde10fe42b6c7c0bc9a3e8db
+    m_Address: Chapter08_MaidenShrine_Minion_Forest_StrongAttack_Bullet_Right_Seitaurosu
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 8266544f11122a4449e403a0ba73b95b
+    m_Address: Chapter08_MaidenShrine_Minion_Forest_StrongAttack_Cast_Right_Seitaurosu
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: b95bd44d1ca8b794b99a6dded93ca408
+    m_Address: Chapter08_MaidenShrine_Minion_Forest_StrongAttack_Hit_Right_Seitaurosu
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: d935b7ca212d934429738a91a76fd05d
+    m_Address: Chapter08_MaidenShrine_Minion_Forest_WeakAttack_Bullet_Right_Seitaurosu
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 4d854719b107f7d4490670c0872f4354
+    m_Address: Chapter08_MaidenShrine_Minion_Forest_WeakAttack_Cast_Right_Seitaurosu
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: bb1adb837ac0903418e6cfb47146c634
+    m_Address: Chapter08_MaidenShrine_Minion_Forest_WeakAttack_Hit_Right_Seitaurosu
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 727bcfb27bc892647a2ced003668b029
+    m_Address: Chapter08_MaidenShrine_Minion_Mountain_StrongAttack_Bullet_Right_Tako
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 7abce5a4844e9f740adf928c0cea43a2
+    m_Address: Chapter08_MaidenShrine_Minion_Mountain_StrongAttack_Cast_Right_Tako
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: d05c52628a0185c4884fc5ce19c5694b
+    m_Address: Chapter08_MaidenShrine_Minion_Mountain_StrongAttack_Hit_Right_Tako
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 629015b2fa79c0f48871185f8d330071
+    m_Address: Chapter08_MaidenShrine_Minion_Mountain_WeakAttack_Bullet_Right_Tako
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: af6d212259ff9aa458452efe9e677b94
+    m_Address: Chapter08_MaidenShrine_Minion_Mountain_WeakAttack_Cast_Right_Tako
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: f3c54f1d50ea03c409be83aba0900f84
+    m_Address: Chapter08_MaidenShrine_Minion_Mountain_WeakAttack_Hit_Right_Tako
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: a44908997fbb20b4ea4c9f41da6644d6
+    m_Address: Chapter08_MaidenShrine_Minion_Mountain_StrongAttack_Bullet_Right_Komainu
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 90c748437c44c8d458c95b9d33472e9d
+    m_Address: Chapter08_MaidenShrine_Minion_Mountain_StrongAttack_Cast_Right_Komainu
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 7c3c7f473ab65eb4a9c6a45d9f0c0f75
+    m_Address: Chapter08_MaidenShrine_Minion_Mountain_StrongAttack_Hit_Right_Komainu
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: c89251fb6ad4f9644b6c5df8d4259fb3
+    m_Address: Chapter08_MaidenShrine_Minion_Mountain_WeakAttack_Bullet_Right_Komainu
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: a0d20948cf535714388e7d44e6a472e3
+    m_Address: Chapter08_MaidenShrine_Minion_Mountain_WeakAttack_Cast_Right_Komainu
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 485193d5e37e2884d876682503a8520f
+    m_Address: Chapter08_MaidenShrine_Minion_Mountain_WeakAttack_Hit_Right_Komainu
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: c11116927911c3d448fd77b36ad7ba83
+    m_Address: Chapter08_MaidenShrine_Minion_Valley_StrongAttack_Bullet_Right_Deer
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: f929a807f539d534d94c51dee9f51c00
+    m_Address: Chapter08_MaidenShrine_Minion_Valley_StrongAttack_Cast_Right_Deer
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 650f63eb7758c924dbc13ebdc219005e
+    m_Address: Chapter08_MaidenShrine_Minion_Valley_StrongAttack_Hit_Right_Deer
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 9603591a8adf5b94f9adaf036f79cf27
+    m_Address: Chapter08_MaidenShrine_Minion_Valley_WeakAttack_Bullet_Right_Deer
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 9ad3352ffe4891040957e166d404e6b4
+    m_Address: Chapter08_MaidenShrine_Minion_Valley_WeakAttack_Cast_Right_Deer
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 15888c86fa74a8a4cb0dc56e259db8e8
+    m_Address: Chapter08_MaidenShrine_Minion_Valley_WeakAttack_Hit_Right_Deer
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 241f8ab00b90d52468723e950f6e614a
+    m_Address: Chapter08_MaidenShrine_CutsceneJojaAttack_Explosions
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: b6689890f3f9e4068bac5c7c11c69403, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 58993404083554cdaa5ef76db0824edf, type: 2}
+    - {fileID: 11400000, guid: 18b2921ac80ec405d9a5fb28f755f0a2, type: 2}

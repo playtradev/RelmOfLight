@@ -1,0 +1,458 @@
+fileFormatVersion: 2
+guid: ffb645f83fc806845b2886bbac36b190
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5797465412102958237
+    second: smokeLeft.01_0
+  - first:
+      213: -7841764804288628728
+    second: smokeLeft.01_1
+  - first:
+      213: -631120664862703535
+    second: smokeLeft.01_2
+  - first:
+      213: -4611402759305614853
+    second: smokeLeft.01_3
+  - first:
+      213: -8188130325891896720
+    second: smokeLeft.01_4
+  - first:
+      213: -5792611615653930565
+    second: smokeLeft.01_5
+  - first:
+      213: 4985064250684557711
+    second: smokeLeft.01_6
+  - first:
+      213: 6935138359477499776
+    second: smokeLeft.01_7
+  - first:
+      213: 7617028371344650773
+    second: smokeLeft.01_8
+  - first:
+      213: 1852997058900541853
+    second: smokeLeft.01_9
+  - first:
+      213: 7853955110913461646
+    second: smokeLeft.01_10
+  - first:
+      213: -4083127034093436523
+    second: smokeLeft.01_11
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 2
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 1
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Nintendo Switch
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: smokeLeft.01_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 168
+        width: 150
+        height: 56
+      alignment: 9
+      pivot: {x: 0.9, y: 0.23}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da41147844b913f4ab6b1b56d0530b0a
+      internalID: 5797465412102958237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smokeLeft.01_1
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 168
+        width: 150
+        height: 56
+      alignment: 9
+      pivot: {x: 0.9, y: 0.23}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81dee67660c3b094f96b42402b438b52
+      internalID: -7841764804288628728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smokeLeft.01_2
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 168
+        width: 150
+        height: 56
+      alignment: 9
+      pivot: {x: 0.9, y: 0.23}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 615b3e01dbb7e6540be60cf1bbaa934b
+      internalID: -631120664862703535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smokeLeft.01_3
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 112
+        width: 150
+        height: 56
+      alignment: 9
+      pivot: {x: 0.9, y: 0.23}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee97de929b9ae394ea11d7c1c6b8a45f
+      internalID: -4611402759305614853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smokeLeft.01_4
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 112
+        width: 150
+        height: 56
+      alignment: 9
+      pivot: {x: 0.9, y: 0.23}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57b4351a62797874abd6a25de56d64d6
+      internalID: -8188130325891896720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smokeLeft.01_5
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 112
+        width: 150
+        height: 56
+      alignment: 9
+      pivot: {x: 0.9, y: 0.23}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79466c2df64fb944e95b40cc0a0cb446
+      internalID: -5792611615653930565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smokeLeft.01_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 56
+        width: 150
+        height: 56
+      alignment: 9
+      pivot: {x: 0.9, y: 0.23}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66666e97e8d4dfd4fb332769337a0f52
+      internalID: 4985064250684557711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smokeLeft.01_7
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 56
+        width: 150
+        height: 56
+      alignment: 9
+      pivot: {x: 0.9, y: 0.23}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d409a83c40e0384aa9c51f9ad82c250
+      internalID: 6935138359477499776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smokeLeft.01_8
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 56
+        width: 150
+        height: 56
+      alignment: 9
+      pivot: {x: 0.9, y: 0.23}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42c92f77473ef5447ba0f1c823b404a3
+      internalID: 7617028371344650773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smokeLeft.01_9
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 150
+        height: 56
+      alignment: 9
+      pivot: {x: 0.9, y: 0.23}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19753042d66ef1f47822078e294bc572
+      internalID: 1852997058900541853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smokeLeft.01_10
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 0
+        width: 150
+        height: 56
+      alignment: 9
+      pivot: {x: 0.9, y: 0.23}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20a09d7caaecee44e86db14644a34156
+      internalID: 7853955110913461646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smokeLeft.01_11
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 0
+        width: 150
+        height: 56
+      alignment: 9
+      pivot: {x: 0.9, y: 0.23}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19c232805e08df44caded6f4e7e8d274
+      internalID: -4083127034093436523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: f32cbccee4e965d4192a8cd4e36f9de1
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      smokeLeft.01_9: 1852997058900541853
+      smokeLeft.01_10: 7853955110913461646
+      smokeLeft.01_1: -7841764804288628728
+      smokeLeft.01_5: -5792611615653930565
+      smokeLeft.01_7: 6935138359477499776
+      smokeLeft.01_2: -631120664862703535
+      smokeLeft.01_6: 4985064250684557711
+      smokeLeft.01_0: 5797465412102958237
+      smokeLeft.01_11: -4083127034093436523
+      smokeLeft.01_3: -4611402759305614853
+      smokeLeft.01_4: -8188130325891896720
+      smokeLeft.01_8: 7617028371344650773
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

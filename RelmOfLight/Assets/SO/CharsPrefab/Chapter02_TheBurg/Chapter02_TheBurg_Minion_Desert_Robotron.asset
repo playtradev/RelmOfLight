@@ -1,0 +1,84 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7cd84a52ef2addf4289a98afc62d2f5a, type: 3}
+  m_Name: Chapter02_TheBurg_Minion_Desert_Robotron
+  m_EditorClassIdentifier: 
+  CharacterPrefab: {fileID: 7476496551245758228, guid: df3a675f52c2b8a46b622c4554b554a5,
+    type: 3}
+  AbridgedCharInfo:
+    Name: Robotron
+    AddressableLocation: Stage02_Minion_Desert_PivotChar_Robotron
+    CharacterID: 1041
+    ClassType: 1
+    Elemental: 6
+    CharacterIcon: {fileID: 21300000, guid: 851c12994f44b694d956db77499009f7, type: 3}
+    skeletonDataAsset: {fileID: 11400000, guid: 218ed82eba5cca34b81905b8c6e0f076,
+      type: 2}
+    initialSkinName: 
+    HealthStats_Health: 800
+    HealthStats_Regeneration: 1.2
+    HealthStats_Armour: 0.9
+    EtherStats_Ether: 20
+    EtherStats_Regeneration: 1
+    DamageStats_BaseDamage: 1
+    WeakAttack_DamageMultiplier: 13
+    StrongAttack_DamageMultiplier: 22
+    WeakAttack_CriticalChance: {x: 3, y: 3}
+    StrongAttack_CriticalChance: {x: 3, y: 3}
+    SpeedStats_BaseSpeed: 1
+    SpeedStats_CalculatedSpeed: 0.8333333
+    SpeedStats_MovementSpeed: 1
+    SpeedStats_WeakBulletSpeedV: {x: 0, y: 0}
+    SpeedStats_WeakBulletSpeed: 5
+    SpeedStats_StrongBulletSpeedV: {x: 0, y: 0}
+    EvasionChances: {x: 1.2, y: 1.2}
+    ShieldStats_BaseShieldRegeneration: 8
+    ShieldStats_Regeneration: 0.36
+    ShieldStats_Shield: 10
+    ShieldStats_Base: 50
+    ShieldStats_MinionShieldChances: 10
+    ShieldStats_MinionPerfectShieldChances: 2
+    Behaviour_DeathBehaviour: 0
+    DeathExplosion_Delay: 0
+    DeathDisableing_Delay: 0.5
+    DeathExplosion_OverrideParticles: 0
+    SigilDropBonus: 1
+    CurrentAttackTypeInfo:
+    - {fileID: 11400000, guid: d8018cc3dbd58e34f8d6284bcfcd6c29, type: 2}
+    - {fileID: 11400000, guid: 5ba87d7f2a48ff04e82749ceb1c9e165, type: 2}
+    - {fileID: 11400000, guid: ce957334c9f2d634a8ab027873794f07, type: 2}
+    - {fileID: 11400000, guid: 08645fccbe7aeef44925e8f8269a0078, type: 2}
+    - {fileID: 11400000, guid: 7ff881b5b972138438b59ba29acd1746, type: 2}
+    - {fileID: 11400000, guid: f9e059c4728f23d439016b21270bbe23, type: 2}
+    - {fileID: 11400000, guid: b35e2816dcf648b4c96751ba4eda5fd1, type: 2}
+    SkillLevels:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    PassiveSkills: []
+    AIs_Count: 3
+  OccupiedTiles:
+  - {x: 0, y: 0}
+  Biography: NO BIO
+  WaveGenInfo:
+    IncludeInProceduralWaves: 1
+    MinMaxChallengeRating: {x: 15, y: 48}
+    StageTags: 03000000
+    WaveNPCType: 1
+    Rarity: 0

@@ -1,0 +1,494 @@
+fileFormatVersion: 2
+guid: 36cd9664482b3c1478fa48cd8985de01
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3759453159582985331
+    second: SmokeCurve.01_0
+  - first:
+      213: 8856533157082798825
+    second: SmokeCurve.01_1
+  - first:
+      213: 6210271123697926154
+    second: SmokeCurve.01_2
+  - first:
+      213: 1283817729985429173
+    second: SmokeCurve.01_3
+  - first:
+      213: 7448838436982940514
+    second: SmokeCurve.01_4
+  - first:
+      213: 7041875641526391270
+    second: SmokeCurve.01_5
+  - first:
+      213: -5972042563201954047
+    second: SmokeCurve.01_6
+  - first:
+      213: 2573009815191006150
+    second: SmokeCurve.01_7
+  - first:
+      213: 4782209974827584430
+    second: SmokeCurve.01_8
+  - first:
+      213: 3967133904970715162
+    second: SmokeCurve.01_9
+  - first:
+      213: 4482070023326203606
+    second: SmokeCurve.01_10
+  - first:
+      213: 8703870335280413977
+    second: SmokeCurve.01_11
+  - first:
+      213: 8049716577129235849
+    second: SmokeCurve.01_0
+  - first:
+      213: 2263935671175438647
+    second: SmokeCurve.01_1
+  - first:
+      213: -3571815029721233295
+    second: SmokeCurve.01_2
+  - first:
+      213: 7667526904937757276
+    second: SmokeCurve.01_3
+  - first:
+      213: 2979847659727368932
+    second: SmokeCurve.01_4
+  - first:
+      213: 1826082576271550799
+    second: SmokeCurve.01_5
+  - first:
+      213: 4229024163191916127
+    second: SmokeCurve.01_6
+  - first:
+      213: -540862799377818359
+    second: SmokeCurve.01_7
+  - first:
+      213: 3297396904150766245
+    second: SmokeCurve.01_8
+  - first:
+      213: 8674275129481744050
+    second: SmokeCurve.01_9
+  - first:
+      213: 3102254233155925423
+    second: SmokeCurve.01_10
+  - first:
+      213: 1709607066858677297
+    second: SmokeCurve.01_11
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 2
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 1
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Nintendo Switch
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: SmokeCurve.01_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1024
+        width: 381
+        height: 512
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9858c52e39656bf60800000000000000
+      internalID: 3759453159582985331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmokeCurve.01_1
+      rect:
+        serializedVersion: 2
+        x: 381
+        y: 1024
+        width: 381
+        height: 512
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7316fb28f7d1b6f10800000000000000
+      internalID: 8856533157082798825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmokeCurve.01_2
+      rect:
+        serializedVersion: 2
+        x: 762
+        y: 1024
+        width: 381
+        height: 512
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 178801e972d5e6ec0800000000000000
+      internalID: 6210271123697926154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmokeCurve.01_3
+      rect:
+        serializedVersion: 2
+        x: 1143
+        y: 1024
+        width: 381
+        height: 512
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5ab0928817886a60800000000000000
+      internalID: 1283817729985429173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmokeCurve.01_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 512
+        width: 381
+        height: 512
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e234da98ab8a5920800000000000000
+      internalID: 7448838436982940514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmokeCurve.01_5
+      rect:
+        serializedVersion: 2
+        x: 381
+        y: 512
+        width: 381
+        height: 512
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4922399d6c875910800000000000000
+      internalID: 7041875641526391270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmokeCurve.01_6
+      rect:
+        serializedVersion: 2
+        x: 762
+        y: 512
+        width: 381
+        height: 512
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f560991f11380ba30800000000000000
+      internalID: -5972042563201954047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmokeCurve.01_7
+      rect:
+        serializedVersion: 2
+        x: 1143
+        y: 512
+        width: 381
+        height: 512
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90d9cda46287e78f0800000000000000
+      internalID: 2573009815191006150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmokeCurve.01_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 381
+        height: 512
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a211639305b2cd20800000000000000
+      internalID: 4782209974827584430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmokeCurve.01_9
+      rect:
+        serializedVersion: 2
+        x: 381
+        y: 0
+        width: 381
+        height: 512
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2bec3c0a547316870800000000000000
+      internalID: 3967133904970715162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmokeCurve.01_10
+      rect:
+        serializedVersion: 2
+        x: 762
+        y: 0
+        width: 381
+        height: 512
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa5f532e9cb6d0b20800000000000000
+      internalID: 4482070023326203606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmokeCurve.01_11
+      rect:
+        serializedVersion: 2
+        x: 1143
+        y: 0
+        width: 381
+        height: 512
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 134eb95c19eb9b710800000000000000
+      internalID: 8703870335280413977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: aa1c79bb700465d4e851fe4001d5542e
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      SmokeCurve.01_7: 2573009815191006150
+      SmokeCurve.01_9: 3967133904970715162
+      SmokeCurve.01_0: 3759453159582985331
+      SmokeCurve.01_4: 7448838436982940514
+      SmokeCurve.01_2: 6210271123697926154
+      SmokeCurve.01_10: 4482070023326203606
+      SmokeCurve.01_8: 4782209974827584430
+      SmokeCurve.01_11: 8703870335280413977
+      SmokeCurve.01_3: 1283817729985429173
+      SmokeCurve.01_6: -5972042563201954047
+      SmokeCurve.01_1: 8856533157082798825
+      SmokeCurve.01_5: 7041875641526391270
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

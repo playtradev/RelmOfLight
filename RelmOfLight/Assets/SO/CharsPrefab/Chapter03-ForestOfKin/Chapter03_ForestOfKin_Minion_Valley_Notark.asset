@@ -1,0 +1,88 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7cd84a52ef2addf4289a98afc62d2f5a, type: 3}
+  m_Name: Chapter03_ForestOfKin_Minion_Valley_Notark
+  m_EditorClassIdentifier: 
+  CharacterPrefab: {fileID: 1105342388996909081, guid: ef1dbd6886ef2b344b64981558cfc6fc,
+    type: 3}
+  AbridgedCharInfo:
+    Name: Notark
+    AddressableLocation: ForestOfKin_Minion_Valley_PivotChar_ Notark
+    CharacterID: 1063
+    ClassType: 0
+    Elemental: 1
+    CharacterIcon: {fileID: 21300000, guid: 4dd5c00c92949cb41a17a79d6786c1e4, type: 3}
+    skeletonDataAsset: {fileID: 11400000, guid: ab20473e895c48549a149374ed85e9fb,
+      type: 2}
+    initialSkinName: 
+    HealthStats_Health: 700
+    HealthStats_Regeneration: 1.9
+    HealthStats_Armour: 2
+    EtherStats_Ether: 50
+    EtherStats_Regeneration: 2
+    DamageStats_BaseDamage: 1
+    WeakAttack_DamageMultiplier: 17
+    StrongAttack_DamageMultiplier: 29
+    WeakAttack_CriticalChance: {x: 1.5, y: 1.5}
+    StrongAttack_CriticalChance: {x: 1.5, y: 1.5}
+    SpeedStats_BaseSpeed: 1
+    SpeedStats_CalculatedSpeed: 1.1111112
+    SpeedStats_MovementSpeed: 1
+    SpeedStats_WeakBulletSpeedV: {x: 0, y: 0}
+    SpeedStats_WeakBulletSpeed: 5
+    SpeedStats_StrongBulletSpeedV: {x: 0, y: 0}
+    EvasionChances: {x: 1, y: 1}
+    ShieldStats_BaseShieldRegeneration: 8
+    ShieldStats_Regeneration: 0.36
+    ShieldStats_Shield: 5
+    ShieldStats_Base: 50
+    ShieldStats_MinionShieldChances: 5
+    ShieldStats_MinionPerfectShieldChances: 3
+    Behaviour_DeathBehaviour: 0
+    DeathExplosion_Delay: 0
+    DeathDisableing_Delay: 0.5
+    DeathExplosion_OverrideParticles: 0
+    SigilDropBonus: 2
+    CurrentAttackTypeInfo:
+    - {fileID: 11400000, guid: be25d5f89e877f24f8912d318b1b0f2d, type: 2}
+    - {fileID: 11400000, guid: 6c5c5763754d90b468b550ddd74ef154, type: 2}
+    - {fileID: 11400000, guid: bd94ac7c7d93efe48b5e11e236c9563e, type: 2}
+    - {fileID: 11400000, guid: c3bdd261abe213b4c92b05c21e696173, type: 2}
+    - {fileID: 11400000, guid: f30caca2c9d56694a8053ef918ad33fe, type: 2}
+    - {fileID: 11400000, guid: b1f75eb070811934f930c68b13bbc4f9, type: 2}
+    - {fileID: 11400000, guid: 85826289653ef0c4d837502ec073cea6, type: 2}
+    SkillLevels:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    PassiveSkills: []
+    AIs_Count: 3
+  OccupiedTiles:
+  - {x: 0, y: 0}
+  Biography: "The generally friendly Notark lives close to rivers and fountains,
+    spending most of their days floating while feeding in local flora. Don\u2019t
+    be fooled by their peaceful nature. When provoked, Notarks use their powerful
+    claws and jaws combined with some latent psychic abilities to show they aren\u2019t
+    pushovers."
+  WaveGenInfo:
+    IncludeInProceduralWaves: 1
+    MinMaxChallengeRating: {x: 17, y: 49}
+    StageTags: 04000000
+    WaveNPCType: 1
+    Rarity: 0

@@ -1,0 +1,27 @@
+fileFormatVersion: 2
+guid: 8541f3209aa08104b9e4827c7b0ad9bf
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - Space_Time_Curves_UpMovement: {fileID: 1773348741864859322, guid: d2e43ac30753ff74a8e5df2319d1446f,
+      type: 3}
+  - Space_Time_Curves_DownMovement: {fileID: 4562997576509726964, guid: 6eb03f616298af54ba0c7d76b41820cb,
+      type: 3}
+  - Space_Time_Curves_ForwardMovement: {fileID: 3319318909030739165, guid: 64d7bf17fdf7dfa4895c41cd3a50046a,
+      type: 3}
+  - Space_Time_Curves_BackwardMovement: {fileID: 8672944596659695602, guid: 35d5afea944274a48ac43211d051b13e,
+      type: 3}
+  - Speed_Time_Curves_UpMovement: {fileID: 3839686165553925092, guid: 1114af10aff11d34cad4d8833ae9bf2b,
+      type: 3}
+  - Speed_Time_Curves_DownMovement: {fileID: 3113398508923259166, guid: a78737af197db014b885143e6b1e81bb,
+      type: 3}
+  - Speed_Time_Curves_ForwardMovement: {fileID: 6016250889676852139, guid: 0b0807323f329ae419f4affa4d0bcfe5,
+      type: 3}
+  - Speed_Time_Curves_BackwardMovement: {fileID: 1164980532951927771, guid: f6cb3f94587be324d84d9543d68fa8f3,
+      type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,97 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7cd84a52ef2addf4289a98afc62d2f5a, type: 3}
+  m_Name: Chapter03_ForestOfKin_Boss_Kin
+  m_EditorClassIdentifier: 
+  CharacterPrefab: {fileID: 511441731417328550, guid: c17ca83e9f742ec47a2601e7851d7707,
+    type: 3}
+  AbridgedCharInfo:
+    Name: Kin
+    AddressableLocation: ForestOfKin_Character_Boss_PivotChar_Kin
+    CharacterID: 1068
+    ClassType: 0
+    Elemental: 3
+    CharacterIcon: {fileID: 21300000, guid: d728eed62b1b7254f9e327fc7fd41a03, type: 3}
+    skeletonDataAsset: {fileID: 11400000, guid: bcd5a093438603a45b6c5a2c08871611,
+      type: 2}
+    initialSkinName: 
+    HealthStats_Health: 10000
+    HealthStats_Regeneration: 5
+    HealthStats_Armour: 3
+    EtherStats_Ether: 1000
+    EtherStats_Regeneration: 30
+    DamageStats_BaseDamage: 1
+    WeakAttack_DamageMultiplier: 22
+    StrongAttack_DamageMultiplier: 47
+    WeakAttack_CriticalChance: {x: 10, y: 10}
+    StrongAttack_CriticalChance: {x: 10, y: 10}
+    SpeedStats_BaseSpeed: 1
+    SpeedStats_CalculatedSpeed: 0.5
+    SpeedStats_MovementSpeed: 1
+    SpeedStats_WeakBulletSpeedV: {x: 0, y: 0}
+    SpeedStats_WeakBulletSpeed: 5
+    SpeedStats_StrongBulletSpeedV: {x: 0, y: 0}
+    EvasionChances: {x: 0, y: 0}
+    ShieldStats_BaseShieldRegeneration: 8
+    ShieldStats_Regeneration: 0.36
+    ShieldStats_Shield: 5
+    ShieldStats_Base: 50
+    ShieldStats_MinionShieldChances: 15
+    ShieldStats_MinionPerfectShieldChances: 4
+    Behaviour_DeathBehaviour: 0
+    DeathExplosion_Delay: 0
+    DeathDisableing_Delay: 0.5
+    DeathExplosion_OverrideParticles: 0
+    SigilDropBonus: 3
+    CurrentAttackTypeInfo:
+    - {fileID: 11400000, guid: b042314ac6016ab4fb79d4d17579c89a, type: 2}
+    - {fileID: 11400000, guid: 7fc8876f640fb0e4ca98fd4c518c63f8, type: 2}
+    - {fileID: 11400000, guid: 74cd971a9cefe4d4fb5a847414f1bee1, type: 2}
+    - {fileID: 11400000, guid: 7357861bedb4d1645a45a0dcb5c2e615, type: 2}
+    - {fileID: 11400000, guid: 109cbee2582f99a418f0e3d8ba17e774, type: 2}
+    - {fileID: 11400000, guid: a1144c4cceac34a4f9235a93de964d2e, type: 2}
+    - {fileID: 11400000, guid: 52610817fe9da8a4a9fa07dcc8f0761d, type: 2}
+    - {fileID: 11400000, guid: 3dedb04d5028b004aae109aa719af574, type: 2}
+    - {fileID: 11400000, guid: d7ad0a1bcaab2c947a5eb808c6ef1982, type: 2}
+    - {fileID: 11400000, guid: f78f4d66f38830c4f8a5ac0b11b05e48, type: 2}
+    - {fileID: 11400000, guid: 88271ea7734798347ada42db7db86c8a, type: 2}
+    - {fileID: 11400000, guid: 70373ec1cc76d014fa2db3ce6672af85, type: 2}
+    - {fileID: 11400000, guid: 67d9427613523214ea2545b5b89b1b2e, type: 2}
+    SkillLevels:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    PassiveSkills: []
+    AIs_Count: 3
+  OccupiedTiles:
+  - {x: 0, y: 0}
+  Biography: "Clea\u2019s older sister and frequent antagonist, the powerful goddess
+    of Deception, Kin, is said to be one of the oldest Machinae in existence. Her
+    ruthlessness is well known throughout Gora as is her wisdom. Kin understands
+    how Gora works and how her sisters operate. She uses this knowledge to influence
+    the events of this universe, sometimes in seamlessly incomprehensible ways. At
+    times raging brutal war against her sisters just to retreat to the forest when
+    victory was near. Few understand Kin\u2019s end game, even fewer believe it\u2019s
+    a good one."
+  WaveGenInfo:
+    IncludeInProceduralWaves: 1
+    MinMaxChallengeRating: {x: 70, y: 100}
+    StageTags: 04000000
+    WaveNPCType: 3
+    Rarity: 4

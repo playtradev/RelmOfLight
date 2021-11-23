@@ -1,0 +1,408 @@
+fileFormatVersion: 2
+guid: 796f45fd0bfc3c34490a533cc0e5e37f
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4435225041248151924
+    second: Kora-MaoriSymbol_0
+  - first:
+      213: -9217807630247654877
+    second: Kora-MaoriSymbol_1
+  - first:
+      213: 4914076566252882187
+    second: Kora-MaoriSymbol_2
+  - first:
+      213: -3395741531971513869
+    second: Kora-MaoriSymbol_3
+  - first:
+      213: 9031000485514588884
+    second: Kora-MaoriSymbol_4
+  - first:
+      213: -968370599736450634
+    second: Kora-MaoriSymbol_5
+  - first:
+      213: -5530923914715765516
+    second: Kora-MaoriSymbol_6
+  - first:
+      213: 5620933937553240814
+    second: Kora-MaoriSymbol_7
+  - first:
+      213: -220485915614928975
+    second: Kora-MaoriSymbol_8
+  - first:
+      213: 3453976976445451185
+    second: Kora-MaoriSymbol_9
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 2
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 1
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Nintendo Switch
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Kora-MaoriSymbol_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 117.5
+        width: 204.8
+        height: 117.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d54e861636ede624a9a7b05510dc3db9
+      internalID: -4435225041248151924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kora-MaoriSymbol_1
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 117.5
+        width: 204.8
+        height: 117.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a73877ea7eca3994d9409ff300dee0b0
+      internalID: -9217807630247654877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kora-MaoriSymbol_2
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 117.5
+        width: 204.8
+        height: 117.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a52e1bb3b6c7999448927233fbe4427a
+      internalID: 4914076566252882187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kora-MaoriSymbol_3
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 117.5
+        width: 204.8
+        height: 117.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 768aa52ffe4a3264d944a29e83966b90
+      internalID: -3395741531971513869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kora-MaoriSymbol_4
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 117.5
+        width: 204.8
+        height: 117.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5dc68addc96eaa4eb37dca3bb301f43
+      internalID: 9031000485514588884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kora-MaoriSymbol_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0.5
+        width: 204.8
+        height: 117.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6af37f1c9f2c7a4e8155491bd3e4b92
+      internalID: -968370599736450634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kora-MaoriSymbol_6
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 0.5
+        width: 204.8
+        height: 117.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16175275df77f9a4b92ea36bc21d6eb7
+      internalID: -5530923914715765516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kora-MaoriSymbol_7
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 0.5
+        width: 204.8
+        height: 117.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6d65377a60b9dc418bd504b8d27e3a1
+      internalID: 5620933937553240814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kora-MaoriSymbol_8
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 0.5
+        width: 204.8
+        height: 117.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da1cc0a540366e245bf00326d3779f03
+      internalID: -220485915614928975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kora-MaoriSymbol_9
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 0.5
+        width: 204.8
+        height: 117.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1459c16f341f684da9d2a7019a44d6b
+      internalID: 3453976976445451185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 118e253693aa52a458c95d7d2953bd67
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Kora-MaoriSymbol_9: 3453976976445451185
+      Kora-MaoriSymbol_2: 4914076566252882187
+      Kora-MaoriSymbol_8: -220485915614928975
+      Kora-MaoriSymbol_4: 9031000485514588884
+      Kora-MaoriSymbol_5: -968370599736450634
+      Kora-MaoriSymbol_1: -9217807630247654877
+      Kora-MaoriSymbol_0: -4435225041248151924
+      Kora-MaoriSymbol_7: 5620933937553240814
+      Kora-MaoriSymbol_3: -3395741531971513869
+      Kora-MaoriSymbol_6: -5530923914715765516
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

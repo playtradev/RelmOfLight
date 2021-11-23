@@ -1,0 +1,82 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7cd84a52ef2addf4289a98afc62d2f5a, type: 3}
+  m_Name: Chapter01_TohoraSea_Minion_Forest_Crabera
+  m_EditorClassIdentifier: 
+  CharacterPrefab: {fileID: 5539669366330609864, guid: 18e676b241a33614f837d9c349e6b6f3,
+    type: 3}
+  AbridgedCharInfo:
+    Name: Crabera
+    AddressableLocation: Stage_01_Minion_Forest_PivotChar_Crabera
+    CharacterID: 1022
+    ClassType: 2
+    Elemental: 2
+    CharacterIcon: {fileID: 21300000, guid: afa2e6fb5bad1e24f8027f07d2b6a09c, type: 3}
+    skeletonDataAsset: {fileID: 11400000, guid: 32f652f9a5b92304e9f0964145dd7079,
+      type: 2}
+    initialSkinName: 
+    HealthStats_Health: 300
+    HealthStats_Regeneration: 1.5
+    HealthStats_Armour: 1
+    EtherStats_Ether: 30
+    EtherStats_Regeneration: 1
+    DamageStats_BaseDamage: 1
+    WeakAttack_DamageMultiplier: 8
+    StrongAttack_DamageMultiplier: 16
+    WeakAttack_CriticalChance: {x: 1.9, y: 1.9}
+    StrongAttack_CriticalChance: {x: 1.9, y: 1.9}
+    SpeedStats_BaseSpeed: 1
+    SpeedStats_CalculatedSpeed: 1
+    SpeedStats_MovementSpeed: 1
+    SpeedStats_WeakBulletSpeedV: {x: 0, y: 0}
+    SpeedStats_WeakBulletSpeed: 7
+    SpeedStats_StrongBulletSpeedV: {x: 0, y: 0}
+    EvasionChances: {x: 0.02, y: 0.02}
+    ShieldStats_BaseShieldRegeneration: 8
+    ShieldStats_Regeneration: 0.36
+    ShieldStats_Shield: 5
+    ShieldStats_Base: 50
+    ShieldStats_MinionShieldChances: 10
+    ShieldStats_MinionPerfectShieldChances: 0.1
+    Behaviour_DeathBehaviour: 0
+    DeathExplosion_Delay: 0
+    DeathDisableing_Delay: 0.5
+    DeathExplosion_OverrideParticles: 0
+    SigilDropBonus: 2
+    CurrentAttackTypeInfo:
+    - {fileID: 11400000, guid: 4ec8f4ac808229948b3b77c6309470b7, type: 2}
+    - {fileID: 11400000, guid: 535097794e9ccda40876088a242e7c90, type: 2}
+    - {fileID: 11400000, guid: be00518484064174c92c27760b564297, type: 2}
+    - {fileID: 11400000, guid: efaf7bc2bb1188f45b9c23b51c0d9001, type: 2}
+    - {fileID: 11400000, guid: a8baeb8c64a78f540984c5e9bcd9ca47, type: 2}
+    SkillLevels:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    PassiveSkills: []
+    AIs_Count: 3
+  OccupiedTiles:
+  - {x: 0, y: 0}
+  Biography: NO BIO
+  WaveGenInfo:
+    IncludeInProceduralWaves: 1
+    MinMaxChallengeRating: {x: 13, y: 46}
+    StageTags: 02000000
+    WaveNPCType: 1
+    Rarity: 0

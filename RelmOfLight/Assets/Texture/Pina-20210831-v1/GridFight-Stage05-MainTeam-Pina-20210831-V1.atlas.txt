@@ -1,0 +1,272 @@
+
+GridFight-Stage05-MainTeam-Pina-20210831-V1.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Ground-Shadow
+  rotate: true
+  xy: 310, 527
+  size: 386, 143
+  orig: 386, 143
+  offset: 0, 0
+  index: -1
+angry
+  rotate: false
+  xy: 310, 932
+  size: 92, 80
+  orig: 92, 80
+  offset: 0, 0
+  index: -1
+arm_L
+  rotate: false
+  xy: 870, 338
+  size: 68, 150
+  orig: 70, 153
+  offset: 0, 1
+  index: -1
+arm_R_1
+  rotate: false
+  xy: 790, 25
+  size: 69, 68
+  orig: 69, 68
+  offset: 0, 0
+  index: -1
+arm_R_2
+  rotate: false
+  xy: 890, 243
+  size: 39, 91
+  orig: 39, 91
+  offset: 0, 0
+  index: -1
+body bottom
+  rotate: false
+  xy: 664, 628
+  size: 190, 186
+  orig: 194, 190
+  offset: 1, 2
+  index: -1
+body top
+  rotate: false
+  xy: 831, 879
+  size: 106, 135
+  orig: 109, 137
+  offset: 2, 0
+  index: -1
+body_1
+  rotate: false
+  xy: 474, 526
+  size: 226, 216
+  orig: 229, 216
+  offset: 2, 0
+  index: -1
+body_1_V2
+  rotate: true
+  xy: 4, 189
+  size: 335, 280
+  orig: 337, 282
+  offset: 0, 2
+  index: -1
+body_2
+  rotate: true
+  xy: 400, 244
+  size: 295, 239
+  orig: 295, 240
+  offset: 0, 1
+  index: -1
+body_2_V2
+  rotate: false
+  xy: 161, 86
+  size: 298, 313
+  orig: 300, 315
+  offset: 2, 2
+  index: -1
+body_3
+  rotate: 180
+  xy: 374, 29
+  size: 266, 233
+  orig: 267, 235
+  offset: 1, 0
+  index: -1
+body_4
+  rotate: 180
+  xy: 592, 373
+  size: 217, 231
+  orig: 217, 232
+  offset: 0, 1
+  index: -1
+body_5
+  rotate: 180
+  xy: 436, 742
+  size: 261, 271
+  orig: 263, 272
+  offset: 2, 0
+  index: -1
+default
+  rotate: true
+  xy: 78, 97
+  size: 88, 71
+  orig: 88, 71
+  offset: 0, 0
+  index: -1
+effects
+  rotate: false
+  xy: 4, 527
+  size: 302, 485
+  orig: 302, 485
+  offset: 0, 0
+  index: -1
+eyes closed
+  rotate: true
+  xy: 644, 20
+  size: 88, 71
+  orig: 88, 71
+  offset: 0, 0
+  index: -1
+foot L
+  rotate: false
+  xy: 4, 482
+  size: 41, 41
+  orig: 41, 41
+  offset: 0, 0
+  index: -1
+foot R
+  rotate: true
+  xy: 903, 16
+  size: 60, 43
+  orig: 60, 43
+  offset: 0, 0
+  index: -1
+hair
+  rotate: true
+  xy: 743, 295
+  size: 163, 123
+  orig: 163, 123
+  offset: 0, 0
+  index: -1
+hair 2
+  rotate: 270
+  xy: 78, 29
+  size: 54, 183
+  orig: 57, 184
+  offset: 1, 1
+  index: -1
+hair detail
+  rotate: false
+  xy: 406, 945
+  size: 25, 67
+  orig: 25, 67
+  offset: 0, 0
+  index: -1
+hair detail 2
+  rotate: false
+  xy: 554, 732
+  size: 26, 56
+  orig: 26, 56
+  offset: 0, 0
+  index: -1
+hand_R
+  rotate: false
+  xy: 4, 12
+  size: 70, 173
+  orig: 70, 173
+  offset: 0, 0
+  index: -1
+happy
+  rotate: true
+  xy: 719, 5
+  size: 88, 67
+  orig: 88, 67
+  offset: 0, 0
+  index: -1
+hari front
+  rotate: true
+  xy: 903, 80
+  size: 63, 45
+  orig: 63, 45
+  offset: 0, 0
+  index: -1
+head
+  rotate: true
+  xy: 287, 408
+  size: 115, 95
+  orig: 115, 95
+  offset: 0, 0
+  index: -1
+head half 1
+  rotate: true
+  xy: 701, 816
+  size: 196, 126
+  orig: 196, 126
+  offset: 0, 0
+  index: -1
+head half 2
+  rotate: true
+  xy: 812, 491
+  size: 159, 120
+  orig: 159, 120
+  offset: 0, 0
+  index: -1
+head_1
+  rotate: false
+  xy: 640, 112
+  size: 139, 179
+  orig: 139, 179
+  offset: 0, 0
+  index: -1
+leg L
+  rotate: false
+  xy: 890, 147
+  size: 33, 92
+  orig: 33, 92
+  offset: 0, 0
+  index: -1
+leg R
+  rotate: false
+  xy: 863, 6
+  size: 36, 87
+  orig: 36, 87
+  offset: 0, 0
+  index: -1
+mask
+  rotate: false
+  xy: 643, 296
+  size: 90, 73
+  orig: 90, 73
+  offset: 0, 0
+  index: -1
+sad
+  rotate: false
+  xy: 846, 654
+  size: 88, 75
+  orig: 88, 75
+  offset: 0, 0
+  index: -1
+wings_1
+  rotate: false
+  xy: 260, 15
+  size: 138, 97
+  orig: 139, 99
+  offset: 1, 2
+  index: -1
+wings_2
+  rotate: true
+  xy: 824, 755
+  size: 135, 99
+  orig: 138, 99
+  offset: 1, 0
+  index: -1
+wings_v2_1
+  rotate: false
+  xy: 783, 97
+  size: 103, 194
+  orig: 103, 194
+  offset: 0, 0
+  index: -1
+wings_v2_2
+  rotate: false
+  xy: 457, 710
+  size: 93, 173
+  orig: 93, 173
+  offset: 0, 0
+  index: -1

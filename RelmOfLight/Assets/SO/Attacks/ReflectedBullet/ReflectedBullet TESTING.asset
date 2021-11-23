@@ -1,0 +1,385 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 661d3779646d38b458b753570c737d23, type: 3}
+  m_Name: ReflectedBullet TESTING
+  m_EditorClassIdentifier: 
+  _SkillID: REFLECTEDBULLET_TESTING
+  AttackDisplayName: ATTACK_NAME
+  AttackDescription: DESCRIPTION
+  AttackVideoClip: {fileID: 0}
+  AttackIcon: {fileID: 0}
+  attackDisplayType: 0
+  AttackOwner: 0
+  isSequencedAttack: 0
+  CurrentAttackType: 0
+  AnimToFireOnHit: 13
+  taPhase: 0
+  UseAttackerElement: 1
+  AttackElements: 00000000
+  _DamageMultiplier: {x: 1.2, y: 1.4}
+  AttackInput: 0
+  AttackTargetSide: 0
+  AttackReflectable: 1
+  lastAttackTime: 0
+  StaminaCost: 0
+  ExperiencePoints: 10
+  _CoolDown: {x: 0, y: 0}
+  useCustomChargeTime_Reset: 0
+  customChargeTime: 0
+  PrefixAnim: 1
+  Fov: 2
+  AttackAnim: 1
+  Particles:
+    Right:
+      CastAddress: Reflect_Hit_Particle
+      BulletAddress: Reflect_Hit_Particle
+      HitAddress: Reflect_Hit_Particle
+      Cast: {fileID: 0}
+      Bullet: {fileID: 0}
+      Hit: {fileID: 0}
+  EffectTimeOnImpact: 1
+  SlowDownOnHit:
+    TimeEffect: 0.01
+    DurationOfTimeEffect: 0.5
+    TimeEffectDelay: 0.05
+    TimeEffectChildExplosion: 1
+    ApplyImpactSlowToAttacker: 0
+  OverridePsHit: 0
+  _HitParticlesT: 0
+  _HitResizeMultiplier: 1
+  OverridePsInput: 0
+  _ParticlesInput: 0
+  TrajectoriesNumber: 1
+  _BulletT: 04000000
+  Grenade_ExplosionDelay: 3
+  Grenade_Defensible: 0
+  Grenade_CanBeDestroyed: 0
+  Grenade_Health: 10
+  Grenade_ExplosionDamageMultiplier: 1
+  Grenade_OverrideBulletEffects: 0
+  Grenade_ExplosionPS: 0
+  Grenade_ObjectPS: 0
+  Grenade_ExplosionTiles: []
+  Grenade_DirtyBombEffects: []
+  IsHoming: 0
+  Homing_TimeTillExpiry: 5
+  Homing_TurningSpeed: 3
+  Homing_SlowDownMultiplier: 0.5
+  ChancesOfPooping: 100
+  InEnemySide: 1
+  isPoopingEffectOnTile: 0
+  PoopingEffectsOnTile:
+    TileAction: 0
+    HitTime: 1
+    TileParticlesID: 0
+    EffectChances: 100
+    DurationOnTile: 0
+    DurationOnTileV: {x: 0, y: 0}
+    Effects: []
+  isPoopingSpawnSummonOnTile: 0
+  PoopingSummonToSpawn:
+    SpawnChances: 100
+    UncappedDuration: 1
+    DurationOnField: {x: 0, y: 0}
+    SummonSpawnPositions: []
+    CharToSummon: 0
+    hasCharOverrides: 0
+    CharOverrides:
+      OverrideHealth: 0
+      Health: 0
+      OverrideHealthRegeneration: 0
+      HealthRegeneration: 0
+      OverrideArmour: 0
+      Armour: 0
+      OverrideShieldRegeneration: 0
+      ShieldRegeneration: 0
+      OverrideEther: 0
+      Ether: 0
+      OverrideEtherRegeneration: 0
+      EtherRegeneration: 0
+      OverrideSpeed: 0
+      MovementSpeed: 0
+      OverrideEvasion: 0
+      Evasion: {x: 0, y: 0}
+      OverrideSigilDropBonus: 0
+      SigilDropBonus: 0
+      OverrideCriticalWeakBullet: 0
+      CriticalWeakBullet: {x: 0, y: 0}
+      OverrideCriticalStrongBullet: 0
+      CriticalStrongBullet: {x: 0, y: 0}
+      OverrideWeakAttackMultiplier: 0
+      WeakAttackMultiplier: 0
+      OverrideStrongAttackMultiplier: 0
+      StrongAttackMultiplier: 0
+      overrideDeath: 0
+      deathAnim: 0
+      overrideAttacks: 0
+      AttacksToAdd: []
+      AddToBasicAttacks: 0
+  ParticlesAtk:
+    StatToCheck: 0
+    Chances: 0
+    ValueChecker: 0
+    PercToCheck: 0
+    InBetween: {x: 0, y: 0}
+    Show: 0
+    AIToCheck: 0
+    AIPerc: 100
+    BulletLevel: 1
+    RangeLevel: {x: 0, y: 10}
+    OverrideChances: 0
+    OverrideChancesValue: 0
+    BulletTrajectories:
+    - AttackChances: 100
+      BulletDistanceInTile: {x: 0, y: 12}
+      OverrideIndicatorPosition: 0
+      OverrideBulletDistanceInTileIndicator: {x: 0, y: 0}
+      TimeMultiplier: 2
+      Trajectory_Speed:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 0
+          outSlope: 1
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 1
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      Trajectory_Y:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: -0.4506974
+          outSlope: -0.4506974
+          tangentMode: 34
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0.33333334
+        - serializedVersion: 3
+          time: 0.11989746
+          value: -0.054037474
+          inSlope: 0.2656117
+          outSlope: 0.2656117
+          tangentMode: 34
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        - serializedVersion: 3
+          time: 0.22303468
+          value: 0.04723511
+          inSlope: 0.13317192
+          outSlope: 0.13317192
+          tangentMode: 34
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        - serializedVersion: 3
+          time: 0.36007035
+          value: -0.050824463
+          inSlope: -0.06867227
+          outSlope: -0.06867227
+          tangentMode: 34
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        - serializedVersion: 3
+          time: 0.5170604
+          value: 0.039952286
+          inSlope: 0.040560216
+          outSlope: 0.040560216
+          tangentMode: 34
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        - serializedVersion: 3
+          time: 0.69246525
+          value: -0.047243573
+          inSlope: 0.04028651
+          outSlope: 0.04028651
+          tangentMode: 34
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        - serializedVersion: 3
+          time: 0.8376435
+          value: 0.036623742
+          inSlope: 0.17605448
+          outSlope: 0.17605448
+          tangentMode: 34
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        - serializedVersion: 3
+          time: 1
+          value: 0
+          inSlope: -0.22557609
+          outSlope: -0.22557609
+          tangentMode: 34
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      Trajectory_Z:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 34
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0.33333334
+        - serializedVersion: 3
+          time: 1
+          value: 0
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 34
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      InfoVisible: 1
+      OverrideBulletLevel: 0
+      BulletLevel: 0
+      BulletGrenadeVisisble: 0
+      BulletPoopingVisisble: 0
+      BulletHomingVisisble: 0
+      EffectsVisisble: 0
+      TileEffectsVisisble: 0
+      SummonVisisble: 0
+      ChildrenExplosionVisisble: 0
+      OverrideBulletInfo: 1
+      _BulletT: 04000000
+      Grenade_ExplosionDelay: 3
+      Grenade_Defensible: 0
+      Grenade_CanBeDestroyed: 0
+      Grenade_Health: 10
+      Grenade_ExplosionDamageMultiplier: 1
+      Grenade_OverrideBulletEffects: 0
+      Grenade_ExplosionPS: 0
+      Grenade_ObjectPS: 0
+      Grenade_ExplosionTiles: []
+      Grenade_DirtyBombEffects: []
+      IsHoming: 0
+      Homing_TimeTillExpiry: 5
+      Homing_TurningSpeed: 3
+      Homing_SlowDownMultiplier: 0.5
+      ChancesOfPooping: 100
+      InEnemySide: 1
+      PoopingEffectsOnTile:
+        TileAction: 0
+        HitTime: 1
+        TileParticlesID: 0
+        EffectChances: 100
+        DurationOnTile: 0
+        DurationOnTileV: {x: 0, y: 0}
+        Effects: []
+      BulletGapStartingTile: {x: 0, y: 0}
+      HasEffect: 0
+      Effects: []
+      EffectChances: 100
+      DamagePerc: 1
+      HasSummon: 0
+      Summon:
+        SpawnChances: 100
+        UncappedDuration: 1
+        DurationOnField: {x: 0, y: 0}
+        SummonSpawnPositions: []
+        CharToSummon: 0
+        hasCharOverrides: 0
+        CharOverrides:
+          OverrideHealth: 0
+          Health: 0
+          OverrideHealthRegeneration: 0
+          HealthRegeneration: 0
+          OverrideArmour: 0
+          Armour: 0
+          OverrideShieldRegeneration: 0
+          ShieldRegeneration: 0
+          OverrideEther: 0
+          Ether: 0
+          OverrideEtherRegeneration: 0
+          EtherRegeneration: 0
+          OverrideSpeed: 0
+          MovementSpeed: 0
+          OverrideEvasion: 0
+          Evasion: {x: 0, y: 0}
+          OverrideSigilDropBonus: 0
+          SigilDropBonus: 0
+          OverrideCriticalWeakBullet: 0
+          CriticalWeakBullet: {x: 0, y: 0}
+          OverrideCriticalStrongBullet: 0
+          CriticalStrongBullet: {x: 0, y: 0}
+          OverrideWeakAttackMultiplier: 0
+          WeakAttackMultiplier: 0
+          OverrideStrongAttackMultiplier: 0
+          StrongAttackMultiplier: 0
+          overrideDeath: 0
+          deathAnim: 0
+          overrideAttacks: 0
+          AttacksToAdd: []
+          AddToBasicAttacks: 0
+      SummonChances: 100
+      IsEffectOnTile: 0
+      EffectsOnTile:
+        TileAction: 0
+        HitTime: 1
+        TileParticlesID: 0
+        EffectChances: 100
+        DurationOnTile: 0
+        DurationOnTileV: {x: 0, y: 0}
+        Effects: []
+      ChildrenExplosion: []
+    EffectOnCaster: 0
+    EffectsOnCaster: []
+  TilesAtk:
+    StatToCheck: 0
+    Chances: 0
+    ValueChecker: 0
+    PercToCheck: 0
+    InBetween: {x: 0, y: 0}
+    Show: 0
+    AIToCheck: 0
+    AIPerc: 100
+    EffectOnCaster: 0
+    EffectsOnCaster: []
+    BulletLevel: 0
+    AtkType: 0
+    CanAffectBothSide: 0
+    UseBoundaries: 0
+    RangeLevel: {x: 0, y: 10}
+    UseOldSystem: 1
+    StatsToCheck: []
+    BulletTrajectories: []

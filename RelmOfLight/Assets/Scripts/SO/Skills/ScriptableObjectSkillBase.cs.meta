@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: b80b795c99677f843a7ce3365b281464
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - AttackVideoClip: {fileID: 32900000, guid: 763e917c5357b1a4ca3735c4444d157e, type: 3}
+  - AttackIcon: {fileID: 1797859315195688475, guid: 4c66b9aa77bf54646ba8e7f1df04e67e,
+      type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

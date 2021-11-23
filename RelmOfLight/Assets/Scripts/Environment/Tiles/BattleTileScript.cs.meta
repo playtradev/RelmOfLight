@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: dc2f62ca4933cb344b9a1b3a3b38ccf1
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - TileSprite: {fileID: 21300000, guid: f1608796d2521ac4dad82d3c2c0188b2, type: 3}
+  - SP: {instanceID: 0}
+  - BattleTargetScript: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

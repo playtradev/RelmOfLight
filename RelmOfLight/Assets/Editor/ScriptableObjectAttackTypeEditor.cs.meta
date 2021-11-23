@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: d5c390d0374791a43bdfedc1988a50bb
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - ChargingActivationPs: {fileID: 419970958309357329, guid: 641623cf9b57cdc42a77fbc24a6a891a,
+      type: 3}
+  - ChargingLoopPs: {fileID: 8196946893858015638, guid: 3e30953258a772a49bff6906dff2d099,
+      type: 3}
+  - PlaceHolder: {fileID: 2268094554073450957, guid: 0817a8e54330cb94c91c76ffdd410a25,
+      type: 3}
+  - SlowDown: {fileID: 11400000, guid: 29f605f49af583e4ea7515d7c98ddfee, type: 2}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
