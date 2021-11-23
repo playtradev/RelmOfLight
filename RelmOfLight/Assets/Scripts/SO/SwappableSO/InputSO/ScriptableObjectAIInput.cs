@@ -57,6 +57,7 @@ public class ScriptableObjectAIInput : ScriptableObjectBaseCharacterInput
 
     public override void SetUpLeavingBattle(bool withAudio = true)
     {
+        target = null;
         if(CharOwner.SpineAnim.HasAnimation("Reverse_Arriving"))
         {
             CharOwner.SetAnimation(CharacterAnimationStateType.Reverse_Arriving);
@@ -139,7 +140,6 @@ public class ScriptableObjectAIInput : ScriptableObjectBaseCharacterInput
                     if (UseStrong)
                     {
                         tempAtk = CharOwner.CharInfo.CurrentAttackTypeInfo.GridFight_Where_FirstOrDefault(r => r.AttackInput == AttackInputType.Strong);
-                        UseStrong = false;
                         target = null;
                     }
                     else
@@ -149,6 +149,10 @@ public class ScriptableObjectAIInput : ScriptableObjectBaseCharacterInput
                     }
 
                     yield return AIAttackAction(tempAtk);
+                    if (tempAtk.AttackInput == AttackInputType.Strong && UseStrong)
+                    {
+                        UseStrong = false;
+                    }
                     actionoffset = Time.time;
                 }
                 else

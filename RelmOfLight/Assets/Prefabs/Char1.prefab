@@ -197,6 +197,7 @@ MonoBehaviour:
   CB: {fileID: 0}
   CharacterId: 1166
   CharIcon: {fileID: 5560423058806456367}
+  Skill: {fileID: 5765673654453158240}
   SkillIcon: {fileID: 239725045023662205}
   OffSetPosition: {x: 0, y: 0, z: 0}
   Side: 0

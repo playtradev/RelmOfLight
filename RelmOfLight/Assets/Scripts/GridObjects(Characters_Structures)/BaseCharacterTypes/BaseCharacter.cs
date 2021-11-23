@@ -2104,6 +2104,7 @@ public class BaseCharacter : MonoBehaviour, System.IDisposable, IDamageReceiver,
             return DefendingActionType.Normal;
         }
 
+       
 
         if (damageInfo.Attacker.ReferenceCharacter.CharInfo.Side != CharInfo.Side)
         {
@@ -2245,6 +2246,12 @@ public class BaseCharacter : MonoBehaviour, System.IDisposable, IDamageReceiver,
                     Buff_DebuffCo(damageInfo.Attacker.ReferenceCharacter, eff, damageInfo.AtkSO);
                 }
             }
+        }
+
+
+        if (CharInfo.CharacterID == CharacterNameType.CrystalLeft || CharInfo.CharacterID == CharacterNameType.CrystalRight)
+        {
+            StartCoroutine(BattleManagerScript.Instance.RemoveCharacterFromBaord(damageInfo.Attacker.ReferenceCharacter, true));
         }
 
         return atkRes;

@@ -12,6 +12,7 @@ public class UICharacterInfo : MonoBehaviour, IBeginDragHandler, IDragHandler, I
 	[HideInInspector]public BaseCharacter CB;
 	public CharacterNameType CharacterId;
 	public Image CharIcon;
+	public Button Skill;
 	public Image SkillIcon;
 	public Vector3 OffSetPosition;
 	public TeamSideType Side;
@@ -29,8 +30,23 @@ public class UICharacterInfo : MonoBehaviour, IBeginDragHandler, IDragHandler, I
 				BattleManagerScript.Instance.RightMana.CurrentMana -= 1;
 			}
 			CB.currentInputProfile.UseStrong = true;
+			StartCoroutine(skillDisable());
 		}
 	}
+
+	private IEnumerator skillDisable()
+	{
+		Color color = CharIcon.color;
+		SkillIcon.color = Color.black;
+		Skill.interactable = false;
+		while (CB.currentInputProfile.UseStrong)
+		{
+			yield return null;
+		}
+		SkillIcon.color = Color.white;
+		Skill.interactable = true;
+	}
+
 
 	public void OnBeginDrag(PointerEventData eventData)
 	{
