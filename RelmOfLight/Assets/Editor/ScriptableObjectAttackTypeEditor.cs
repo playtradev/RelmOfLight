@@ -713,7 +713,7 @@ public class ScriptableObjectAttackTypeEditor : Editor
             EditorGUI.indentLevel--;
             EditorGUI.indentLevel--;
         }
-        List<ScriptableObjectAttackEffect> t;
+       /* List<ScriptableObjectAttackEffect> t;
         foreach (var item in origin.TilesAtk.BulletTrajectories)
         {
             t = item.BulletEffectTiles[0].Effects;
@@ -723,7 +723,7 @@ public class ScriptableObjectAttackTypeEditor : Editor
                 tile.Effects = t;
                 tile.ChildrenExplosion = new List<ParticlesChildExplosionClass>();
             }
-        }
+        }*/
         
 
 

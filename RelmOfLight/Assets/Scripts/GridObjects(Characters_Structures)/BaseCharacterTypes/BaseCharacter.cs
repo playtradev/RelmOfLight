@@ -780,7 +780,7 @@ public class BaseCharacter : MonoBehaviour, System.IDisposable, IDamageReceiver,
             currentMoveProfile = (ScriptableObjectBaseCharacterBaseMove)CharInfo.SwappableBases.RuntimeBases.Where(r => r.BaseName == move.ToString()).First().Swappable;
             currentMoveProfile.CharOwner = this;
         }
-        if (currentDeathProfile == null)
+        if (!CharInfo.IsSummon && currentDeathProfile == null)
         {
             currentDeathProfile?.Reset();
             currentDeathProfile = (ScriptableObjectBaseCharacterDeath)CharInfo.SwappableBases.RuntimeBases.Where(r => r.BaseName == DeathBehaviourType.Reverse_Arrives.ToString()).First().Swappable;
@@ -2099,7 +2099,11 @@ public class BaseCharacter : MonoBehaviour, System.IDisposable, IDamageReceiver,
     public virtual DefendingActionType SetDamage(DamageInfoClass damageInfo, float damage)
     {
         atkRes = DefendingActionType.None;
-        if (!IsOnField || (died && BattleManagerScript.Instance.CurrentBattleState == BattleState.Battle) || BattleManagerScript.Instance.CurrentBattleState == BattleState.WaveEnd)
+
+        if (!IsOnField ||
+            (died && BattleManagerScript.Instance.CurrentBattleState == BattleState.Battle) ||
+            BattleManagerScript.Instance.CurrentBattleState == BattleState.WaveEnd ||
+            damageInfo.Attacker.ReferenceCharacter.CharInfo.Side == CharInfo.Side)
         {
             return DefendingActionType.Normal;
         }
@@ -2249,7 +2253,8 @@ public class BaseCharacter : MonoBehaviour, System.IDisposable, IDamageReceiver,
         }
 
 
-        if (CharInfo.CharacterID == CharacterNameType.CrystalLeft || CharInfo.CharacterID == CharacterNameType.CrystalRight)
+        if ((CharInfo.CharacterID == CharacterNameType.CrystalLeft && damageInfo.Attacker.ReferenceCharacter.CharInfo.Side == TeamSideType.RightSideTeam) ||
+            (CharInfo.CharacterID == CharacterNameType.CrystalRight && damageInfo.Attacker.ReferenceCharacter.CharInfo.Side == TeamSideType.LeftSideTeam))
         {
             StartCoroutine(BattleManagerScript.Instance.RemoveCharacterFromBaord(damageInfo.Attacker.ReferenceCharacter, true));
         }

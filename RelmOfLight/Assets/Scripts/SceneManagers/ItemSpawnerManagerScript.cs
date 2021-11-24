@@ -387,7 +387,9 @@ public class ItemSpawnerManagerScript : MonoBehaviour
         BattleManagerScript.Instance.SetCharOnBoardOnFixedPos(summon.CharInfo.PlayerController[0], summon, bts.Pos, summon.SpineAnim.HasAnimation("Arriving") ? CharacterAnimationStateType.Arriving : CharacterAnimationStateType.Idle);
         summon.SetLayer();
         summon.CharInfo.PlayerController = teamInfoC.PlayerController;
-
+        summon.currentDeathProfile?.Reset();
+        summon.currentDeathProfile = (ScriptableObjectBaseCharacterDeath)summon.CharInfo.SwappableBases.RuntimeBases.Where(r => r.BaseName == DeathBehaviourType.Explosion.ToString()).First().Swappable;
+        summon.currentDeathProfile.CharOwner = summon;
         //Add the summon script for controlling summon specific things
         if (summon.GetComponent<SummonScript>() == null)
             summon.gameObject.AddComponent<SummonScript>();
