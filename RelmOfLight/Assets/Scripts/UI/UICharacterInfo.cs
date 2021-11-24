@@ -20,7 +20,7 @@ public class UICharacterInfo : MonoBehaviour, IBeginDragHandler, IDragHandler, I
 
 	public void Strongattack()
 	{
-		if (CB != null && BattleManagerScript.Instance.ManaCostSkill <= (Side == TeamSideType.LeftSideTeam ? BattleManagerScript.Instance.LeftMana.CurrentMana : BattleManagerScript.Instance.RightMana.CurrentMana))
+		if (CB != null && CB.IsOnField && BattleManagerScript.Instance.ManaCostSkill <= (Side == TeamSideType.LeftSideTeam ? BattleManagerScript.Instance.LeftMana.CurrentMana : BattleManagerScript.Instance.RightMana.CurrentMana))
 		{
 			if (Side == TeamSideType.LeftSideTeam)
 			{

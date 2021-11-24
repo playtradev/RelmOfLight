@@ -58,14 +58,14 @@ public class CameraShakeManager : MonoBehaviour
 
     public bool PlayShake(string ID, float duration = 0f, System.Func<bool> conditions = null)
     {
-        ShakeEffect shake = ShakeEffectList.Where(r => r.ShakeID == ID).FirstOrDefault();
+      /*  ShakeEffect shake = ShakeEffectList.Where(r => r.ShakeID == ID).FirstOrDefault();
         if(shake == null)
         {
             Debug.LogError("SHAKE EFFECT WITH ID: '" + ID + "' NOT FOUND, ABORTING");
             return false;
         }
 
-        PlayShake(shake, duration, conditions);
+        PlayShake(shake, duration, conditions);*/
 
         return true;
     }

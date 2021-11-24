@@ -80,7 +80,7 @@ public class UIBattleFieldManager : MonoBehaviour
     {
         if(value != 0)
         {
-            StatsChangedTypeHandler(Mathf.CeilToInt(value * UIDamageMultiplier).ToString(), changeType, charOwner);
+            //StatsChangedTypeHandler(Mathf.CeilToInt(value * UIDamageMultiplier).ToString(), changeType, charOwner);
         }
     }
     

@@ -6,6 +6,7 @@ using UnityEngine;
 using UnityEngine.AddressableAssets;
 using UnityEngine.ResourceManagement.AsyncOperations;
 using UnityEngine.U2D;
+using UnityEngine.UI;
 
 public class BattleManagerScript : MonoBehaviour
 {
@@ -13,6 +14,11 @@ public class BattleManagerScript : MonoBehaviour
 
     [HideInInspector]public ManaInfoClass LeftMana = new ManaInfoClass();
     [HideInInspector]public ManaInfoClass RightMana = new ManaInfoClass();
+    public Image LeftWin;
+    public Image LeftLose;
+    public Image RightWin;
+    public Image RightLose;
+
     public int MaxMana;
     public float ManaTime;
     public int ManaCostMovement = 1;
@@ -636,7 +642,18 @@ public class BattleManagerScript : MonoBehaviour
     {
         if(cb.CharInfo.CharacterID == CharacterNameType.CrystalRight || cb.CharInfo.CharacterID == CharacterNameType.CrystalLeft)
         {
-            CallMatchLostEvent();
+            if (cb.CharInfo.CharacterID == CharacterNameType.CrystalRight)
+            {
+                LeftWin.enabled = true;
+                RightLose.enabled = true;
+            }
+            else
+            {
+                RightWin.enabled = true;
+                LeftLose.enabled = true;
+            }
+            CurrentBattleState = BattleState.WinLose;
+            MatchLostEvent?.Invoke();
         }
     }
 
