@@ -15,6 +15,8 @@ public class BattleManagerScript : MonoBehaviour
     [HideInInspector]public ManaInfoClass RightMana = new ManaInfoClass();
     public int MaxMana;
     public float ManaTime;
+    public int ManaCostMovement = 1;
+    public int ManaCostSkill = 1;
     public UICrystalInfo LeftCInfo;
     public UICrystalInfo RightCInfo;
 

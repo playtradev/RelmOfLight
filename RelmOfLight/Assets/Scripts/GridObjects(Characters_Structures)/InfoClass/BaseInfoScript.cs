@@ -187,9 +187,17 @@ public class BaseInfoScript : MonoBehaviour
 
     private void OnMouseUp()
     {
-        if (isSwiping)
+        if (isSwiping && BattleManagerScript.Instance.ManaCostMovement <= (Side == TeamSideType.LeftSideTeam ? BattleManagerScript.Instance.LeftMana.CurrentMana : BattleManagerScript.Instance.RightMana.CurrentMana))
         {
             isSwiping = false;
+            if (Side == TeamSideType.LeftSideTeam)
+            {
+                BattleManagerScript.Instance.LeftMana.CurrentMana -= BattleManagerScript.Instance.ManaCostMovement;
+            }
+            else
+            {
+                BattleManagerScript.Instance.RightMana.CurrentMana -= BattleManagerScript.Instance.ManaCostMovement;
+            }
             float res = StartPos.y - Input.mousePosition.y;
             if (res < -50)
             {

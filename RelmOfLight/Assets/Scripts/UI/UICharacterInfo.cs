@@ -20,15 +20,15 @@ public class UICharacterInfo : MonoBehaviour, IBeginDragHandler, IDragHandler, I
 
 	public void Strongattack()
 	{
-		if (CB != null && 1 <= (Side == TeamSideType.LeftSideTeam ? BattleManagerScript.Instance.LeftMana.CurrentMana : BattleManagerScript.Instance.RightMana.CurrentMana))
+		if (CB != null && BattleManagerScript.Instance.ManaCostSkill <= (Side == TeamSideType.LeftSideTeam ? BattleManagerScript.Instance.LeftMana.CurrentMana : BattleManagerScript.Instance.RightMana.CurrentMana))
 		{
 			if (Side == TeamSideType.LeftSideTeam)
 			{
-				BattleManagerScript.Instance.LeftMana.CurrentMana -= 1;
+				BattleManagerScript.Instance.LeftMana.CurrentMana -= BattleManagerScript.Instance.ManaCostSkill;
 			}
 			else
 			{
-				BattleManagerScript.Instance.RightMana.CurrentMana -= 1;
+				BattleManagerScript.Instance.RightMana.CurrentMana -= BattleManagerScript.Instance.ManaCostSkill;
 			}
 			CB.currentInputProfile.UseStrong = true;
 			CB.currentInputProfile.UseDir = false;
