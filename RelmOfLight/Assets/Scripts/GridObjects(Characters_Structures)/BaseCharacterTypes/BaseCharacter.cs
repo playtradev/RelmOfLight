@@ -2102,8 +2102,7 @@ public class BaseCharacter : MonoBehaviour, System.IDisposable, IDamageReceiver,
 
         if (!IsOnField ||
             (died && BattleManagerScript.Instance.CurrentBattleState == BattleState.Battle) ||
-            BattleManagerScript.Instance.CurrentBattleState == BattleState.WaveEnd ||
-            damageInfo.Attacker.ReferenceCharacter.CharInfo.Side == CharInfo.Side)
+            BattleManagerScript.Instance.CurrentBattleState == BattleState.WaveEnd)
         {
             return DefendingActionType.Normal;
         }
