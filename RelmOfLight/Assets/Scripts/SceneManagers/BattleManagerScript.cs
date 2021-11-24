@@ -13,6 +13,7 @@ public class BattleManagerScript : MonoBehaviour
 
     [HideInInspector]public ManaInfoClass LeftMana = new ManaInfoClass();
     [HideInInspector]public ManaInfoClass RightMana = new ManaInfoClass();
+    public int MaxMana;
     public float ManaTime;
     public UICrystalInfo LeftCInfo;
     public UICrystalInfo RightCInfo;
@@ -452,9 +453,9 @@ public class BattleManagerScript : MonoBehaviour
         {
             yield return null;
             mana.CurrentMana += (1 / ManaTime) * Time.fixedDeltaTime;
-            if (mana.CurrentMana > 5)
+            if (mana.CurrentMana > MaxMana)
             {
-                mana.CurrentMana = 5;
+                mana.CurrentMana = MaxMana;
             }
         }
     }
