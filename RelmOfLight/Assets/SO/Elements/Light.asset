@@ -16,7 +16,4 @@ MonoBehaviour:
   Icon: {fileID: 21300000, guid: 7138ee6f0598c2c49b0727758f1ae468, type: 3}
   SigilIcon: {fileID: 21300000, guid: d1c914824f1ed9d4ba22fc2b43ee909e, type: 3}
   color: {r: 0.9921569, g: 0.5686275, b: 0, a: 1}
-  Relations:
-  - Name: Dark  ||  x2
-    Element: 6
-    AttackDamageMultiplier: 2
+  Relations: []

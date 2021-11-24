@@ -16,7 +16,4 @@ MonoBehaviour:
   Icon: {fileID: 21300000, guid: 14c479b4ce68982419d25787c68b11c9, type: 3}
   SigilIcon: {fileID: 21300000, guid: 0988fbcd138017848bece80cf6895a6d, type: 3}
   color: {r: 0.8745099, g: 0.9568628, b: 0.9294118, a: 1}
-  Relations:
-  - Name: Earth  ||  x2
-    Element: 1
-    AttackDamageMultiplier: 2
+  Relations: []

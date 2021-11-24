@@ -16,7 +16,4 @@ MonoBehaviour:
   Icon: {fileID: 21300000, guid: a11d51c93afa9ad458743bb4ba583ffd, type: 3}
   SigilIcon: {fileID: 21300000, guid: eec56051208f9b74db9c578d57d4b4f2, type: 3}
   color: {r: 0, g: 1, b: 0.07450981, a: 1}
-  Relations:
-  - Name: Light  ||  x2
-    Element: 4
-    AttackDamageMultiplier: 2
+  Relations: []
