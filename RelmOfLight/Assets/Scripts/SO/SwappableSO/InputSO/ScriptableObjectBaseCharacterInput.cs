@@ -114,7 +114,7 @@ public class ScriptableObjectBaseCharacterInput : ScriptableObjectSwappableBase
             for (int a = 0; a < nextAtk.NewFovSystemList.Count; a++)
             {
                 bts = GridManagerScript.Instance.GetBattleTile(CharOwner.CharInfo.CurrentTilePos +
-                    (CharOwner.CharInfo.Side == TeamSideType.LeftSideTeam ? nextAtk.NewFovSystemList[a] : nextAtk.NewFovSystemList[a] * (-1)));
+                    (CharOwner.CharInfo.Side == TeamSideType.LeftSideTeam ? nextAtk.NewFovSystemList[a] : new Vector2Int(nextAtk.NewFovSystemList[a].x, -nextAtk.NewFovSystemList[a].y)));
                 if (bts != null && bts.cb != null && bts.cb.CharInfo.Side != CharOwner.CharInfo.Side)
                 {
                     target = bts.cb;

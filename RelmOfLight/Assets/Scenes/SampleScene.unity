@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.18028378, g: 0.22571412, b: 0.30692285, a: 1}
+  m_IndirectSpecularColor: {r: 0.18028352, g: 0.22571376, b: 0.30692244, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -957,7 +957,7 @@ MonoBehaviour:
     CharacterName: 7013
     Team: 0
     PlayerController: 00000000
-    CharActionlist: 
+    CharActionlist: 01000000
     CharacterSelection: 0
     OverrideMask: 0
     Mask: {fileID: 0}
@@ -965,7 +965,7 @@ MonoBehaviour:
     CharacterName: 7014
     Team: 1
     PlayerController: 01000000
-    CharActionlist: 
+    CharActionlist: 01000000
     CharacterSelection: 0
     OverrideMask: 0
     Mask: {fileID: 0}

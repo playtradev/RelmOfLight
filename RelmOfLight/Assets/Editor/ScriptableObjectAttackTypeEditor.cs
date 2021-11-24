@@ -156,7 +156,7 @@ public class ScriptableObjectAttackTypeEditor : Editor
 
 
                 EditorGUILayout.LabelField("Facing ---->>");
-                DrawNewFieldOfView(new Vector2Int(-3, 4), new Vector2Int(-3, 7));
+                DrawNewFieldOfView(new Vector2Int(-6, 7), new Vector2Int(-3, 7));
 
 
 

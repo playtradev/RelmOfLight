@@ -117,7 +117,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5043641212222649539}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.37, y: 0.72, z: 0}
+  m_LocalPosition: {x: 0.5, y: -2, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -274,7 +274,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d247ba06193faa74d9335f5481b2b56c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  skeletonDataAsset: {fileID: 11400000, guid: 500e6d9b46199634bb6574014c13f9ea, type: 2}
+  skeletonDataAsset: {fileID: 11400000, guid: 2c2e1ecc79f196740b76df4313b64151, type: 2}
   initialSkinName: 
   initialFlipX: 0
   initialFlipY: 0
@@ -498,8 +498,8 @@ MonoBehaviour:
     B_BaseSpeed: 1
     IsForcedValue: 0
     ForcedValue: 0
-    ActionTime: 1
-    B_ActionTime: 1
+    ActionTime: 3
+    B_ActionTime: 3
     MovementSpeed: 1
     BaseMovementSpeedModifier: 0
     B_MovementSpeed: 1
@@ -611,14 +611,7 @@ MonoBehaviour:
   attackSequences: []
   BaseAttackTypeInfo: []
   _CurrentAttackTypeInfo:
-  - {fileID: 11400000, guid: bddb017a17a94ed41988fb9621812449, type: 2}
-  - {fileID: 11400000, guid: 7d579fea496e3974ba067a1c833baf63, type: 2}
-  - {fileID: 11400000, guid: bf304f7dc499264448bbdd38db7b5d75, type: 2}
-  - {fileID: 11400000, guid: 3db48ad80cc68e44584c936656a950b3, type: 2}
-  - {fileID: 11400000, guid: 99b8e662ef0b4434b958458fe99b8cc6, type: 2}
-  - {fileID: 11400000, guid: cb6b77382570f914aa145bd30caaf839, type: 2}
-  - {fileID: 11400000, guid: 23605da72f195a4449095856b65d458b, type: 2}
-  - {fileID: 11400000, guid: f5618e466bfecc144ac30d243aee6c89, type: 2}
+  - {fileID: 11400000, guid: 57b06c15df4bf4b9294ce3a5564306e1, type: 2}
   DeathDrops: []
   CharacterRespawnLengthNew: 20
   ModifierCharacterRespawnLength: 0

@@ -387,6 +387,12 @@ public class ItemSpawnerManagerScript : MonoBehaviour
         BattleManagerScript.Instance.SetCharOnBoardOnFixedPos(summon.CharInfo.PlayerController[0], summon, bts.Pos, summon.SpineAnim.HasAnimation("Arriving") ? CharacterAnimationStateType.Arriving : CharacterAnimationStateType.Idle);
         summon.SetLayer();
         summon.CharInfo.PlayerController = teamInfoC.PlayerController;
+        summon.currentMoveProfile?.Reset();
+        summon.currentMoveProfile = (ScriptableObjectBaseCharacterBaseMove)summon.CharInfo.SwappableBases.RuntimeBases.Where(r => r.BaseName == SwappableActionType.Idle.ToString()).First().Swappable;
+        summon.currentMoveProfile.CharOwner = summon;
+        summon.currentInputProfile?.Reset();
+        summon.currentInputProfile = (ScriptableObjectBaseCharacterInput)summon.CharInfo.SwappableBases.RuntimeBases.Where(r => r.BaseName == InputBehaviourType.AIDumb.ToString()).First().Swappable;
+        summon.currentInputProfile.CharOwner = summon;
         summon.currentDeathProfile?.Reset();
         summon.currentDeathProfile = (ScriptableObjectBaseCharacterDeath)summon.CharInfo.SwappableBases.RuntimeBases.Where(r => r.BaseName == DeathBehaviourType.Explosion.ToString()).First().Swappable;
         summon.currentDeathProfile.CharOwner = summon;
