@@ -483,12 +483,12 @@ MonoBehaviour:
   Facing: 0
   UseLayeringSystem: 1
   HealthStats:
-    Health: 50
-    B_Health: 50
+    Health: 15
+    B_Health: 15
     BaseHealthModifier: 0
     ArmourT: 
-    Armour: 0.45
-    B_Armour: 0.45
+    Armour: 0
+    B_Armour: 0
     BaseArmourModifier: 0
     B_ArmourT: 
   ManaCostN: 2
@@ -499,6 +499,7 @@ MonoBehaviour:
     IsForcedValue: 0
     ForcedValue: 0
     ActionTime: 1
+    B_ActionTime: 1
     MovementSpeed: 1
     BaseMovementSpeedModifier: 0
     B_MovementSpeed: 1
@@ -618,25 +619,8 @@ MonoBehaviour:
   - {fileID: 11400000, guid: cb6b77382570f914aa145bd30caaf839, type: 2}
   - {fileID: 11400000, guid: 23605da72f195a4449095856b65d458b, type: 2}
   - {fileID: 11400000, guid: f5618e466bfecc144ac30d243aee6c89, type: 2}
-  WeakAttack:
-    DamageMultiplier: 1.7
-    CriticalChance: {x: 2.8, y: 2.8}
-    LevelMultiplier: 3.5
-    B_DamageMultiplier: 1.7
-    B_CriticalChance: {x: 2.8, y: 2.8}
-    B_Chances: {x: 0, y: 1}
-  StrongAttack:
-    DamageMultiplier: 20
-    CriticalChance: {x: 2.8, y: 2.8}
-    LevelMultiplier: 0
-    B_DamageMultiplier: 20
-    B_CriticalChance: {x: 2.8, y: 2.8}
-    B_Chances: {x: 1, y: 1}
-  CastStartLoopPS: 5018
-  CastLoopPS: 5006
-  CastActivationPS: 5012
   DeathDrops: []
-  CharacterRespawnLength: 90
+  CharacterRespawnLengthNew: 20
   ModifierCharacterRespawnLength: 0
   _Coins: 3
   OverrideSigilsTypes: 1

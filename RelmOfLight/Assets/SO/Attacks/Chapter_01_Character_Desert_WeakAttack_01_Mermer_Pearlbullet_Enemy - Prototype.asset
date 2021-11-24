@@ -51,13 +51,13 @@ MonoBehaviour:
     TimeEffectDelay: 1
     TimeEffectChildExplosion: 0
     ApplyImpactSlowToAttacker: 0
-  OverridePsHit: 0
+  OverridePsHit: 1
   _HitParticlesT: 0
   _HitResizeMultiplier: 1
   OverridePsInput: 0
   _ParticlesInput: 0
   TrajectoriesNumber: 1
-  _BulletT: 
+  _BulletT: 01000000
   Grenade_ExplosionDelay: 3
   Grenade_Defensible: 0
   Grenade_CanBeDestroyed: 0
@@ -257,15 +257,15 @@ MonoBehaviour:
       Show: 1
       BulletEffectTiles:
       - Pos: {x: 0, y: 0}
-        ToFire: 0
+        ToFire: 1
         ExposionChances: 100
         DamagePerc: 1
         EffectsVisisble: 0
         TileEffectsVisisble: 0
         SummonVisisble: 0
-        ChildrenExplosionVisisble: 0
-        Foldout: 0
-        HasEffect: 1
+        ChildrenExplosionVisisble: 1
+        Foldout: 1
+        HasEffect: 0
         showImpact: 1
         Effects: []
         EffectChances: 100
@@ -325,4 +325,77 @@ MonoBehaviour:
             overrideAttacks: 0
             AttacksToAdd: []
             AddToBasicAttacks: 0
-        ChildrenExplosion: []
+        ChildrenExplosion:
+        - ChildrenBulletDelay: 0.5
+          ChildrenDamageMultiplier: 1
+          Show: 1
+          BulletEffectTiles:
+          - Pos: {x: 0, y: 1}
+            ToFire: 1
+            ExposionChances: 100
+            DamagePerc: 1
+            EffectsVisisble: 0
+            TileEffectsVisisble: 0
+            SummonVisisble: 0
+            ChildrenExplosionVisisble: 0
+            Foldout: 0
+            HasEffect: 0
+            showImpact: 1
+            Effects: []
+            EffectChances: 100
+            IsEffectOnTile: 0
+            EffectsOnTile:
+              TileAction: 0
+              HitTime: 1
+              TileParticlesID: 0
+              EffectChances: 100
+              DurationOnTile: 0
+              DurationOnTileV: {x: 0, y: 0}
+              Effects: []
+            SpawnSummonOnTile: 0
+            SummonToSpawn:
+              SpawnChances: 100
+              UncappedDuration: 1
+              DurationOnField: {x: 0, y: 0}
+              SummonSpawnPositions: []
+              CharToSummon: 0
+              hasCharOverrides: 0
+              CharOverrides:
+                OverrideHealth: 0
+                Health: 0
+                OverrideHealthRegeneration: 0
+                HealthRegeneration: 0
+                OverrideArmour: 0
+                Armour: 0
+                OverrideShieldRegeneration: 0
+                ShieldRegeneration: 0
+                OverrideEther: 0
+                Ether: 0
+                OverrideEtherRegeneration: 0
+                EtherRegeneration: 0
+                OverrideSpeed: 0
+                MovementSpeed: 0
+                OverrideEvasion: 0
+                Evasion: {x: 0, y: 0}
+                OverrideSigilDropBonus: 0
+                SigilDropBonus: 0
+                OverrideCriticalWeakBullet: 0
+                CriticalWeakBullet: {x: 0, y: 0}
+                OverrideCriticalStrongBullet: 0
+                CriticalStrongBullet: {x: 0, y: 0}
+                OverrideWeakAttackMultiplier: 0
+                WeakAttackMultiplier: 0
+                OverrideStrongAttackMultiplier: 0
+                StrongAttackMultiplier: 0
+                OverrideHue: 0
+                ColorHueSaturation:
+                  color: {r: 0, g: 0, b: 0, a: 0}
+                  hue: 0
+                  sat: 0
+                OverrideAggroMultiplier: 0
+                AggroMultiplier: 1
+                overrideDeath: 0
+                deathAnim: 0
+                overrideAttacks: 0
+                AttacksToAdd: []
+                AddToBasicAttacks: 0

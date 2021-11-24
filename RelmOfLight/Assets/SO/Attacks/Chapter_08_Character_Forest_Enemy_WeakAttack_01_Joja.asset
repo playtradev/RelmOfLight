@@ -49,7 +49,7 @@ MonoBehaviour:
     TimeEffectDelay: 1
     TimeEffectChildExplosion: 0
     ApplyImpactSlowToAttacker: 0
-  OverridePsHit: 0
+  OverridePsHit: 1
   _HitParticlesT: 0
   _HitResizeMultiplier: 1
   OverridePsInput: 0
@@ -258,11 +258,11 @@ MonoBehaviour:
         ToFire: 0
         ExposionChances: 100
         DamagePerc: 1
-        EffectsVisisble: 0
+        EffectsVisisble: 1
         TileEffectsVisisble: 0
         SummonVisisble: 0
         ChildrenExplosionVisisble: 0
-        Foldout: 0
+        Foldout: 1
         HasEffect: 1
         showImpact: 1
         Effects: []

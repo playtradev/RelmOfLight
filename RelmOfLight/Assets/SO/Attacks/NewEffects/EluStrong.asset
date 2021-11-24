@@ -27,7 +27,7 @@ MonoBehaviour:
   StatsToAffectList:
   - StatsToAffect: 2
     StatsChecker: 1
-    _Value: {x: 2, y: 2}
+    _Value: {x: 3, y: 3}
     useDelay: 0
     Show: 1
     BoolValue: 0

@@ -50,7 +50,7 @@ MonoBehaviour:
     TimeEffectChildExplosion: 0
     ApplyImpactSlowToAttacker: 0
   OverridePsHit: 1
-  _HitParticlesT: 2
+  _HitParticlesT: 0
   _HitResizeMultiplier: 1
   OverridePsInput: 0
   _ParticlesInput: 0
