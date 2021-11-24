@@ -138,7 +138,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3395282737150050148}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: -0.25, z: 0}
+  m_LocalPosition: {x: 0, y: -0.331, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -421,8 +421,8 @@ MonoBehaviour:
   Facing: 0
   UseLayeringSystem: 1
   HealthStats:
-    Health: 50
-    B_Health: 50
+    Health: 25
+    B_Health: 25
     BaseHealthModifier: 0
     ArmourT: 
     Armour: 1
@@ -555,25 +555,8 @@ MonoBehaviour:
   _CurrentAttackTypeInfo:
   - {fileID: 11400000, guid: 0fddac2d8bd45514aa9fb8c1a1e3038d, type: 2}
   - {fileID: 11400000, guid: ea1e0f37225929b448205ed5ff56a15e, type: 2}
-  WeakAttack:
-    DamageMultiplier: 1
-    CriticalChance: {x: 1.6, y: 1.6}
-    LevelMultiplier: 0
-    B_DamageMultiplier: 1
-    B_CriticalChance: {x: 1.6, y: 1.6}
-    B_Chances: {x: 2, y: 2}
-  StrongAttack:
-    DamageMultiplier: 13
-    CriticalChance: {x: 1.6, y: 1.6}
-    LevelMultiplier: 0
-    B_DamageMultiplier: 13
-    B_CriticalChance: {x: 1.6, y: 1.6}
-    B_Chances: {x: 2, y: 2}
-  CastStartLoopPS: 5013
-  CastLoopPS: 5001
-  CastActivationPS: 5007
   DeathDrops: []
-  CharacterRespawnLength: 180
+  CharacterRespawnLengthNew: 20
   ModifierCharacterRespawnLength: 0
   _Coins: 1
   OverrideSigilsTypes: 0

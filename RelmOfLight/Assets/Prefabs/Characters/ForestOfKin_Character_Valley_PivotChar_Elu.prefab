@@ -514,8 +514,8 @@ MonoBehaviour:
   Facing: 0
   UseLayeringSystem: 1
   HealthStats:
-    Health: 17
-    B_Health: 17
+    Health: 9
+    B_Health: 9
     BaseHealthModifier: 0
     ArmourT: 
     Armour: 0
@@ -625,7 +625,7 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 86c36882957b4c349b2149c2359806fe, type: 2}
   - {fileID: 11400000, guid: 5a396958311975644bbfc687dc77ebbe, type: 2}
   DeathDrops: []
-  CharacterRespawnLengthTurns: 10
+  CharacterRespawnLengthNew: 20
   ModifierCharacterRespawnLength: 0
   _Coins: 0
   OverrideSigilsTypes: 1
