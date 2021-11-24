@@ -593,7 +593,7 @@ public class BattleTileScript : MonoBehaviour
                     false,
                     false,
                     target.ReferenceCharacter != null ? target.ReferenceCharacter.SpineAnim.transform.position : target.ReceiverGO.transform.position),
-                    damage);
+                    target.ReferenceCharacter.CharInfo.Side != attacker.CharInfo.Side ? damage : 0);
             }
         }
 
