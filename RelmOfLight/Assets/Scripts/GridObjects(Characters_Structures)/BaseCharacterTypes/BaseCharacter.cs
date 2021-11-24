@@ -168,6 +168,7 @@ public class BaseCharacter : MonoBehaviour, System.IDisposable, IDamageReceiver,
             {
                 _CharInfo = GetComponentInChildren<CharacterInfoScript>(true);
                 _CharInfo.BaseSpeedChangedEvent += _CharInfo_BaseSpeedChangedEvent;
+                _CharInfo.ForceMovementEvent += _CharInfo_ForceMovementEvent;
                 _CharInfo.DeathEvent += _CharInfo_DeathEvent;
                 _CharInfo.BaseSwappableSOChangedEvent += _CharInfo_BaseSwappableSOChangedEvent;
                 _CharInfo.GetComponent<Rigidbody>().isKinematic = false;
@@ -176,6 +177,13 @@ public class BaseCharacter : MonoBehaviour, System.IDisposable, IDamageReceiver,
             }
             return _CharInfo;
         }
+    }
+
+    private void _CharInfo_ForceMovementEvent(InputDirectionType dir)
+    {
+        currentInputProfile.UseDir = true;
+        currentInputProfile.UseStrong = false;
+        currentInputProfile.NewDir = dir;
     }
 
     private void _CharInfo_BaseSwappableSOChangedEvent()
@@ -403,7 +411,7 @@ public class BaseCharacter : MonoBehaviour, System.IDisposable, IDamageReceiver,
         return (SpineAnim.GetAnimLenght(animState.ToString()) * (CharInfo.SpeedStats.IntroPerc + CharInfo.SpeedStats.LoopPerc) /
                     CharInfo.SpeedStats.TileMovementTime) * CharInfo.SpeedStats.MovementSpeed * CharInfo.BaseSpeed;
     }
- 
+
 
 
     public void UpdateVitalities()

@@ -13,6 +13,8 @@ public class ScriptableObjectBaseCharacterInput : ScriptableObjectSwappableBase
     protected GameObject temp_go;
     public bool WaitingForHit = false;
     public bool UseStrong = false;
+    public bool UseDir = false;
+    public InputDirectionType NewDir = InputDirectionType.Down;
     [HideInInspector] public Vector2Int nextAttackPos = Vector2Int.zero;
 
 

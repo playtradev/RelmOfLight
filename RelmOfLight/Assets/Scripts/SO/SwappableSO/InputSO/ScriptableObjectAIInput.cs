@@ -32,8 +32,6 @@ public class ScriptableObjectAIInput : ScriptableObjectBaseCharacterInput
             _possiblePos = value;
         }
     }
-    protected Vector2Int[] path;
-    protected bool pathFound = false;
     public List<BattleTileScript> possiblePositions = new List<BattleTileScript>();
 
     //Temp
@@ -125,7 +123,8 @@ public class ScriptableObjectAIInput : ScriptableObjectBaseCharacterInput
             {
 
                 while (BattleManagerScript.Instance.CurrentBattleState != BattleState.Battle ||
-                    CharOwner.CharInfo.BaseSpeed == 0 || (Time.time < (actionoffset + CharOwner.CharInfo.SpeedStats.CurrentActionTime)))
+                    CharOwner.CharInfo.BaseSpeed == 0 || (Time.time < (actionoffset + CharOwner.CharInfo.SpeedStats.CurrentActionTime)
+                    && !UseStrong && !UseDir))
                 {
                     yield return null;
                 }
@@ -136,7 +135,7 @@ public class ScriptableObjectAIInput : ScriptableObjectBaseCharacterInput
                     tempAtk = GetRandomAttack(out target);
                 }
 
-                if (target != null || UseStrong)
+                if (!UseDir && (target != null || UseStrong))
                 {
 
                     if (UseStrong)
@@ -162,26 +161,37 @@ public class ScriptableObjectAIInput : ScriptableObjectBaseCharacterInput
 
                     if (CharOwner.CharActionlist.Contains(CharacterActionType.Move))
                     {
-                        possiblePositions = CharOwner.currentMoveProfile.GetPossibleTiles();
-                        if (possiblePositions.Count > 0)
+                        if (UseDir)
                         {
-                            possiblePos = possiblePositions.First();
-
-                            if (possiblePos.BattleTileState == BattleTileStateType.Empty && !possiblePos.isTaken)
+                            UseDir = false;
+                            possiblePos = GridManagerScript.Instance.GetBattleTile(CharOwner.currentMoveProfile.GetDirectionVectorAndAnimationCurve(NewDir));
+                            if (possiblePos != null && !possiblePos.isTaken && possiblePos.BattleTileState == BattleTileStateType.Empty)
                             {
-                                path = CharOwner.currentMoveProfile.GetMovesTo(possiblePositions.ToArray());// GridManagerScript.Pathfinding.GetPathTo(possiblePos.Pos, CharOwner.CharInfo.Pos);
-                                if (path != null && path.Length > 0)
+                                possiblePos.isTaken = true;
+                                yield return CharOwner.currentMoveProfile.StartMovement(possiblePos.Pos);
+                                actionoffset = Time.time;
+                            }
+                           
+                        }
+                        else
+                        {
+                            possiblePositions = CharOwner.currentMoveProfile.GetPossibleTiles();
+                            if (possiblePositions.Count > 0)
+                            {
+                                possiblePos = possiblePositions.First();
+
+                                if (possiblePos.BattleTileState == BattleTileStateType.Empty && !possiblePos.isTaken)
                                 {
-                                    pathFound = true;
                                     possiblePos.isTaken = true;
 
                                     yield return BattleManagerScript.Instance.WaitFor(CharOwner.CharInfo.SpeedStats.ReactionTimeValue, () => BattleManagerScript.Instance.CurrentBattleState == BattleState.Pause);
 
-                                    yield return CharOwner.currentMoveProfile.StartMovement(path[0]);
+                                    yield return CharOwner.currentMoveProfile.StartMovement(possiblePos.Pos);
                                     actionoffset = Time.time;
                                 }
                             }
                         }
+                       
                     }
                     yield return null;
                 }

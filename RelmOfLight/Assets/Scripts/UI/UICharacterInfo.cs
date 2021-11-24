@@ -31,6 +31,7 @@ public class UICharacterInfo : MonoBehaviour, IBeginDragHandler, IDragHandler, I
 				BattleManagerScript.Instance.RightMana.CurrentMana -= 1;
 			}
 			CB.currentInputProfile.UseStrong = true;
+			CB.currentInputProfile.UseDir = false;
 			StartCoroutine(skillDisable());
 		}
 	}

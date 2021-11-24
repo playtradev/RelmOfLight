@@ -217,26 +217,6 @@ public class ScriptableObjectBaseCharacterBaseMove : ScriptableObjectBaseCharact
                     curve = CharOwner.SpineAnim.Space_Time_Curves.ForwardMovement;
                 }
                 break;
-            case InputDirectionType.UpLeft:
-                dir += new Vector2Int(-1, -1);
-                curve = CharOwner.SpineAnim.Space_Time_Curves.UpMovement;
-                animState = CharacterAnimationStateType.DashUp.ToString();
-                break;
-            case InputDirectionType.UpRight:
-                dir += new Vector2Int(-1, 1);
-                curve = CharOwner.SpineAnim.Space_Time_Curves.UpMovement;
-                animState = CharacterAnimationStateType.DashUp.ToString();
-                break;
-            case InputDirectionType.DownLeft:
-                dir += new Vector2Int(1, -1);
-                curve = CharOwner.SpineAnim.Space_Time_Curves.DownMovement;
-                animState = CharacterAnimationStateType.DashDown.ToString();
-                break;
-            case InputDirectionType.DownRight:
-                dir += new Vector2Int(1, 1);
-                curve = CharOwner.SpineAnim.Space_Time_Curves.DownMovement;
-                animState = CharacterAnimationStateType.DashDown.ToString();
-                break;
         }
 
         return dir;
