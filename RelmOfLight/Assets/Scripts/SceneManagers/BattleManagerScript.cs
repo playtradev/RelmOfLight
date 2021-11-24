@@ -12,8 +12,9 @@ public class BattleManagerScript : MonoBehaviour
 {
     public static BattleManagerScript Instance;
 
-    [HideInInspector]public ManaInfoClass LeftMana = new ManaInfoClass();
-    [HideInInspector]public ManaInfoClass RightMana = new ManaInfoClass();
+    [HideInInspector]public ManaInfoClass LeftMana;
+    [HideInInspector]public ManaInfoClass RightMana;
+
     public Image LeftWin;
     public Image LeftLose;
     public Image RightWin;
@@ -21,6 +22,7 @@ public class BattleManagerScript : MonoBehaviour
 
     public int MaxMana;
     public float ManaTime;
+    public int StartingMana = 2;
     public int ManaCostMovement = 1;
     public int ManaCostSkill = 1;
     public UICrystalInfo LeftCInfo;
@@ -207,6 +209,8 @@ public class BattleManagerScript : MonoBehaviour
     private void Awake()
     {
         Instance = this;
+        LeftMana = new ManaInfoClass(StartingMana);
+        RightMana = new ManaInfoClass(StartingMana);
     }
 
     public Dictionary<int, DragObject> draggedObjects = new Dictionary<int, DragObject>();
@@ -1518,7 +1522,10 @@ public class ManaInfoClass
     public float CurrentMana;
     public ManaInfoClass()
     {
-        CurrentMana = 2;
+    }
+    public ManaInfoClass(int startingMana)
+    {
+        CurrentMana = startingMana;
     }
 }
 [System.Serializable]
