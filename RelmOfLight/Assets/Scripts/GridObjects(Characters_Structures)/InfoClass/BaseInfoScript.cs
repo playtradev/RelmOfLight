@@ -9,8 +9,6 @@ public class BaseInfoScript : MonoBehaviour
     #region Events
     public delegate void BaseSpeedChanged(float baseSpeed);
     public event BaseSpeedChanged BaseSpeedChangedEvent;
-    public delegate void ForceMovement(InputDirectionType dir);
-    public event ForceMovement ForceMovementEvent;
     public delegate void CharacterEventStructure(BaseInfoScript charInfo);
     public event CharacterEventStructure DeathEvent;
     public event CharacterEventStructure ShieldDepletedEvent;
@@ -177,39 +175,7 @@ public class BaseInfoScript : MonoBehaviour
         }
     }
 
-    bool isSwiping = false;
-    Vector2 StartPos;
-    private void OnMouseDown()
-    {
-        isSwiping = true;
-        StartPos = Input.mousePosition;
-    }
-
-    private void OnMouseUp()
-    {
-        if (isSwiping && BattleManagerScript.Instance.ManaCostMovement <= (Side == TeamSideType.LeftSideTeam ? BattleManagerScript.Instance.LeftMana.CurrentMana : BattleManagerScript.Instance.RightMana.CurrentMana))
-        {
-            isSwiping = false;
-            if (Side == TeamSideType.LeftSideTeam)
-            {
-                BattleManagerScript.Instance.LeftMana.CurrentMana -= BattleManagerScript.Instance.ManaCostMovement;
-            }
-            else
-            {
-                BattleManagerScript.Instance.RightMana.CurrentMana -= BattleManagerScript.Instance.ManaCostMovement;
-            }
-            float res = StartPos.y - Input.mousePosition.y;
-            if (res < -50)
-            {
-                ForceMovementEvent?.Invoke(InputDirectionType.Up);
-            }
-            else if (res > 50)
-            {
-                ForceMovementEvent?.Invoke(InputDirectionType.Down);
-            }
-
-        }
-    }
+  
 
     public void FireHealthChangedEvent()
     {

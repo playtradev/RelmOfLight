@@ -203,16 +203,62 @@ public class BattleManagerScript : MonoBehaviour
         Instance = this;
     }
 
-    public Vector2Int NextPosTest = new Vector2Int();
-    public CharacterNameType cnameee;
-    public ControllerType pcontroller;
-	private void Update()
+    public Dictionary<int, DragObject> draggedObjects = new Dictionary<int, DragObject>();
+
+    private void Update()
     {
-        if(Input.GetKeyUp( KeyCode.A))
+        foreach (Touch t in Input.touches)
         {
-            SetCharOnBoardOnFixedPos(pcontroller, AllCharacters.Where(r=> r.CharInfo.CharacterID == cnameee).FirstOrDefault(), NextPosTest);
+            Ray ray = Camera.main.ScreenPointToRay(t.position);
+            if (t.phase == TouchPhase.Began)
+            {
+                RaycastHit hit;
+                if (Physics.Raycast(ray, out hit) && hit.transform.tag.Contains("Side"))
+                {
+                    DragObject dragO;
+                    if (!draggedObjects.TryGetValue(t.fingerId, out dragO))
+                    {
+                        dragO = new DragObject();
+                        draggedObjects.Add(dragO.fingerID, dragO);
+                    }
+                    dragO.fingerID = t.fingerId;
+                    dragO.obj = hit.transform.GetComponentInParent<BaseCharacter>();
+                    dragO.startPos = t.position;
+                   
+                }
+            }
+            else if (t.phase == TouchPhase.Ended || t.phase == TouchPhase.Canceled)
+            {
+                DragObject dragO;
+                if (draggedObjects.TryGetValue(t.fingerId, out dragO))
+                {
+                    if (dragO.obj.CharInfo.Side == TeamSideType.LeftSideTeam)
+                    {
+                        LeftMana.CurrentMana -= ManaCostMovement;
+                    }
+                    else
+                    {
+                        RightMana.CurrentMana -= ManaCostMovement;
+                    }
+                    float res = dragO.startPos.y - t.position.y;
+                    if (res < -50)
+                    {
+                        dragO.obj.ForceMovementEvent(InputDirectionType.Up);
+                    }
+                    else if (res > 50)
+                    {
+                        dragO.obj.ForceMovementEvent(InputDirectionType.Down);
+                    }
+                    draggedObjects.Remove(t.fingerId);
+                }
+            }
         }
+
     }
+
+  
+  
+
 
     private void Start()
     {
@@ -1457,4 +1503,12 @@ public class ManaInfoClass
     {
         CurrentMana = 2;
     }
+}
+[System.Serializable]
+public class DragObject
+{
+    public BaseCharacter obj;
+    public int fingerID;
+    public Vector3 dragOffset;
+    public Vector2 startPos;
 }
