@@ -314,8 +314,8 @@ MonoBehaviour:
   Facing: 0
   UseLayeringSystem: 1
   HealthStats:
-    Health: 49
-    B_Health: 49
+    Health: 25
+    B_Health: 25
     BaseHealthModifier: 0
     ArmourT: 
     Armour: 1
@@ -367,8 +367,8 @@ MonoBehaviour:
     B_StrongBulletSpeedV: {x: 0, y: 0}
     B_AttackLoopDuration: 0.31
   DamageStats:
-    BaseDamage: 1
-    B_BaseDamage: 1
+    BaseDamage: 2
+    B_BaseDamage: 2
     ElementalsResistence: []
     CurrentElemental: 0
   SwappableBases: {fileID: 11400000, guid: b6188b7a1898b44488273fa37da1d8d1, type: 2}
@@ -448,23 +448,6 @@ MonoBehaviour:
   _CurrentAttackTypeInfo:
   - {fileID: 11400000, guid: 7af0be5d5b88d6d43bf13fc63f83c2b9, type: 2}
   - {fileID: 11400000, guid: b8151829b8ff0eb4588737562673dcde, type: 2}
-  WeakAttack:
-    DamageMultiplier: 1.35
-    CriticalChance: {x: 1.2, y: 1.2}
-    LevelMultiplier: 0
-    B_DamageMultiplier: 1.35
-    B_CriticalChance: {x: 1.2, y: 1.2}
-    B_Chances: {x: 2, y: 2}
-  StrongAttack:
-    DamageMultiplier: 15.5
-    CriticalChance: {x: 1.2, y: 1.2}
-    LevelMultiplier: 0
-    B_DamageMultiplier: 15.5
-    B_CriticalChance: {x: 1.2, y: 1.2}
-    B_Chances: {x: 2, y: 2}
-  CastStartLoopPS: 5014
-  CastLoopPS: 5002
-  CastActivationPS: 5008
   DeathDrops:
   - powerUp: {fileID: 0}
     deathDropType: 1
@@ -472,7 +455,7 @@ MonoBehaviour:
     throwDelay: 1
     overrideDeathParticles: 0
     throwParticles: {fileID: 0}
-  CharacterRespawnLength: 90
+  CharacterRespawnLengthNew: 20
   ModifierCharacterRespawnLength: 0
   _Coins: 19
   OverrideSigilsTypes: 1

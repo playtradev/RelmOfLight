@@ -345,8 +345,8 @@ MonoBehaviour:
   Facing: 0
   UseLayeringSystem: 1
   HealthStats:
-    Health: 15
-    B_Health: 15
+    Health: 8
+    B_Health: 8
     BaseHealthModifier: 0
     ArmourT: 
     Armour: 0
@@ -455,25 +455,8 @@ MonoBehaviour:
   _CurrentAttackTypeInfo:
   - {fileID: 11400000, guid: e41740497aa474d2c9fb122ab5dad9ff, type: 2}
   - {fileID: 11400000, guid: 967cace0e5777644c92700c8af20c995, type: 2}
-  WeakAttack:
-    DamageMultiplier: 1.6
-    CriticalChance: {x: 2.5, y: 2.5}
-    LevelMultiplier: 0
-    B_DamageMultiplier: 1.6
-    B_CriticalChance: {x: 2.5, y: 2.5}
-    B_Chances: {x: 2, y: 2}
-  StrongAttack:
-    DamageMultiplier: 22
-    CriticalChance: {x: 2.5, y: 2.5}
-    LevelMultiplier: 0
-    B_DamageMultiplier: 22
-    B_CriticalChance: {x: 2.5, y: 2.5}
-    B_Chances: {x: 2, y: 2}
-  CastStartLoopPS: 5017
-  CastLoopPS: 5005
-  CastActivationPS: 5011
   DeathDrops: []
-  CharacterRespawnLength: 90
+  CharacterRespawnLengthNew: 20
   ModifierCharacterRespawnLength: 0
   _Coins: 25
   OverrideSigilsTypes: 1
