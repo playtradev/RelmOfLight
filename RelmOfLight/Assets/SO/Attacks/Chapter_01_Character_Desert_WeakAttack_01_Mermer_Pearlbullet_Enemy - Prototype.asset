@@ -33,11 +33,8 @@ MonoBehaviour:
   NewFovSystemList:
   - {x: 0, y: 1}
   - {x: 0, y: 2}
-  - {x: 0, y: 3}
-  - {x: 0, y: 4}
-  - {x: -1, y: 1}
-  - {x: 1, y: 1}
-  - {x: 0, y: 5}
+  - {x: 0, y: -1}
+  - {x: 0, y: -2}
   AttackAnim: 0
   Particles:
     Right:
@@ -150,7 +147,7 @@ MonoBehaviour:
       HasABullet: 1
       OverrideBulletLevel: 0
       BulletLevel: 0
-      InfoVisible: 0
+      InfoVisible: 1
       BulletGrenadeVisisble: 0
       BulletPoopingVisisble: 0
       BulletHomingVisisble: 0

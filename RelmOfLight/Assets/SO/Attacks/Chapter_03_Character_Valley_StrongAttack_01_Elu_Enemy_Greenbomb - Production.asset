@@ -36,7 +36,7 @@ MonoBehaviour:
     Right:
       CastAddress: ForestOfKin_Character_Valley_StrongAttack_Cast_Right_Elu
       BulletAddress: ForestOfKin_Character_Valley_StrongAttack_Bullet_Right_Elu
-      HitAddress: ForestOfKin_Character_Valley_StrongAttack_Hit_Right_Elu
+      HitAddress: Circle_Buff_HP
       Cast: {fileID: 0}
       Bullet: {fileID: 0}
       Hit: {fileID: 0}

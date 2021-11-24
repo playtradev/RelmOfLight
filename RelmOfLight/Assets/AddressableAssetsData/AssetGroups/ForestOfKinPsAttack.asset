@@ -421,6 +421,10 @@ MonoBehaviour:
     m_Address: ForestOfKin_Boss_Bullet_RiversongBomb_Right_Kin
     m_ReadOnly: 0
     m_SerializedLabels: []
+  - m_GUID: e1e9f59599b8cbb42ad2d940623130a2
+    m_Address: Circle_Buff_HP
+    m_ReadOnly: 0
+    m_SerializedLabels: []
   m_ReadOnly: 0
   m_Settings: {fileID: 11400000, guid: b6689890f3f9e4068bac5c7c11c69403, type: 2}
   m_SchemaSet:
