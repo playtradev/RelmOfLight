@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.18028352, g: 0.22571376, b: 0.30692244, a: 1}
+  m_IndirectSpecularColor: {r: 0.18028378, g: 0.22571412, b: 0.30692285, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -137,8 +137,13 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7256111825356590583, guid: a14ae51052ecf4f65989a06b2b6aedab,
         type: 3}
+      propertyPath: Controller
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7256111825356590583, guid: a14ae51052ecf4f65989a06b2b6aedab,
+        type: 3}
       propertyPath: CharacterId
-      value: 1047
+      value: 1086
       objectReference: {fileID: 0}
     - target: {fileID: 7256111825356590584, guid: a14ae51052ecf4f65989a06b2b6aedab,
         type: 3}
@@ -516,7 +521,7 @@ PrefabInstance:
     - target: {fileID: 7256111825356590583, guid: a14ae51052ecf4f65989a06b2b6aedab,
         type: 3}
       propertyPath: CharacterId
-      value: 1026
+      value: 1064
       objectReference: {fileID: 0}
     - target: {fileID: 7256111825356590584, guid: a14ae51052ecf4f65989a06b2b6aedab,
         type: 3}
@@ -723,7 +728,7 @@ PrefabInstance:
     - target: {fileID: 7256111825356590583, guid: a14ae51052ecf4f65989a06b2b6aedab,
         type: 3}
       propertyPath: CharacterId
-      value: 1045
+      value: 1025
       objectReference: {fileID: 0}
     - target: {fileID: 7256111825356590584, guid: a14ae51052ecf4f65989a06b2b6aedab,
         type: 3}
@@ -886,7 +891,7 @@ MonoBehaviour:
     Mask: {fileID: 0}
   - Name: Kora
     CharacterName: 1026
-    Team: 0
+    Team: 1
     PlayerController: 00000000
     CharActionlist: 000000000100000006000000
     CharacterSelection: 0
@@ -894,7 +899,7 @@ MonoBehaviour:
     Mask: {fileID: 0}
   - Name: Deedra
     CharacterName: 1047
-    Team: 0
+    Team: 1
     PlayerController: 00000000
     CharActionlist: 000000000100000006000000
     CharacterSelection: 0
@@ -902,7 +907,7 @@ MonoBehaviour:
     Mask: {fileID: 0}
   - Name: Skye
     CharacterName: 1166
-    Team: 0
+    Team: 1
     PlayerController: 00000000
     CharActionlist: 000000000100000006000000
     CharacterSelection: 0
@@ -918,7 +923,7 @@ MonoBehaviour:
     Mask: {fileID: 0}
   - Name: Elu
     CharacterName: 1064
-    Team: 1
+    Team: 0
     PlayerController: 01000000
     CharActionlist: 000000000100000006000000
     CharacterSelection: 0
@@ -934,7 +939,7 @@ MonoBehaviour:
     Mask: {fileID: 0}
   - Name: Alanda
     CharacterName: 1086
-    Team: 1
+    Team: 0
     PlayerController: 01000000
     CharActionlist: 000000000100000006000000
     CharacterSelection: 0
@@ -942,7 +947,7 @@ MonoBehaviour:
     Mask: {fileID: 0}
   - Name: Valis
     CharacterName: 1065
-    Team: 1
+    Team: 0
     PlayerController: 01000000
     CharActionlist: 000000000100000006000000
     CharacterSelection: 0
@@ -1182,7 +1187,7 @@ PrefabInstance:
     - target: {fileID: 7256111825356590583, guid: a14ae51052ecf4f65989a06b2b6aedab,
         type: 3}
       propertyPath: CharacterId
-      value: 1086
+      value: 1166
       objectReference: {fileID: 0}
     - target: {fileID: 7256111825356590584, guid: a14ae51052ecf4f65989a06b2b6aedab,
         type: 3}
@@ -1312,7 +1317,7 @@ PrefabInstance:
     - target: {fileID: 7256111825356590583, guid: a14ae51052ecf4f65989a06b2b6aedab,
         type: 3}
       propertyPath: CharacterId
-      value: 1025
+      value: 1045
       objectReference: {fileID: 0}
     - target: {fileID: 7256111825356590584, guid: a14ae51052ecf4f65989a06b2b6aedab,
         type: 3}
@@ -1663,7 +1668,7 @@ PrefabInstance:
     - target: {fileID: 7256111825356590583, guid: a14ae51052ecf4f65989a06b2b6aedab,
         type: 3}
       propertyPath: CharacterId
-      value: 1065
+      value: 1026
       objectReference: {fileID: 0}
     - target: {fileID: 7256111825356590584, guid: a14ae51052ecf4f65989a06b2b6aedab,
         type: 3}
@@ -2550,7 +2555,7 @@ PrefabInstance:
     - target: {fileID: 7256111825356590583, guid: a14ae51052ecf4f65989a06b2b6aedab,
         type: 3}
       propertyPath: CharacterId
-      value: 1087
+      value: 1167
       objectReference: {fileID: 0}
     - target: {fileID: 7256111825356590584, guid: a14ae51052ecf4f65989a06b2b6aedab,
         type: 3}
@@ -3391,7 +3396,7 @@ PrefabInstance:
     - target: {fileID: 7256111825356590583, guid: a14ae51052ecf4f65989a06b2b6aedab,
         type: 3}
       propertyPath: CharacterId
-      value: 1167
+      value: 1087
       objectReference: {fileID: 0}
     - target: {fileID: 7256111825356590584, guid: a14ae51052ecf4f65989a06b2b6aedab,
         type: 3}
@@ -3739,6 +3744,16 @@ PrefabInstance:
       propertyPath: ShowUIBattle
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1356531903299505062, guid: 75883df4d712cac4287452c7c9e7c59f,
+        type: 3}
+      propertyPath: BaseActionTime
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1356531903299505062, guid: 75883df4d712cac4287452c7c9e7c59f,
+        type: 3}
+      propertyPath: ReturnCharsTurn
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: 1356531903299505067, guid: 75883df4d712cac4287452c7c9e7c59f,
         type: 3}
       propertyPath: m_Name
@@ -3831,7 +3846,7 @@ PrefabInstance:
     - target: {fileID: 7256111825356590583, guid: a14ae51052ecf4f65989a06b2b6aedab,
         type: 3}
       propertyPath: CharacterId
-      value: 1064
+      value: 1047
       objectReference: {fileID: 0}
     - target: {fileID: 7256111825356590584, guid: a14ae51052ecf4f65989a06b2b6aedab,
         type: 3}
@@ -3963,6 +3978,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Char1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7256111825356590583, guid: a14ae51052ecf4f65989a06b2b6aedab,
+        type: 3}
+      propertyPath: CharacterId
+      value: 1065
       objectReference: {fileID: 0}
     - target: {fileID: 7256111825356590584, guid: a14ae51052ecf4f65989a06b2b6aedab,
         type: 3}
