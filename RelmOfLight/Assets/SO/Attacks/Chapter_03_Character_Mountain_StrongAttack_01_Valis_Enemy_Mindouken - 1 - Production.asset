@@ -296,15 +296,15 @@ MonoBehaviour:
         SpawnSummonOnTile: 1
         SummonToSpawn:
           SpawnChances: 100
-          UncappedDuration: 1
-          DurationOnField: {x: 0, y: 0}
+          UncappedDuration: 0
+          DurationOnField: {x: 10, y: 10}
           SummonSpawnPositions:
           - {x: 0, y: 0}
           CharToSummon: 5003
-          hasCharOverrides: 0
+          hasCharOverrides: 1
           CharOverrides:
-            OverrideHealth: 0
-            Health: 0
+            OverrideHealth: 1
+            Health: 5
             OverrideHealthRegeneration: 0
             HealthRegeneration: 0
             OverrideArmour: 0
@@ -367,15 +367,15 @@ MonoBehaviour:
         SpawnSummonOnTile: 1
         SummonToSpawn:
           SpawnChances: 100
-          UncappedDuration: 1
-          DurationOnField: {x: 0, y: 0}
+          UncappedDuration: 0
+          DurationOnField: {x: 10, y: 10}
           SummonSpawnPositions:
           - {x: 0, y: 0}
           CharToSummon: 5003
-          hasCharOverrides: 0
+          hasCharOverrides: 1
           CharOverrides:
-            OverrideHealth: 0
-            Health: 0
+            OverrideHealth: 1
+            Health: 5
             OverrideHealthRegeneration: 0
             HealthRegeneration: 0
             OverrideArmour: 0
@@ -419,9 +419,9 @@ MonoBehaviour:
         DamagePerc: 1
         EffectsVisisble: 0
         TileEffectsVisisble: 0
-        SummonVisisble: 0
+        SummonVisisble: 1
         ChildrenExplosionVisisble: 0
-        Foldout: 0
+        Foldout: 1
         HasEffect: 1
         showImpact: 1
         Effects: []
@@ -438,15 +438,15 @@ MonoBehaviour:
         SpawnSummonOnTile: 1
         SummonToSpawn:
           SpawnChances: 100
-          UncappedDuration: 1
-          DurationOnField: {x: 0, y: 0}
+          UncappedDuration: 0
+          DurationOnField: {x: 10, y: 10}
           SummonSpawnPositions:
           - {x: 0, y: 0}
           CharToSummon: 5003
-          hasCharOverrides: 0
+          hasCharOverrides: 1
           CharOverrides:
-            OverrideHealth: 0
-            Health: 0
+            OverrideHealth: 1
+            Health: 5
             OverrideHealthRegeneration: 0
             HealthRegeneration: 0
             OverrideArmour: 0

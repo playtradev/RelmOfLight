@@ -23,8 +23,8 @@ MonoBehaviour:
   AnimToFireOnHit: 13
   taPhase: 0
   UseAttackerElement: 1
-  AttackElements: 02000000
-  _DamageMultiplier: {x: 0.9, y: 1.1}
+  AttackElements: 00000000
+  _DamageMultiplier: {x: 1, y: 1}
   AttackInput: 1
   AttackTargetSide: 0
   useCustomChargeTime_Reset: 0

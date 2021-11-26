@@ -16,16 +16,16 @@ MonoBehaviour:
   StackType: 0
   maxStack: 3
   OldSystem: 1
-  StatsToAffect: 2
+  StatsToAffect: 9
   StatsChecker: 1
   NameShowedOnIndicator: 
   Value: {x: -2, y: -2}
-  _Duration: {x: 2, y: 2}
+  _Duration: {x: 8, y: 8}
   _Delay: {x: 0, y: 0}
-  _OvertimeRatio: {x: 1, y: 1}
+  _OvertimeRatio: {x: 2, y: 2}
   AnimToFired: 12
   StatsToAffectList: []
-  Particles: 0
+  Particles: 3500
   AttachPsToHead: 0
   TeleportParticlesIn: 1
   TeleportParticlesOut: 1

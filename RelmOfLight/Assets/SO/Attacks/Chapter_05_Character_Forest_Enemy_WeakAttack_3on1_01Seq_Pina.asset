@@ -24,7 +24,7 @@ MonoBehaviour:
   taPhase: 0
   UseAttackerElement: 1
   AttackElements: 02000000
-  _DamageMultiplier: {x: 0.9, y: 1.1}
+  _DamageMultiplier: {x: 1, y: 1}
   AttackInput: 0
   AttackTargetSide: 0
   useCustomChargeTime_Reset: 0
@@ -137,11 +137,11 @@ MonoBehaviour:
     BulletLevel: 0
     AtkType: 1
     CanAffectBothSide: 0
-    UseBoundaries: 1
+    UseBoundaries: 0
     RangeLevel: {x: 0, y: 10}
     UseOldSystem: 0
     BulletTrajectories:
-    - Delay: 1.4
+    - Delay: 1
       HasABullet: 1
       OverrideBulletLevel: 0
       BulletLevel: 0

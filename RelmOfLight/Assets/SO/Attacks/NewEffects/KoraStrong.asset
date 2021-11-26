@@ -16,16 +16,16 @@ MonoBehaviour:
   StackType: 0
   maxStack: 3
   OldSystem: 1
-  StatsToAffect: 2
-  StatsChecker: 1
+  StatsToAffect: 0
+  StatsChecker: 0
   NameShowedOnIndicator: 
-  Value: {x: -2, y: -2}
-  _Duration: {x: 2, y: 2}
+  Value: {x: 0.5, y: 0.5}
+  _Duration: {x: 6, y: 6}
   _Delay: {x: 0, y: 0}
-  _OvertimeRatio: {x: 1, y: 1}
+  _OvertimeRatio: {x: 0, y: 0}
   AnimToFired: 12
   StatsToAffectList: []
-  Particles: 0
+  Particles: 3000
   AttachPsToHead: 0
   TeleportParticlesIn: 1
   TeleportParticlesOut: 1
@@ -39,7 +39,7 @@ MonoBehaviour:
   MeleeBackTeleportParticlesIn: 1
   MeleeBackTeleportParticlesOut: 1
   MeleeAttackParticles: 6005
-  classification: 1
+  classification: 0
   ShowIcon: 0
   icon: {fileID: 0}
   recolorCharUI: 0
