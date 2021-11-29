@@ -12,8 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7cd84a52ef2addf4289a98afc62d2f5a, type: 3}
   m_Name: Chapter03_ForestOfKin_Boss_Kin
   m_EditorClassIdentifier: 
-  CharacterPrefab: {fileID: 511441731417328550, guid: c17ca83e9f742ec47a2601e7851d7707,
-    type: 3}
   AbridgedCharInfo:
     Name: Kin
     AddressableLocation: ForestOfKin_Character_Boss_PivotChar_Kin
@@ -23,35 +21,23 @@ MonoBehaviour:
     CharacterIcon: {fileID: 21300000, guid: d728eed62b1b7254f9e327fc7fd41a03, type: 3}
     skeletonDataAsset: {fileID: 11400000, guid: bcd5a093438603a45b6c5a2c08871611,
       type: 2}
+    UseSkins: 0
+    Skins: []
     initialSkinName: 
     HealthStats_Health: 10000
-    HealthStats_Regeneration: 5
     HealthStats_Armour: 3
     EtherStats_Ether: 1000
-    EtherStats_Regeneration: 30
     DamageStats_BaseDamage: 1
-    WeakAttack_DamageMultiplier: 22
-    StrongAttack_DamageMultiplier: 47
-    WeakAttack_CriticalChance: {x: 10, y: 10}
-    StrongAttack_CriticalChance: {x: 10, y: 10}
     SpeedStats_BaseSpeed: 1
     SpeedStats_CalculatedSpeed: 0.5
     SpeedStats_MovementSpeed: 1
     SpeedStats_WeakBulletSpeedV: {x: 0, y: 0}
     SpeedStats_WeakBulletSpeed: 5
     SpeedStats_StrongBulletSpeedV: {x: 0, y: 0}
-    EvasionChances: {x: 0, y: 0}
-    ShieldStats_BaseShieldRegeneration: 8
-    ShieldStats_Regeneration: 0.36
-    ShieldStats_Shield: 5
-    ShieldStats_Base: 50
-    ShieldStats_MinionShieldChances: 15
-    ShieldStats_MinionPerfectShieldChances: 4
     Behaviour_DeathBehaviour: 0
     DeathExplosion_Delay: 0
     DeathDisableing_Delay: 0.5
     DeathExplosion_OverrideParticles: 0
-    SigilDropBonus: 3
     CurrentAttackTypeInfo:
     - {fileID: 11400000, guid: b042314ac6016ab4fb79d4d17579c89a, type: 2}
     - {fileID: 11400000, guid: 7fc8876f640fb0e4ca98fd4c518c63f8, type: 2}
@@ -79,6 +65,7 @@ MonoBehaviour:
     - {fileID: 0}
     PassiveSkills: []
     AIs_Count: 3
+  CharacterClass: 0
   OccupiedTiles:
   - {x: 0, y: 0}
   Biography: "Clea\u2019s older sister and frequent antagonist, the powerful goddess

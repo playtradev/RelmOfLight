@@ -12,8 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7cd84a52ef2addf4289a98afc62d2f5a, type: 3}
   m_Name: Chapter04_RhodaCoast_Character_Valley_Preta
   m_EditorClassIdentifier: 
-  CharacterPrefab: {fileID: 7971072820636532095, guid: 8ae6a0be055a8484ca679652d54dafd6,
-    type: 3}
   AbridgedCharInfo:
     Name: Preta
     AddressableLocation: Stage04_RhodaCoast_Character_Valley_PivotChar_Preta
@@ -23,35 +21,23 @@ MonoBehaviour:
     CharacterIcon: {fileID: 21300000, guid: b9ac83dab31e6b94b8f4149c539ce5a8, type: 3}
     skeletonDataAsset: {fileID: 11400000, guid: 958e0217c61728947aa8513b6ba962cf,
       type: 2}
+    UseSkins: 0
+    Skins: []
     initialSkinName: 
     HealthStats_Health: 45
-    HealthStats_Regeneration: 0.61
     HealthStats_Armour: 0.27
     EtherStats_Ether: 42
-    EtherStats_Regeneration: 1.08
     DamageStats_BaseDamage: 1
-    WeakAttack_DamageMultiplier: 1.9
-    StrongAttack_DamageMultiplier: 23
-    WeakAttack_CriticalChance: {x: 2, y: 2}
-    StrongAttack_CriticalChance: {x: 3, y: 5}
     SpeedStats_BaseSpeed: 1
     SpeedStats_CalculatedSpeed: 3.5714285
     SpeedStats_MovementSpeed: 1
     SpeedStats_WeakBulletSpeedV: {x: 0, y: 0}
     SpeedStats_WeakBulletSpeed: 2
     SpeedStats_StrongBulletSpeedV: {x: 0, y: 0}
-    EvasionChances: {x: 0, y: 0}
-    ShieldStats_BaseShieldRegeneration: 8
-    ShieldStats_Regeneration: 0.21
-    ShieldStats_Shield: 7
-    ShieldStats_Base: 50
-    ShieldStats_MinionShieldChances: 20
-    ShieldStats_MinionPerfectShieldChances: 5
     Behaviour_DeathBehaviour: 0
     DeathExplosion_Delay: 0
     DeathDisableing_Delay: 0.5
     DeathExplosion_OverrideParticles: 0
-    SigilDropBonus: 0
     CurrentAttackTypeInfo:
     - {fileID: 11400000, guid: c461030de3f7fb648bc88857c763a1df, type: 2}
     - {fileID: 11400000, guid: 632553ec4e708e247b1479eecf7e6974, type: 2}
@@ -74,6 +60,7 @@ MonoBehaviour:
     - {fileID: 0}
     PassiveSkills: []
     AIs_Count: 3
+  CharacterClass: 0
   OccupiedTiles:
   - {x: 0, y: 0}
   Biography: NO BIO

@@ -12,8 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7cd84a52ef2addf4289a98afc62d2f5a, type: 3}
   m_Name: Stage05_AscensoMountain_Minion_Forest_Furia
   m_EditorClassIdentifier: 
-  CharacterPrefab: {fileID: 5832199333284077978, guid: 3d14e8f1710537e43a6348c2140f9b08,
-    type: 3}
   AbridgedCharInfo:
     Name: Furia
     AddressableLocation: Chapter05_AscensoMountain_Minion_Forest_PivotChar_Furia
@@ -23,35 +21,23 @@ MonoBehaviour:
     CharacterIcon: {fileID: 21300000, guid: 92d938f10e29cc840b0b5a1661847a84, type: 3}
     skeletonDataAsset: {fileID: 11400000, guid: c6dced30eb2c4074e8d9956d004c836d,
       type: 2}
+    UseSkins: 0
+    Skins: []
     initialSkinName: 
     HealthStats_Health: 1700
-    HealthStats_Regeneration: 0.9
     HealthStats_Armour: 1.8
     EtherStats_Ether: 68
-    EtherStats_Regeneration: 1
     DamageStats_BaseDamage: 1
-    WeakAttack_DamageMultiplier: 20
-    StrongAttack_DamageMultiplier: 43
-    WeakAttack_CriticalChance: {x: 1.6, y: 1.6}
-    StrongAttack_CriticalChance: {x: 1.6, y: 1.6}
     SpeedStats_BaseSpeed: 1
     SpeedStats_CalculatedSpeed: 1
     SpeedStats_MovementSpeed: 1
     SpeedStats_WeakBulletSpeedV: {x: 0, y: 0}
     SpeedStats_WeakBulletSpeed: 5
     SpeedStats_StrongBulletSpeedV: {x: 0, y: 0}
-    EvasionChances: {x: 0.01, y: 0.01}
-    ShieldStats_BaseShieldRegeneration: 8
-    ShieldStats_Regeneration: 0.36
-    ShieldStats_Shield: 5
-    ShieldStats_Base: 50
-    ShieldStats_MinionShieldChances: 20
-    ShieldStats_MinionPerfectShieldChances: 5
     Behaviour_DeathBehaviour: 0
     DeathExplosion_Delay: 0
     DeathDisableing_Delay: 0.5
     DeathExplosion_OverrideParticles: 0
-    SigilDropBonus: 1
     CurrentAttackTypeInfo:
     - {fileID: 11400000, guid: 4cb8ad1125383f346bee8a29d22d8689, type: 2}
     - {fileID: 11400000, guid: 21bf16c0b6c16de4ca8e7295ad523939, type: 2}
@@ -68,6 +54,7 @@ MonoBehaviour:
     - {fileID: 0}
     PassiveSkills: []
     AIs_Count: 3
+  CharacterClass: 0
   OccupiedTiles:
   - {x: 0, y: 0}
   Biography: NO BIO

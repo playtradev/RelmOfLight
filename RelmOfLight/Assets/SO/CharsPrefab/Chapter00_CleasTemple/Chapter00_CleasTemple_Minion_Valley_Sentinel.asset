@@ -12,8 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7cd84a52ef2addf4289a98afc62d2f5a, type: 3}
   m_Name: Chapter00_CleasTemple_Minion_Valley_Sentinel
   m_EditorClassIdentifier: 
-  CharacterPrefab: {fileID: 1710283839848837331, guid: ef2ce66dd566bbc48b7d3776eb16f969,
-    type: 3}
   AbridgedCharInfo:
     Name: Sentinel
     AddressableLocation: Stage_0_Minion_Valley_PivotChar_Sentinel
@@ -23,35 +21,23 @@ MonoBehaviour:
     CharacterIcon: {fileID: 21300000, guid: 476a873062dbf03418a91487702b5557, type: 3}
     skeletonDataAsset: {fileID: 11400000, guid: b139f878b8c95d34a8fd30abc55af52d,
       type: 2}
+    UseSkins: 0
+    Skins: []
     initialSkinName: 
     HealthStats_Health: 12
-    HealthStats_Regeneration: 0.8
     HealthStats_Armour: 0
     EtherStats_Ether: 10
-    EtherStats_Regeneration: 1
     DamageStats_BaseDamage: 1
-    WeakAttack_DamageMultiplier: 3
-    StrongAttack_DamageMultiplier: 6
-    WeakAttack_CriticalChance: {x: 1.8, y: 1.8}
-    StrongAttack_CriticalChance: {x: 1.8, y: 1.8}
     SpeedStats_BaseSpeed: 1
     SpeedStats_CalculatedSpeed: 3.3333333
     SpeedStats_MovementSpeed: 1
     SpeedStats_WeakBulletSpeedV: {x: 0, y: 0}
     SpeedStats_WeakBulletSpeed: 3
     SpeedStats_StrongBulletSpeedV: {x: 0, y: 0}
-    EvasionChances: {x: 1.8, y: 1.8}
-    ShieldStats_BaseShieldRegeneration: 8
-    ShieldStats_Regeneration: 0
-    ShieldStats_Shield: 0
-    ShieldStats_Base: 50
-    ShieldStats_MinionShieldChances: 3
-    ShieldStats_MinionPerfectShieldChances: 1
     Behaviour_DeathBehaviour: 0
     DeathExplosion_Delay: 0
     DeathDisableing_Delay: 0.5
     DeathExplosion_OverrideParticles: 0
-    SigilDropBonus: 2
     CurrentAttackTypeInfo:
     - {fileID: 11400000, guid: 48a1077c4ed7c754c99b5230a6263d7c, type: 2}
     - {fileID: 11400000, guid: 417fe2c780da48a4f8f77794ce680167, type: 2}
@@ -71,6 +57,7 @@ MonoBehaviour:
     - {fileID: 0}
     PassiveSkills: []
     AIs_Count: 2
+  CharacterClass: 0
   OccupiedTiles:
   - {x: 0, y: 0}
   Biography: NO BIO

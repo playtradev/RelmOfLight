@@ -12,8 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7cd84a52ef2addf4289a98afc62d2f5a, type: 3}
   m_Name: Chapter03_ForestOfKin_Character_Valley_Elu
   m_EditorClassIdentifier: 
-  CharacterPrefab: {fileID: 2650196462876260561, guid: f1cc007f8a29bf44ba5c290de20f6566,
-    type: 3}
   AbridgedCharInfo:
     Name: Elu
     AddressableLocation: ForestOfKin_Character_Valley_PivotChar_Elu
@@ -23,35 +21,23 @@ MonoBehaviour:
     CharacterIcon: {fileID: 21300000, guid: f59b5fe3811a53e45b4e39b77dce39a9, type: 3}
     skeletonDataAsset: {fileID: 11400000, guid: bc9f448c588a6eb4a99f7dfa3d7fc1a9,
       type: 2}
+    UseSkins: 0
+    Skins: []
     initialSkinName: 
     HealthStats_Health: 50
-    HealthStats_Regeneration: 0.63
     HealthStats_Armour: 0.25
     EtherStats_Ether: 47
-    EtherStats_Regeneration: 1.12
     DamageStats_BaseDamage: 1
-    WeakAttack_DamageMultiplier: 1.79
-    StrongAttack_DamageMultiplier: 24
-    WeakAttack_CriticalChance: {x: 3, y: 3}
-    StrongAttack_CriticalChance: {x: 3, y: 3}
     SpeedStats_BaseSpeed: 1
     SpeedStats_CalculatedSpeed: 3.030303
     SpeedStats_MovementSpeed: 1
     SpeedStats_WeakBulletSpeedV: {x: 0, y: 0}
     SpeedStats_WeakBulletSpeed: 2
     SpeedStats_StrongBulletSpeedV: {x: 0, y: 0}
-    EvasionChances: {x: 2.5, y: 2.5}
-    ShieldStats_BaseShieldRegeneration: 8
-    ShieldStats_Regeneration: 0.24
-    ShieldStats_Shield: 7
-    ShieldStats_Base: 50
-    ShieldStats_MinionShieldChances: 8
-    ShieldStats_MinionPerfectShieldChances: 3
     Behaviour_DeathBehaviour: 0
     DeathExplosion_Delay: 0
     DeathDisableing_Delay: 0.5
     DeathExplosion_OverrideParticles: 0
-    SigilDropBonus: 2
     CurrentAttackTypeInfo:
     - {fileID: 11400000, guid: 5e41062c71f496140aa1795583bdd565, type: 2}
     - {fileID: 11400000, guid: 55b4c0aa79d878d46b32622b2e41588b, type: 2}
@@ -76,6 +62,7 @@ MonoBehaviour:
     PassiveSkills:
     - {fileID: 11400000, guid: 468881b65b7e56f4f8543254316c3d52, type: 2}
     AIs_Count: 3
+  CharacterClass: 0
   OccupiedTiles:
   - {x: 0, y: 0}
   Biography: "Quick-thinking, charming and astute, Elu developed a way of navigating

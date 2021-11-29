@@ -12,8 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7cd84a52ef2addf4289a98afc62d2f5a, type: 3}
   m_Name: Chapter00_CleasTemple_Minion_Mountain_Bomber
   m_EditorClassIdentifier: 
-  CharacterPrefab: {fileID: 1710283839848837331, guid: 719c7dc9001384f42b639e98ac6adcdc,
-    type: 3}
   AbridgedCharInfo:
     Name: Bomber
     AddressableLocation: Stage_0_Minion_Mountain_PivotChar_Bomber
@@ -23,35 +21,23 @@ MonoBehaviour:
     CharacterIcon: {fileID: 21300000, guid: ed8405ea92e7f4346997ddb08f2bdb77, type: 3}
     skeletonDataAsset: {fileID: 11400000, guid: a20e1969e92ab5b4f83683c5f0af9c50,
       type: 2}
+    UseSkins: 0
+    Skins: []
     initialSkinName: 
     HealthStats_Health: 30
-    HealthStats_Regeneration: 0.01
     HealthStats_Armour: 0
     EtherStats_Ether: 10
-    EtherStats_Regeneration: 1
     DamageStats_BaseDamage: 1
-    WeakAttack_DamageMultiplier: 4
-    StrongAttack_DamageMultiplier: 8
-    WeakAttack_CriticalChance: {x: 2.8, y: 2.8}
-    StrongAttack_CriticalChance: {x: 2.8, y: 2.8}
     SpeedStats_BaseSpeed: 1
     SpeedStats_CalculatedSpeed: 2
     SpeedStats_MovementSpeed: 1
     SpeedStats_WeakBulletSpeedV: {x: 0, y: 0}
     SpeedStats_WeakBulletSpeed: 4
     SpeedStats_StrongBulletSpeedV: {x: 0, y: 0}
-    EvasionChances: {x: 1, y: 1}
-    ShieldStats_BaseShieldRegeneration: 8
-    ShieldStats_Regeneration: 0.2
-    ShieldStats_Shield: 5
-    ShieldStats_Base: 50
-    ShieldStats_MinionShieldChances: 5
-    ShieldStats_MinionPerfectShieldChances: 1
     Behaviour_DeathBehaviour: 0
     DeathExplosion_Delay: 0
     DeathDisableing_Delay: 0.5
     DeathExplosion_OverrideParticles: 0
-    SigilDropBonus: 2
     CurrentAttackTypeInfo:
     - {fileID: 11400000, guid: 4895a6c59725fbb43b68f7cba7b3c633, type: 2}
     - {fileID: 11400000, guid: 9c0f735d01d3741418a110d11e650f61, type: 2}
@@ -70,6 +56,7 @@ MonoBehaviour:
     - {fileID: 0}
     PassiveSkills: []
     AIs_Count: 3
+  CharacterClass: 0
   OccupiedTiles:
   - {x: 0, y: 0}
   Biography: NO BIO

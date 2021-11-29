@@ -58,7 +58,12 @@ public class ScriptableObjectAIInput : ScriptableObjectBaseCharacterInput
     public override void SetUpLeavingBattle(bool withAudio = true)
     {
         target = null;
-        if(CharOwner.SpineAnim.HasAnimation("Reverse_Arriving"))
+        if (possiblePos != null)
+        {
+            possiblePos.isTaken = false;
+            possiblePos = null;
+        }
+        if (CharOwner.SpineAnim.HasAnimation("Reverse_Arriving"))
         {
             CharOwner.SetAnimation(CharacterAnimationStateType.Reverse_Arriving);
            
@@ -126,9 +131,11 @@ public class ScriptableObjectAIInput : ScriptableObjectBaseCharacterInput
                     CharOwner.CharInfo.BaseSpeed == 0 || (Time.time < (actionoffset + CharOwner.CharInfo.SpeedStats.CurrentActionTime)
                     && !UseStrong && !UseDir))
                 {
+                    Debug.LogError("Stop " + CharOwner.CharInfo.CharacterID);
                     yield return null;
                 }
 
+                Debug.LogError("going" + CharOwner.CharInfo.CharacterID);
                 if (target == null || target.CharInfo.HealthPerc <= 0 || target.died || !target.IsOnField)
                 {
                     tempAtk = null;

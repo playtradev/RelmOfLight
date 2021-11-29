@@ -12,8 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7cd84a52ef2addf4289a98afc62d2f5a, type: 3}
   m_Name: Chapter00_CleasTemple_Character_Forest_Koniko
   m_EditorClassIdentifier: 
-  CharacterPrefab: {fileID: 6290271536468136153, guid: 23c8a23dd5f6b2f41858d579409a9009,
-    type: 3}
   AbridgedCharInfo:
     Name: Koniko
     AddressableLocation: Stage_0_Character_Forest_PivotChar_Koniko
@@ -23,35 +21,23 @@ MonoBehaviour:
     CharacterIcon: {fileID: 21300000, guid: e08c6dbe57a337347858c578151ca1fe, type: 3}
     skeletonDataAsset: {fileID: 11400000, guid: f5f7a9ca050438440a1efc6ec54a904e,
       type: 2}
+    UseSkins: 0
+    Skins: []
     initialSkinName: 
     HealthStats_Health: 65
-    HealthStats_Regeneration: 0.82
     HealthStats_Armour: 0.7
     EtherStats_Ether: 37
-    EtherStats_Regeneration: 1
     DamageStats_BaseDamage: 1
-    WeakAttack_DamageMultiplier: 1.5
-    StrongAttack_DamageMultiplier: 19
-    WeakAttack_CriticalChance: {x: 2.3, y: 2.3}
-    StrongAttack_CriticalChance: {x: 2.3, y: 2.3}
     SpeedStats_BaseSpeed: 1
     SpeedStats_CalculatedSpeed: 4
     SpeedStats_MovementSpeed: 1
     SpeedStats_WeakBulletSpeedV: {x: 0, y: 0}
     SpeedStats_WeakBulletSpeed: 1.5
     SpeedStats_StrongBulletSpeedV: {x: 0, y: 0}
-    EvasionChances: {x: 2.3, y: 2.3}
-    ShieldStats_BaseShieldRegeneration: 8
-    ShieldStats_Regeneration: 0.21
-    ShieldStats_Shield: 4
-    ShieldStats_Base: 50
-    ShieldStats_MinionShieldChances: 17
-    ShieldStats_MinionPerfectShieldChances: 1
     Behaviour_DeathBehaviour: 0
     DeathExplosion_Delay: 0
     DeathDisableing_Delay: 0.5
     DeathExplosion_OverrideParticles: 0
-    SigilDropBonus: 1.8
     CurrentAttackTypeInfo:
     - {fileID: 11400000, guid: 728883d3896d76a4cb6b6f267c8307df, type: 2}
     - {fileID: 11400000, guid: cc145ce715a2c614db705462ad621a47, type: 2}
@@ -75,6 +61,7 @@ MonoBehaviour:
     PassiveSkills:
     - {fileID: 11400000, guid: 78318396566c0b3438bb4631179075e1, type: 2}
     AIs_Count: 5
+  CharacterClass: 0
   OccupiedTiles:
   - {x: 0, y: 0}
   Biography: "Koniko is proud of her legendary prowess with the sword, considering

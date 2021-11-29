@@ -12,8 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7cd84a52ef2addf4289a98afc62d2f5a, type: 3}
   m_Name: Chapter00_CleasTemple_Boss_Valley_CleaHuman
   m_EditorClassIdentifier: 
-  CharacterPrefab: {fileID: 6638471248763396219, guid: 667f7c2d2d7bdbb41883a06716ae0864,
-    type: 3}
   AbridgedCharInfo:
     Name: Clea
     AddressableLocation: Stage00_Character_Valley_PivotChar_CleaHuman
@@ -23,35 +21,23 @@ MonoBehaviour:
     CharacterIcon: {fileID: 21300000, guid: e8e5774fcb3f7c84e86a62b689cf22cd, type: 3}
     skeletonDataAsset: {fileID: 11400000, guid: c2cd74430fe8c78449b265b3b1b16ea5,
       type: 2}
+    UseSkins: 0
+    Skins: []
     initialSkinName: 
     HealthStats_Health: 51
-    HealthStats_Regeneration: 0.5
     HealthStats_Armour: 0.35
     EtherStats_Ether: 45
-    EtherStats_Regeneration: 1
     DamageStats_BaseDamage: 1
-    WeakAttack_DamageMultiplier: 1.77
-    StrongAttack_DamageMultiplier: 25
-    WeakAttack_CriticalChance: {x: 3, y: 3}
-    StrongAttack_CriticalChance: {x: 3, y: 3}
     SpeedStats_BaseSpeed: 1
     SpeedStats_CalculatedSpeed: 2.857143
     SpeedStats_MovementSpeed: 1
     SpeedStats_WeakBulletSpeedV: {x: 0, y: 0}
     SpeedStats_WeakBulletSpeed: 2
     SpeedStats_StrongBulletSpeedV: {x: 0, y: 0}
-    EvasionChances: {x: 3, y: 3}
-    ShieldStats_BaseShieldRegeneration: 8
-    ShieldStats_Regeneration: 0.25
-    ShieldStats_Shield: 7
-    ShieldStats_Base: 50
-    ShieldStats_MinionShieldChances: 10
-    ShieldStats_MinionPerfectShieldChances: 3
     Behaviour_DeathBehaviour: 0
     DeathExplosion_Delay: 0
     DeathDisableing_Delay: 0.5
     DeathExplosion_OverrideParticles: 0
-    SigilDropBonus: 1
     CurrentAttackTypeInfo:
     - {fileID: 11400000, guid: 4b9b8eac2cea8a34495fb8dcc40b21aa, type: 2}
     - {fileID: 11400000, guid: 4ad32e46183bf814286270c50e1374d0, type: 2}
@@ -72,6 +58,7 @@ MonoBehaviour:
     - {fileID: 0}
     PassiveSkills: []
     AIs_Count: 5
+  CharacterClass: 0
   OccupiedTiles:
   - {x: 0, y: 0}
   Biography: NO BIO

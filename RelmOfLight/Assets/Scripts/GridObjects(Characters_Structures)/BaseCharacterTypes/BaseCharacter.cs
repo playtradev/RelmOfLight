@@ -33,10 +33,10 @@ public class BaseCharacter : MonoBehaviour, System.IDisposable, IDamageReceiver,
     [HideInInspector] public ScriptableObjectAttackEffect testAtkEffect = null;
 #endif
 
-    [HideInInspector] public ScriptableObjectBaseCharacterInput currentInputProfile;
-    [HideInInspector] public ScriptableObjectBaseCharacterBaseAttack currentAttackProfile;
-    [HideInInspector] public ScriptableObjectBaseCharacterBaseMove currentMoveProfile;
-    [HideInInspector] public ScriptableObjectBaseCharacterDeath currentDeathProfile;
+    public ScriptableObjectBaseCharacterInput currentInputProfile;
+    public ScriptableObjectBaseCharacterBaseAttack currentAttackProfile;
+    public ScriptableObjectBaseCharacterBaseMove currentMoveProfile;
+    public ScriptableObjectBaseCharacterDeath currentDeathProfile;
 
 
     [HideInInspector] public float SecondsLeftToRespawn = 0f;

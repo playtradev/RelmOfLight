@@ -431,3 +431,7 @@ MonoBehaviour:
   - ScriptableObject: {fileID: 11400000, guid: 0a1b051e74a2cfa4aa0b6cf2b6cb87f2, type: 2}
     Prefab: {fileID: 5037635855613283130, guid: bfb59dcd4e1ee5841b6c2a2d71c176a6,
       type: 3}
+  - ScriptableObject: {fileID: 11400000, guid: 847df0e0a6ce7475f90548f88f71a045, type: 2}
+    Prefab: {fileID: 0}
+  - ScriptableObject: {fileID: 11400000, guid: 6fecc93206aca4a43af52498194711c9, type: 2}
+    Prefab: {fileID: 0}

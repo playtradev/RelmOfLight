@@ -12,8 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7cd84a52ef2addf4289a98afc62d2f5a, type: 3}
   m_Name: Chapter02_TheBurg_Minion_Valley_Ted
   m_EditorClassIdentifier: 
-  CharacterPrefab: {fileID: 7104549995466447378, guid: e2853e841d3207f43baacd798789814c,
-    type: 3}
   AbridgedCharInfo:
     Name: Ted
     AddressableLocation: Stage02_Minion_Valley_PivotChar_Ted
@@ -23,35 +21,23 @@ MonoBehaviour:
     CharacterIcon: {fileID: 21300000, guid: fade3884391792a4a8b9900ffa8f863d, type: 3}
     skeletonDataAsset: {fileID: 11400000, guid: f230a7557a7b6604c86a6a099ace16e3,
       type: 2}
+    UseSkins: 0
+    Skins: []
     initialSkinName: 
     HealthStats_Health: 500
-    HealthStats_Regeneration: 2
     HealthStats_Armour: 0.4
     EtherStats_Ether: 70
-    EtherStats_Regeneration: 2
     DamageStats_BaseDamage: 1
-    WeakAttack_DamageMultiplier: 7
-    StrongAttack_DamageMultiplier: 20
-    WeakAttack_CriticalChance: {x: 4, y: 4}
-    StrongAttack_CriticalChance: {x: 4, y: 4}
     SpeedStats_BaseSpeed: 1
     SpeedStats_CalculatedSpeed: 4
     SpeedStats_MovementSpeed: 1
     SpeedStats_WeakBulletSpeedV: {x: 0, y: 0}
     SpeedStats_WeakBulletSpeed: 4
     SpeedStats_StrongBulletSpeedV: {x: 0, y: 0}
-    EvasionChances: {x: 2.4, y: 2.4}
-    ShieldStats_BaseShieldRegeneration: 8
-    ShieldStats_Regeneration: 0.36
-    ShieldStats_Shield: 7
-    ShieldStats_Base: 50
-    ShieldStats_MinionShieldChances: 11
-    ShieldStats_MinionPerfectShieldChances: 2
     Behaviour_DeathBehaviour: 0
     DeathExplosion_Delay: 0
     DeathDisableing_Delay: 0.5
     DeathExplosion_OverrideParticles: 0
-    SigilDropBonus: 2
     CurrentAttackTypeInfo:
     - {fileID: 11400000, guid: a387c0fd39f69f84b9f7806716794be1, type: 2}
     - {fileID: 11400000, guid: 91770b531dda5d344b8a415101b12cc6, type: 2}
@@ -73,6 +59,7 @@ MonoBehaviour:
     - {fileID: 0}
     PassiveSkills: []
     AIs_Count: 2
+  CharacterClass: 0
   OccupiedTiles:
   - {x: 0, y: 0}
   Biography: NO BIO

@@ -12,8 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7cd84a52ef2addf4289a98afc62d2f5a, type: 3}
   m_Name: Chapter02_TheBurg_Minion_Desert_Robotron
   m_EditorClassIdentifier: 
-  CharacterPrefab: {fileID: 7476496551245758228, guid: df3a675f52c2b8a46b622c4554b554a5,
-    type: 3}
   AbridgedCharInfo:
     Name: Robotron
     AddressableLocation: Stage02_Minion_Desert_PivotChar_Robotron
@@ -23,35 +21,23 @@ MonoBehaviour:
     CharacterIcon: {fileID: 21300000, guid: 851c12994f44b694d956db77499009f7, type: 3}
     skeletonDataAsset: {fileID: 11400000, guid: 218ed82eba5cca34b81905b8c6e0f076,
       type: 2}
+    UseSkins: 0
+    Skins: []
     initialSkinName: 
     HealthStats_Health: 800
-    HealthStats_Regeneration: 1.2
     HealthStats_Armour: 0.9
     EtherStats_Ether: 20
-    EtherStats_Regeneration: 1
     DamageStats_BaseDamage: 1
-    WeakAttack_DamageMultiplier: 13
-    StrongAttack_DamageMultiplier: 22
-    WeakAttack_CriticalChance: {x: 3, y: 3}
-    StrongAttack_CriticalChance: {x: 3, y: 3}
     SpeedStats_BaseSpeed: 1
     SpeedStats_CalculatedSpeed: 0.8333333
     SpeedStats_MovementSpeed: 1
     SpeedStats_WeakBulletSpeedV: {x: 0, y: 0}
     SpeedStats_WeakBulletSpeed: 5
     SpeedStats_StrongBulletSpeedV: {x: 0, y: 0}
-    EvasionChances: {x: 1.2, y: 1.2}
-    ShieldStats_BaseShieldRegeneration: 8
-    ShieldStats_Regeneration: 0.36
-    ShieldStats_Shield: 10
-    ShieldStats_Base: 50
-    ShieldStats_MinionShieldChances: 10
-    ShieldStats_MinionPerfectShieldChances: 2
     Behaviour_DeathBehaviour: 0
     DeathExplosion_Delay: 0
     DeathDisableing_Delay: 0.5
     DeathExplosion_OverrideParticles: 0
-    SigilDropBonus: 1
     CurrentAttackTypeInfo:
     - {fileID: 11400000, guid: d8018cc3dbd58e34f8d6284bcfcd6c29, type: 2}
     - {fileID: 11400000, guid: 5ba87d7f2a48ff04e82749ceb1c9e165, type: 2}
@@ -73,6 +59,7 @@ MonoBehaviour:
     - {fileID: 0}
     PassiveSkills: []
     AIs_Count: 3
+  CharacterClass: 0
   OccupiedTiles:
   - {x: 0, y: 0}
   Biography: NO BIO

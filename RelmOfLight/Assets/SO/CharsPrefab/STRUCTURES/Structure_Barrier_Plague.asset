@@ -25,34 +25,19 @@ MonoBehaviour:
     Skins: []
     initialSkinName: 
     HealthStats_Health: 50
-    HealthStats_Regeneration: 0.93
     HealthStats_Armour: 1
     EtherStats_Ether: 53
-    EtherStats_Regeneration: 2.25
     DamageStats_BaseDamage: 1
-    WeakAttack_DamageMultiplier: 27
-    StrongAttack_DamageMultiplier: 19
-    WeakAttack_CriticalChance: {x: 2, y: 2}
-    StrongAttack_CriticalChance: {x: 3, y: 5}
     SpeedStats_BaseSpeed: 1
     SpeedStats_CalculatedSpeed: 1.6666666
     SpeedStats_MovementSpeed: 1
     SpeedStats_WeakBulletSpeedV: {x: 0, y: 0}
     SpeedStats_WeakBulletSpeed: 5
     SpeedStats_StrongBulletSpeedV: {x: 0, y: 0}
-    EvasionChances: {x: 0, y: 0}
-    ShieldStats_BaseShieldRegeneration: 8
-    ShieldStats_Regeneration: 0.49
-    ShieldStats_Shield: 12
-    ShieldStats_Base: 50
-    ShieldStats_MinionShieldChances: 0
-    ShieldStats_MinionPerfectShieldChances: 0
     Behaviour_DeathBehaviour: 0
     DeathExplosion_Delay: 0
     DeathDisableing_Delay: 0.5
     DeathExplosion_OverrideParticles: 105
-    SigilDropBonus: 0
-    AggroMultiplier: 1
     CurrentAttackTypeInfo:
     - {fileID: 11400000, guid: a7ebe732c54bcdc488228c1eb17b3b4e, type: 2}
     SkillLevels:

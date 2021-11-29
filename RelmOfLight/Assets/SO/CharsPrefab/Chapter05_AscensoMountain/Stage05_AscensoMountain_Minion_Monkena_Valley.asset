@@ -12,8 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7cd84a52ef2addf4289a98afc62d2f5a, type: 3}
   m_Name: Stage05_AscensoMountain_Minion_Monkena_Valley
   m_EditorClassIdentifier: 
-  CharacterPrefab: {fileID: 6498783983046355203, guid: 3b5c1b0e1221fc24c829e955986bd4a1,
-    type: 3}
   AbridgedCharInfo:
     Name: Monkena
     AddressableLocation: Stage05_AscensoMountain_Minion_Valley_PivotChar_Monkena
@@ -23,35 +21,23 @@ MonoBehaviour:
     CharacterIcon: {fileID: 21300000, guid: 7856f4ad26c7e2f42bd83c3747425533, type: 3}
     skeletonDataAsset: {fileID: 11400000, guid: ebc5d236851e24049b97d197dbf2d5c6,
       type: 2}
+    UseSkins: 0
+    Skins: []
     initialSkinName: 
     HealthStats_Health: 1900
-    HealthStats_Regeneration: 1
     HealthStats_Armour: 2.6
     EtherStats_Ether: 73
-    EtherStats_Regeneration: 2.2
     DamageStats_BaseDamage: 1
-    WeakAttack_DamageMultiplier: 25
-    StrongAttack_DamageMultiplier: 52
-    WeakAttack_CriticalChance: {x: 2.25, y: 2.25}
-    StrongAttack_CriticalChance: {x: 2.25, y: 2.25}
     SpeedStats_BaseSpeed: 2
     SpeedStats_CalculatedSpeed: 2
     SpeedStats_MovementSpeed: 2
     SpeedStats_WeakBulletSpeedV: {x: 0, y: 0}
     SpeedStats_WeakBulletSpeed: 5
     SpeedStats_StrongBulletSpeedV: {x: 0, y: 0}
-    EvasionChances: {x: 0.01, y: 0.01}
-    ShieldStats_BaseShieldRegeneration: 8
-    ShieldStats_Regeneration: 0.36
-    ShieldStats_Shield: 5
-    ShieldStats_Base: 50
-    ShieldStats_MinionShieldChances: 20
-    ShieldStats_MinionPerfectShieldChances: 5
     Behaviour_DeathBehaviour: 0
     DeathExplosion_Delay: 0
     DeathDisableing_Delay: 0.5
     DeathExplosion_OverrideParticles: 0
-    SigilDropBonus: 1
     CurrentAttackTypeInfo:
     - {fileID: 11400000, guid: 82e5aba02aba1d34bb56c8052883ae03, type: 2}
     - {fileID: 11400000, guid: f7c185a903e26f440b931e1b0e941d4f, type: 2}
@@ -73,6 +59,7 @@ MonoBehaviour:
     - {fileID: 0}
     PassiveSkills: []
     AIs_Count: 3
+  CharacterClass: 0
   OccupiedTiles:
   - {x: 0, y: 0}
   Biography: NO BIO

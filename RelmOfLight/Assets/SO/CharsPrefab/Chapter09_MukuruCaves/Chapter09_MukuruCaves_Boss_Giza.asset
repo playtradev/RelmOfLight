@@ -12,8 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7cd84a52ef2addf4289a98afc62d2f5a, type: 3}
   m_Name: Chapter09_MukuruCaves_Boss_Giza
   m_EditorClassIdentifier: 
-  CharacterPrefab: {fileID: 8632332459387059991, guid: 19c2ec2e4153e4543ae6700a4c4dda1a,
-    type: 3}
   AbridgedCharInfo:
     Name: Giza
     AddressableLocation: Chapter09_MukuruCaves_Character_Forest_PivotChar_Giza
@@ -23,35 +21,23 @@ MonoBehaviour:
     CharacterIcon: {fileID: 21300000, guid: c58c6ce9a61859f42b7ccb121c73f6e1, type: 3}
     skeletonDataAsset: {fileID: 11400000, guid: 8244a2e28589d3b4b9eff02c0d826bc7,
       type: 2}
+    UseSkins: 0
+    Skins: []
     initialSkinName: 
     HealthStats_Health: 52
-    HealthStats_Regeneration: 0.77
     HealthStats_Armour: 0.47
     EtherStats_Ether: 60
-    EtherStats_Regeneration: 60
     DamageStats_BaseDamage: 1
-    WeakAttack_DamageMultiplier: 1.8
-    StrongAttack_DamageMultiplier: 20
-    WeakAttack_CriticalChance: {x: 2.5, y: 2.5}
-    StrongAttack_CriticalChance: {x: 2.5, y: 2.5}
     SpeedStats_BaseSpeed: 1
     SpeedStats_CalculatedSpeed: 2.631579
     SpeedStats_MovementSpeed: 1
     SpeedStats_WeakBulletSpeedV: {x: 0, y: 0}
     SpeedStats_WeakBulletSpeed: 2
     SpeedStats_StrongBulletSpeedV: {x: 0, y: 0}
-    EvasionChances: {x: 2.7, y: 2.7}
-    ShieldStats_BaseShieldRegeneration: 8
-    ShieldStats_Regeneration: 0.34
-    ShieldStats_Shield: 7
-    ShieldStats_Base: 50
-    ShieldStats_MinionShieldChances: 20
-    ShieldStats_MinionPerfectShieldChances: 5
     Behaviour_DeathBehaviour: 0
     DeathExplosion_Delay: 0
     DeathDisableing_Delay: 0.5
     DeathExplosion_OverrideParticles: 0
-    SigilDropBonus: 0
     CurrentAttackTypeInfo:
     - {fileID: 11400000, guid: dc336ea4b06c6bd4e935124518f42d8c, type: 2}
     - {fileID: 11400000, guid: 2d4dce9ef0a7ed842ba65d8b7ab27830, type: 2}
@@ -74,6 +60,7 @@ MonoBehaviour:
     - {fileID: 0}
     PassiveSkills: []
     AIs_Count: 3
+  CharacterClass: 0
   OccupiedTiles:
   - {x: 0, y: 0}
   Biography: NO BIO

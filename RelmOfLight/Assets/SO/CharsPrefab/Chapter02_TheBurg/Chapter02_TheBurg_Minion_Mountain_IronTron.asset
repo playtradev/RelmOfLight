@@ -12,8 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7cd84a52ef2addf4289a98afc62d2f5a, type: 3}
   m_Name: Chapter02_TheBurg_Minion_Mountain_IronTron
   m_EditorClassIdentifier: 
-  CharacterPrefab: {fileID: 8120055564739318940, guid: 1085228e4cd06db4c895fb5cddf9b1f3,
-    type: 3}
   AbridgedCharInfo:
     Name: Irontron
     AddressableLocation: Stage02_Minion_Mountain_PivotChar_Irontron
@@ -23,35 +21,23 @@ MonoBehaviour:
     CharacterIcon: {fileID: 21300000, guid: b2e71376e5cafc3449ad90a181a362c3, type: 3}
     skeletonDataAsset: {fileID: 11400000, guid: 5e1ea2b4a952cfd4cb556e7db1448782,
       type: 2}
+    UseSkins: 0
+    Skins: []
     initialSkinName: 
     HealthStats_Health: 400
-    HealthStats_Regeneration: 1.4
     HealthStats_Armour: 0.2
     EtherStats_Ether: 10
-    EtherStats_Regeneration: 0.5
     DamageStats_BaseDamage: 1
-    WeakAttack_DamageMultiplier: 15
-    StrongAttack_DamageMultiplier: 20
-    WeakAttack_CriticalChance: {x: 2.6, y: 2.6}
-    StrongAttack_CriticalChance: {x: 2.6, y: 2.6}
     SpeedStats_BaseSpeed: 1
     SpeedStats_CalculatedSpeed: 1.4285715
     SpeedStats_MovementSpeed: 1
     SpeedStats_WeakBulletSpeedV: {x: 3, y: 5}
     SpeedStats_WeakBulletSpeed: 5
     SpeedStats_StrongBulletSpeedV: {x: 3, y: 5}
-    EvasionChances: {x: 2.8, y: 2.8}
-    ShieldStats_BaseShieldRegeneration: 8
-    ShieldStats_Regeneration: 0.36
-    ShieldStats_Shield: 5
-    ShieldStats_Base: 50
-    ShieldStats_MinionShieldChances: 8
-    ShieldStats_MinionPerfectShieldChances: 2
     Behaviour_DeathBehaviour: 0
     DeathExplosion_Delay: 0
     DeathDisableing_Delay: 0.5
     DeathExplosion_OverrideParticles: 0
-    SigilDropBonus: 1
     CurrentAttackTypeInfo:
     - {fileID: 11400000, guid: f48d5bd6f9f94f843ad1aa5d44de5729, type: 2}
     - {fileID: 11400000, guid: 16d8c54146d0c1a468d47b8d6531e816, type: 2}
@@ -71,6 +57,7 @@ MonoBehaviour:
     - {fileID: 0}
     PassiveSkills: []
     AIs_Count: 3
+  CharacterClass: 0
   OccupiedTiles:
   - {x: 0, y: 0}
   - {x: -1, y: 0}

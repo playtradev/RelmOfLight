@@ -12,8 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7cd84a52ef2addf4289a98afc62d2f5a, type: 3}
   m_Name: Chapter00_CleasTemple_Minion_Desert_Protector
   m_EditorClassIdentifier: 
-  CharacterPrefab: {fileID: 1243722548902237855, guid: a1d886091f656ac498b290dfd59bcba2,
-    type: 3}
   AbridgedCharInfo:
     Name: Protector
     AddressableLocation: Stage_0_Minion_Desert_PivotChar_Protector
@@ -23,35 +21,23 @@ MonoBehaviour:
     CharacterIcon: {fileID: 21300000, guid: c866bed1d42bf7a4b82d63d98ac907d1, type: 3}
     skeletonDataAsset: {fileID: 11400000, guid: 2284120764c461946a920f2e7e28fb4b,
       type: 2}
+    UseSkins: 0
+    Skins: []
     initialSkinName: 
     HealthStats_Health: 1
-    HealthStats_Regeneration: 0.2
     HealthStats_Armour: 20
     EtherStats_Ether: 10
-    EtherStats_Regeneration: 1
     DamageStats_BaseDamage: 1
-    WeakAttack_DamageMultiplier: 3
-    StrongAttack_DamageMultiplier: 6
-    WeakAttack_CriticalChance: {x: 3, y: 3}
-    StrongAttack_CriticalChance: {x: 3, y: 3}
     SpeedStats_BaseSpeed: 1
     SpeedStats_CalculatedSpeed: 1
     SpeedStats_MovementSpeed: 1
     SpeedStats_WeakBulletSpeedV: {x: 0, y: 0}
     SpeedStats_WeakBulletSpeed: 5
     SpeedStats_StrongBulletSpeedV: {x: 0, y: 0}
-    EvasionChances: {x: 1, y: 1}
-    ShieldStats_BaseShieldRegeneration: 8
-    ShieldStats_Regeneration: 0
-    ShieldStats_Shield: 0
-    ShieldStats_Base: 50
-    ShieldStats_MinionShieldChances: 100
-    ShieldStats_MinionPerfectShieldChances: 0
     Behaviour_DeathBehaviour: 0
     DeathExplosion_Delay: 0
     DeathDisableing_Delay: 0.5
     DeathExplosion_OverrideParticles: 0
-    SigilDropBonus: 2
     CurrentAttackTypeInfo:
     - {fileID: 11400000, guid: 4d617ee00a6078d49b930bc2db94822f, type: 2}
     - {fileID: 11400000, guid: 3105e61fe39b04944b8a70fc302623d7, type: 2}
@@ -69,6 +55,7 @@ MonoBehaviour:
     - {fileID: 0}
     PassiveSkills: []
     AIs_Count: 2
+  CharacterClass: 0
   OccupiedTiles:
   - {x: 0, y: 0}
   Biography: NO BIO

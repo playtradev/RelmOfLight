@@ -12,8 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7cd84a52ef2addf4289a98afc62d2f5a, type: 3}
   m_Name: Chapter09_MukuruCaves_Character_Valley_Himba
   m_EditorClassIdentifier: 
-  CharacterPrefab: {fileID: 8636954526357991955, guid: 3b8b884c875f2ab4c9d6c675d5e78ffc,
-    type: 3}
   AbridgedCharInfo:
     Name: Himba
     AddressableLocation: Chapter09_MukuruCaves_Character_Valley_PivotChar_Himba
@@ -23,35 +21,23 @@ MonoBehaviour:
     CharacterIcon: {fileID: 21300000, guid: 1fb55dc935ab1ea419b56497056c2d6e, type: 3}
     skeletonDataAsset: {fileID: 11400000, guid: c4e4b6863c612654989bb6fa706389e6,
       type: 2}
+    UseSkins: 0
+    Skins: []
     initialSkinName: 
     HealthStats_Health: 67
-    HealthStats_Regeneration: 0.93
     HealthStats_Armour: 0.87
     EtherStats_Ether: 42
-    EtherStats_Regeneration: 0.95
     DamageStats_BaseDamage: 1
-    WeakAttack_DamageMultiplier: 1.5
-    StrongAttack_DamageMultiplier: 17
-    WeakAttack_CriticalChance: {x: 2.3, y: 2.3}
-    StrongAttack_CriticalChance: {x: 2.3, y: 2.3}
     SpeedStats_BaseSpeed: 1
     SpeedStats_CalculatedSpeed: 3.5714285
     SpeedStats_MovementSpeed: 1
     SpeedStats_WeakBulletSpeedV: {x: 0, y: 0}
     SpeedStats_WeakBulletSpeed: 2
     SpeedStats_StrongBulletSpeedV: {x: 0, y: 0}
-    EvasionChances: {x: 2.25, y: 2.25}
-    ShieldStats_BaseShieldRegeneration: 8
-    ShieldStats_Regeneration: 0.43
-    ShieldStats_Shield: 8
-    ShieldStats_Base: 50
-    ShieldStats_MinionShieldChances: 20
-    ShieldStats_MinionPerfectShieldChances: 0
     Behaviour_DeathBehaviour: 0
     DeathExplosion_Delay: 0
     DeathDisableing_Delay: 0.5
     DeathExplosion_OverrideParticles: 0
-    SigilDropBonus: 0
     CurrentAttackTypeInfo:
     - {fileID: 11400000, guid: d45832066f9b66343adf9f98ab3ba17c, type: 2}
     - {fileID: 11400000, guid: 0955a837c3d0f0645b3a6e03081171fb, type: 2}
@@ -74,6 +60,7 @@ MonoBehaviour:
     - {fileID: 0}
     PassiveSkills: []
     AIs_Count: 3
+  CharacterClass: 0
   OccupiedTiles:
   - {x: 0, y: 0}
   Biography: NO BIO

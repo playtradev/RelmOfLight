@@ -12,8 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7cd84a52ef2addf4289a98afc62d2f5a, type: 3}
   m_Name: Chapter02_TheBurg_Boss_Mainframe
   m_EditorClassIdentifier: 
-  CharacterPrefab: {fileID: 5440650168616874068, guid: 78aeb39b703487e47816e7d0fdae443a,
-    type: 3}
   AbridgedCharInfo:
     Name: Mainframe
     AddressableLocation: Stage02_Boss_PivotChar_Mainframe
@@ -23,35 +21,23 @@ MonoBehaviour:
     CharacterIcon: {fileID: 21300000, guid: 6c3725b913a619f41a0528ccfc7fa4b4, type: 3}
     skeletonDataAsset: {fileID: 11400000, guid: 439f2e3733b83764e9e78d514a4568ba,
       type: 2}
+    UseSkins: 0
+    Skins: []
     initialSkinName: 
     HealthStats_Health: 3500
-    HealthStats_Regeneration: 1
     HealthStats_Armour: 1
     EtherStats_Ether: 40
-    EtherStats_Regeneration: 1
     DamageStats_BaseDamage: 1
-    WeakAttack_DamageMultiplier: 5
-    StrongAttack_DamageMultiplier: 12
-    WeakAttack_CriticalChance: {x: 3, y: 3}
-    StrongAttack_CriticalChance: {x: 3, y: 3}
     SpeedStats_BaseSpeed: 1
     SpeedStats_CalculatedSpeed: 1
     SpeedStats_MovementSpeed: 1
     SpeedStats_WeakBulletSpeedV: {x: 0, y: 0}
     SpeedStats_WeakBulletSpeed: 5
     SpeedStats_StrongBulletSpeedV: {x: 0, y: 0}
-    EvasionChances: {x: 1, y: 1}
-    ShieldStats_BaseShieldRegeneration: 8
-    ShieldStats_Regeneration: 0.27
-    ShieldStats_Shield: 6
-    ShieldStats_Base: 50
-    ShieldStats_MinionShieldChances: 7
-    ShieldStats_MinionPerfectShieldChances: 3
     Behaviour_DeathBehaviour: 0
     DeathExplosion_Delay: 0
     DeathDisableing_Delay: 0.5
     DeathExplosion_OverrideParticles: 1200
-    SigilDropBonus: 2
     CurrentAttackTypeInfo:
     - {fileID: 11400000, guid: 5c042e7e7309a8d419c6cedc0bc9770d, type: 2}
     - {fileID: 11400000, guid: 782bd9c54fbba4e40b8dcb8f47a57af7, type: 2}
@@ -71,6 +57,7 @@ MonoBehaviour:
     - {fileID: 0}
     PassiveSkills: []
     AIs_Count: 2
+  CharacterClass: 0
   OccupiedTiles:
   - {x: 0, y: 0}
   Biography: "The elusive MACHINAE known as The Mainframe lives in the main NORM

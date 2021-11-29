@@ -12,8 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7cd84a52ef2addf4289a98afc62d2f5a, type: 3}
   m_Name: Chapter01_TohoraSea_Minion_Desert_Fishylla
   m_EditorClassIdentifier: 
-  CharacterPrefab: {fileID: 3749312863997743249, guid: 95d05d858416a4446901ff5618fd42e7,
-    type: 3}
   AbridgedCharInfo:
     Name: Fishylla
     AddressableLocation: Stage_01_Minion_Desert_PivotChar-Fishylla
@@ -23,35 +21,23 @@ MonoBehaviour:
     CharacterIcon: {fileID: 21300000, guid: ec1dabf237be2804bbf9f624f1256aae, type: 3}
     skeletonDataAsset: {fileID: 11400000, guid: 5c78fbef32a434245b81378d677d5e76,
       type: 2}
+    UseSkins: 0
+    Skins: []
     initialSkinName: 
     HealthStats_Health: 200
-    HealthStats_Regeneration: 3
     HealthStats_Armour: 0
     EtherStats_Ether: 30
-    EtherStats_Regeneration: 1
     DamageStats_BaseDamage: 1
-    WeakAttack_DamageMultiplier: 4
-    StrongAttack_DamageMultiplier: 8
-    WeakAttack_CriticalChance: {x: 2, y: 2}
-    StrongAttack_CriticalChance: {x: 2, y: 2}
     SpeedStats_BaseSpeed: 1
     SpeedStats_CalculatedSpeed: 2.5
     SpeedStats_MovementSpeed: 1
     SpeedStats_WeakBulletSpeedV: {x: 0, y: 0}
     SpeedStats_WeakBulletSpeed: 8
     SpeedStats_StrongBulletSpeedV: {x: 0, y: 0}
-    EvasionChances: {x: 1, y: 1}
-    ShieldStats_BaseShieldRegeneration: 8
-    ShieldStats_Regeneration: 0.36
-    ShieldStats_Shield: 5
-    ShieldStats_Base: 50
-    ShieldStats_MinionShieldChances: 3
-    ShieldStats_MinionPerfectShieldChances: 0.5
     Behaviour_DeathBehaviour: 0
     DeathExplosion_Delay: 0
     DeathDisableing_Delay: 0.5
     DeathExplosion_OverrideParticles: 0
-    SigilDropBonus: 2
     CurrentAttackTypeInfo:
     - {fileID: 11400000, guid: e7427e1200e67fc4e96ab0845e1b31e7, type: 2}
     - {fileID: 11400000, guid: d929bd873ca5d834eac835ce8206fdf1, type: 2}
@@ -72,6 +58,7 @@ MonoBehaviour:
     - {fileID: 0}
     PassiveSkills: []
     AIs_Count: 3
+  CharacterClass: 0
   OccupiedTiles:
   - {x: 0, y: 0}
   Biography: NO BIO
