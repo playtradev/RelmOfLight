@@ -20,12 +20,12 @@ MonoBehaviour:
   StatsChecker: 1
   NameShowedOnIndicator: 
   Value: {x: 1, y: 1}
-  _Duration: {x: 3, y: 3}
+  _Duration: {x: 15, y: 15}
   _Delay: {x: 0, y: 0}
   _OvertimeRatio: {x: 0, y: 0}
   AnimToFired: 11
   StatsToAffectList: []
-  Particles: 0
+  Particles: 3004
   AttachPsToHead: 0
   TeleportParticlesIn: 1
   TeleportParticlesOut: 1

@@ -10,22 +10,22 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 2162115bd0e37014394e1dbf4dad6e54, type: 3}
-  m_Name: PinaStrongDebuff
+  m_Name: PinaStrongDebuff 2
   m_EditorClassIdentifier: 
   level: 1
   StackType: 0
   maxStack: 3
   OldSystem: 1
-  StatsToAffect: 3
-  StatsChecker: 0
+  StatsToAffect: 2
+  StatsChecker: 1
   NameShowedOnIndicator: 
-  Value: {x: 0.5, y: 0.5}
-  _Duration: {x: 5, y: 5}
+  Value: {x: -1, y: -1}
+  _Duration: {x: 1, y: 1}
   _Delay: {x: 0, y: 0}
   _OvertimeRatio: {x: 0, y: 0}
   AnimToFired: 12
   StatsToAffectList: []
-  Particles: 3502
+  Particles: 109
   AttachPsToHead: 0
   TeleportParticlesIn: 1
   TeleportParticlesOut: 1
@@ -68,7 +68,7 @@ MonoBehaviour:
   BoolValue: 0
   WalkingSide: 0
   ArmourT: 0
-  BaseCurrentValue: 1
+  BaseCurrentValue: 0
   Elemental: 0
   AttackToSteal: 
   OnCaster: 0

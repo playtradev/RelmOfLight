@@ -1,0 +1,1194 @@
+Using pre-set license
+Built from '2021.2/staging' branch; Version is '2021.2.2f1 (5e2b1e92c7f8) revision 6171422'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10 Home; OS build 19042.1348; Version 2009; 64bit' Language: 'en' Physical Memory: 32574 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.2.2f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Nintendo/Unity/Projects/RealmOfLight/RelmOfLight
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+50107
+Successfully changed project path to: C:/Nintendo/Unity/Projects/RealmOfLight/RelmOfLight
+C:/Nintendo/Unity/Projects/RealmOfLight/RelmOfLight
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 146.77 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.2.2f1 (5e2b1e92c7f8)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.2.2f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Nintendo/Unity/Projects/RealmOfLight/RelmOfLight/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 2060 (ID=0x1f11)
+    Vendor:   NVIDIA
+    VRAM:     5980 MB
+    Driver:   27.21.14.6660
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.2.2f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.2.2f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.2.2f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56620
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.2.2f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.008129 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 161.56 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.747 seconds
+Domain Reload Profiling:
+	ReloadAssembly (748ms)
+		BeginReloadAssembly (78ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (577ms)
+			LoadAssemblies (76ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (102ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (28ms)
+			SetupLoadedEditorAssemblies (394ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (15ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (162ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (158ms)
+				ProcessInitializeOnLoadMethodAttributes (58ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.010053 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Nintendo\Unity\Projects\RealmOfLight\RelmOfLight\Library\PackageCache\com.unity.visualscripting@1.7.5\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Nintendo\Unity\Projects\RealmOfLight\RelmOfLight\Library\PackageCache\com.unity.visualscripting@1.7.5\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 154.44 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.319 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2320ms)
+		BeginReloadAssembly (190ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (18ms)
+		EndReloadAssembly (2027ms)
+			LoadAssemblies (94ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (329ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (75ms)
+			SetupLoadedEditorAssemblies (1417ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (11ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (155ms)
+				BeforeProcessingInitializeOnLoad (143ms)
+				ProcessInitializeOnLoadAttributes (1007ms)
+				ProcessInitializeOnLoadMethodAttributes (91ms)
+				AfterProcessingInitializeOnLoad (9ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 1.43 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6075 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 68 unused Assets / (2.1 MB). Loaded Objects now: 6506.
+Memory consumption went from 247.3 MB to 245.2 MB.
+Total: 6.255200 ms (FindLiveObjects: 0.491100 ms CreateObjectMapping: 0.391500 ms MarkObjects: 4.078800 ms  DeleteObjects: 1.292900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 129.581704 seconds.
+  path: Assets/Elemental End SDF.asset
+  artifactKey: Guid(3db4b15fbda134223b14451df76a325e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Elemental End SDF.asset using Guid(3db4b15fbda134223b14451df76a325e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab668eb57c88b04f11c22779a3f6a78c') in 0.156444 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Elemental End italic SDF.asset
+  artifactKey: Guid(b93260aeb51c64a18ac5e90916bc6640) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Elemental End italic SDF.asset using Guid(b93260aeb51c64a18ac5e90916bc6640) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c05e79234ba638952fb847d443c846d5') in 0.045525 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.009866 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Nintendo\Unity\Projects\RealmOfLight\RelmOfLight\Library\PackageCache\com.unity.visualscripting@1.7.5\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Nintendo\Unity\Projects\RealmOfLight\RelmOfLight\Library\PackageCache\com.unity.visualscripting@1.7.5\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 3.77 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.306 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2307ms)
+		BeginReloadAssembly (185ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (62ms)
+		EndReloadAssembly (1997ms)
+			LoadAssemblies (112ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (415ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (75ms)
+			SetupLoadedEditorAssemblies (1053ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (17ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (4ms)
+				BeforeProcessingInitializeOnLoad (186ms)
+				ProcessInitializeOnLoadAttributes (722ms)
+				ProcessInitializeOnLoadMethodAttributes (111ms)
+				AfterProcessingInitializeOnLoad (11ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (76ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.53 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5926 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 61 unused Assets / (2.1 MB). Loaded Objects now: 6580.
+Memory consumption went from 242.8 MB to 240.7 MB.
+Total: 6.927000 ms (FindLiveObjects: 0.901800 ms CreateObjectMapping: 0.608400 ms MarkObjects: 4.193800 ms  DeleteObjects: 1.221300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.010491 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Nintendo\Unity\Projects\RealmOfLight\RelmOfLight\Library\PackageCache\com.unity.visualscripting@1.7.5\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Nintendo\Unity\Projects\RealmOfLight\RelmOfLight\Library\PackageCache\com.unity.visualscripting@1.7.5\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.49 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.763 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1763ms)
+		BeginReloadAssembly (150ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (8ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (45ms)
+		EndReloadAssembly (1480ms)
+			LoadAssemblies (102ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (363ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (68ms)
+			SetupLoadedEditorAssemblies (712ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (15ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (130ms)
+				ProcessInitializeOnLoadAttributes (467ms)
+				ProcessInitializeOnLoadMethodAttributes (86ms)
+				AfterProcessingInitializeOnLoad (11ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (46ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.47 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5924 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 61 unused Assets / (2.1 MB). Loaded Objects now: 6582.
+Memory consumption went from 242.8 MB to 240.7 MB.
+Total: 6.699900 ms (FindLiveObjects: 0.559100 ms CreateObjectMapping: 0.532500 ms MarkObjects: 4.534700 ms  DeleteObjects: 1.072100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.013364 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Nintendo\Unity\Projects\RealmOfLight\RelmOfLight\Library\PackageCache\com.unity.visualscripting@1.7.5\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Nintendo\Unity\Projects\RealmOfLight\RelmOfLight\Library\PackageCache\com.unity.visualscripting@1.7.5\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.68 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.235 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2236ms)
+		BeginReloadAssembly (228ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (9ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (69ms)
+		EndReloadAssembly (1831ms)
+			LoadAssemblies (151ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (487ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (94ms)
+			SetupLoadedEditorAssemblies (857ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (15ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (153ms)
+				ProcessInitializeOnLoadAttributes (560ms)
+				ProcessInitializeOnLoadMethodAttributes (112ms)
+				AfterProcessingInitializeOnLoad (13ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (45ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.78 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5924 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 61 unused Assets / (2.1 MB). Loaded Objects now: 6584.
+Memory consumption went from 242.8 MB to 240.7 MB.
+Total: 7.430700 ms (FindLiveObjects: 0.677400 ms CreateObjectMapping: 0.749300 ms MarkObjects: 4.518100 ms  DeleteObjects: 1.484600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 91.393201 seconds.
+  path: Assets/SO/Attacks/Defender_Kora_Weak.asset
+  artifactKey: Guid(b8151829b8ff0eb4588737562673dcde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SO/Attacks/Defender_Kora_Weak.asset using Guid(b8151829b8ff0eb4588737562673dcde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb6de404ea8693c4d9a2d4ce714b8c2e') in 0.048489 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/SO/Attacks/Spellbinder_Elu_Weak.asset
+  artifactKey: Guid(5a396958311975644bbfc687dc77ebbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SO/Attacks/Spellbinder_Elu_Weak.asset using Guid(5a396958311975644bbfc687dc77ebbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d5bf4783e663995513409e9898b86a7') in 0.005521 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/SO/Attacks/Valiant_Deedra_Weak.asset
+  artifactKey: Guid(190586c94f0d07543bce8f4968ff2a84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SO/Attacks/Valiant_Deedra_Weak.asset using Guid(190586c94f0d07543bce8f4968ff2a84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '959ddc28042bde5ccded291f473c0d21') in 0.004412 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/SO/Attacks/Valiant_Joja_Weak.asset
+  artifactKey: Guid(a6d16df72d312794aabfe926817b70b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SO/Attacks/Valiant_Joja_Weak.asset using Guid(a6d16df72d312794aabfe926817b70b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1328a0b27bf797f8adfc869fc2d9f768') in 0.003728 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.008404 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Nintendo\Unity\Projects\RealmOfLight\RelmOfLight\Library\PackageCache\com.unity.visualscripting@1.7.5\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Nintendo\Unity\Projects\RealmOfLight\RelmOfLight\Library\PackageCache\com.unity.visualscripting@1.7.5\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.51 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.660 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1661ms)
+		BeginReloadAssembly (169ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (54ms)
+		EndReloadAssembly (1382ms)
+			LoadAssemblies (108ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (327ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (63ms)
+			SetupLoadedEditorAssemblies (669ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (13ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (116ms)
+				ProcessInitializeOnLoadAttributes (440ms)
+				ProcessInitializeOnLoadMethodAttributes (87ms)
+				AfterProcessingInitializeOnLoad (12ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (43ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.64 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5924 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 61 unused Assets / (2.2 MB). Loaded Objects now: 6586.
+Memory consumption went from 242.9 MB to 240.7 MB.
+Total: 5.974800 ms (FindLiveObjects: 0.528000 ms CreateObjectMapping: 0.483100 ms MarkObjects: 3.865500 ms  DeleteObjects: 1.097500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.008281 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Nintendo\Unity\Projects\RealmOfLight\RelmOfLight\Library\PackageCache\com.unity.visualscripting@1.7.5\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Nintendo\Unity\Projects\RealmOfLight\RelmOfLight\Library\PackageCache\com.unity.visualscripting@1.7.5\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.58 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.617 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1617ms)
+		BeginReloadAssembly (157ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (40ms)
+		EndReloadAssembly (1355ms)
+			LoadAssemblies (99ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (323ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (58ms)
+			SetupLoadedEditorAssemblies (673ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (14ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (121ms)
+				ProcessInitializeOnLoadAttributes (434ms)
+				ProcessInitializeOnLoadMethodAttributes (91ms)
+				AfterProcessingInitializeOnLoad (10ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (40ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.72 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5924 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 61 unused Assets / (2.2 MB). Loaded Objects now: 6588.
+Memory consumption went from 242.9 MB to 240.7 MB.
+Total: 6.292100 ms (FindLiveObjects: 0.652200 ms CreateObjectMapping: 0.555100 ms MarkObjects: 3.821300 ms  DeleteObjects: 1.261700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 205.835929 seconds.
+  path: Assets/Prefabs/FX/miscellaneous/Blocks/Block_Wood.prefab
+  artifactKey: Guid(fc5087d2339bbd34fbf98500074e32bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/FX/miscellaneous/Blocks/Block_Wood.prefab using Guid(fc5087d2339bbd34fbf98500074e32bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b974f140201a17ff8ebee1d8f892c19') in 0.112583 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Texture/Structures/Barriers/TotemShooter-Barrier-Bytes-20210927-v1/Wood_Barrier.png
+  artifactKey: Guid(0f0d1c4637781ad4cb904660087aedc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Texture/Structures/Barriers/TotemShooter-Barrier-Bytes-20210927-v1/Wood_Barrier.png using Guid(0f0d1c4637781ad4cb904660087aedc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b38706b7f31fbc4ee58c0065724b2f52') in 0.100127 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Prefabs/Characters/STRUCTURES/Structure_Barrier_Wood_PivotChar.prefab
+  artifactKey: Guid(e621aa706be42ea4493bc3b23fb64403) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Characters/STRUCTURES/Structure_Barrier_Wood_PivotChar.prefab using Guid(e621aa706be42ea4493bc3b23fb64403) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96efb1fcb9083e103563f1b00745f41a') in 0.140212 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Prefabs/FX/miscellaneous/Blocks/Block_Wood_Hit_Right.prefab
+  artifactKey: Guid(31213280b71400d4ea4ea8f1bf0a13fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/FX/miscellaneous/Blocks/Block_Wood_Hit_Right.prefab using Guid(31213280b71400d4ea4ea8f1bf0a13fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a3ba0d400e579b008a0b57740201310') in 0.017318 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Texture/Structures/Barriers/Barrier-Three-Bytes-20210907-v1/Wood_Barrier.png
+  artifactKey: Guid(f0106a74755202e41871d21d2928257f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Texture/Structures/Barriers/Barrier-Three-Bytes-20210907-v1/Wood_Barrier.png using Guid(f0106a74755202e41871d21d2928257f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '852b858e345ddc4657f32f5cc9b8fe41') in 0.014233 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.041764 seconds.
+  path: Assets/Texture/Structures/Barriers/Barrier-Three-Bytes-20210907-v1/Wood_Barrier_Material.mat
+  artifactKey: Guid(b1518fb1bc97550428b46f789040a968) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Texture/Structures/Barriers/Barrier-Three-Bytes-20210907-v1/Wood_Barrier_Material.mat using Guid(b1518fb1bc97550428b46f789040a968) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '543902923b784fe0e548add169962d27') in 0.037756 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 14.798230 seconds.
+  path: Assets/SO/Particles/Effects/Tile_Burning_Hit.asset
+  artifactKey: Guid(d6e7da05357a29a4cbb4311b46a1225c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SO/Particles/Effects/Tile_Burning_Hit.asset using Guid(d6e7da05357a29a4cbb4311b46a1225c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20500a77169c2f28bbe8b185342236d7') in 0.003863 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.693369 seconds.
+  path: Assets/SO/Particles/Effects/AM_Rosa_Feather_Hit.asset
+  artifactKey: Guid(73c11c8858d6bd64daa490d8f0ee3e00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SO/Particles/Effects/AM_Rosa_Feather_Hit.asset using Guid(73c11c8858d6bd64daa490d8f0ee3e00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4908a4131a22086bdbbd0cda869934c3') in 0.003844 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/SO/Particles/Effects/Tile_Healing.asset
+  artifactKey: Guid(dbfceb7cd6cf479459b4a51603c82ed0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SO/Particles/Effects/Tile_Healing.asset using Guid(dbfceb7cd6cf479459b4a51603c82ed0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0331f9ce401f01980cf3e9a75ed7c742') in 0.004504 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/SO/Particles/Effects/Stun_Explosion.asset
+  artifactKey: Guid(833dda51edf437043bff383def8b8f30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SO/Particles/Effects/Stun_Explosion.asset using Guid(833dda51edf437043bff383def8b8f30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f3c51f29c2a0fb9eb05bc6671a6d6ea') in 0.008270 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/SO/Particles/Effects/Tile_Kin_Nightsheart.asset
+  artifactKey: Guid(7780482116ce23e4b942288240011304) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SO/Particles/Effects/Tile_Kin_Nightsheart.asset using Guid(7780482116ce23e4b942288240011304) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70f57ee0e80ea492c14af529b9c94040') in 0.003602 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 50.590324 seconds.
+  path: Assets/SO/CharsPrefab/STRUCTURES/Structure_Barrier_Rock.asset
+  artifactKey: Guid(e2f063e9e8588a1449d6f61df22e5928) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SO/CharsPrefab/STRUCTURES/Structure_Barrier_Rock.asset using Guid(e2f063e9e8588a1449d6f61df22e5928) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ef9e2ba9ae88e8a277f411f957f3a7d') in 0.008574 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.643285 seconds.
+  path: Assets/Texture/Structures/Barriers/Barrier-Plague-Bytes-20211026-v1/Structure_Barrier_Plague.asset
+  artifactKey: Guid(f811f48429f98654ea4c8f728f204ce9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Texture/Structures/Barriers/Barrier-Plague-Bytes-20211026-v1/Structure_Barrier_Plague.asset using Guid(f811f48429f98654ea4c8f728f204ce9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) `Assets/Texture/Alanda-20210813-v1/GridFight-Stage4-Alanda-20210813-V1.png` and material `GridFight-Stage4-Alanda-20210813-V1_Material.mat` : IncorrectTexture / Material Settings found: It is strongly recommended to enable `Alpha Is Transparency` on `Straight alpha` textures.
+Assuming `Straight alpha` texture because `Straight Alpha Texture` is enabled at material). (You can disable this warning in `Edit - Preferences - Spine`)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object,UnityEngine.Object)
+UnityEngine.Debug:LogWarning (object,UnityEngine.Object)
+Spine.Unity.Editor.SpineEditorUtilities:IssueWarningsForUnrecommendedTextureSettings (string) (at Assets/Spine/Editor/spine-unity/Editor/Utility/SpineEditorUtilities.cs:270)
+Spine.Unity.Editor.SpineEditorUtilities:IssueWarningsForUnrecommendedTextureSettings () (at Assets/Spine/Editor/spine-unity/Editor/Utility/SpineEditorUtilities.cs:185)
+Spine.Unity.Editor.SpineEditorUtilities:Initialize () (at Assets/Spine/Editor/spine-unity/Editor/Utility/SpineEditorUtilities.cs:164)
+Spine.Unity.Editor.SpineEditorUtilities:ConfirmInitialization () (at Assets/Spine/Editor/spine-unity/Editor/Utility/SpineEditorUtilities.cs:172)
+Spine.Unity.Editor.SkeletonDataAssetInspector:InitializeEditor () (at Assets/Spine/Editor/spine-unity/Editor/Asset Types/SkeletonDataAssetInspector.cs:105)
+Spine.Unity.Editor.SkeletonDataAssetInspector:OnEnable () (at Assets/Spine/Editor/spine-unity/Editor/Asset Types/SkeletonDataAssetInspector.cs:84)
+UnityEditor.Editor:CreateEditorWithContext (UnityEngine.Object[],UnityEngine.Object,System.Type)
+UnityEditor.Editor:CreateEditor (UnityEngine.Object,System.Type)
+UnityEditor.Editor:CreateEditor (UnityEngine.Object)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+(Filename: Assets/Spine/Editor/spine-unity/Editor/Utility/SpineEditorUtilities.cs Line: 270)
+
+`Assets/Texture/Deedra-20210812-V1/GridFight-The-Burg-MainTeam-Deedra-20210812-v1.png` and material `GridFight-The-Burg-MainTeam-Deedra-20210812-v1_Material.mat` : IncorrectTexture / Material Settings found: It is strongly recommended to enable `Alpha Is Transparency` on `Straight alpha` textures.
+Assuming `Straight alpha` texture because `Straight Alpha Texture` is enabled at material). (You can disable this warning in `Edit - Preferences - Spine`)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object,UnityEngine.Object)
+UnityEngine.Debug:LogWarning (object,UnityEngine.Object)
+Spine.Unity.Editor.SpineEditorUtilities:IssueWarningsForUnrecommendedTextureSettings (string) (at Assets/Spine/Editor/spine-unity/Editor/Utility/SpineEditorUtilities.cs:270)
+Spine.Unity.Editor.SpineEditorUtilities:IssueWarningsForUnrecommendedTextureSettings () (at Assets/Spine/Editor/spine-unity/Editor/Utility/SpineEditorUtilities.cs:185)
+Spine.Unity.Editor.SpineEditorUtilities:Initialize () (at Assets/Spine/Editor/spine-unity/Editor/Utility/SpineEditorUtilities.cs:164)
+Spine.Unity.Editor.SpineEditorUtilities:ConfirmInitialization () (at Assets/Spine/Editor/spine-unity/Editor/Utility/SpineEditorUtilities.cs:172)
+Spine.Unity.Editor.SkeletonDataAssetInspector:InitializeEditor () (at Assets/Spine/Editor/spine-unity/Editor/Asset Types/SkeletonDataAssetInspector.cs:105)
+Spine.Unity.Editor.SkeletonDataAssetInspector:OnEnable () (at Assets/Spine/Editor/spine-unity/Editor/Asset Types/SkeletonDataAssetInspector.cs:84)
+UnityEditor.Editor:CreateEditorWithContext (UnityEngine.Object[],UnityEngine.Object,System.Type)
+UnityEditor.Editor:CreateEditor (UnityEngine.Object,System.Type)
+UnityEditor.Editor:CreateEditor (UnityEngine.Object)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+(Filename: Assets/Spine/Editor/spine-unity/Editor/Utility/SpineEditorUtilities.cs Line: 270)
+
+`Assets/Texture/Elu-20210831-v3/GridFight-Chap-03-Forest-of-Kin-Elu-20210831-V1.png` and material `GridFight-Chap-03-Forest-of-Kin-Elu-20210831-V1_Material.mat` : IncorrectTexture / Material Settings found: It is strongly recommended to enable `Alpha Is Transparency` on `Straight alpha` textures.
+Assuming `Straight alpha` texture because `Straight Alpha Texture` is enabled at material). (You can disable this warning in `Edit - Preferences - Spine`)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object,UnityEngine.Object)
+UnityEngine.Debug:LogWarning (object,UnityEngine.Object)
+Spine.Unity.Editor.SpineEditorUtilities:IssueWarningsForUnrecommendedTextureSettings (string) (at Assets/Spine/Editor/spine-unity/Editor/Utility/SpineEditorUtilities.cs:270)
+Spine.Unity.Editor.SpineEditorUtilities:IssueWarningsForUnrecommendedTextureSettings () (at Assets/Spine/Editor/spine-unity/Editor/Utility/SpineEditorUtilities.cs:185)
+Spine.Unity.Editor.SpineEditorUtilities:Initialize () (at Assets/Spine/Editor/spine-unity/Editor/Utility/SpineEditorUtilities.cs:164)
+Spine.Unity.Editor.SpineEditorUtilities:ConfirmInitialization () (at Assets/Spine/Editor/spine-unity/Editor/Utility/SpineEditorUtilities.cs:172)
+Spine.Unity.Editor.SkeletonDataAssetInspector:InitializeEditor () (at Assets/Spine/Editor/spine-unity/Editor/Asset Types/SkeletonDataAssetInspector.cs:105)
+Spine.Unity.Editor.SkeletonDataAssetInspector:OnEnable () (at Assets/Spine/Editor/spine-unity/Editor/Asset Types/SkeletonDataAssetInspector.cs:84)
+UnityEditor.Editor:CreateEditorWithContext (UnityEngine.Object[],UnityEngine.Object,System.Type)
+UnityEditor.Editor:CreateEditor (UnityEngine.Object,System.Type)
+UnityEditor.Editor:CreateEditor (UnityEngine.Object)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+(Filename: Assets/Spine/Editor/spine-unity/Editor/Utility/SpineEditorUtilities.cs Line: 270)
+
+`Assets/Texture/Joja-20210816-V1/GridFight-Chap-00-Forest-Joja-DIVIDED-20210922-V4.png` and material `GridFight-Chap-00-Forest-Joja-DIVIDED-20210922-V4_Material.mat` : IncorrectTexture / Material Settings found: It is strongly recommended to enable `Alpha Is Transparency` on `Straight alpha` textures.
+Assuming `Straight alpha` texture because `Straight Alpha Texture` is enabled at material). (You can disable this warning in `Edit - Preferences - Spine`)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object,UnityEngine.Object)
+UnityEngine.Debug:LogWarning (object,UnityEngine.Object)
+Spine.Unity.Editor.SpineEditorUtilities:IssueWarningsForUnrecommendedTextureSettings (string) (at Assets/Spine/Editor/spine-unity/Editor/Utility/SpineEditorUtilities.cs:270)
+Spine.Unity.Editor.SpineEditorUtilities:IssueWarningsForUnrecommendedTextureSettings () (at Assets/Spine/Editor/spine-unity/Editor/Utility/SpineEditorUtilities.cs:185)
+Spine.Unity.Editor.SpineEditorUtilities:Initialize () (at Assets/Spine/Editor/spine-unity/Editor/Utility/SpineEditorUtilities.cs:164)
+Spine.Unity.Editor.SpineEditorUtilities:ConfirmInitialization () (at Assets/Spine/Editor/spine-unity/Editor/Utility/SpineEditorUtilities.cs:172)
+Spine.Unity.Editor.SkeletonDataAssetInspector:InitializeEditor () (at Assets/Spine/Editor/spine-unity/Editor/Asset Types/SkeletonDataAssetInspector.cs:105)
+Spine.Unity.Editor.SkeletonDataAssetInspector:OnEnable () (at Assets/Spine/Editor/spine-unity/Editor/Asset Types/SkeletonDataAssetInspector.cs:84)
+UnityEditor.Editor:CreateEditorWithContext (UnityEngine.Object[],UnityEngine.Object,System.Type)
+UnityEditor.Editor:CreateEditor (UnityEngine.Object,System.Type)
+UnityEditor.Editor:CreateEditor (UnityEngine.Object)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+(Filename: Assets/Spine/Editor/spine-unity/Editor/Utility/SpineEditorUtilities.cs Line: 270)
+
+`Assets/Texture/Kora-20210811-v1/GridFight-Stage01-MainTeam-Kora-20210811-V1.png` and material `GridFight-Stage01-MainTeam-Kora-20210811-V1_Material.mat` : IncorrectTexture / Material Settings found: It is strongly recommended to enable `Alpha Is Transparency` on `Straight alpha` textures.
+Assuming `Straight alpha` texture because `Straight Alpha Texture` is enabled at material). (You can disable this warning in `Edit - Preferences - Spine`)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object,UnityEngine.Object)
+UnityEngine.Debug:LogWarning (object,UnityEngine.Object)
+Spine.Unity.Editor.SpineEditorUtilities:IssueWarningsForUnrecommendedTextureSettings (string) (at Assets/Spine/Editor/spine-unity/Editor/Utility/SpineEditorUtilities.cs:270)
+Spine.Unity.Editor.SpineEditorUtilities:IssueWarningsForUnrecommendedTextureSettings () (at Assets/Spine/Editor/spine-unity/Editor/Utility/SpineEditorUtilities.cs:185)
+Spine.Unity.Editor.SpineEditorUtilities:Initialize () (at Assets/Spine/Editor/spine-unity/Editor/Utility/SpineEditorUtilities.cs:164)
+Spine.Unity.Editor.SpineEditorUtilities:ConfirmInitialization () (at Assets/Spine/Editor/spine-unity/Editor/Utility/SpineEditorUtilities.cs:172)
+Spine.Unity.Editor.SkeletonDataAssetInspector:InitializeEditor () (at Assets/Spine/Editor/spine-unity/Editor/Asset Types/SkeletonDataAssetInspector.cs:105)
+Spine.Unity.Editor.SkeletonDataAssetInspector:OnEnable () (at Assets/Spine/Editor/spine-unity/Editor/Asset Types/SkeletonDataAssetInspector.cs:84)
+UnityEditor.Editor:CreateEditorWithContext (UnityEngine.Object[],UnityEngine.Object,System.Type)
+UnityEditor.Editor:CreateEditor (UnityEngine.Object,System.Type)
+UnityEditor.Editor:CreateEditor (UnityEngine.Object)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+(Filename: Assets/Spine/Editor/spine-unity/Editor/Utility/SpineEditorUtilities.cs Line: 270)
+
+`Assets/Texture/Loud-20210812-v1/GridFight-TheBurg-MainTeam-Loud-20210812-V1.png` and material `GridFight-TheBurg-MainTeam-Loud-20210812-V1_Material.mat` : IncorrectTexture / Material Settings found: It is strongly recommended to enable `Alpha Is Transparency` on `Straight alpha` textures.
+Assuming `Straight alpha` texture because `Straight Alpha Texture` is enabled at material). (You can disable this warning in `Edit - Preferences - Spine`)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object,UnityEngine.Object)
+UnityEngine.Debug:LogWarning (object,UnityEngine.Object)
+Spine.Unity.Editor.SpineEditorUtilities:IssueWarningsForUnrecommendedTextureSettings (string) (at Assets/Spine/Editor/spine-unity/Editor/Utility/SpineEditorUtilities.cs:270)
+Spine.Unity.Editor.SpineEditorUtilities:IssueWarningsForUnrecommendedTextureSettings () (at Assets/Spine/Editor/spine-unity/Editor/Utility/SpineEditorUtilities.cs:185)
+Spine.Unity.Editor.SpineEditorUtilities:Initialize () (at Assets/Spine/Editor/spine-unity/Editor/Utility/SpineEditorUtilities.cs:164)
+Spine.Unity.Editor.SpineEditorUtilities:ConfirmInitialization () (at Assets/Spine/Editor/spine-unity/Editor/Utility/SpineEditorUtilities.cs:172)
+Spine.Unity.Editor.SkeletonDataAssetInspector:InitializeEditor () (at Assets/Spine/Editor/spine-unity/Editor/Asset Types/SkeletonDataAssetInspector.cs:105)
+Spine.Unity.Editor.SkeletonDataAssetInspector:OnEnable () (at Assets/Spine/Editor/spine-unity/Editor/Asset Types/SkeletonDataAssetInspector.cs:84)
+UnityEditor.Editor:CreateEditorWithContext (UnityEngine.Object[],UnityEngine.Object,System.Type)
+UnityEditor.Editor:CreateEditor (UnityEngine.Object,System.Type)
+UnityEditor.Editor:CreateEditor (UnityEngine.Object)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+(Filename: Assets/Spine/Editor/spine-unity/Editor/Utility/SpineEditorUtilities.cs Line: 270)
+
+`Assets/Texture/Mermer-20210811-V1/GridFight-Stage01-Mermer-20210811-V1.png` and material `GridFight-Stage01-Mermer-20210811-V1_Material.mat` : IncorrectTexture / Material Settings found: It is strongly recommended to enable `Alpha Is Transparency` on `Straight alpha` textures.
+Assuming `Straight alpha` texture because `Straight Alpha Texture` is enabled at material). (You can disable this warning in `Edit - Preferences - Spine`)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object,UnityEngine.Object)
+UnityEngine.Debug:LogWarning (object,UnityEngine.Object)
+Spine.Unity.Editor.SpineEditorUtilities:IssueWarningsForUnrecommendedTextureSettings (string) (at Assets/Spine/Editor/spine-unity/Editor/Utility/SpineEditorUtilities.cs:270)
+Spine.Unity.Editor.SpineEditorUtilities:IssueWarningsForUnrecommendedTextureSettings () (at Assets/Spine/Editor/spine-unity/Editor/Utility/SpineEditorUtilities.cs:185)
+Spine.Unity.Editor.SpineEditorUtilities:Initialize () (at Assets/Spine/Editor/spine-unity/Editor/Utility/SpineEditorUtilities.cs:164)
+Spine.Unity.Editor.SpineEditorUtilities:ConfirmInitialization () (at Assets/Spine/Editor/spine-unity/Editor/Utility/SpineEditorUtilities.cs:172)
+Spine.Unity.Editor.SkeletonDataAssetInspector:InitializeEditor () (at Assets/Spine/Editor/spine-unity/Editor/Asset Types/SkeletonDataAssetInspector.cs:105)
+Spine.Unity.Editor.SkeletonDataAssetInspector:OnEnable () (at Assets/Spine/Editor/spine-unity/Editor/Asset Types/SkeletonDataAssetInspector.cs:84)
+UnityEditor.Editor:CreateEditorWithContext (UnityEngine.Object[],UnityEngine.Object,System.Type)
+UnityEditor.Editor:CreateEditor (UnityEngine.Object,System.Type)
+UnityEditor.Editor:CreateEditor (UnityEngine.Object)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+(Filename: Assets/Spine/Editor/spine-unity/Editor/Utility/SpineEditorUtilities.cs Line: 270)
+
+`Assets/Texture/Pina-20210831-v1/GridFight-Stage05-MainTeam-Pina-20210831-V1.png` and material `GridFight-Stage05-MainTeam-Pina-20210831-V1_Material.mat` : IncorrectTexture / Material Settings found: It is strongly recommended to enable `Alpha Is Transparency` on `Straight alpha` textures.
+Assuming `Straight alpha` texture because `Straight Alpha Texture` is enabled at material). (You can disable this warning in `Edit - Preferences - Spine`)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object,UnityEngine.Object)
+UnityEngine.Debug:LogWarning (object,UnityEngine.Object)
+Spine.Unity.Editor.SpineEditorUtilities:IssueWarningsForUnrecommendedTextureSettings (string) (at Assets/Spine/Editor/spine-unity/Editor/Utility/SpineEditorUtilities.cs:270)
+Spine.Unity.Editor.SpineEditorUtilities:IssueWarningsForUnrecommendedTextureSettings () (at Assets/Spine/Editor/spine-unity/Editor/Utility/SpineEditorUtilities.cs:185)
+Spine.Unity.Editor.SpineEditorUtilities:Initialize () (at Assets/Spine/Editor/spine-unity/Editor/Utility/SpineEditorUtilities.cs:164)
+Spine.Unity.Editor.SpineEditorUtilities:ConfirmInitialization () (at Assets/Spine/Editor/spine-unity/Editor/Utility/SpineEditorUtilities.cs:172)
+Spine.Unity.Editor.SkeletonDataAssetInspector:InitializeEditor () (at Assets/Spine/Editor/spine-unity/Editor/Asset Types/SkeletonDataAssetInspector.cs:105)
+Spine.Unity.Editor.SkeletonDataAssetInspector:OnEnable () (at Assets/Spine/Editor/spine-unity/Editor/Asset Types/SkeletonDataAssetInspector.cs:84)
+UnityEditor.Editor:CreateEditorWithContext (UnityEngine.Object[],UnityEngine.Object,System.Type)
+UnityEditor.Editor:CreateEditor (UnityEngine.Object,System.Type)
+UnityEditor.Editor:CreateEditor (UnityEngine.Object)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+(Filename: Assets/Spine/Editor/spine-unity/Editor/Utility/SpineEditorUtilities.cs Line: 270)
+
+`Assets/Texture/Skye-20210831-v1/GridFight-Stage09-MainTeam-Skye-20210831-V1.png` and material `GridFight-Stage09-MainTeam-Skye-20210831-V1_Material.mat` : IncorrectTexture / Material Settings found: It is strongly recommended to enable `Alpha Is Transparency` on `Straight alpha` textures.
+Assuming `Straight alpha` texture because `Straight Alpha Texture` is enabled at material). (You can disable this warning in `Edit - Preferences - Spine`)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object,UnityEngine.Object)
+UnityEngine.Debug:LogWarning (object,UnityEngine.Object)
+Spine.Unity.Editor.SpineEditorUtilities:IssueWarningsForUnrecommendedTextureSettings (string) (at Assets/Spine/Editor/spine-unity/Editor/Utility/SpineEditorUtilities.cs:270)
+Spine.Unity.Editor.SpineEditorUtilities:IssueWarningsForUnrecommendedTextureSettings () (at Assets/Spine/Editor/spine-unity/Editor/Utility/SpineEditorUtilities.cs:185)
+Spine.Unity.Editor.SpineEditorUtilities:Initialize () (at Assets/Spine/Editor/spine-unity/Editor/Utility/SpineEditorUtilities.cs:164)
+Spine.Unity.Editor.SpineEditorUtilities:ConfirmInitialization () (at Assets/Spine/Editor/spine-unity/Editor/Utility/SpineEditorUtilities.cs:172)
+Spine.Unity.Editor.SkeletonDataAssetInspector:InitializeEditor () (at Assets/Spine/Editor/spine-unity/Editor/Asset Types/SkeletonDataAssetInspector.cs:105)
+Spine.Unity.Editor.SkeletonDataAssetInspector:OnEnable () (at Assets/Spine/Editor/spine-unity/Editor/Asset Types/SkeletonDataAssetInspector.cs:84)
+UnityEditor.Editor:CreateEditorWithContext (UnityEngine.Object[],UnityEngine.Object,System.Type)
+UnityEditor.Editor:CreateEditor (UnityEngine.Object,System.Type)
+UnityEditor.Editor:CreateEditor (UnityEngine.Object)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+(Filename: Assets/Spine/Editor/spine-unity/Editor/Utility/SpineEditorUtilities.cs Line: 270)
+
+`Assets/Texture/Structures/Barriers/Barrier-Empty-Atks-Bytes-2021105-v1/Lava_Barrier_Empty.png` and material `Lava_Barrier_Empty_Material.mat` : IncorrectTexture / Material Settings found: It is strongly recommended to enable `Alpha Is Transparency` on `Straight alpha` textures.
+Assuming `Straight alpha` texture because `Straight Alpha Texture` is enabled at material). (You can disable this warning in `Edit - Preferences - Spine`)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object,UnityEngine.Object)
+UnityEngine.Debug:LogWarning (object,UnityEngine.Object)
+Spine.Unity.Editor.SpineEditorUtilities:IssueWarningsForUnrecommendedTextureSettings (string) (at Assets/Spine/Editor/spine-unity/Editor/Utility/SpineEditorUtilities.cs:270)
+Spine.Unity.Editor.SpineEditorUtilities:IssueWarningsForUnrecommendedTextureSettings () (at Assets/Spine/Editor/spine-unity/Editor/Utility/SpineEditorUtilities.cs:185)
+Spine.Unity.Editor.SpineEditorUtilities:Initialize () (at Assets/Spine/Editor/spine-unity/Editor/Utility/SpineEditorUtilities.cs:164)
+Spine.Unity.Editor.SpineEditorUtilities:ConfirmInitialization () (at Assets/Spine/Editor/spine-unity/Editor/Utility/SpineEditorUtilities.cs:172)
+Spine.Unity.Editor.SkeletonDataAssetInspector:InitializeEditor () (at Assets/Spine/Editor/spine-unity/Editor/Asset Types/SkeletonDataAssetInspector.cs:105)
+Spine.Unity.Editor.SkeletonDataAssetInspector:OnEnable () (at Assets/Spine/Editor/spine-unity/Editor/Asset Types/SkeletonDataAssetInspector.cs:84)
+UnityEditor.Editor:CreateEditorWithContext (UnityEngine.Object[],UnityEngine.Object,System.Type)
+UnityEditor.Editor:CreateEditor (UnityEngine.Object,System.Type)
+UnityEditor.Editor:CreateEditor (UnityEngine.Object)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+(Filename: Assets/Spine/Editor/spine-unity/Editor/Utility/SpineEditorUtilities.cs Line: 270)
+
+`Assets/Texture/Structures/Barriers/Barrier-Ice-Bytes-20210907-v1/Ice_Barrier.png` and material `Ice_Barrier_Material.mat` : IncorrectTexture / Material Settings found: It is strongly recommended to enable `Alpha Is Transparency` on `Straight alpha` textures.
+Assuming `Straight alpha` texture because `Straight Alpha Texture` is enabled at material). (You can disable this warning in `Edit - Preferences - Spine`)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object,UnityEngine.Object)
+UnityEngine.Debug:LogWarning (object,UnityEngine.Object)
+Spine.Unity.Editor.SpineEditorUtilities:IssueWarningsForUnrecommendedTextureSettings (string) (at Assets/Spine/Editor/spine-unity/Editor/Utility/SpineEditorUtilities.cs:270)
+Spine.Unity.Editor.SpineEditorUtilities:IssueWarningsForUnrecommendedTextureSettings () (at Assets/Spine/Editor/spine-unity/Editor/Utility/SpineEditorUtilities.cs:185)
+Spine.Unity.Editor.SpineEditorUtilities:Initialize () (at Assets/Spine/Editor/spine-unity/Editor/Utility/SpineEditorUtilities.cs:164)
+Spine.Unity.Editor.SpineEditorUtilities:ConfirmInitialization () (at Assets/Spine/Editor/spine-unity/Editor/Utility/SpineEditorUtilities.cs:172)
+Spine.Unity.Editor.SkeletonDataAssetInspector:InitializeEditor () (at Assets/Spine/Editor/spine-unity/Editor/Asset Types/SkeletonDataAssetInspector.cs:105)
+Spine.Unity.Editor.SkeletonDataAssetInspector:OnEnable () (at Assets/Spine/Editor/spine-unity/Editor/Asset Types/SkeletonDataAssetInspector.cs:84)
+UnityEditor.Editor:CreateEditorWithContext (UnityEngine.Object[],UnityEngine.Object,System.Type)
+UnityEditor.Editor:CreateEditor (UnityEngine.Object,System.Type)
+UnityEditor.Editor:CreateEditor (UnityEngine.Object)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+(Filename: Assets/Spine/Editor/spine-unity/Editor/Utility/SpineEditorUtilities.cs Line: 270)
+
+`Assets/Texture/Structures/Barriers/Barrier-Lava-Bytes-20210907-v1/Lava_Barrier.png` and material `Lava_Barrier_Material.mat` : IncorrectTexture / Material Settings found: It is strongly recommended to enable `Alpha Is Transparency` on `Straight alpha` textures.
+Assuming `Straight alpha` texture because `Straight Alpha Texture` is enabled at material). (You can disable this warning in `Edit - Preferences - Spine`)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object,UnityEngine.Object)
+UnityEngine.Debug:LogWarning (object,UnityEngine.Object)
+Spine.Unity.Editor.SpineEditorUtilities:IssueWarningsForUnrecommendedTextureSettings (string) (at Assets/Spine/Editor/spine-unity/Editor/Utility/SpineEditorUtilities.cs:270)
+Spine.Unity.Editor.SpineEditorUtilities:IssueWarningsForUnrecommendedTextureSettings () (at Assets/Spine/Editor/spine-unity/Editor/Utility/SpineEditorUtilities.cs:185)
+Spine.Unity.Editor.SpineEditorUtilities:Initialize () (at Assets/Spine/Editor/spine-unity/Editor/Utility/SpineEditorUtilities.cs:164)
+Spine.Unity.Editor.SpineEditorUtilities:ConfirmInitialization () (at Assets/Spine/Editor/spine-unity/Editor/Utility/SpineEditorUtilities.cs:172)
+Spine.Unity.Editor.SkeletonDataAssetInspector:InitializeEditor () (at Assets/Spine/Editor/spine-unity/Editor/Asset Types/SkeletonDataAssetInspector.cs:105)
+Spine.Unity.Editor.SkeletonDataAssetInspector:OnEnable () (at Assets/Spine/Editor/spine-unity/Editor/Asset Types/SkeletonDataAssetInspector.cs:84)
+UnityEditor.Editor:CreateEditorWithContext (UnityEngine.Object[],UnityEngine.Object,System.Type)
+UnityEditor.Editor:CreateEditor (UnityEngine.Object,System.Type)
+UnityEditor.Editor:CreateEditor (UnityEngine.Object)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+(Filename: Assets/Spine/Editor/spine-unity/Editor/Utility/SpineEditorUtilities.cs Line: 270)
+
+`Assets/Texture/Structures/Barriers/Barrier-Pai-Bytes-20210907-v1/Pan_Barrier.png` and material `Pan_Barrier_Material.mat` : IncorrectTexture / Material Settings found: It is strongly recommended to enable `Alpha Is Transparency` on `Straight alpha` textures.
+Assuming `Straight alpha` texture because `Straight Alpha Texture` is enabled at material). (You can disable this warning in `Edit - Preferences - Spine`)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object,UnityEngine.Object)
+UnityEngine.Debug:LogWarning (object,UnityEngine.Object)
+Spine.Unity.Editor.SpineEditorUtilities:IssueWarningsForUnrecommendedTextureSettings (string) (at Assets/Spine/Editor/spine-unity/Editor/Utility/SpineEditorUtilities.cs:270)
+Spine.Unity.Editor.SpineEditorUtilities:IssueWarningsForUnrecommendedTextureSettings () (at Assets/Spine/Editor/spine-unity/Editor/Utility/SpineEditorUtilities.cs:185)
+Spine.Unity.Editor.SpineEditorUtilities:Initialize () (at Assets/Spine/Editor/spine-unity/Editor/Utility/SpineEditorUtilities.cs:164)
+Spine.Unity.Editor.SpineEditorUtilities:ConfirmInitialization () (at Assets/Spine/Editor/spine-unity/Editor/Utility/SpineEditorUtilities.cs:172)
+Spine.Unity.Editor.SkeletonDataAssetInspector:InitializeEditor () (at Assets/Spine/Editor/spine-unity/Editor/Asset Types/SkeletonDataAssetInspector.cs:105)
+Spine.Unity.Editor.SkeletonDataAssetInspector:OnEnable () (at Assets/Spine/Editor/spine-unity/Editor/Asset Types/SkeletonDataAssetInspector.cs:84)
+UnityEditor.Editor:CreateEditorWithContext (UnityEngine.Object[],UnityEngine.Object,System.Type)
+UnityEditor.Editor:CreateEditor (UnityEngine.Object,System.Type)
+UnityEditor.Editor:CreateEditor (UnityEngine.Object)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+(Filename: Assets/Spine/Editor/spine-unity/Editor/Utility/SpineEditorUtilities.cs Line: 270)
+
+`Assets/Texture/Structures/Barriers/Barrier-Plague-Bytes-20211026-v1/Plague_Monster.png` and material `Plague_Monster_Material.mat` : IncorrectTexture / Material Settings found: It is strongly recommended to enable `Alpha Is Transparency` on `Straight alpha` textures.
+Assuming `Straight alpha` texture because `Straight Alpha Texture` is enabled at material). (You can disable this warning in `Edit - Preferences - Spine`)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object,UnityEngine.Object)
+UnityEngine.Debug:LogWarning (object,UnityEngine.Object)
+Spine.Unity.Editor.SpineEditorUtilities:IssueWarningsForUnrecommendedTextureSettings (string) (at Assets/Spine/Editor/spine-unity/Editor/Utility/SpineEditorUtilities.cs:270)
+Spine.Unity.Editor.SpineEditorUtilities:IssueWarningsForUnrecommendedTextureSettings () (at Assets/Spine/Editor/spine-unity/Editor/Utility/SpineEditorUtilities.cs:185)
+Spine.Unity.Editor.SpineEditorUtilities:Initialize () (at Assets/Spine/Editor/spine-unity/Editor/Utility/SpineEditorUtilities.cs:164)
+Spine.Unity.Editor.SpineEditorUtilities:ConfirmInitialization () (at Assets/Spine/Editor/spine-unity/Editor/Utility/SpineEditorUtilities.cs:172)
+Spine.Unity.Editor.SkeletonDataAssetInspector:InitializeEditor () (at Assets/Spine/Editor/spine-unity/Editor/Asset Types/SkeletonDataAssetInspector.cs:105)
+Spine.Unity.Editor.SkeletonDataAssetInspector:OnEnable () (at Assets/Spine/Editor/spine-unity/Editor/Asset Types/SkeletonDataAssetInspector.cs:84)
+UnityEditor.Editor:CreateEditorWithContext (UnityEngine.Object[],UnityEngine.Object,System.Type)
+UnityEditor.Editor:CreateEditor (UnityEngine.Object,System.Type)
+UnityEditor.Editor:CreateEditor (UnityEngine.Object)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+(Filename: Assets/Spine/Editor/spine-unity/Editor/Utility/SpineEditorUtilities.cs Line: 270)
+
+`Assets/Texture/Structures/Barriers/Barrier-Rock-Bytes-20210907-v1/Rock_Barrier.png` and material `Rock_Barrier_Material.mat` : IncorrectTexture / Material Settings found: It is strongly recommended to enable `Alpha Is Transparency` on `Straight alpha` textures.
+Assuming `Straight alpha` texture because `Straight Alpha Texture` is enabled at material). (You can disable this warning in `Edit - Preferences - Spine`)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object,UnityEngine.Object)
+UnityEngine.Debug:LogWarning (object,UnityEngine.Object)
+Spine.Unity.Editor.SpineEditorUtilities:IssueWarningsForUnrecommendedTextureSettings (string) (at Assets/Spine/Editor/spine-unity/Editor/Utility/SpineEditorUtilities.cs:270)
+Spine.Unity.Editor.SpineEditorUtilities:IssueWarningsForUnrecommendedTextureSettings () (at Assets/Spine/Editor/spine-unity/Editor/Utility/SpineEditorUtilities.cs:185)
+Spine.Unity.Editor.SpineEditorUtilities:Initialize () (at Assets/Spine/Editor/spine-unity/Editor/Utility/SpineEditorUtilities.cs:164)
+Spine.Unity.Editor.SpineEditorUtilities:ConfirmInitialization () (at Assets/Spine/Editor/spine-unity/Editor/Utility/SpineEditorUtilities.cs:172)
+Spine.Unity.Editor.SkeletonDataAssetInspector:InitializeEditor () (at Assets/Spine/Editor/spine-unity/Editor/Asset Types/SkeletonDataAssetInspector.cs:105)
+Spine.Unity.Editor.SkeletonDataAssetInspector:OnEnable () (at Assets/Spine/Editor/spine-unity/Editor/Asset Types/SkeletonDataAssetInspector.cs:84)
+UnityEditor.Editor:CreateEditorWithContext (UnityEngine.Object[],UnityEngine.Object,System.Type)
+UnityEditor.Editor:CreateEditor (UnityEngine.Object,System.Type)
+UnityEditor.Editor:CreateEditor (UnityEngine.Object)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+(Filename: Assets/Spine/Editor/spine-unity/Editor/Utility/SpineEditorUtilities.cs Line: 270)
+
+`Assets/Texture/Structures/Barriers/Barrier-Three-Bytes-20210907-v1/Wood_Barrier.png` and material `Wood_Barrier_Material.mat` : IncorrectTexture / Material Settings found: It is strongly recommended to enable `Alpha Is Transparency` on `Straight alpha` textures.
+Assuming `Straight alpha` texture because `Straight Alpha Texture` is enabled at material). (You can disable this warning in `Edit - Preferences - Spine`)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object,UnityEngine.Object)
+UnityEngine.Debug:LogWarning (object,UnityEngine.Object)
+Spine.Unity.Editor.SpineEditorUtilities:IssueWarningsForUnrecommendedTextureSettings (string) (at Assets/Spine/Editor/spine-unity/Editor/Utility/SpineEditorUtilities.cs:270)
+Spine.Unity.Editor.SpineEditorUtilities:IssueWarningsForUnrecommendedTextureSettings () (at Assets/Spine/Editor/spine-unity/Editor/Utility/SpineEditorUtilities.cs:185)
+Spine.Unity.Editor.SpineEditorUtilities:Initialize () (at Assets/Spine/Editor/spine-unity/Editor/Utility/SpineEditorUtilities.cs:164)
+Spine.Unity.Editor.SpineEditorUtilities:ConfirmInitialization () (at Assets/Spine/Editor/spine-unity/Editor/Utility/SpineEditorUtilities.cs:172)
+Spine.Unity.Editor.SkeletonDataAssetInspector:InitializeEditor () (at Assets/Spine/Editor/spine-unity/Editor/Asset Types/SkeletonDataAssetInspector.cs:105)
+Spine.Unity.Editor.SkeletonDataAssetInspector:OnEnable () (at Assets/Spine/Editor/spine-unity/Editor/Asset Types/SkeletonDataAssetInspector.cs:84)
+UnityEditor.Editor:CreateEditorWithContext (UnityEngine.Object[],UnityEngine.Object,System.Type)
+UnityEditor.Editor:CreateEditor (UnityEngine.Object,System.Type)
+UnityEditor.Editor:CreateEditor (UnityEngine.Object)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+(Filename: Assets/Spine/Editor/spine-unity/Editor/Utility/SpineEditorUtilities.cs Line: 270)
+
+`Assets/Texture/Structures/Barriers/Barrier-Tomb-Bytes-20210907-v1/Tomb_Barrier.png` and material `Tomb_Barrier_Material.mat` : IncorrectTexture / Material Settings found: It is strongly recommended to enable `Alpha Is Transparency` on `Straight alpha` textures.
+Assuming `Straight alpha` texture because `Straight Alpha Texture` is enabled at material). (You can disable this warning in `Edit - Preferences - Spine`)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object,UnityEngine.Object)
+UnityEngine.Debug:LogWarning (object,UnityEngine.Object)
+Spine.Unity.Editor.SpineEditorUtilities:IssueWarningsForUnrecommendedTextureSettings (string) (at Assets/Spine/Editor/spine-unity/Editor/Utility/SpineEditorUtilities.cs:270)
+Spine.Unity.Editor.SpineEditorUtilities:IssueWarningsForUnrecommendedTextureSettings () (at Assets/Spine/Editor/spine-unity/Editor/Utility/SpineEditorUtilities.cs:185)
+Spine.Unity.Editor.SpineEditorUtilities:Initialize () (at Assets/Spine/Editor/spine-unity/Editor/Utility/SpineEditorUtilities.cs:164)
+Spine.Unity.Editor.SpineEditorUtilities:ConfirmInitialization () (at Assets/Spine/Editor/spine-unity/Editor/Utility/SpineEditorUtilities.cs:172)
+Spine.Unity.Editor.SkeletonDataAssetInspector:InitializeEditor () (at Assets/Spine/Editor/spine-unity/Editor/Asset Types/SkeletonDataAssetInspector.cs:105)
+Spine.Unity.Editor.SkeletonDataAssetInspector:OnEnable () (at Assets/Spine/Editor/spine-unity/Editor/Asset Types/SkeletonDataAssetInspector.cs:84)
+UnityEditor.Editor:CreateEditorWithContext (UnityEngine.Object[],UnityEngine.Object,System.Type)
+UnityEditor.Editor:CreateEditor (UnityEngine.Object,System.Type)
+UnityEditor.Editor:CreateEditor (UnityEngine.Object)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+(Filename: Assets/Spine/Editor/spine-unity/Editor/Utility/SpineEditorUtilities.cs Line: 270)
+
+`Assets/Texture/Structures/Barriers/TotemShooter-Barrier-Bytes-20210927-v1/Wood_Barrier.png` and material `Wood_Barrier_Material.mat` : IncorrectTexture / Material Settings found: It is strongly recommended to enable `Alpha Is Transparency` on `Straight alpha` textures.
+Assuming `Straight alpha` texture because `Straight Alpha Texture` is enabled at material). (You can disable this warning in `Edit - Preferences - Spine`)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object,UnityEngine.Object)
+UnityEngine.Debug:LogWarning (object,UnityEngine.Object)
+Spine.Unity.Editor.SpineEditorUtilities:IssueWarningsForUnrecommendedTextureSettings (string) (at Assets/Spine/Editor/spine-unity/Editor/Utility/SpineEditorUtilities.cs:270)
+Spine.Unity.Editor.SpineEditorUtilities:IssueWarningsForUnrecommendedTextureSettings () (at Assets/Spine/Editor/spine-unity/Editor/Utility/SpineEditorUtilities.cs:185)
+Spine.Unity.Editor.SpineEditorUtilities:Initialize () (at Assets/Spine/Editor/spine-unity/Editor/Utility/SpineEditorUtilities.cs:164)
+Spine.Unity.Editor.SpineEditorUtilities:ConfirmInitialization () (at Assets/Spine/Editor/spine-unity/Editor/Utility/SpineEditorUtilities.cs:172)
+Spine.Unity.Editor.SkeletonDataAssetInspector:InitializeEditor () (at Assets/Spine/Editor/spine-unity/Editor/Asset Types/SkeletonDataAssetInspector.cs:105)
+Spine.Unity.Editor.SkeletonDataAssetInspector:OnEnable () (at Assets/Spine/Editor/spine-unity/Editor/Asset Types/SkeletonDataAssetInspector.cs:84)
+UnityEditor.Editor:CreateEditorWithContext (UnityEngine.Object[],UnityEngine.Object,System.Type)
+UnityEditor.Editor:CreateEditor (UnityEngine.Object,System.Type)
+UnityEditor.Editor:CreateEditor (UnityEngine.Object)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+(Filename: Assets/Spine/Editor/spine-unity/Editor/Utility/SpineEditorUtilities.cs Line: 270)
+
+`Assets/Texture/Valis-20210812-V1/GridFight-Chap-03-Forest-of-Kin-Valis-20210812-V1.png` and material `GridFight-Chap-03-Forest-of-Kin-Valis-20210812-V1_Material.mat` : IncorrectTexture / Material Settings found: It is strongly recommended to enable `Alpha Is Transparency` on `Straight alpha` textures.
+Assuming `Straight alpha` texture because `Straight Alpha Texture` is enabled at material). (You can disable this warning in `Edit - Preferences - Spine`)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object,UnityEngine.Object)
+UnityEngine.Debug:LogWarning (object,UnityEngine.Object)
+Spine.Unity.Editor.SpineEditorUtilities:IssueWarningsForUnrecommendedTextureSettings (string) (at Assets/Spine/Editor/spine-unity/Editor/Utility/SpineEditorUtilities.cs:270)
+Spine.Unity.Editor.SpineEditorUtilities:IssueWarningsForUnrecommendedTextureSettings () (at Assets/Spine/Editor/spine-unity/Editor/Utility/SpineEditorUtilities.cs:185)
+Spine.Unity.Editor.SpineEditorUtilities:Initialize () (at Assets/Spine/Editor/spine-unity/Editor/Utility/SpineEditorUtilities.cs:164)
+Spine.Unity.Editor.SpineEditorUtilities:ConfirmInitialization () (at Assets/Spine/Editor/spine-unity/Editor/Utility/SpineEditorUtilities.cs:172)
+Spine.Unity.Editor.SkeletonDataAssetInspector:InitializeEditor () (at Assets/Spine/Editor/spine-unity/Editor/Asset Types/SkeletonDataAssetInspector.cs:105)
+Spine.Unity.Editor.SkeletonDataAssetInspector:OnEnable () (at Assets/Spine/Editor/spine-unity/Editor/Asset Types/SkeletonDataAssetInspector.cs:84)
+UnityEditor.Editor:CreateEditorWithContext (UnityEngine.Object[],UnityEngine.Object,System.Type)
+UnityEditor.Editor:CreateEditor (UnityEngine.Object,System.Type)
+UnityEditor.Editor:CreateEditor (UnityEngine.Object)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+(Filename: Assets/Spine/Editor/spine-unity/Editor/Utility/SpineEditorUtilities.cs Line: 270)
+
+Problematic material setup at Spine GameObject (Structure_Barrier_Plague): 
+Warning: 'Add Normals' required when not using 'Fixed Normals'!
+
+Please
+a) enable 'Add Normals' at the SkeletonRenderer/SkeletonAnimation component under 'Advanced' or
+b) enable 'Fixed Normals' at the Material.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Debug:LogWarningFormat (UnityEngine.Object,string,object[])
+Spine.Unity.SkeletonRenderer:Initialize (bool,bool) (at Assets/Spine/Runtime/spine-unity/Components/SkeletonRenderer.cs:368)
+Spine.Unity.SkeletonAnimation:Initialize (bool,bool) (at Assets/Spine/Runtime/spine-unity/Components/SkeletonAnimation.cs:169)
+Spine.Unity.Editor.EditorInstantiation:InstantiateSkeletonAnimation (Spine.Unity.SkeletonDataAsset,Spine.Skin,bool,bool) (at Assets/Spine/Editor/spine-unity/Editor/Utility/AssetUtility.cs:1210)
+Spine.Unity.Editor.EditorInstantiation:InstantiateSkeletonAnimation (Spine.Unity.SkeletonDataAsset,string,bool,bool) (at Assets/Spine/Editor/spine-unity/Editor/Utility/AssetUtility.cs:1180)
+Spine.Unity.Editor.SkeletonInspectorPreview:Initialize (System.Action,Spine.Unity.SkeletonDataAsset,string) (at Assets/Spine/Editor/spine-unity/Editor/Asset Types/SkeletonDataAssetInspector.cs:865)
+Spine.Unity.Editor.SkeletonDataAssetInspector:InitializeEditor () (at Assets/Spine/Editor/spine-unity/Editor/Asset Types/SkeletonDataAssetInspector.cs:150)
+Spine.Unity.Editor.SkeletonDataAssetInspector:OnEnable () (at Assets/Spine/Editor/spine-unity/Editor/Asset Types/SkeletonDataAssetInspector.cs:84)
+UnityEditor.Editor:CreateEditorWithContext (UnityEngine.Object[],UnityEngine.Object,System.Type)
+UnityEditor.Editor:CreateEditor (UnityEngine.Object,System.Type)
+UnityEditor.Editor:CreateEditor (UnityEngine.Object)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+(Filename: Assets/Spine/Runtime/spine-unity/Components/SkeletonRenderer.cs Line: 368)
+
+ -> (artifact id: '2b9dedf01c31c26f3cfce783be6a9e40') in 0.239527 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.864511 seconds.
+  path: Assets/Prefabs/Structures/Barrier_ICE.prefab
+  artifactKey: Guid(7f96c3a69ec1d38418033efed204ab49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Structures/Barrier_ICE.prefab using Guid(7f96c3a69ec1d38418033efed204ab49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12056e4ff2ff990e2871551ecc658015') in 0.012652 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.790591 seconds.
+  path: Assets/Texture/Structures/Barriers/Barrier-Empty-Atks-Bytes-2021105-v1/Lava_Barrier_Empty_Atlas.asset
+  artifactKey: Guid(f331befecc3fc2d418be83f3851e0fb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Texture/Structures/Barriers/Barrier-Empty-Atks-Bytes-2021105-v1/Lava_Barrier_Empty_Atlas.asset using Guid(f331befecc3fc2d418be83f3851e0fb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f5dea87c3e625b30e1828a9eb02520e') in 0.002536 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.008692 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Nintendo\Unity\Projects\RealmOfLight\RelmOfLight\Library\PackageCache\com.unity.visualscripting@1.7.5\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Nintendo\Unity\Projects\RealmOfLight\RelmOfLight\Library\PackageCache\com.unity.visualscripting@1.7.5\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.67 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.626 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1627ms)
+		BeginReloadAssembly (152ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (46ms)
+		EndReloadAssembly (1365ms)
+			LoadAssemblies (103ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (327ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (64ms)
+			SetupLoadedEditorAssemblies (659ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (14ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (117ms)
+				ProcessInitializeOnLoadAttributes (434ms)
+				ProcessInitializeOnLoadMethodAttributes (82ms)
+				AfterProcessingInitializeOnLoad (10ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (40ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.60 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5926 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 61 unused Assets / (2.2 MB). Loaded Objects now: 6622.
+Memory consumption went from 248.3 MB to 246.1 MB.
+Total: 5.996700 ms (FindLiveObjects: 0.551000 ms CreateObjectMapping: 0.479300 ms MarkObjects: 3.658300 ms  DeleteObjects: 1.306700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.008287 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Nintendo\Unity\Projects\RealmOfLight\RelmOfLight\Library\PackageCache\com.unity.visualscripting@1.7.5\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Nintendo\Unity\Projects\RealmOfLight\RelmOfLight\Library\PackageCache\com.unity.visualscripting@1.7.5\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.66 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.650 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1651ms)
+		BeginReloadAssembly (167ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (46ms)
+		EndReloadAssembly (1367ms)
+			LoadAssemblies (106ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (317ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (63ms)
+			SetupLoadedEditorAssemblies (680ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (15ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (123ms)
+				ProcessInitializeOnLoadAttributes (442ms)
+				ProcessInitializeOnLoadMethodAttributes (88ms)
+				AfterProcessingInitializeOnLoad (10ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (41ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.69 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5924 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 61 unused Assets / (2.2 MB). Loaded Objects now: 6624.
+Memory consumption went from 248.2 MB to 246.0 MB.
+Total: 6.850600 ms (FindLiveObjects: 0.692200 ms CreateObjectMapping: 0.637300 ms MarkObjects: 4.259000 ms  DeleteObjects: 1.260700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.010599 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Nintendo\Unity\Projects\RealmOfLight\RelmOfLight\Library\PackageCache\com.unity.visualscripting@1.7.5\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Nintendo\Unity\Projects\RealmOfLight\RelmOfLight\Library\PackageCache\com.unity.visualscripting@1.7.5\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.66 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.848 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1849ms)
+		BeginReloadAssembly (161ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (10ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (45ms)
+		EndReloadAssembly (1563ms)
+			LoadAssemblies (112ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (375ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (80ms)
+			SetupLoadedEditorAssemblies (769ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (15ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (142ms)
+				ProcessInitializeOnLoadAttributes (500ms)
+				ProcessInitializeOnLoadMethodAttributes (99ms)
+				AfterProcessingInitializeOnLoad (11ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (45ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.64 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5924 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 61 unused Assets / (2.1 MB). Loaded Objects now: 6626.
+Memory consumption went from 248.2 MB to 246.0 MB.
+Total: 7.025000 ms (FindLiveObjects: 0.639300 ms CreateObjectMapping: 0.618100 ms MarkObjects: 4.454400 ms  DeleteObjects: 1.312000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.009677 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Nintendo\Unity\Projects\RealmOfLight\RelmOfLight\Library\PackageCache\com.unity.visualscripting@1.7.5\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Nintendo\Unity\Projects\RealmOfLight\RelmOfLight\Library\PackageCache\com.unity.visualscripting@1.7.5\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.66 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.984 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1985ms)
+		BeginReloadAssembly (177ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (8ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (47ms)
+		EndReloadAssembly (1655ms)
+			LoadAssemblies (125ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (384ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (78ms)
+			SetupLoadedEditorAssemblies (815ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (16ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (143ms)
+				ProcessInitializeOnLoadAttributes (535ms)
+				ProcessInitializeOnLoadMethodAttributes (106ms)
+				AfterProcessingInitializeOnLoad (12ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (50ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.76 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5924 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 61 unused Assets / (2.2 MB). Loaded Objects now: 6628.
+Memory consumption went from 248.2 MB to 246.0 MB.
+Total: 7.562300 ms (FindLiveObjects: 0.608700 ms CreateObjectMapping: 0.653500 ms MarkObjects: 4.635300 ms  DeleteObjects: 1.663200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 

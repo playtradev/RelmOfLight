@@ -219,12 +219,17 @@ public class BattleManagerScript : MonoBehaviour
     {
         foreach (Touch t in Input.touches)
         {
+            Debug.LogError("in");
             Ray ray = Camera.main.ScreenPointToRay(t.position);
             if (t.phase == TouchPhase.Began)
             {
                 RaycastHit hit;
+              
+
                 if (Physics.Raycast(ray, out hit) && hit.transform.tag.Contains("Side"))
                 {
+                    Debug.LogError(hit.transform.tag);
+
                     DragObject dragO;
                     if (!draggedObjects.TryGetValue(t.fingerId, out dragO))
                     {
