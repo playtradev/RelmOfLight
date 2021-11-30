@@ -107,7 +107,21 @@ public class ScriptableObjectBaseCharacterTilesAttack : ScriptableObjectBaseChar
 
     public void CreateTileAttackBullets(Vector2Int nextAttackPos, CurrentAttackInfoClass cAtk)
     {
-        if (cAtk == null || cAtk.CurrentAttack.AttackInput == AttackInputType.Strong)
+        if (cAtk == null)
+        {
+            return;
+        }
+
+
+        if (cAtk.CurrentAttack.TilesAtk.EffectOnCaster)
+        {
+            for (int i = 0; i < cAtk.CurrentAttack.TilesAtk.EffectsOnCaster.Count; i++)
+            {
+                CharOwner.Buff_DebuffCo(CharOwner, cAtk.CurrentAttack.TilesAtk.EffectsOnCaster[i], cAtk.CurrentAttack);
+            }
+        }
+
+        if (cAtk.CurrentAttack.AttackInput == AttackInputType.Strong)
         {
             return;
         }
@@ -128,13 +142,7 @@ public class ScriptableObjectBaseCharacterTilesAttack : ScriptableObjectBaseChar
             }
         }
 
-        if (cAtk.CurrentAttack.TilesAtk.EffectOnCaster)
-        {
-            for (int i = 0; i < cAtk.CurrentAttack.TilesAtk.EffectsOnCaster.Count; i++)
-            {
-                CharOwner.Buff_DebuffCo(CharOwner, cAtk.CurrentAttack.TilesAtk.EffectsOnCaster[i], cAtk.CurrentAttack);
-            }
-        }
+       
     }
 
 
