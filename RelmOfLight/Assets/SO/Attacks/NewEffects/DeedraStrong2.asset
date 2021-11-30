@@ -10,24 +10,24 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 2162115bd0e37014394e1dbf4dad6e54, type: 3}
-  m_Name: EluStrong
+  m_Name: DeedraStrong2
   m_EditorClassIdentifier: 
   level: 1
   StackType: 0
   maxStack: 3
-  OldSystem: 0
-  StatsToAffect: 2
+  OldSystem: 1
+  StatsToAffect: 509
   StatsChecker: 1
   NameShowedOnIndicator: 
-  Value: {x: 2, y: 2}
-  _Duration: {x: 1, y: 1}
+  Value: {x: 1, y: 1}
+  _Duration: {x: 5, y: 5}
   _Delay: {x: 0, y: 0}
   _OvertimeRatio: {x: 0, y: 0}
   AnimToFired: 11
   StatsToAffectList:
   - StatsToAffect: 2
     StatsChecker: 1
-    _Value: {x: 3, y: 3}
+    _Value: {x: 2, y: 2}
     useDelay: 0
     Show: 1
     BoolValue: 0
@@ -127,7 +127,7 @@ MonoBehaviour:
     CloneStartingEffect: {fileID: 0}
     OnCaster: 0
     AttackToSteal: 
-  Particles: 3001
+  Particles: 3003
   AttachPsToHead: 0
   TeleportParticlesIn: 1
   TeleportParticlesOut: 1
@@ -141,7 +141,7 @@ MonoBehaviour:
   MeleeBackTeleportParticlesIn: 1
   MeleeBackTeleportParticlesOut: 1
   MeleeAttackParticles: 6005
-  classification: 0
+  classification: 1
   ShowIcon: 0
   icon: {fileID: 0}
   recolorCharUI: 0
@@ -170,7 +170,7 @@ MonoBehaviour:
   BoolValue: 0
   WalkingSide: 0
   ArmourT: 0
-  BaseCurrentValue: 1
+  BaseCurrentValue: 0
   Elemental: 0
   AttackToSteal: 
   OnCaster: 0

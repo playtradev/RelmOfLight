@@ -19,8 +19,8 @@ MonoBehaviour:
   StatsToAffect: 0
   StatsChecker: 0
   NameShowedOnIndicator: 
-  Value: {x: 2, y: 2}
-  _Duration: {x: 15, y: 15}
+  Value: {x: 1, y: 1}
+  _Duration: {x: 6, y: 6}
   _Delay: {x: 0, y: 0}
   _OvertimeRatio: {x: 0, y: 0}
   AnimToFired: 11

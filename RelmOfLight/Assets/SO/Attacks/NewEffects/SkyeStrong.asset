@@ -16,14 +16,14 @@ MonoBehaviour:
   StackType: 0
   maxStack: 3
   OldSystem: 1
-  StatsToAffect: 0
+  StatsToAffect: 2
   StatsChecker: 1
   NameShowedOnIndicator: 
-  Value: {x: 1, y: 1}
+  Value: {x: -2, y: -2}
   _Duration: {x: 3, y: 3}
   _Delay: {x: 0, y: 0}
   _OvertimeRatio: {x: 0, y: 0}
-  AnimToFired: 11
+  AnimToFired: 12
   StatsToAffectList:
   - StatsToAffect: 2
     StatsChecker: 1

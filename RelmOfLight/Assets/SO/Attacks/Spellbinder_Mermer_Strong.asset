@@ -260,7 +260,7 @@ MonoBehaviour:
         ToFire: 1
         ExposionChances: 100
         DamagePerc: 1
-        EffectsVisisble: 0
+        EffectsVisisble: 1
         TileEffectsVisisble: 0
         SummonVisisble: 0
         ChildrenExplosionVisisble: 1

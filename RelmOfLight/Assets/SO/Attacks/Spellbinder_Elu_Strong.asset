@@ -139,7 +139,7 @@ MonoBehaviour:
     RangeLevel: {x: 0, y: 10}
     UseOldSystem: 0
     BulletTrajectories:
-    - Delay: 0.2
+    - Delay: 0
       HasABullet: 1
       OverrideBulletLevel: 0
       BulletLevel: 0

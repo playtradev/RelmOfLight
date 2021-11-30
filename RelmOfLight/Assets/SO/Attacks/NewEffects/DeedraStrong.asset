@@ -17,10 +17,10 @@ MonoBehaviour:
   maxStack: 3
   OldSystem: 1
   StatsToAffect: 509
-  StatsChecker: 0
+  StatsChecker: 1
   NameShowedOnIndicator: 
-  Value: {x: 0, y: 0}
-  _Duration: {x: 1, y: 1}
+  Value: {x: -1, y: -1}
+  _Duration: {x: 5, y: 5}
   _Delay: {x: 0, y: 0}
   _OvertimeRatio: {x: 0, y: 0}
   AnimToFired: 12
@@ -127,7 +127,7 @@ MonoBehaviour:
     CloneStartingEffect: {fileID: 0}
     OnCaster: 0
     AttackToSteal: 
-  Particles: 0
+  Particles: 3502
   AttachPsToHead: 0
   TeleportParticlesIn: 1
   TeleportParticlesOut: 1
@@ -170,7 +170,7 @@ MonoBehaviour:
   BoolValue: 0
   WalkingSide: 0
   ArmourT: 0
-  BaseCurrentValue: 1
+  BaseCurrentValue: 0
   Elemental: 0
   AttackToSteal: 
   OnCaster: 0

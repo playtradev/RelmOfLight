@@ -20,7 +20,7 @@ MonoBehaviour:
   StatsChecker: 0
   NameShowedOnIndicator: 
   Value: {x: 2, y: 2}
-  _Duration: {x: 15, y: 15}
+  _Duration: {x: 6, y: 6}
   _Delay: {x: 0, y: 0}
   _OvertimeRatio: {x: 0, y: 0}
   AnimToFired: 11
