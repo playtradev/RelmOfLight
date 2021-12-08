@@ -436,8 +436,10 @@ MonoBehaviour:
     B_BaseSpeed: 1
     IsForcedValue: 0
     ForcedValue: 0
-    ActionTime: 1
-    B_ActionTime: 1
+    MovementTime: 1
+    B_MovementTime: 1
+    AttackTime: 1
+    B_AttackTime: 1
     MovementSpeed: 1
     BaseMovementSpeedModifier: 0
     B_MovementSpeed: 1
@@ -581,8 +583,8 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.7, y: 0.7, z: 3}
-  m_Center: {x: 0.09, y: 0.57, z: 0.05}
+  m_Size: {x: 0.9, y: 0.9, z: 3}
+  m_Center: {x: 0, y: 0.5, z: 0}
 --- !u!1 &6451802379838691433
 GameObject:
   m_ObjectHideFlags: 0

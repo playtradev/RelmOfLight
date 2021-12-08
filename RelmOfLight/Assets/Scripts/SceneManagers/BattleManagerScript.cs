@@ -20,6 +20,9 @@ public class BattleManagerScript : MonoBehaviour
     public Image RightWin;
     public Image RightLose;
 
+
+    public ParticlesType StrongAttackInFeedback = ParticlesType.CharArrivingSmoke;
+
     public int MaxMana;
     public float ManaTime;
     public int StartingMana = 2;
