@@ -218,7 +218,7 @@ public class BaseInfoScript : MonoBehaviour
         {
             get
             {
-                return BattleManagerScript.Instance.BaseActionTime / MovementTime;
+                return BattleManagerScript.Instance.BaseActionTime / AttackTime;
             }
         }
 
