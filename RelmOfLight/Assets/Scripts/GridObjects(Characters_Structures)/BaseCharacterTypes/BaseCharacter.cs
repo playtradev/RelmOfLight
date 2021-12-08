@@ -2301,7 +2301,7 @@ public class BaseCharacter : MonoBehaviour, System.IDisposable, IDamageReceiver,
 
     public void SetLayer()
     {
-        CharOredrInLayer = 101 + (CharInfo.CurrentTilePos.x * 10) + (CharInfo.Facing == FacingType.Right ? CharInfo.CurrentTilePos.y - 12 : CharInfo.CurrentTilePos.y);
+        CharOredrInLayer = 101 + (CharInfo.CurrentTilePos.x * 100) + (CharInfo.Facing == FacingType.Right ? CharInfo.CurrentTilePos.y - 12 : CharInfo.CurrentTilePos.y);
         if (CharInfo.UseLayeringSystem)
         {
             foreach (ParticleHelperScript item in LayersPs)
