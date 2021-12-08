@@ -122,8 +122,10 @@ public class CharacterInfoScriptEditor : Editor
                 EditorGUI.indentLevel++;
                 EditorGUI.indentLevel++;
                 origin.SpeedStats.BaseSpeed = EditorGUILayout.FloatField("BaseSpeed", origin.SpeedStats.BaseSpeed);
-                EditorGUILayout.LabelField("ActionTime:");
+                EditorGUILayout.LabelField("MovementTime:");
                 origin.SpeedStats.MovementTime = EditorGUILayout.Slider(origin.SpeedStats.MovementTime, 0, 10);
+                EditorGUILayout.LabelField("AttackTime:");
+                origin.SpeedStats.AttackTime = EditorGUILayout.Slider(origin.SpeedStats.AttackTime, 0, 10);
                 origin.SpeedStats.ArriveAnimSpeed = EditorGUILayout.FloatField("ArriveAnimSpeed", origin.SpeedStats.ArriveAnimSpeed);
                 origin.SpeedStats.LeaveAnimSpeed = EditorGUILayout.FloatField("LeaveAnimSpeed", origin.SpeedStats.LeaveAnimSpeed);
                 EditorGUILayout.Space();
