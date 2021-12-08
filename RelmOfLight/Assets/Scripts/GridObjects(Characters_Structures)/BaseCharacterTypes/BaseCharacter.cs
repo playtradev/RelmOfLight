@@ -2306,9 +2306,9 @@ public class BaseCharacter : MonoBehaviour, System.IDisposable, IDamageReceiver,
         {
             foreach (ParticleHelperScript item in LayersPs)
             {
-                item.UpdatePsSortingOrder(CharOredrInLayer);
+                item.UpdatePsSortingOrder(CharOredrInLayer + 1000);
             }
-            SpineAnim.SetSkeletonOrderInLayer(CharOredrInLayer);
+            SpineAnim.SetSkeletonOrderInLayer(CharOredrInLayer + 1000);
         }
     }
 
