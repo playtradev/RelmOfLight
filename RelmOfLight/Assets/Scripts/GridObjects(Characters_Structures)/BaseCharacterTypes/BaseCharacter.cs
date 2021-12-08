@@ -203,7 +203,7 @@ public class BaseCharacter : MonoBehaviour, System.IDisposable, IDamageReceiver,
             }
             currentInputProfile.UseStrong = true;
             currentInputProfile.UseDir = false;
-            ParticleManagerScript.Instance.FireParticlesInPosition(BattleManagerScript.Instance.StrongAttackInFeedback, spineT.position);
+            ParticleManagerScript.Instance.FireParticlesInTransform(BattleManagerScript.Instance.StrongAttackInFeedback, spineT);
             StrongAttackRequestEvent?.Invoke();
 
         }
