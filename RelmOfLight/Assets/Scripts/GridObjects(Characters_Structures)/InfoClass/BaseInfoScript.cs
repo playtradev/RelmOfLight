@@ -203,16 +203,27 @@ public class BaseInfoScript : MonoBehaviour
         public bool IsForcedValue = false;
         public float ForcedValue = 0;
 
-        public float CurrentActionTime
+        public float CurrentMovementTime
         {
             get
             {
-                return BattleManagerScript.Instance.BaseActionTime / ActionTime;
+                return BattleManagerScript.Instance.BaseActionTime / MovementTime;
             }
         }
 
-        public float ActionTime = 1;
-        [HideInInspector] public float B_ActionTime = 1;
+        public float MovementTime = 1;
+        [HideInInspector] public float B_MovementTime = 1;
+
+        public float CurrentAttackTime
+        {
+            get
+            {
+                return BattleManagerScript.Instance.BaseActionTime / MovementTime;
+            }
+        }
+
+        public float AttackTime = 1;
+        [HideInInspector] public float B_AttackTime = 1;
         public float MovementSpeed = 1;
         public float BaseMovementSpeedModifier;
         [HideInInspector] public float B_MovementSpeed = 1;

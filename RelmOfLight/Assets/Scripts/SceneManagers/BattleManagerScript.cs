@@ -27,7 +27,7 @@ public class BattleManagerScript : MonoBehaviour
     public int ManaCostSkill = 1;
     public UICrystalInfo LeftCInfo;
     public UICrystalInfo RightCInfo;
-
+    public int MinMovementInput = 50;
 
     public float BaseActionTime = 1;
     public float ReturnCharsTurn = 20;
@@ -224,8 +224,6 @@ public class BattleManagerScript : MonoBehaviour
             if (t.phase == TouchPhase.Began)
             {
                 RaycastHit hit;
-              
-
                 if (Physics.Raycast(ray, out hit) && hit.transform.tag.Contains("Side"))
                 {
                     Debug.LogError(hit.transform.tag);
@@ -247,23 +245,35 @@ public class BattleManagerScript : MonoBehaviour
                 DragObject dragO;
                 if (draggedObjects.TryGetValue(t.fingerId, out dragO))
                 {
-                    if (dragO.obj.CharInfo.Side == TeamSideType.LeftSideTeam)
+                    float res = dragO.startPos.y - t.position.y;
+                    if (Mathf.Abs(res) < MinMovementInput)
                     {
-                        LeftMana.CurrentMana -= ManaCostMovement;
+                        dragO.obj.Strongattack();
                     }
                     else
                     {
-                        RightMana.CurrentMana -= ManaCostMovement;
+                        if (dragO.obj.CharInfo.Side == TeamSideType.LeftSideTeam)
+                        {
+                            LeftMana.CurrentMana -= ManaCostMovement;
+                        }
+                        else
+                        {
+                            RightMana.CurrentMana -= ManaCostMovement;
+                        }
+
+                        if (res < -50)
+                        {
+                            dragO.obj.ForceMovementEvent(InputDirectionType.Up);
+                        }
+                        else if (res > 50)
+                        {
+                            dragO.obj.ForceMovementEvent(InputDirectionType.Down);
+                        }
                     }
-                    float res = dragO.startPos.y - t.position.y;
-                    if (res < -50)
-                    {
-                        dragO.obj.ForceMovementEvent(InputDirectionType.Up);
-                    }
-                    else if (res > 50)
-                    {
-                        dragO.obj.ForceMovementEvent(InputDirectionType.Down);
-                    }
+
+
+
+                   
                     draggedObjects.Remove(t.fingerId);
                 }
             }

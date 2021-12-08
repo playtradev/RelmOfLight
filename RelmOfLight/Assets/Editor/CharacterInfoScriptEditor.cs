@@ -123,7 +123,7 @@ public class CharacterInfoScriptEditor : Editor
                 EditorGUI.indentLevel++;
                 origin.SpeedStats.BaseSpeed = EditorGUILayout.FloatField("BaseSpeed", origin.SpeedStats.BaseSpeed);
                 EditorGUILayout.LabelField("ActionTime:");
-                origin.SpeedStats.ActionTime = EditorGUILayout.Slider(origin.SpeedStats.ActionTime, 0, 10);
+                origin.SpeedStats.MovementTime = EditorGUILayout.Slider(origin.SpeedStats.MovementTime, 0, 10);
                 origin.SpeedStats.ArriveAnimSpeed = EditorGUILayout.FloatField("ArriveAnimSpeed", origin.SpeedStats.ArriveAnimSpeed);
                 origin.SpeedStats.LeaveAnimSpeed = EditorGUILayout.FloatField("LeaveAnimSpeed", origin.SpeedStats.LeaveAnimSpeed);
                 EditorGUILayout.Space();
@@ -488,7 +488,7 @@ public class CharacterInfoScriptEditor : Editor
         //SpeedStats
         origin.SpeedStats.B_BaseSpeed = origin.SpeedStats.BaseSpeed;
         origin.SpeedStats.B_MovementSpeed = origin.SpeedStats.MovementSpeed;
-        origin.SpeedStats.B_ActionTime = origin.SpeedStats.ActionTime;
+        origin.SpeedStats.B_MovementTime = origin.SpeedStats.MovementTime;
         origin.SpeedStats.B_LeaveAnimSpeed = origin.SpeedStats.LeaveAnimSpeed;
         origin.SpeedStats.B_ArriveAnimSpeed = origin.SpeedStats.ArriveAnimSpeed;
         origin.SpeedStats.B_WeakBulletSpeed = origin.SpeedStats.WeakBulletSpeed;

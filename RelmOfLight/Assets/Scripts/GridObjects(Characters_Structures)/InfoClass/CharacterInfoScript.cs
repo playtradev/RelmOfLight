@@ -309,7 +309,7 @@ public class CharacterInfoScript : BaseInfoScript
         //SpeedStats
         SpeedStats.B_BaseSpeed = SpeedStats.BaseSpeed;
         SpeedStats.B_MovementSpeed = SpeedStats.MovementSpeed;
-        SpeedStats.B_ActionTime = SpeedStats.ActionTime;
+        SpeedStats.B_MovementTime = SpeedStats.MovementTime;
         SpeedStats.B_LeaveAnimSpeed = SpeedStats.LeaveAnimSpeed;
         SpeedStats.B_ArriveAnimSpeed = SpeedStats.ArriveAnimSpeed;
         SpeedStats.B_WeakBulletSpeed = SpeedStats.WeakBulletSpeed;

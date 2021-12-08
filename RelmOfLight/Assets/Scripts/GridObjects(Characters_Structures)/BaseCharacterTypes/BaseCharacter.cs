@@ -130,6 +130,9 @@ public class BaseCharacter : MonoBehaviour, System.IDisposable, IDamageReceiver,
     public delegate void CurrentCharStartingAction(ControllerType playerController, CharacterNameType characterID, CharacterActionType action, string identifier);
     public event CurrentCharStartingAction CurrentCharStartingActionEvent;
 
+    public delegate void StrongAttackRequest();
+    public event StrongAttackRequest StrongAttackRequestEvent;
+
 
     public void Unsub_CurrentCharStartingActionEvent()
     {
@@ -183,6 +186,26 @@ public class BaseCharacter : MonoBehaviour, System.IDisposable, IDamageReceiver,
         currentInputProfile.UseDir = true;
         currentInputProfile.UseStrong = false;
         currentInputProfile.NewDir = dir;
+    }
+
+    public void Strongattack()
+    {
+        if (IsOnField && BattleManagerScript.Instance.ManaCostSkill <= (CharInfo.Side == TeamSideType.LeftSideTeam ?
+            BattleManagerScript.Instance.LeftMana.CurrentMana : BattleManagerScript.Instance.RightMana.CurrentMana))
+        {
+            if (CharInfo.Side == TeamSideType.LeftSideTeam)
+            {
+                BattleManagerScript.Instance.LeftMana.CurrentMana -= BattleManagerScript.Instance.ManaCostSkill;
+            }
+            else
+            {
+                BattleManagerScript.Instance.RightMana.CurrentMana -= BattleManagerScript.Instance.ManaCostSkill;
+            }
+            currentInputProfile.UseStrong = true;
+            currentInputProfile.UseDir = false;
+            StrongAttackRequestEvent?.Invoke();
+
+        }
     }
 
     private void _CharInfo_BaseSwappableSOChangedEvent()
@@ -1205,9 +1228,9 @@ public class BaseCharacter : MonoBehaviour, System.IDisposable, IDamageReceiver,
                     target.CharInfo.HealthStats.Armour += val;
                     break;
                 case BuffDebuffStatsType.ActionTime:
-                    val = GetBuffDebuffValue(bdClass, bdClass.Effect.BaseCurrentValue ? target.CharInfo.SpeedStats.B_ActionTime : target.CharInfo.SpeedStats.ActionTime);
+                    val = GetBuffDebuffValue(bdClass, bdClass.Effect.BaseCurrentValue ? target.CharInfo.SpeedStats.B_MovementTime : target.CharInfo.SpeedStats.MovementTime);
                     totalchangesVal += val;
-                    target.CharInfo.SpeedStats.ActionTime += val;
+                    target.CharInfo.SpeedStats.MovementTime += val;
                     break;
                 case BuffDebuffStatsType.ArmourType:
                     if (!target.CharInfo.HealthStats.ArmourT.GridFight_ContainsStruct(bdClass.CurrentBuffDebuff.ArmourT))
@@ -1443,9 +1466,9 @@ public class BaseCharacter : MonoBehaviour, System.IDisposable, IDamageReceiver,
                                 target.CharInfo.HealthStats.Armour += val;
                                 break;
                             case BuffDebuffStatsType.ActionTime:
-                                val = GetBuffDebuffValue(bdClass, bdClass.Effect.BaseCurrentValue ? target.CharInfo.SpeedStats.B_ActionTime : target.CharInfo.SpeedStats.ActionTime);
+                                val = GetBuffDebuffValue(bdClass, bdClass.Effect.BaseCurrentValue ? target.CharInfo.SpeedStats.B_MovementTime : target.CharInfo.SpeedStats.MovementTime);
                                 totalchangesVal += val;
-                                target.CharInfo.SpeedStats.ActionTime += val;
+                                target.CharInfo.SpeedStats.MovementTime += val;
                                 break;
                             case BuffDebuffStatsType.Speed_Base:
                                 val = GetBuffDebuffValue(bdClass, bdClass.Effect.BaseCurrentValue ? target.CharInfo.SpeedStats.B_BaseSpeed : target.CharInfo.SpeedStats.BaseSpeed);
@@ -1529,7 +1552,7 @@ public class BaseCharacter : MonoBehaviour, System.IDisposable, IDamageReceiver,
                         target.CharInfo.HealthStats.Armour -= totalchangesVal;
                         break;
                     case BuffDebuffStatsType.ActionTime:
-                        target.CharInfo.SpeedStats.ActionTime -= totalchangesVal;
+                        target.CharInfo.SpeedStats.MovementTime -= totalchangesVal;
                         break;
                     case BuffDebuffStatsType.ArmourType:
                         if (target.CharInfo.HealthStats.B_ArmourT.GridFight_ContainsStruct(bdClass.CurrentBuffDebuff.ArmourT) && !target.CharInfo.HealthStats.ArmourT.GridFight_ContainsStruct(bdClass.CurrentBuffDebuff.ArmourT))

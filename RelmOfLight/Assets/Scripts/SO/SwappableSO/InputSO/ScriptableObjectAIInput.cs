@@ -11,12 +11,13 @@ public class ScriptableObjectAIInput : ScriptableObjectBaseCharacterInput
 {
 
     //AI STATE
-    public IEnumerator AICo = null;
+    public IEnumerator MovementAICo = null;
+    public IEnumerator AttackAICo = null;
 
     protected BaseCharacter target = null;
 
     private float HPperc = 100;
-  
+    bool IsActing = false;
 
     //PATHFINDING
     public BattleTileScript _possiblePos = null;
@@ -40,6 +41,7 @@ public class ScriptableObjectAIInput : ScriptableObjectBaseCharacterInput
     public override void SetUpEnteringOnBattle(CharacterAnimationStateType anim = CharacterAnimationStateType.Arriving, bool loop = false)
     {
         target = null;
+        IsActing = false;
         CharOwner.SetAnimation(anim, loop);
         base.SetUpEnteringOnBattle(anim, loop);
     }
@@ -47,6 +49,7 @@ public class ScriptableObjectAIInput : ScriptableObjectBaseCharacterInput
     public override void CharArrivedOnBattleField(bool overrideAnimAndPos = true, CharacterAnimationStateType anim = CharacterAnimationStateType.Arriving)
     {
         target = null;
+        IsActing = false;
         if (overrideAnimAndPos)
         {
             CharOwner.SetAnimation(anim, anim == CharacterAnimationStateType.Idle);
@@ -76,10 +79,15 @@ public class ScriptableObjectAIInput : ScriptableObjectBaseCharacterInput
 
     public override void StartInput()
     {
-        if (AICo == null)
+        if (MovementAICo == null)
         {
-            AICo = AI();
-            CharOwner.StartCoroutine(AICo);
+            MovementAICo = MovementAI();
+            CharOwner.StartCoroutine(MovementAICo);
+        }
+        if (AttackAICo == null)
+        {
+            AttackAICo = AttackAI();
+            CharOwner.StartCoroutine(AttackAICo);
         }
     }
     public override void Reset()
@@ -95,10 +103,15 @@ public class ScriptableObjectAIInput : ScriptableObjectBaseCharacterInput
             possiblePos.isTaken = false;
             possiblePos = null;
         }
-        if (AICo != null)
+        if (MovementAICo != null)
         {
-            CharOwner.StopCoroutine(AICo);
-            AICo = null;
+            CharOwner.StopCoroutine(MovementAICo);
+            MovementAICo = null;
+        }
+        if (AttackAICo != null)
+        {
+            CharOwner.StopCoroutine(AttackAICo);
+            AttackAICo = null;
         }
     }
 
@@ -116,9 +129,10 @@ public class ScriptableObjectAIInput : ScriptableObjectBaseCharacterInput
         }
     }
 
-    float actionoffset = 0;
-   
-    public virtual IEnumerator AI()
+    float movementActionoffset = 0;
+    float attackActionoffset = 0;
+
+    public virtual IEnumerator MovementAI()
     {
         bool val = true;
         while (val)
@@ -129,8 +143,77 @@ public class ScriptableObjectAIInput : ScriptableObjectBaseCharacterInput
             {
 
                 while (BattleManagerScript.Instance.CurrentBattleState != BattleState.Battle ||
-                    CharOwner.CharInfo.BaseSpeed == 0 || (Time.time < (actionoffset + CharOwner.CharInfo.SpeedStats.CurrentActionTime)
-                    && !UseStrong && !UseDir))
+                    CharOwner.CharInfo.BaseSpeed == 0 || (Time.time < (movementActionoffset + CharOwner.CharInfo.SpeedStats.CurrentMovementTime)
+                    && !UseStrong && !UseDir)|| IsActing)
+                {
+                    yield return null;
+                }
+
+                if (CharOwner.CharActionlist.Contains(CharacterActionType.Move))
+                {
+                    if (UseDir)
+                    {
+                        UseDir = false;
+                        possiblePos = GridManagerScript.Instance.GetBattleTile(CharOwner.currentMoveProfile.GetDirectionVectorAndAnimationCurve(NewDir));
+                        if (possiblePos != null && !possiblePos.isTaken && possiblePos.BattleTileState == BattleTileStateType.Empty)
+                        {
+                            possiblePos.isTaken = true;
+                            IsActing = true;
+                            yield return CharOwner.currentMoveProfile.StartMovement(possiblePos.Pos);
+                            IsActing = false;
+                            movementActionoffset = Time.time;
+                        }
+
+                    }
+                    else
+                    {
+                        possiblePositions = CharOwner.currentMoveProfile.GetPossibleTiles();
+                        if (possiblePositions.Count > 0)
+                        {
+                            possiblePos = possiblePositions.First();
+
+                            if (possiblePos.BattleTileState == BattleTileStateType.Empty && !possiblePos.isTaken)
+                            {
+                                possiblePos.isTaken = true;
+                                IsActing = true;
+                                yield return BattleManagerScript.Instance.WaitFor(CharOwner.CharInfo.SpeedStats.ReactionTimeValue, () => BattleManagerScript.Instance.CurrentBattleState == BattleState.Pause);
+
+                                yield return CharOwner.currentMoveProfile.StartMovement(possiblePos.Pos);
+                                IsActing = false;
+                                movementActionoffset = Time.time;
+                            }
+                        }
+                    }
+
+                }
+                yield return null;
+            }
+            else
+            {
+                if (possiblePos != null)
+                {
+                    possiblePos.isTaken = false;
+                    possiblePos = null;
+                }
+            }
+        }
+    }
+
+
+
+    public virtual IEnumerator AttackAI()
+    {
+        bool val = true;
+        while (val)
+        {
+            yield return null;
+
+            if (CharOwner.IsOnField && !CharOwner.died && CharOwner.CanAttack && !BattleManagerScript.Instance.isSkillHappening.Value)
+            {
+
+                while (BattleManagerScript.Instance.CurrentBattleState != BattleState.Battle ||
+                    CharOwner.CharInfo.BaseSpeed == 0 || (Time.time < (attackActionoffset + CharOwner.CharInfo.SpeedStats.CurrentAttackTime)
+                    && !UseStrong && !UseDir) || IsActing)
                 {
                     yield return null;
                 }
@@ -143,7 +226,7 @@ public class ScriptableObjectAIInput : ScriptableObjectBaseCharacterInput
 
                 if (!UseDir && (target != null || UseStrong))
                 {
-
+                    IsActing = true;
                     if (UseStrong)
                     {
                         tempAtk = CharOwner.CharInfo.CurrentAttackTypeInfo.GridFight_Where_FirstOrDefault(r => r.AttackInput == AttackInputType.Strong);
@@ -160,46 +243,8 @@ public class ScriptableObjectAIInput : ScriptableObjectBaseCharacterInput
                     {
                         UseStrong = false;
                     }
-                    actionoffset = Time.time;
-                }
-                else
-                {
-
-                    if (CharOwner.CharActionlist.Contains(CharacterActionType.Move))
-                    {
-                        if (UseDir)
-                        {
-                            UseDir = false;
-                            possiblePos = GridManagerScript.Instance.GetBattleTile(CharOwner.currentMoveProfile.GetDirectionVectorAndAnimationCurve(NewDir));
-                            if (possiblePos != null && !possiblePos.isTaken && possiblePos.BattleTileState == BattleTileStateType.Empty)
-                            {
-                                possiblePos.isTaken = true;
-                                yield return CharOwner.currentMoveProfile.StartMovement(possiblePos.Pos);
-                                actionoffset = Time.time;
-                            }
-                           
-                        }
-                        else
-                        {
-                            possiblePositions = CharOwner.currentMoveProfile.GetPossibleTiles();
-                            if (possiblePositions.Count > 0)
-                            {
-                                possiblePos = possiblePositions.First();
-
-                                if (possiblePos.BattleTileState == BattleTileStateType.Empty && !possiblePos.isTaken)
-                                {
-                                    possiblePos.isTaken = true;
-
-                                    yield return BattleManagerScript.Instance.WaitFor(CharOwner.CharInfo.SpeedStats.ReactionTimeValue, () => BattleManagerScript.Instance.CurrentBattleState == BattleState.Pause);
-
-                                    yield return CharOwner.currentMoveProfile.StartMovement(possiblePos.Pos);
-                                    actionoffset = Time.time;
-                                }
-                            }
-                        }
-                       
-                    }
-                    yield return null;
+                    attackActionoffset = Time.time;
+                    IsActing = false;
                 }
             }
             else
@@ -239,10 +284,16 @@ public class ScriptableObjectAIInput : ScriptableObjectBaseCharacterInput
 
     public override void SetCharDead()
     {
-        if (AICo != null)
+        if (MovementAICo != null)
         {
-            CharOwner.StopCoroutine(AICo);
-            AICo = null;
+            CharOwner.StopCoroutine(MovementAICo);
+            MovementAICo = null;
+        }
+
+        if (AttackAICo != null)
+        {
+            CharOwner.StopCoroutine(AttackAICo);
+            AttackAICo = null;
         }
         base.SetCharDead();
         CharOwner.SpineAnim.CurrentAnim = "";

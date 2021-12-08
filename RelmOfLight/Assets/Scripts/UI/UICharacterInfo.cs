@@ -17,24 +17,26 @@ public class UICharacterInfo : MonoBehaviour, IBeginDragHandler, IDragHandler, I
 	public Image SkillIcon;
 	public Vector3 OffSetPosition;
 	public TeamSideType Side;
+	public RectTransform SkillInfo;
 
-	public void Strongattack()
+
+
+	public void SkillInfoOn()
 	{
-		if (CB != null && CB.IsOnField && BattleManagerScript.Instance.ManaCostSkill <= (Side == TeamSideType.LeftSideTeam ? BattleManagerScript.Instance.LeftMana.CurrentMana : BattleManagerScript.Instance.RightMana.CurrentMana))
-		{
-			if (Side == TeamSideType.LeftSideTeam)
-			{
-				BattleManagerScript.Instance.LeftMana.CurrentMana -= BattleManagerScript.Instance.ManaCostSkill;
-			}
-			else
-			{
-				BattleManagerScript.Instance.RightMana.CurrentMana -= BattleManagerScript.Instance.ManaCostSkill;
-			}
-			CB.currentInputProfile.UseStrong = true;
-			CB.currentInputProfile.UseDir = false;
-			StartCoroutine(skillDisable());
-		}
+		SkillInfo.gameObject.SetActive(true);
 	}
+
+	public void SkillInfoOff()
+	{
+		SkillInfo.gameObject.SetActive(false);
+	}
+
+
+	private void Cb_StrongAttackRequestEvent()
+	{
+		StartCoroutine(skillDisable());
+	}
+
 
 	private IEnumerator skillDisable()
 	{
@@ -89,8 +91,11 @@ public class UICharacterInfo : MonoBehaviour, IBeginDragHandler, IDragHandler, I
 			CB = BattleManagerScript.Instance.AllCharacters.Where(r => r.CharInfo.CharacterID == CharacterId).FirstOrDefault();
 			CharIcon.sprite = CB.CharInfo.CharacterIcon;
 			SkillIcon.sprite = CB.CharInfo._CurrentAttackTypeInfo.GridFight_Where_FirstOrDefault(r=> r.AttackInput == AttackInputType.Strong).AttackIcon;
+			CB.StrongAttackRequestEvent += Cb_StrongAttackRequestEvent;
 		}
 	}
+
+   
 
     void Update()
 	{
