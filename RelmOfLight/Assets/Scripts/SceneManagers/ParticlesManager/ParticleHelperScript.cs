@@ -428,6 +428,7 @@ public class ParticleHelperScript : MonoBehaviour
 
     public void UpdatePsSortingOrder(int sortingOrder)
     {
+
         foreach (ParticleChildSimulationSpeed item in Children)
         {
             item.PSR.sortingOrder = sortingOrder;
