@@ -173,7 +173,7 @@ MonoBehaviour:
   BaseCurrentValue: 0
   Elemental: 0
   AttackToSteal: 
-  OnCaster: 0
+  OnCaster: 1
   ClonePrefab: 0
   OverrideAI: 0
   ClonePowerScale: 0.5

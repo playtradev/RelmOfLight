@@ -360,9 +360,9 @@ MonoBehaviour:
     B_BaseSpeed: 1
     IsForcedValue: 0
     ForcedValue: 0
-    MovementTime: 1
-    B_MovementTime: 1
-    AttackTime: 1
+    MovementTime: 0.5
+    B_MovementTime: 0.5
+    AttackTime: 5
     B_AttackTime: 1
     MovementSpeed: 1
     BaseMovementSpeedModifier: 0
@@ -551,7 +551,7 @@ GameObject:
   - component: {fileID: 3130091654117201862}
   - component: {fileID: -5096685705288024241}
   m_Layer: 0
-  m_Name: Stage01_Character_Desert_PivotChar_Mermer
+  m_Name: Char_Pivot_Spellbinder_Mermer
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -640,7 +640,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6857555822528230163}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.93, y: 0.48, z: 0}
+  m_LocalPosition: {x: -0.88, y: 0.622, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []

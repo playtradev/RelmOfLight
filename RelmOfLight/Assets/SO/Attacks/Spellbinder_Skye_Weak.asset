@@ -33,8 +33,9 @@ MonoBehaviour:
   NewFovSystemList:
   - {x: 0, y: 1}
   - {x: 0, y: 2}
-  - {x: 0, y: -1}
-  - {x: 0, y: -2}
+  - {x: 0, y: 3}
+  - {x: 0, y: 4}
+  - {x: 0, y: 0}
   AttackAnim: 0
   Particles:
     Right:
@@ -57,7 +58,7 @@ MonoBehaviour:
   OverridePsInput: 0
   _ParticlesInput: 0
   TrajectoriesNumber: 1
-  _BulletT: 
+  _BulletT: 01000000
   Grenade_ExplosionDelay: 3
   Grenade_Defensible: 0
   Grenade_CanBeDestroyed: 0
@@ -257,17 +258,18 @@ MonoBehaviour:
       Show: 1
       BulletEffectTiles:
       - Pos: {x: 0, y: 0}
-        ToFire: 0
+        ToFire: 1
         ExposionChances: 100
         DamagePerc: 1
-        EffectsVisisble: 0
+        EffectsVisisble: 1
         TileEffectsVisisble: 0
         SummonVisisble: 0
         ChildrenExplosionVisisble: 1
         Foldout: 1
         HasEffect: 1
         showImpact: 1
-        Effects: []
+        Effects:
+        - {fileID: 11400000, guid: f2fb5e053a582c84a9e84dd9c2f7f7ea, type: 2}
         EffectChances: 100
         IsEffectOnTile: 0
         EffectsOnTile:
@@ -326,7 +328,7 @@ MonoBehaviour:
             AttacksToAdd: []
             AddToBasicAttacks: 0
         ChildrenExplosion:
-        - ChildrenBulletDelay: 0.3
+        - ChildrenBulletDelay: 0
           ChildrenDamageMultiplier: 1
           Show: 1
           BulletEffectTiles:

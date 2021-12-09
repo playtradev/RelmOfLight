@@ -17,10 +17,10 @@ MonoBehaviour:
   maxStack: 3
   OldSystem: 1
   StatsToAffect: 0
-  StatsChecker: 1
+  StatsChecker: 0
   NameShowedOnIndicator: 
   Value: {x: 1, y: 1}
-  _Duration: {x: 15, y: 15}
+  _Duration: {x: 4, y: 4}
   _Delay: {x: 0, y: 0}
   _OvertimeRatio: {x: 0, y: 0}
   AnimToFired: 12

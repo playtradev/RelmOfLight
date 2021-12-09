@@ -135,7 +135,6 @@ MonoBehaviour:
     EffectOnCaster: 1
     EffectsOnCaster:
     - {fileID: 11400000, guid: 0fd5c0fe6267f49afb657818f2ec28a7, type: 2}
-    - {fileID: 11400000, guid: 73e048d6f8e9e46cd81585ed48f7381b, type: 2}
     - {fileID: 11400000, guid: 1ce515fb1ee5f2049aa60559ed2e5b4d, type: 2}
     BulletLevel: 1
     AtkType: 1

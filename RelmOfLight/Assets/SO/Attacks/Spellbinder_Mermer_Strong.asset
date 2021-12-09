@@ -12,11 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 661d3779646d38b458b753570c737d23, type: 3}
   m_Name: Spellbinder_Mermer_Strong
   m_EditorClassIdentifier: 
-  _SkillID: CHAPTER_01_CHARACTER_DESERT_WEAKATTACK_01_MERMER_PEARLBULLET_ENEMY_-_PRODUCTION
-  AttackDisplayName: Pearlbullet
+  _SkillID: CHAPTER_01_CHARACTER_DESERT_STRONGATTACK_01_MERMER_KRAKEN_ENEMY_-_PRODUCTION
+  AttackDisplayName: Kraken
   AttackDescription: DESCRIPTION
   AttackVideoClip: {fileID: 0}
-  AttackIcon: {fileID: 0}
+  AttackIcon: {fileID: 21300000, guid: d72ba3b3a6b59314fad2d74acdc1cae0, type: 3}
   attackDisplayType: 0
   IsMaskAttack: 0
   AttackOwner: 0
@@ -24,40 +24,36 @@ MonoBehaviour:
   taPhase: 0
   UseAttackerElement: 1
   AttackElements: 02000000
-  _DamageMultiplier: {x: 1, y: 1}
-  AttackInput: 0
+  _DamageMultiplier: {x: 0, y: 0}
+  AttackInput: 1
   AttackTargetSide: 0
   useCustomChargeTime_Reset: 0
   customChargeTime: 0
-  PrefixAnim: 0
-  NewFovSystemList:
-  - {x: 0, y: 1}
-  - {x: 0, y: 2}
-  - {x: 0, y: -1}
-  - {x: 0, y: -2}
-  AttackAnim: 0
+  PrefixAnim: 1
+  NewFovSystemList: []
+  AttackAnim: 1
   Particles:
     Right:
-      CastAddress: Chapter01_TohoraSea_Character_Desert_WeakAttack_Cast_Right_Mermer
-      BulletAddress: Chapter01_TohoraSea_Character_Desert_WeakAttack_Bullet_Right_Mermer
-      HitAddress: Chapter01_TohoraSea_Character_Desert_WeakAttack_Hit_Right_Mermer
+      CastAddress: Chapter01_TohoraSea_Character_Desert_StrongAttack_Cast_Right_Mermer
+      BulletAddress: Chapter01_TohoraSea_Character_Desert_StrongAttack_Bullet_Right_Mermer
+      HitAddress: Chapter01_TohoraSea_Character_Desert_StrongAttack_Hit_Right_Mermer
       Cast: {fileID: 0}
       Bullet: {fileID: 0}
       Hit: {fileID: 0}
-  EffectTimeOnImpact: 0
+  EffectTimeOnImpact: 1
   SlowDownOnHit:
-    TimeEffect: 0.1
-    DurationOfTimeEffect: 1
-    TimeEffectDelay: 1
+    TimeEffect: 0.01
+    DurationOfTimeEffect: 0.4
+    TimeEffectDelay: 0.2
     TimeEffectChildExplosion: 0
     ApplyImpactSlowToAttacker: 0
-  OverridePsHit: 1
+  OverridePsHit: 0
   _HitParticlesT: 0
   _HitResizeMultiplier: 1
   OverridePsInput: 0
   _ParticlesInput: 0
   TrajectoriesNumber: 1
-  _BulletT: 01000000
+  _BulletT: 
   Grenade_ExplosionDelay: 3
   Grenade_Defensible: 0
   Grenade_CanBeDestroyed: 0
@@ -70,7 +66,7 @@ MonoBehaviour:
   Grenade_DirtyBombEffects: []
   IsHoming: 0
   Homing_TimeTillExpiry: 15
-  Homing_TurningSpeed: 2
+  Homing_TurningSpeed: 5
   Homing_SlowDownMultiplier: 2
   ChancesOfPooping: 100
   BothSides: 0
@@ -132,18 +128,18 @@ MonoBehaviour:
       AttacksToAdd: []
       AddToBasicAttacks: 0
   TilesAtk:
-    Chances: 100
+    Chances: 200
     Show: 0
     EffectOnCaster: 0
     EffectsOnCaster: []
-    BulletLevel: 0
-    AtkType: 1
+    BulletLevel: 1
+    AtkType: 2
     CanAffectBothSide: 0
     UseBoundaries: 0
     RangeLevel: {x: 0, y: 0}
     UseOldSystem: 0
     BulletTrajectories:
-    - Delay: 0.2
+    - Delay: 0
       HasABullet: 1
       OverrideBulletLevel: 0
       BulletLevel: 0
@@ -180,8 +176,8 @@ MonoBehaviour:
       toFire: 0
       CopyTo: 0
       ExplosionChances: 100
-      TimeMultiplier: 1
-      IsIndicatingOntTile: 0
+      TimeMultiplier: 1.5
+      IsIndicatingOntTile: 1
       Trajectory_Speed:
         serializedVersion: 2
         m_Curve:
@@ -265,9 +261,10 @@ MonoBehaviour:
         SummonVisisble: 0
         ChildrenExplosionVisisble: 1
         Foldout: 1
-        HasEffect: 0
+        HasEffect: 1
         showImpact: 1
-        Effects: []
+        Effects:
+        - {fileID: 11400000, guid: 33b8055e0f2c845f68e4da6bcadd05c7, type: 2}
         EffectChances: 100
         IsEffectOnTile: 0
         EffectsOnTile:
@@ -325,77 +322,359 @@ MonoBehaviour:
             overrideAttacks: 0
             AttacksToAdd: []
             AddToBasicAttacks: 0
-        ChildrenExplosion:
-        - ChildrenBulletDelay: 0.5
-          ChildrenDamageMultiplier: 1
-          Show: 1
-          BulletEffectTiles:
-          - Pos: {x: 0, y: 1}
-            ToFire: 1
-            ExposionChances: 100
-            DamagePerc: 1
-            EffectsVisisble: 0
-            TileEffectsVisisble: 0
-            SummonVisisble: 0
-            ChildrenExplosionVisisble: 0
-            Foldout: 0
-            HasEffect: 0
-            showImpact: 1
-            Effects: []
-            EffectChances: 100
-            IsEffectOnTile: 0
-            EffectsOnTile:
-              TileAction: 0
-              HitTime: 1
-              TileParticlesID: 0
-              EffectChances: 100
-              DurationOnTile: 0
-              DurationOnTileV: {x: 0, y: 0}
-              Effects: []
-            SpawnSummonOnTile: 0
-            SummonToSpawn:
-              SpawnChances: 100
-              UncappedDuration: 1
-              DurationOnField: {x: 0, y: 0}
-              SummonSpawnPositions: []
-              CharToSummon: 0
-              hasCharOverrides: 0
-              CharOverrides:
-                OverrideHealth: 0
-                Health: 0
-                OverrideHealthRegeneration: 0
-                HealthRegeneration: 0
-                OverrideArmour: 0
-                Armour: 0
-                OverrideShieldRegeneration: 0
-                ShieldRegeneration: 0
-                OverrideEther: 0
-                Ether: 0
-                OverrideEtherRegeneration: 0
-                EtherRegeneration: 0
-                OverrideSpeed: 0
-                MovementSpeed: 0
-                OverrideEvasion: 0
-                Evasion: {x: 0, y: 0}
-                OverrideSigilDropBonus: 0
-                SigilDropBonus: 0
-                OverrideCriticalWeakBullet: 0
-                CriticalWeakBullet: {x: 0, y: 0}
-                OverrideCriticalStrongBullet: 0
-                CriticalStrongBullet: {x: 0, y: 0}
-                OverrideWeakAttackMultiplier: 0
-                WeakAttackMultiplier: 0
-                OverrideStrongAttackMultiplier: 0
-                StrongAttackMultiplier: 0
-                OverrideHue: 0
-                ColorHueSaturation:
-                  color: {r: 0, g: 0, b: 0, a: 0}
-                  hue: 0
-                  sat: 0
-                OverrideAggroMultiplier: 0
-                AggroMultiplier: 1
-                overrideDeath: 0
-                deathAnim: 0
-                overrideAttacks: 0
-                AttacksToAdd: []
-                AddToBasicAttacks: 0
+        ChildrenExplosion: []
+      - Pos: {x: 0, y: 1}
+        ToFire: 1
+        ExposionChances: 100
+        DamagePerc: 1
+        EffectsVisisble: 0
+        TileEffectsVisisble: 0
+        SummonVisisble: 0
+        ChildrenExplosionVisisble: 1
+        Foldout: 0
+        HasEffect: 1
+        showImpact: 1
+        Effects:
+        - {fileID: 11400000, guid: 33b8055e0f2c845f68e4da6bcadd05c7, type: 2}
+        EffectChances: 100
+        IsEffectOnTile: 0
+        EffectsOnTile:
+          TileAction: 0
+          HitTime: 1
+          TileParticlesID: 0
+          EffectChances: 100
+          DurationOnTile: 0
+          DurationOnTileV: {x: 0, y: 0}
+          Effects: []
+        SpawnSummonOnTile: 0
+        SummonToSpawn:
+          SpawnChances: 100
+          UncappedDuration: 1
+          DurationOnField: {x: 0, y: 0}
+          SummonSpawnPositions: []
+          CharToSummon: 0
+          hasCharOverrides: 0
+          CharOverrides:
+            OverrideHealth: 0
+            Health: 0
+            OverrideHealthRegeneration: 0
+            HealthRegeneration: 0
+            OverrideArmour: 0
+            Armour: 0
+            OverrideShieldRegeneration: 0
+            ShieldRegeneration: 0
+            OverrideEther: 0
+            Ether: 0
+            OverrideEtherRegeneration: 0
+            EtherRegeneration: 0
+            OverrideSpeed: 0
+            MovementSpeed: 0
+            OverrideEvasion: 0
+            Evasion: {x: 0, y: 0}
+            OverrideSigilDropBonus: 0
+            SigilDropBonus: 0
+            OverrideCriticalWeakBullet: 0
+            CriticalWeakBullet: {x: 0, y: 0}
+            OverrideCriticalStrongBullet: 0
+            CriticalStrongBullet: {x: 0, y: 0}
+            OverrideWeakAttackMultiplier: 0
+            WeakAttackMultiplier: 0
+            OverrideStrongAttackMultiplier: 0
+            StrongAttackMultiplier: 0
+            OverrideHue: 0
+            ColorHueSaturation:
+              color: {r: 0, g: 0, b: 0, a: 0}
+              hue: 0
+              sat: 0
+            OverrideAggroMultiplier: 0
+            AggroMultiplier: 1
+            overrideDeath: 0
+            deathAnim: 0
+            overrideAttacks: 0
+            AttacksToAdd: []
+            AddToBasicAttacks: 0
+        ChildrenExplosion: []
+      - Pos: {x: 0, y: 2}
+        ToFire: 1
+        ExposionChances: 100
+        DamagePerc: 1
+        EffectsVisisble: 0
+        TileEffectsVisisble: 0
+        SummonVisisble: 0
+        ChildrenExplosionVisisble: 1
+        Foldout: 0
+        HasEffect: 1
+        showImpact: 1
+        Effects:
+        - {fileID: 11400000, guid: 33b8055e0f2c845f68e4da6bcadd05c7, type: 2}
+        EffectChances: 100
+        IsEffectOnTile: 0
+        EffectsOnTile:
+          TileAction: 0
+          HitTime: 1
+          TileParticlesID: 0
+          EffectChances: 100
+          DurationOnTile: 0
+          DurationOnTileV: {x: 0, y: 0}
+          Effects: []
+        SpawnSummonOnTile: 0
+        SummonToSpawn:
+          SpawnChances: 100
+          UncappedDuration: 1
+          DurationOnField: {x: 0, y: 0}
+          SummonSpawnPositions: []
+          CharToSummon: 0
+          hasCharOverrides: 0
+          CharOverrides:
+            OverrideHealth: 0
+            Health: 0
+            OverrideHealthRegeneration: 0
+            HealthRegeneration: 0
+            OverrideArmour: 0
+            Armour: 0
+            OverrideShieldRegeneration: 0
+            ShieldRegeneration: 0
+            OverrideEther: 0
+            Ether: 0
+            OverrideEtherRegeneration: 0
+            EtherRegeneration: 0
+            OverrideSpeed: 0
+            MovementSpeed: 0
+            OverrideEvasion: 0
+            Evasion: {x: 0, y: 0}
+            OverrideSigilDropBonus: 0
+            SigilDropBonus: 0
+            OverrideCriticalWeakBullet: 0
+            CriticalWeakBullet: {x: 0, y: 0}
+            OverrideCriticalStrongBullet: 0
+            CriticalStrongBullet: {x: 0, y: 0}
+            OverrideWeakAttackMultiplier: 0
+            WeakAttackMultiplier: 0
+            OverrideStrongAttackMultiplier: 0
+            StrongAttackMultiplier: 0
+            OverrideHue: 0
+            ColorHueSaturation:
+              color: {r: 0, g: 0, b: 0, a: 0}
+              hue: 0
+              sat: 0
+            OverrideAggroMultiplier: 0
+            AggroMultiplier: 1
+            overrideDeath: 0
+            deathAnim: 0
+            overrideAttacks: 0
+            AttacksToAdd: []
+            AddToBasicAttacks: 0
+        ChildrenExplosion: []
+      - Pos: {x: 0, y: 3}
+        ToFire: 1
+        ExposionChances: 100
+        DamagePerc: 1
+        EffectsVisisble: 0
+        TileEffectsVisisble: 0
+        SummonVisisble: 0
+        ChildrenExplosionVisisble: 1
+        Foldout: 0
+        HasEffect: 1
+        showImpact: 1
+        Effects:
+        - {fileID: 11400000, guid: 33b8055e0f2c845f68e4da6bcadd05c7, type: 2}
+        EffectChances: 100
+        IsEffectOnTile: 0
+        EffectsOnTile:
+          TileAction: 0
+          HitTime: 1
+          TileParticlesID: 0
+          EffectChances: 100
+          DurationOnTile: 0
+          DurationOnTileV: {x: 0, y: 0}
+          Effects: []
+        SpawnSummonOnTile: 0
+        SummonToSpawn:
+          SpawnChances: 100
+          UncappedDuration: 1
+          DurationOnField: {x: 0, y: 0}
+          SummonSpawnPositions: []
+          CharToSummon: 0
+          hasCharOverrides: 0
+          CharOverrides:
+            OverrideHealth: 0
+            Health: 0
+            OverrideHealthRegeneration: 0
+            HealthRegeneration: 0
+            OverrideArmour: 0
+            Armour: 0
+            OverrideShieldRegeneration: 0
+            ShieldRegeneration: 0
+            OverrideEther: 0
+            Ether: 0
+            OverrideEtherRegeneration: 0
+            EtherRegeneration: 0
+            OverrideSpeed: 0
+            MovementSpeed: 0
+            OverrideEvasion: 0
+            Evasion: {x: 0, y: 0}
+            OverrideSigilDropBonus: 0
+            SigilDropBonus: 0
+            OverrideCriticalWeakBullet: 0
+            CriticalWeakBullet: {x: 0, y: 0}
+            OverrideCriticalStrongBullet: 0
+            CriticalStrongBullet: {x: 0, y: 0}
+            OverrideWeakAttackMultiplier: 0
+            WeakAttackMultiplier: 0
+            OverrideStrongAttackMultiplier: 0
+            StrongAttackMultiplier: 0
+            OverrideHue: 0
+            ColorHueSaturation:
+              color: {r: 0, g: 0, b: 0, a: 0}
+              hue: 0
+              sat: 0
+            OverrideAggroMultiplier: 0
+            AggroMultiplier: 1
+            overrideDeath: 0
+            deathAnim: 0
+            overrideAttacks: 0
+            AttacksToAdd: []
+            AddToBasicAttacks: 0
+        ChildrenExplosion: []
+      - Pos: {x: 0, y: 4}
+        ToFire: 1
+        ExposionChances: 100
+        DamagePerc: 1
+        EffectsVisisble: 0
+        TileEffectsVisisble: 0
+        SummonVisisble: 0
+        ChildrenExplosionVisisble: 1
+        Foldout: 0
+        HasEffect: 1
+        showImpact: 1
+        Effects:
+        - {fileID: 11400000, guid: 33b8055e0f2c845f68e4da6bcadd05c7, type: 2}
+        EffectChances: 100
+        IsEffectOnTile: 0
+        EffectsOnTile:
+          TileAction: 0
+          HitTime: 1
+          TileParticlesID: 0
+          EffectChances: 100
+          DurationOnTile: 0
+          DurationOnTileV: {x: 0, y: 0}
+          Effects: []
+        SpawnSummonOnTile: 0
+        SummonToSpawn:
+          SpawnChances: 100
+          UncappedDuration: 1
+          DurationOnField: {x: 0, y: 0}
+          SummonSpawnPositions: []
+          CharToSummon: 0
+          hasCharOverrides: 0
+          CharOverrides:
+            OverrideHealth: 0
+            Health: 0
+            OverrideHealthRegeneration: 0
+            HealthRegeneration: 0
+            OverrideArmour: 0
+            Armour: 0
+            OverrideShieldRegeneration: 0
+            ShieldRegeneration: 0
+            OverrideEther: 0
+            Ether: 0
+            OverrideEtherRegeneration: 0
+            EtherRegeneration: 0
+            OverrideSpeed: 0
+            MovementSpeed: 0
+            OverrideEvasion: 0
+            Evasion: {x: 0, y: 0}
+            OverrideSigilDropBonus: 0
+            SigilDropBonus: 0
+            OverrideCriticalWeakBullet: 0
+            CriticalWeakBullet: {x: 0, y: 0}
+            OverrideCriticalStrongBullet: 0
+            CriticalStrongBullet: {x: 0, y: 0}
+            OverrideWeakAttackMultiplier: 0
+            WeakAttackMultiplier: 0
+            OverrideStrongAttackMultiplier: 0
+            StrongAttackMultiplier: 0
+            OverrideHue: 0
+            ColorHueSaturation:
+              color: {r: 0, g: 0, b: 0, a: 0}
+              hue: 0
+              sat: 0
+            OverrideAggroMultiplier: 0
+            AggroMultiplier: 1
+            overrideDeath: 0
+            deathAnim: 0
+            overrideAttacks: 0
+            AttacksToAdd: []
+            AddToBasicAttacks: 0
+        ChildrenExplosion: []
+      - Pos: {x: 0, y: 5}
+        ToFire: 1
+        ExposionChances: 100
+        DamagePerc: 1
+        EffectsVisisble: 0
+        TileEffectsVisisble: 0
+        SummonVisisble: 0
+        ChildrenExplosionVisisble: 1
+        Foldout: 0
+        HasEffect: 1
+        showImpact: 1
+        Effects:
+        - {fileID: 11400000, guid: 33b8055e0f2c845f68e4da6bcadd05c7, type: 2}
+        EffectChances: 100
+        IsEffectOnTile: 0
+        EffectsOnTile:
+          TileAction: 0
+          HitTime: 1
+          TileParticlesID: 0
+          EffectChances: 100
+          DurationOnTile: 0
+          DurationOnTileV: {x: 0, y: 0}
+          Effects: []
+        SpawnSummonOnTile: 0
+        SummonToSpawn:
+          SpawnChances: 100
+          UncappedDuration: 1
+          DurationOnField: {x: 0, y: 0}
+          SummonSpawnPositions: []
+          CharToSummon: 0
+          hasCharOverrides: 0
+          CharOverrides:
+            OverrideHealth: 0
+            Health: 0
+            OverrideHealthRegeneration: 0
+            HealthRegeneration: 0
+            OverrideArmour: 0
+            Armour: 0
+            OverrideShieldRegeneration: 0
+            ShieldRegeneration: 0
+            OverrideEther: 0
+            Ether: 0
+            OverrideEtherRegeneration: 0
+            EtherRegeneration: 0
+            OverrideSpeed: 0
+            MovementSpeed: 0
+            OverrideEvasion: 0
+            Evasion: {x: 0, y: 0}
+            OverrideSigilDropBonus: 0
+            SigilDropBonus: 0
+            OverrideCriticalWeakBullet: 0
+            CriticalWeakBullet: {x: 0, y: 0}
+            OverrideCriticalStrongBullet: 0
+            CriticalStrongBullet: {x: 0, y: 0}
+            OverrideWeakAttackMultiplier: 0
+            WeakAttackMultiplier: 0
+            OverrideStrongAttackMultiplier: 0
+            StrongAttackMultiplier: 0
+            OverrideHue: 0
+            ColorHueSaturation:
+              color: {r: 0, g: 0, b: 0, a: 0}
+              hue: 0
+              sat: 0
+            OverrideAggroMultiplier: 0
+            AggroMultiplier: 1
+            overrideDeath: 0
+            deathAnim: 0
+            overrideAttacks: 0
+            AttacksToAdd: []
+            AddToBasicAttacks: 0
+        ChildrenExplosion: []
