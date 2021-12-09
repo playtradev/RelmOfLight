@@ -653,7 +653,8 @@ public enum BuffDebuffStatsType
     AggroMultiplier = 506,
     Cursed = 507,
     DeathSentence = 508,
-    ActionTime = 509,
+    MovementTime = 509,
+    AttackTime = 510,
     FireParticlesToChar = 1000,
 }
 
