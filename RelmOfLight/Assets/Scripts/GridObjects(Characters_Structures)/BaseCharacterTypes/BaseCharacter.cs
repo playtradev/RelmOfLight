@@ -2300,6 +2300,7 @@ public class BaseCharacter : MonoBehaviour, System.IDisposable, IDamageReceiver,
             (CharInfo.CharacterID == CharacterNameType.CrystalRight && damageInfo.Attacker.ReferenceCharacter.CharInfo.Side == TeamSideType.LeftSideTeam))
         {
             StartCoroutine(BattleManagerScript.Instance.RemoveCharacterFromBaord(damageInfo.Attacker.ReferenceCharacter, true));
+            damageInfo.Attacker.ReferenceCharacter.CharInfo.SetupTobaseValue();
         }
 
         return atkRes;
