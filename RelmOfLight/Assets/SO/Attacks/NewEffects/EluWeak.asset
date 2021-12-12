@@ -26,8 +26,8 @@ MonoBehaviour:
   AnimToFired: 12
   StatsToAffectList:
   - StatsToAffect: 18
-    StatsChecker: 1
-    _Value: {x: -1, y: -1}
+    StatsChecker: 0
+    _Value: {x: 0, y: 0}
     useDelay: 0
     Show: 1
     BoolValue: 0

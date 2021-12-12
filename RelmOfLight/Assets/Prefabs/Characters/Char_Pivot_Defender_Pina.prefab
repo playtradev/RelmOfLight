@@ -438,12 +438,12 @@ MonoBehaviour:
   Facing: 0
   UseLayeringSystem: 1
   HealthStats:
-    Health: 23
-    B_Health: 23
+    Health: 29
+    B_Health: 29
     BaseHealthModifier: 0
     ArmourT: 
-    Armour: 1
-    B_Armour: 1
+    Armour: 2
+    B_Armour: 2
     BaseArmourModifier: 0
     B_ArmourT: 
   ManaCostN: 2
@@ -453,9 +453,9 @@ MonoBehaviour:
     B_BaseSpeed: 1
     IsForcedValue: 0
     ForcedValue: 0
-    MovementTime: 0.5
-    B_MovementTime: 0.5
-    AttackTime: 10
+    MovementTime: 2
+    B_MovementTime: 2
+    AttackTime: 2
     B_AttackTime: 1
     MovementSpeed: 1
     BaseMovementSpeedModifier: 0
@@ -493,8 +493,8 @@ MonoBehaviour:
     B_StrongBulletSpeedV: {x: 0, y: 0}
     B_AttackLoopDuration: 0.2
   DamageStats:
-    BaseDamage: 2
-    B_BaseDamage: 2
+    BaseDamage: 3
+    B_BaseDamage: 3
     ElementalsResistence: []
     CurrentElemental: 0
   SwappableBases: {fileID: 11400000, guid: b6188b7a1898b44488273fa37da1d8d1, type: 2}

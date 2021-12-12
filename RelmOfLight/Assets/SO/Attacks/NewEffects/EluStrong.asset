@@ -20,14 +20,14 @@ MonoBehaviour:
   StatsChecker: 1
   NameShowedOnIndicator: 
   Value: {x: 2, y: 2}
-  _Duration: {x: 1, y: 1}
+  _Duration: {x: 3, y: 3}
   _Delay: {x: 0, y: 0}
-  _OvertimeRatio: {x: 0, y: 0}
+  _OvertimeRatio: {x: 1, y: 1}
   AnimToFired: 11
   StatsToAffectList:
-  - StatsToAffect: 2
+  - StatsToAffect: 1
     StatsChecker: 1
-    _Value: {x: 3, y: 3}
+    _Value: {x: 1, y: 1}
     useDelay: 0
     Show: 1
     BoolValue: 0

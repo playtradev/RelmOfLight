@@ -218,11 +218,7 @@ public class ScriptableObjectAIInput : ScriptableObjectBaseCharacterInput
                     yield return null;
                 }
 
-                if (target == null || target.CharInfo.HealthPerc <= 0 || target.died || !target.IsOnField)
-                {
-                    tempAtk = null;
-                    tempAtk = GetRandomAttack(out target);
-                }
+                tempAtk = GetRandomAttack(out target);
 
                 if (!UseDir && (target != null || UseStrong))
                 {

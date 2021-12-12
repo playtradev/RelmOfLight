@@ -296,7 +296,7 @@ MonoBehaviour:
         EffectChances: 100
         IsEffectOnTile: 1
         EffectsOnTile:
-          TileAction: 3
+          TileAction: 1
           HitTime: 0.1
           TileParticlesID: 100
           EffectChances: 100
@@ -369,7 +369,7 @@ MonoBehaviour:
         EffectChances: 100
         IsEffectOnTile: 1
         EffectsOnTile:
-          TileAction: 3
+          TileAction: 1
           HitTime: 0.1
           TileParticlesID: 100
           EffectChances: 100
@@ -442,7 +442,7 @@ MonoBehaviour:
         EffectChances: 100
         IsEffectOnTile: 1
         EffectsOnTile:
-          TileAction: 3
+          TileAction: 1
           HitTime: 0.1
           TileParticlesID: 100
           EffectChances: 100

@@ -345,12 +345,12 @@ MonoBehaviour:
   Facing: 0
   UseLayeringSystem: 1
   HealthStats:
-    Health: 9
-    B_Health: 9
+    Health: 12
+    B_Health: 12
     BaseHealthModifier: 0
     ArmourT: 
-    Armour: 0
-    B_Armour: 0
+    Armour: 1
+    B_Armour: 1
     BaseArmourModifier: 0
     B_ArmourT: 
   ManaCostN: 2
@@ -360,9 +360,9 @@ MonoBehaviour:
     B_BaseSpeed: 1.5
     IsForcedValue: 0
     ForcedValue: 0
-    MovementTime: 1
-    B_MovementTime: 1
-    AttackTime: 14
+    MovementTime: 4
+    B_MovementTime: 4
+    AttackTime: 4
     B_AttackTime: 1
     MovementSpeed: 1
     BaseMovementSpeedModifier: 0
@@ -373,9 +373,9 @@ MonoBehaviour:
     IntroPerc: 0.16
     LoopPerc: 0.54
     EndPerc: 0.3
-    AttackLoopDuration: 0.25
+    AttackLoopDuration: 0.15
     UpdateLoopDurationForTileAttack: 1
-    AttackLoopDurationTileAttack: 0.5
+    AttackLoopDurationTileAttack: 0.2
     SlowDownPercentageOnHolding: 0.7
     IdleToAttackDuration: 0.01
     OverrideAtkToIdleDuration: 0
@@ -398,10 +398,10 @@ MonoBehaviour:
     B_StrongBulletSpeed: 2.2
     B_WeakBulletSpeedV: {x: 0, y: 0}
     B_StrongBulletSpeedV: {x: 0, y: 0}
-    B_AttackLoopDuration: 0.25
+    B_AttackLoopDuration: 0.15
   DamageStats:
-    BaseDamage: 3
-    B_BaseDamage: 3
+    BaseDamage: 5
+    B_BaseDamage: 5
     ElementalsResistence: []
     CurrentElemental: 0
   SwappableBases: {fileID: 11400000, guid: b6188b7a1898b44488273fa37da1d8d1, type: 2}
@@ -488,7 +488,7 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 454210015143088041}
   serializedVersion: 2
-  m_Mass: 1
+  m_Mass: 1.5
   m_Drag: 0
   m_AngularDrag: 0.05
   m_UseGravity: 0
